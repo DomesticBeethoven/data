@@ -335,7 +335,6 @@
                         </layer>
                      </staff>
                      <octave xml:id="octave-0000001150098378" staff="1" startid="#note-0000000925019033" endid="#note-0000001191634692" n="1" dis="8" dis.place="above" />
-                     <octave xml:id="octave-0000000926244619" staff="1" startid="#note-0000000925019033" endid="#note-0000001191634692" n="2" dis="8" dis.place="above" />
                      <dir xml:id="dir-0000000526798120" place="below" staff="1" tstamp="2.000000" vgrp="40">
                         <rend xml:id="rend-0000001637150918" rend="none" fontstyle="italic">piu</rend>
                      </dir>
@@ -381,7 +380,6 @@
                      </dir>
                      <dynam xml:id="dynam-0000000598735586" place="below" staff="7" tstamp="3.000000" val="96" vgrp="40">f</dynam>
                      <octave xml:id="octave-0000001186693201" staff="8" startid="#note-0000001248856846" endid="#note-0000001834877331" n="1" dis="8" dis.place="above" />
-                     <octave xml:id="octave-0000001397600481" staff="8" startid="#note-0000001248856846" endid="#note-0000001834877331" n="2" dis="8" dis.place="above" />
                      <dir xml:id="dir-0000001775344411" place="below" staff="8" tstamp="2.000000" vgrp="56">
                         <rend xml:id="rend-0000001252258119" rend="none" fontstyle="italic">piu</rend>
                      </dir>
