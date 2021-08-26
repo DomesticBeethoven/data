@@ -1,25 +1,101 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="me61a6d60-8fa4-4e5b-bcf0-b201a04c73a1">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>The Epiphany. "STAR BRIGHTLY SHINING, WHERE DOST THOU LEAD US?"</title>
-            <respStmt />
+            <title>Star Brightly Shining</title>
+            <respStmt>
+               <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
+            </respStmt> 
          </titleStmt>
-         <pubStmt><date isodate="2021-06-30" type="encoding-date">2021-06-30</date>
+         <pubStmt>
+            <date isodate="2021-06-30" type="encoding-date">2021-06-30</date>
          </pubStmt>
       </fileDesc>
+      
       <encodingDesc xml:id="encodingdesc-0000000138206732">
          <appInfo xml:id="appinfo-0000000311311969">
+            <application>
+               <name>MuseScore</name>
+            </application>
             <application xml:id="application-0000001708190401" isodate="2021-06-30T14:48:55" version="3.5.0-dev-a2dcf5d">
                <name xml:id="name-0000001313216064">Verovio</name>
                <p xml:id="p-0000001695302975">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016417">
+            <identifier type="opusNumber">Op. 92</identifier>
+            <title type="uniform" xml:lang="de">"Sinfonien, Nr. 7, op. 92 (A-Dur)</title>
+            <title type="abbreviated" xml:lang="en">7th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <date startdate="1811" enddate="1812"/>
+            </creation>
+            
+            <expressionList>
+               <expression xml:id="me8cb4c51-e9e6-42bb-a412-c4d1c9b8c68c">
+                  <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q7190079"/>
+                  <title type="desc">Pittman vocal arrangement</title>
+                  <arranger>
+                     <persName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q18756924">Josiah Pittman</persName>
+                  </arranger>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015791"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+
+         </work>
+      </workList>
+      
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>The Epiphany. "STAR BRIGHTLY SHINING, WHERE DOST THOU LEAD US?"</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q84"/>
+               </pubPlace>
+               <date isodate="1859"/>
+               <publisher>
+                  <corpName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q20311223">Augener &amp; Co.</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="m031c9cb7-0506-4d03-8882-34e253190fd1">
+                  <physLoc>
+                     <repository>D-BNba</repository>
+                     <identifier>C92/48</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#me8cb4c51-e9e6-42bb-a412-c4d1c9b8c68c"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      
+      <revisionDesc>
+         <change n="1" isodate="2021-08-26" resp="#LR">
+            <changeDesc>
+               <p></p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+      
    </meiHead>
+   
    <music>
       <body>
          <mdiv xml:id="mdiv-0000001508809091">
