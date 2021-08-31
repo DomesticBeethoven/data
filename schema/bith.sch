@@ -21,7 +21,7 @@
    </sch:pattern>
    <sch:pattern id="check-page-layout-attributes">
       <sch:rule context="mei:rend">
-         <sch:report role="warning" test="@fontfam">fontfamily is superfluous and should be deleted</sch:report>
+         <sch:report role="warning" test="@fontfam">fontfamily unnecessary and should be deleted</sch:report>
       </sch:rule>
       <!-- etc for other font atts -->
    </sch:pattern>
@@ -91,7 +91,7 @@
             Every work should have an identifier with @type="opusNumber".
          </sch:assert>
          <sch:assert test="./mei:title[@type='uniform']">
-            Every work should have an title with @type="uniform".
+            Every work should have a title with @type="uniform".
          </sch:assert>
          <sch:assert test="./mei:title[@type='abbreviated']">
             Every work should have a short title with @type="abbreviated".
