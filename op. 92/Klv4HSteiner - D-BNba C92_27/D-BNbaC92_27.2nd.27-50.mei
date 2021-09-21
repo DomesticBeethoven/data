@@ -1,25 +1,104 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml-model href="../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="c12051e2-1adc-11ec-9621-0242ac130002">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>D-BNbaC92-27,2,27-50</title>
-            <respStmt />
+            <title type="desc">Op 92 / 2nd mov - Piano 4 Hands (Steiner/Diabelli)</title>
+            <respStmt>
+               <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
+            </respStmt> 
          </titleStmt>
-         <pubStmt><date isodate="2021-05-19" type="encoding-date">2021-05-19</date>
+         <pubStmt>
+            <date isodate="2021-05-19" type="encoding-date">2021-05-19</date>
          </pubStmt>
       </fileDesc>
+      
       <encodingDesc xml:id="encodingdesc-0000000308008197">
          <appInfo xml:id="appinfo-0000001115301408">
+            <application>
+               <name>MuseScore</name>
+            </application>
             <application xml:id="application-0000000003094102" isodate="2021-05-19T17:23:35" version="3.5.0-dev-ec62148">
                <name xml:id="name-0000001445807232">Verovio</name>
                <p xml:id="p-0000000357377612">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016417">
+            <identifier type="opusNumber">92</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 7, op. 92 (A-Dur)</title>
+            <title type="abbreviated" xml:lang="en">7th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <!-- need to pull pub date from elsewhere. this is creation date.
+                  need to be uniform to display in app -->
+               <!-- changed enddate="1812" to 1816  -ms  -->
+               <date startdate="1811" enddate="1816"/>
+            </creation>
+            
+            
+            <expressionList>
+               <expression xml:id="a9446116-1add-11ec-9621-0242ac130002">
+                  <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q63512357"/>
+                  <title type="desc">Op 92 / 2nd mov - Piano 4 Hands (Steiner/Diabelli)</title>
+                  <arranger>
+                     <persName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q160061">Anton Diabelli</persName>
+                  </arranger>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>Siebente GROSSE SINFONIE in A dur von Ludwig VAN Beethoven 92-tes Werk. Für das Piano=Forte auf 4 Hände eingerichtet.</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1741"/>
+               </pubPlace>
+               <date isodate="1816"/>
+               <publisher>
+                  <corpName>S. A. Steiner und Comp.</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="e4f9eef5-1ade-11ec-9621-0242ac130002">
+                  <physLoc>
+                     <repository>D-BNba</repository>
+                     <identifier>C 92 / 27</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#a9446116-1add-11ec-9621-0242ac130002"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      
+      <revisionDesc>
+         <change n="1" isodate="2021-09-21" resp="#bithTeam_lr">
+            <changeDesc>
+               <p></p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
+   
    <music>
       <body>
          <mdiv xml:id="mdiv-0000001740988780">
