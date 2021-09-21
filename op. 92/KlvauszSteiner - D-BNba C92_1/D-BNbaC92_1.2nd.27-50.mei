@@ -1,26 +1,101 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml-model href="../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="c8b9b10b-1ad6-11ec-9621-0242ac130002">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Op 92 / 2nd mov - Piano reduction (Steiner / Diabelli) [D-BNba C 92/1], Bars 27-50
-
-</title>
-            <respStmt />
+            <title type="desc">Op 92 / 2nd mov - Piano reduction (Steiner / Diabelli)</title>
+            <respStmt>
+               <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
+            </respStmt> 
          </titleStmt>
-         <pubStmt><date isodate="2021-05-05" type="encoding-date">2021-05-05</date>
+         <pubStmt>
+            <date isodate="2021-05-05" type="encoding-date">2021-05-05</date>
          </pubStmt>
       </fileDesc>
+      
       <encodingDesc xml:id="encodingdesc-0000000005198221">
          <appInfo xml:id="appinfo-0000000947877473">
+            <application>
+               <name>MuseScore</name>
+            </application>
             <application xml:id="application-0000001944079417" isodate="2021-05-05T16:41:29" version="3.5.0-dev-f6b6a11">
                <name xml:id="name-0000001026500999">Verovio</name>
                <p xml:id="p-0000000913538808">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016417">
+            <identifier type="opusNumber">92</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 7, op. 92 (A-Dur)</title>
+            <title type="abbreviated" xml:lang="en">7th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <!-- need to pull pub date from elsewhere. this is creation date.
+                  need to be uniform to display in app -->
+               <!-- changed enddate="1812" to 1816  -ms  -->
+               <date startdate="1811" enddate="1816"/>
+            </creation>
+            
+            
+            <expressionList>
+               <expression xml:id="c725cbc0-2925-4ede-94d5-b95050ac0c70">
+                  <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1425997"/>
+                  <title type="desc">Op 92 / 2nd mov - Piano reduction (Steiner / Diabelli)</title>
+                  <arranger>
+                     <persName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q160061">Anton Diabelli</persName>
+                  </arranger>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>Siebente GROSSE SINFONIE in A dur von Ludwig VAN Beethoven 92-tes Werk. Für das Piano=Forte eingerichtet.</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1741"/>
+               </pubPlace>
+               <date isodate="1816"/>
+               <publisher>
+                  <corpName>S. A. Steiner und Comp.</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="e148f6b7-1ad8-11ec-9621-0242ac130002">
+                  <physLoc>
+                     <repository>D-BNba</repository>
+                     <identifier>C 92 / 1</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#c725cbc0-2925-4ede-94d5-b95050ac0c70"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      
+      <revisionDesc>
+         <change n="1" isodate="2021-09-21" resp="#bithTeam_lr">
+            <changeDesc>
+               <p></p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music>
       <body>
