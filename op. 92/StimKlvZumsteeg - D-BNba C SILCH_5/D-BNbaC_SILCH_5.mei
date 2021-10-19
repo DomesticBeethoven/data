@@ -6,7 +6,7 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title type="desc">No. 2 GESANG DER PER'S</title>
+            <title type="desc">Gesang der Peris</title>
             <respStmt>
                <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
             </respStmt> 
@@ -14,20 +14,90 @@
          <pubStmt><date isodate="2021-06-30" type="encoding-date">2021-06-30</date>
          </pubStmt>
       </fileDesc>
-      <workList>
-         <work>
-            <title></title>
-         </work>
-      </workList>
+     
       <encodingDesc xml:id="encodingdesc-0000000709506430">
          <appInfo xml:id="appinfo-0000000351704957">
+            <application>
+               <name>MuseScore</name>
+            </application>
             <application xml:id="application-0000001063054552" isodate="2021-06-30T14:47:05" version="3.5.0-dev-a2dcf5d">
                <name xml:id="name-0000000536511084">Verovio</name>
                <p xml:id="p-0000001199768576">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016417">
+            <identifier type="opusNumber">92</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 7, op. 92 (A-Dur)</title>
+            <title type="abbreviated" xml:lang="en">7th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <!-- need to pull pub date from elsewhere. this is creation date.
+                     need to be uniform to display in app -->
+               <!-- changed enddate="1812" to 1816  -ms  -->
+               <date startdate="1811" enddate="1816"/>
+            </creation>
+            
+            
+            <expressionList>
+               <expression xml:id="c62db684-1ae1-11ec-9621-0242ac130002">
+                  <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q7190079"/>
+                  <title type="desc">Gesang der Peris</title>
+                  <arranger>
+                     <persName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q700090">Friedrich Silcher</persName>
+                  </arranger>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015791"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>PGesang der Peris (H. Stieglitz), aus op. 92.</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1022"/>
+               </pubPlace>
+               <date startdate="1844" enddate="1851"/>
+               <publisher>
+                  <corpName>Zumsteeg</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="c4495d40-1ae2-11ec-9621-0242ac130002">
+                  <physLoc>
+                     <repository>D-BNba</repository>
+                     <identifier>C SILCH / 3</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#c62db684-1ae1-11ec-9621-0242ac130002"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      
+      <revisionDesc>
+         <change n="1" isodate="2021-09-21" resp="#bithTeam_lr">
+            <changeDesc>
+               <p></p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
+   
    <music>
       <body>
          <mdiv xml:id="mdiv-0000001426370318">
