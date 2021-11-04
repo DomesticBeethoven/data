@@ -6,28 +6,20 @@
     xmlns:mei="http://www.music-encoding.org/ns/mei"
     xmlns:uuid="java:java.util.UUID"
     xmlns:ba="none"
-
     version="3.0">
 
-    
-    <xsl:template match="/">
-        <xsl:apply-templates select="node()"/>
-    </xsl:template>
-    
-    <!-- this template finds elements with out the @xml:id attribute
-            It then copies in an attribute named "xml:id" and 
-            provides a random UUID -->
     
     <xsl:template match="//mei:*[not(@xml:id)]" >
         
         <xsl:copy>
-            <xsl:attribute name="new.id" select="'b' || uuid:randomUUID()"/>
+            <xsl:attribute name="xml.id" select="'b' || uuid:randomUUID()"/>
             <xsl:apply-templates select="node() | @*" />
 
         </xsl:copy>
     </xsl:template>
-    
+
     <xsl:template match="@dur.ppq"/>
+    <xsl:template match="*[@wordpos='s']"/>
     
     <!-- This is a basic template that copies all the other content into the new document 
          It does this by matching every node, and applying the "default" template.

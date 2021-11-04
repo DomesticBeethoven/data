@@ -11,15 +11,7 @@
    <!-- Replace STACCISS with SPICC -->
    <!-- Plus: see TODO below .... -->
    
-   <xd:doc scope="stylesheet">
-      <xd:desc>
-         <xd:p>
-            <xd:b>Created on:</xd:b> Jan 26, 2021</xd:p>
-         <xd:p>
-            <xd:b>Author:</xd:b> mark</xd:p>
-         <xd:p/>
-      </xd:desc>
-   </xd:doc>
+
    <xd:doc scope="stylesheet">
       <xd:desc>
          <xd:p>
@@ -28,7 +20,10 @@
             <xd:b>Author:</xd:b> johannes</xd:p>
          <xd:p>
             <xd:b>Edited by</xd:b> Mark</xd:p>
-         <xd:p>ADAPTATION</xd:p>
+         
+         <xd:p>Adaptation of original by JK</xd:p>
+         <xd:p>Augmented to include conversion of bTrem, add slur endings, remove trailing zeros from tstamp</xd:p>
+         
          <xd:p>Basic XSLT to remove unwanted attributes from Sibelius MEI exports</xd:p>
          <xd:doc scope="stylesheet">
             <xd:desc>

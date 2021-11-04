@@ -6,7 +6,7 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Persischer Nachtgesang</title>
+            <title dur.ppq="w" >Persischer Nachtgesang</title>
             <respStmt>
                <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
             </respStmt>
