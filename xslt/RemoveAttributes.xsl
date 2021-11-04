@@ -96,7 +96,7 @@
          <xd:p>Remove @wordpos with the value "s"</xd:p>
       </xd:desc>
    </xd:doc>
-   <xsl:template match="@wordpos[../@wordpos='s']"/>
+   <xsl:template match="@wordpos[.='s']"/>
    <xd:doc>
       <xd:desc>
          <xd:p>remove page margin attributes</xd:p>
