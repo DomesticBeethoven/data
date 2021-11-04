@@ -8,27 +8,10 @@
     xmlns:ba="none"
 
     version="3.0">
-
     
-    <xsl:template match="/">
-        <xsl:apply-templates select="node()"/>
-    </xsl:template>
-    
-    <!-- this template finds elements with out the @xml:id attribute
-            It then copies in an attribute named "xml:id" and 
-            provides a random UUID -->
-    
-    <xsl:template match="//mei:*[not(@xml:id)]" >
-        
-        <xsl:copy>
-            <xsl:attribute name="new.id" select="'b' || uuid:randomUUID()"/>
-            <xsl:apply-templates select="node() | @*" />
-
-        </xsl:copy>
-    </xsl:template>
-    
-    <xsl:template match="@dur.ppq"/>
-    
+    <!--<xsl:template match="@dur.ppq"/>-->
+    <!--<xsl:template match="@wordpos[./'s']"></xsl:template>-->
+    <xsl:template match="@dur.ppq"></xsl:template>
     <!-- This is a basic template that copies all the other content into the new document 
          It does this by matching every node, and applying the "default" template.
          The default template is the template that is automatically applied to any selected node
@@ -36,7 +19,7 @@
     
     <xsl:template match="node() | @*" mode="#all">
         <xsl:copy>
-            <xsl:apply-templates select="node() | @*" mode="#current"/>
+            <xsl:apply-templates select="node() | @*"/>
         </xsl:copy>
     </xsl:template>
     

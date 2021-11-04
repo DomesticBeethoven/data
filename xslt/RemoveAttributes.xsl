@@ -39,6 +39,9 @@
                <xd:p>
                   <xd:b>Edited on: </xd:b> April 22, 2021</xd:p>
                <xd:p/>
+               <xd:p><xd:b>Editor:</xd:b> LR</xd:p>
+               <xd:p><xd:b>Edited on:</xd:b> November 3, 2021</xd:p>
+               <xd:p>Added template for @wordpos="s"</xd:p>
             </xd:desc>
          </xd:doc>
          
@@ -88,6 +91,12 @@
       </xd:desc>
    </xd:doc>
    <xsl:template match="@lyric.name"/>
+   <xd:doc>
+      <xd:desc>
+         <xd:p>Remove @wordpos with the value "s"</xd:p>
+      </xd:desc>
+   </xd:doc>
+   <xsl:template match="@wordpos[../@wordpos='s']"/>
    <xd:doc>
       <xd:desc>
          <xd:p>remove page margin attributes</xd:p>
