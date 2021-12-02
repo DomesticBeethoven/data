@@ -30,9 +30,11 @@
     add schema 
     <?xml-model href="../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     
-    kann mei:dir weg?
+    mei:dir
     
     in header nötige ids behalten, anpassen
+    
+    tenuto?
     
     -->
     
