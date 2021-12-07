@@ -126,12 +126,14 @@
     </xd:doc>
     <xsl:template match="@wordpos[.='s']" mode="#all"/>
     
+    <!--
     <xd:doc>
         <xd:desc>
             <xd:p>Remove @accid.ges when @accid = @accid.ges</xd:p>
         </xd:desc>
     </xd:doc>
     <xsl:template match="mei:accid[@accid.ges = @accid]/@accid.ges" mode="#all"/>
+    -->
     
     <xd:doc>
         <xd:desc>
