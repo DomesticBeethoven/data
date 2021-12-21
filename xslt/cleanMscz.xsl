@@ -21,10 +21,6 @@
         </xd:desc>
     </xd:doc>
     
-    <!-- To DO: 
-    add href="../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"/>
-    -->
-    
     <xd:doc>
         <xd:desc>
             <xd:p>Record XSLT in revisionDesc</xd:p>
@@ -65,6 +61,18 @@
             <xsl:apply-templates select="node()" mode="mode1"/>
         </xsl:variable>
         <xsl:apply-templates select="$after.mode1" mode="mode2"/>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc>
+            <xd:p>Add schematron</xd:p>
+        </xd:desc>
+    </xd:doc>
+    <xsl:template match="/" mode="mode2">
+        <xsl:processing-instruction name="xml-model">
+            href="../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+        </xsl:processing-instruction>
+        <xsl:apply-templates/>
     </xsl:template>
     
     <!-- Remove unnecessary graphic/MIDI attributes from MuseScore -->
