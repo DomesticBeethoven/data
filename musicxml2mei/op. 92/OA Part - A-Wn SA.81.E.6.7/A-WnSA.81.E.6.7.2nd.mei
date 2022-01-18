@@ -5,21 +5,90 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>D-BNbaC92_27.2</title>
-            <respStmt />
+            <title type="desc">Op 92 / 2nd mov - OA Part (Steiner)</title>
+            <respStmt>
+               <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
+            </respStmt> 
          </titleStmt>
          <pubStmt><date isodate="2021-12-14" type="encoding-date">2021-12-14</date>
          </pubStmt>
       </fileDesc>
+      
       <encodingDesc xml:id="encodingdesc-x2zuk7">
          <appInfo xml:id="appinfo-7c6mrs">
+            <application>
+               <name>MuseScore</name>
+            </application>
             <application xml:id="application-2w0bx1" isodate="2021-12-14T16:22:23" version="3.8.0-dev-f5aa0fe">
                <name xml:id="name-fpawim">Verovio</name>
                <p xml:id="p-muxru8">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016417">
+            <identifier type="opusNumber">92</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 7, op. 92 (A-Dur)</title>
+            <title type="abbreviated" xml:lang="en">7th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <date startdate="1811" enddate="1816"/>
+            </creation>
+            
+            <expressionList>
+               <expression xml:id="b9ee574a-7859-11ec-90d6-0242ac120003">
+                  <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q9734"/>
+                  <title type="desc">Op 92 / 2nd mov - OA Part (Steiner)</title>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="http://id.loc.gov/authorities/performanceMediums/mp2013015516"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>Siebente Grosse Sinfonie in A dur von LUDWIG VAN BEETHOVEN 92-tes Werk. Vollständige Partitur.</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1741"/>
+               </pubPlace>
+               <date isodate="1816"/>
+               <publisher>
+                  <corpName>S. A. Steiner und Comp.</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="3bf33df4-785b-11ec-90d6-0242ac120003">
+                  <physLoc>
+                     <repository>A-Wn</repository>
+                     <identifier>SA.81.E.6.7</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#b9ee574a-7859-11ec-90d6-0242ac120003"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      
+      <revisionDesc>
+         <change n="1" isodate="2022-01-18" resp="#bithTeam_lr">
+            <changeDesc>
+               <p></p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
+   
    <music>
       <body>
          <mdiv xml:id="m3bs55e">

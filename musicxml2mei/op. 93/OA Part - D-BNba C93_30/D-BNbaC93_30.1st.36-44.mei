@@ -5,21 +5,90 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>D-BNbaC93_30.36-44</title>
-            <respStmt />
+            <title type="desc">Op 93 / 1st mov - OA Part (Steiner), measures 36-44</title>
+            <respStmt>
+               <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
+            </respStmt> 
          </titleStmt>
          <pubStmt><date isodate="2021-06-08" type="encoding-date">2021-06-08</date>
          </pubStmt>
       </fileDesc>
+      
       <encodingDesc xml:id="encodingdesc-0000001000922397">
          <appInfo xml:id="appinfo-0000000791135506">
+            <application>
+               <name>MuseScore</name>
+            </application>
             <application xml:id="application-0000001372875353" isodate="2021-06-08T14:35:06" version="3.5.0-dev-c4ac6c1">
                <name xml:id="name-0000001556179347">Verovio</name>
                <p xml:id="p-0000000545109870">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016425">
+            <identifier type="opusNumber">93</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 8, op. 93 (F-Dur)</title>
+            <title type="abbreviated" xml:lang="en">8th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <date startdate="1811" enddate="1812"/>
+            </creation>
+            
+            <expressionList>
+               <expression xml:id="1b5acf82-7863-11ec-90d6-0242ac120003">
+                  <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q9734"/>
+                  <title type="desc">Op 93 / 1st mov - OA Part (Steiner), measures 36-44</title>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="http://id.loc.gov/authorities/performanceMediums/mp2013015516"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>Achte Grosse Sinfonie in F dur von LUDWIG VAN BEETHOVEN 93-tes Werk. Vollständige Partitur.</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1741"/>
+               </pubPlace>
+               <date isodate="1817"/>
+               <publisher>
+                  <corpName>S: A: Steiner und Comp:</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="d62be804-7864-11ec-90d6-0242ac120003">
+                  <physLoc>
+                     <repository>D-BNba</repository>
+                     <identifier>C 93 / 30</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#1b5acf82-7863-11ec-90d6-0242ac120003"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      
+      <revisionDesc>
+         <change n="1" isodate="2022-01-18" resp="#bithTeam_lr">
+            <changeDesc>
+               <p></p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
+   
    <music>
       <body>
          <mdiv xml:id="mdiv-0000002002097208">

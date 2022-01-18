@@ -5,21 +5,90 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>A Fragment Of the SEVENTH SYMPHONY of L. VON BEETHOVEN;</title>
-            <respStmt />
+            <title type="desc">Op 92 / 2nd mov - Piano reduction (Harmonicon)</title>
+            <respStmt>
+               <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
+            </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-12-02" type="encoding-date">2021-12-02</date>
          </pubStmt>
       </fileDesc>
+      
       <encodingDesc xml:id="encodingdesc-31qhgz">
          <appInfo xml:id="appinfo-du3lh4">
+            <application>
+               <name>MuseScore</name>
+            </application>
             <application xml:id="application-3991n4" isodate="2021-12-02T15:20:48" version="3.8.0-dev-acb0387">
                <name xml:id="name-qz3xlj">Verovio</name>
                <p xml:id="p-sfnw9r">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016417">
+            <identifier type="opusNumber">92</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 7, op. 92 (A-Dur)</title>
+            <title type="abbreviated" xml:lang="en">7th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <date startdate="1811" enddate="1816"/>
+            </creation>
+            
+            <expressionList>
+               <expression xml:id="d602f7a4-785b-11ec-90d6-0242ac120003">
+                  <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1425997"/>
+                  <title type="desc">Op 92 / 2nd mov - Piano reduction (Harmonicon)</title>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>A Fragment Of the SEVENTH SYMPHONY of L. VON BEETHOVEN; ARRANGED FOR THE PIANO-FORTE</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q84"/>
+               </pubPlace>
+               <date isodate="1824"/>
+               <publisher>
+                  <corpName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q7738918">The Harmonicon</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="9b00f132-785c-11ec-90d6-0242ac120003">
+                  <physLoc>
+                     <repository>D-BNba</repository>
+                     <identifier>HCB P / 1823 Harm</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#d602f7a4-785b-11ec-90d6-0242ac120003"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      
+      <revisionDesc>
+         <change n="1" isodate="2022-01-18" resp="#bithTeam_lr">
+            <changeDesc>
+               <p></p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
+   
    <music>
       <body>
          <mdiv xml:id="m1kdir8">

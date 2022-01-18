@@ -5,23 +5,93 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>D-BNba C92 / 7, 2nd movement</title>
+            <title type="desc">Op 92 / 2nd mov - Piano reduction (Haslinger)</title>
             <respStmt>
-               <persName role="composer">Ludwig van Beethoven</persName>
+               <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
             </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2021-12-02" type="encoding-date">2021-12-02</date>
          </pubStmt>
       </fileDesc>
+      
       <encodingDesc xml:id="encodingdesc-bkse0p">
          <appInfo xml:id="appinfo-9t51s6">
+            <application>
+               <name>MuseScore</name>
+            </application>
             <application xml:id="application-xq9tlz" isodate="2021-12-02T15:38:10" version="3.8.0-dev-acb0387">
                <name xml:id="name-aakeu6">Verovio</name>
                <p xml:id="p-ug4bm2">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016417">
+            <identifier type="opusNumber">92</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 7, op. 92 (A-Dur)</title>
+            <title type="abbreviated" xml:lang="en">7th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <date startdate="1811" enddate="1816"/>
+            </creation>
+            
+            <expressionList>
+               <expression xml:id="4877d6dc-785d-11ec-90d6-0242ac120003">
+                  <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1425997"/>
+                  <title type="desc">Op 92 / 2nd mov - Piano reduction (Haslinger)</title>
+                  <arranger>
+                     <persName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q41309">Franz Liszt</persName>
+                  </arranger>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>7-te Sinfonie (dur) von LUDW: VAN BEETHOVEN für das Piano=Forte übertragen von FR: LISZT</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1741"/>
+               </pubPlace>
+               <date isodate="1843"/>
+               <publisher>
+                  <corpName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q2437818">Tobias Haslinger</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="238a7814-785f-11ec-90d6-0242ac120003">
+                  <physLoc>
+                     <repository>D-BNba</repository>
+                     <identifier>C 92 / 7</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#4877d6dc-785d-11ec-90d6-0242ac120003"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      
+      <revisionDesc>
+         <change n="1" isodate="2022-01-18" resp="#bithTeam_lr">
+            <changeDesc>
+               <p></p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
+   
    <music>
       <body>
          <mdiv xml:id="ma6eon4">

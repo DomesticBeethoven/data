@@ -5,21 +5,94 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>D-BNbaC93-26,1,36-44</title>
-            <respStmt />
+            <title type="desc">Op 93 / 1st mov - Quintett (Steiner), measures 36-44</title>
+            <respStmt>
+               <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
+            </respStmt> 
          </titleStmt>
          <pubStmt><date isodate="2021-05-21" type="encoding-date">2021-05-21</date>
          </pubStmt>
       </fileDesc>
+      
       <encodingDesc xml:id="encodingdesc-0000001167982307">
          <appInfo xml:id="appinfo-0000000900828022">
+            <application>
+               <name>MuseScore</name>
+            </application>
             <application xml:id="application-0000001205328711" isodate="2021-05-21T19:12:19" version="3.5.0-dev-c4f14f5">
                <name xml:id="name-0000001644208869">Verovio</name>
                <p xml:id="p-0000001474569887">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016425">
+            <identifier type="opusNumber">93</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 8, op. 93 (F-Dur)</title>
+            <title type="abbreviated" xml:lang="en">8th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <date startdate="1811" enddate="1812"/>
+            </creation>
+            
+            <expressionList>
+               <expression xml:id="c96e211c-7860-11ec-90d6-0242ac120003">
+                  <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1425997"/>
+                  <title type="desc">Op 93 / 1st mov - Quintett (Steiner), measures 36-44</title>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015782"/>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015782"/>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015772"/>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015772"/>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015120"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>Achte GROSSE SINFONIE in F dur von Ludwig VAN Beethoven. 93-tes Werk. Für 2 Violinen, 2 Violen und Violonzello eingerichtet.</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1741"/>
+               </pubPlace>
+               <date isodate="1817"/>
+               <publisher>
+                  <corpName>S: A: Steiner und Comp:</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="72b974be-7862-11ec-90d6-0242ac120003">
+                  <physLoc>
+                     <repository>D-BNba</repository>
+                     <identifier>C 93 / 26</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#c96e211c-7860-11ec-90d6-0242ac120003"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      
+      <revisionDesc>
+         <change n="1" isodate="2022-01-18" resp="#bithTeam_lr">
+            <changeDesc>
+               <p></p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
+   
    <music>
       <body>
          <mdiv xml:id="mdiv-0000000881750885">

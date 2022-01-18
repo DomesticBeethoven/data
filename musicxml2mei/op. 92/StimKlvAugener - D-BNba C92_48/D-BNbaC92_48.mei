@@ -6,7 +6,7 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title type="desc">Star Brightly Shining</title>
+            <title type="desc">Op 92 / 2nd mov - Star Brightly Shining</title>
             <respStmt>
                <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
             </respStmt> 
@@ -37,9 +37,6 @@
                <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
             </composer>
             <creation>
-               <!-- need to pull pub date from elsewhere. this is creation date.
-                  need to be uniform to display in app -->
-               <!-- changed enddate="1812" to 1816  -ms  -->
                <date startdate="1811" enddate="1816"/>
             </creation>
             
