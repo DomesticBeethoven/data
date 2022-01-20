@@ -6,16 +6,16 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title type="desc">Star Brightly Shining</title>
+            <title type="desc">Op 92 / 2nd mov - Star Brightly Shining</title>
             <respStmt>
                <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
-            </respStmt> 
+            </respStmt>
          </titleStmt>
          <pubStmt>
             <date isodate="2021-06-30" type="encoding-date">2021-06-30</date>
          </pubStmt>
       </fileDesc>
-      
+
       <encodingDesc xml:id="encodingdesc-0000000138206732">
          <appInfo xml:id="appinfo-0000000311311969">
             <application>
@@ -27,7 +27,7 @@
             </application>
          </appInfo>
       </encodingDesc>
-      
+
       <workList>
          <work auth.uri="http://d-nb.info/gnd/300016417">
             <identifier type="opusNumber">92</identifier>
@@ -37,13 +37,10 @@
                <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
             </composer>
             <creation>
-               <!-- need to pull pub date from elsewhere. this is creation date.
-                  need to be uniform to display in app -->
-               <!-- changed enddate="1812" to 1816  -ms  -->
                <date startdate="1811" enddate="1816"/>
             </creation>
-            
-            
+
+
             <expressionList>
                <expression xml:id="me8cb4c51-e9e6-42bb-a412-c4d1c9b8c68c">
                   <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q7190079"/>
@@ -62,7 +59,7 @@
 
          </work>
       </workList>
-      
+
       <manifestationList>
          <manifestation>
             <titleStmt>
@@ -90,7 +87,7 @@
             </relationList>
          </manifestation>
       </manifestationList>
-      
+
       <revisionDesc>
          <change n="1" isodate="2021-08-26" resp="#bithTeam_lr">
             <changeDesc>
@@ -98,9 +95,9 @@
             </changeDesc>
          </change>
       </revisionDesc>
-      
+
    </meiHead>
-   
+
    <music>
       <body>
          <mdiv xml:id="mdiv-0000001508809091">
@@ -652,14 +649,14 @@
                         <layer xml:id="layer-0000001978707711" n="1">
                            <chord xml:id="chord-0000000276643333" dur.ppq="2" dur="4" stem.dir="up">
                               <artic xml:id="artic-0000000945023741" artic="stacc" />
-                              <note xml:id="note-0000002114007715" oct="4" pname="e">
-                                 <accid xml:id="accid-0000001882064813" accid="f"  />
+                              <note xml:id="note-0000002114007715" oct="4" pname="d">
+                                 <accid xml:id="accid-0000001882064813" accid="s"  />
                               </note>
                               <note xml:id="note-0000001267224245" oct="4" pname="b" />
                            </chord>
                            <chord xml:id="chord-0000000723768181" dur.ppq="2" dur="4" stem.dir="up">
                               <artic xml:id="artic-0000001693554999" artic="stacc" />
-                              <note xml:id="note-0000001105537268" oct="4" pname="e" accid.ges="f" />
+                              <note xml:id="note-0000001105537268" oct="4" pname="d" accid.ges="s" />
                               <note xml:id="note-0000001290998659" oct="4" pname="b" />
                            </chord>
                         </layer>
