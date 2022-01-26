@@ -9,6 +9,7 @@
       <fileDesc>
          <titleStmt>
             <title type="desc">Op 92 / 2nd mov - Star Brightly Shining</title>
+            <title type="alternative">D-BNbaC92_48.mei</title>
             <respStmt>
                <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
             </respStmt>
@@ -95,7 +96,7 @@
          <change resp="#bithTeam_lr" n="2" isodate="2022-01-26">
             <changeDesc>
                <p>Applied "cleanMscz.xsl"</p>
-               <p>Remove unwanted attributes and mistakes from MuseScore export; add schema</p>
+               <p>Remove unwanted attributes and mistakes from MuseScore export/p>
             </changeDesc>
          </change>
          <change resp="#bithTeam_lr" n="3" isodate="2022-01-26">
