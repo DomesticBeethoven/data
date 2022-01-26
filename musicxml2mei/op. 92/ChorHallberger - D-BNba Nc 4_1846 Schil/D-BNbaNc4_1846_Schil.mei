@@ -7,6 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title type="desc">Op 92 / 2nd mov - Persischer Nachtgesang</title>
+            <title type="alternative">D-BNbaNc4_1846_Schil.mei</title>
             <respStmt>
                <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
             </respStmt>
@@ -14,7 +15,7 @@
          <pubStmt><date isodate="2021-06-30" type="encoding-date">2021-06-30</date>
          </pubStmt>
       </fileDesc>
-      
+
       <encodingDesc xml:id="encodingdesc-0000001687493463">
          <appInfo xml:id="appinfo-0000000882300969">
             <application>
@@ -26,7 +27,7 @@
             </application>
          </appInfo>
       </encodingDesc>
-      
+
       <workList>
          <work auth.uri="http://d-nb.info/gnd/300016417">
             <identifier type="opusNumber">92</identifier>
@@ -38,8 +39,8 @@
             <creation>
                <date startdate="1811" enddate="1816"/>
             </creation>
-            
-            
+
+
             <expressionList>
                <expression xml:id="c4babeba-1ae0-11ec-9621-0242ac130002">
                   <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q131186"/>
@@ -59,7 +60,7 @@
             </expressionList>
          </work>
       </workList>
-      
+
       <manifestationList>
          <manifestation>
             <titleStmt>
@@ -87,7 +88,7 @@
             </relationList>
          </manifestation>
       </manifestationList>
-      
+
       <revisionDesc>
          <change n="1" isodate="2021-09-21" resp="#bithTeam_lr">
             <changeDesc>
@@ -325,9 +326,6 @@
                            <note xml:id="note-0000001794712347" dur.ppq="2" dur="4" oct="3" pname="d" stem.dir="down" />
                         </layer>
                      </staff>
-                     <dir xml:id="dir-0000000724917514" staff="1" tstamp="2.000000" vgrp="200">
-                        <rend xml:id="rend-0000001043216149" fontstyle="italic">Aus Beethovens A-dur-Sinfonie</rend>
-                     </dir>
                   </measure>
                   <measure xml:id="measure-0000001983628853" n="5">
                      <staff xml:id="staff-0000000805448667" n="1">
