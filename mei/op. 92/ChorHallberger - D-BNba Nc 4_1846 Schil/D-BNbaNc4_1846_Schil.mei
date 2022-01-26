@@ -1567,6 +1567,7 @@
                                  stem.dir="down"/>
                         </layer>
                      </staff>
+                     <anchoredText xml:id="mc3e4e013-7ccb-4cfa-b85f-45c0dcc89e2f">Für 4 Männerstimmen eingerichtet von FR. SILCHER,Universitäts-Musikdirektor in Tübingen, geb. in Schnait beiScherndorf in Württemberg am 27. Januar 1789.</anchoredText>
                      <fermata xml:id="ma6fb7369-978b-4994-8c53-42f073207034"
                               staff="1"
                               tstamp="3"
