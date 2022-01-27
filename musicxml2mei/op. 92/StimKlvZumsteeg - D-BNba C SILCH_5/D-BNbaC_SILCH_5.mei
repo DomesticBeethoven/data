@@ -6,7 +6,8 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title type="desc">Op 92 / 2nd mov - Gesang der Peris</title>
+            <title type="desc">Op 92 / 2nd mov - Gesang der Peri's</title>
+            <title type="desc">D-BNbaC_SILCH_5.mei</title>
             <respStmt>
                <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
             </respStmt> 
@@ -43,7 +44,7 @@
             <expressionList>
                <expression xml:id="c62db684-1ae1-11ec-9621-0242ac130002">
                   <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q7190079"/>
-                  <title type="desc">Gesang der Peris</title>
+                  <title type="desc">Op 92 / 2nd mov - Gesang der Peri's</title>
                   <arranger>
                      <persName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q700090">Friedrich Silcher</persName>
                   </arranger>
@@ -61,7 +62,7 @@
       <manifestationList>
          <manifestation>
             <titleStmt>
-               <title>PGesang der Peris (H. Stieglitz), aus op. 92.</title>
+               <title>GESANG DER PERI'S Aus den Bildern des Orients v. H. Stieglitz. (Auch für eine Alt- oder Baritonstimme.)</title>
             </titleStmt>
             <pubStmt>
                <pubPlace>
@@ -76,7 +77,7 @@
                <item xml:id="c4495d40-1ae2-11ec-9621-0242ac130002">
                   <physLoc>
                      <repository>D-BNba</repository>
-                     <identifier>C SILCH / 3</identifier>
+                     <identifier>C SILCH / 5</identifier>
                   </physLoc>
                </item>
             </itemList>
