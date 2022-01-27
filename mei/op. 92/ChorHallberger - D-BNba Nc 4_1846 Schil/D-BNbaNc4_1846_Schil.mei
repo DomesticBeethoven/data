@@ -1088,7 +1088,9 @@
                                  dur="4"
                                  oct="4"
                                  pname="b"
-                                 stem.dir="down"/>
+                                 stem.dir="down">
+                                <accid xml:id="madf07d4f-f1cb-4cb1-86cd-bb70d64b0466" accid="n"/>
+                              </note>
                            <beam xml:id="m721eb542-4bfe-4167-9273-ec6f9624a75e">
                               <note xml:id="mfa4d216a-74e2-443b-b1cb-f6c6e9c76f88"
                                     dur="8"
