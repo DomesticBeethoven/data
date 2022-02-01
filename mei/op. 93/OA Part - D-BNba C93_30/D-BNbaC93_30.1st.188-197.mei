@@ -723,10 +723,10 @@
                            endid="#m48323724-1d8c-4229-a99f-b6c0d2670931"
                            curvedir="below"/>
                      <dir xml:id="mc1127caa-6685-404d-a5ee-c57043a50e72"
-                            place="below"
-                            staff="2"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="2"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                      <slur xml:id="m72622abb-11e8-40a1-ac99-743888b8b932"
                            startid="#m6ee1d65c-87a1-481c-9f24-3cb954f067b5"
                            endid="#ma5d28575-7039-4f4c-a03f-13eac06423a9"
@@ -736,10 +736,10 @@
                            endid="#ma5d28575-7039-4f4c-a03f-13eac06423a9"
                            curvedir="below"/>
                      <dir xml:id="me95d5f07-0593-4c26-bab3-fd2256c32ddf"
-                            place="below"
-                            staff="3"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="3"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                      <slur xml:id="ma043729e-b23e-4cda-8382-99e437e43238"
                            startid="#m9bf81664-3cf3-463a-b811-838995cc6900"
                            endid="#me8ad9490-cb67-487a-b7df-f1bd014452f1"
@@ -757,15 +757,15 @@
                            endid="#m01eb74f7-b4c3-4244-af1b-ca18c8b42be3"
                            curvedir="above"/>
                      <dir xml:id="maaf1d9ea-2066-4e89-abcb-f4f823b3fb5d"
-                            place="below"
-                            staff="4"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="4"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                      <dir xml:id="me9d10109-cfa3-4be9-9f6e-11d1222be671"
-                            place="below"
-                            staff="5"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="5"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                      <slur xml:id="m2d35421a-71b4-4f25-9e57-f4ba28e4887c"
                            startid="#m638db371-5205-4230-b4f2-e65b9368d5fc"
                            endid="#mc2ad2a72-7e31-4ada-b834-ce84e848c12f"
@@ -775,10 +775,10 @@
                            endid="#mc2ad2a72-7e31-4ada-b834-ce84e848c12f"
                            curvedir="below"/>
                      <dir xml:id="mf1d6cf86-04ef-495c-b62e-a4e56758bf59"
-                            place="below"
-                            staff="6"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="6"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                      <slur xml:id="m9122d668-4013-4743-8323-86dc12038368"
                            startid="#m11f035e7-08f1-4514-98b2-252e5a0bc032"
                            endid="#m7703758f-ec50-43ef-a72c-dbcd4ffa0bee"
@@ -788,10 +788,10 @@
                            endid="#m7703758f-ec50-43ef-a72c-dbcd4ffa0bee"
                            curvedir="above"/>
                      <dir xml:id="mf2d07b9a-03c4-4bad-93dd-f4af67adbd30"
-                            place="below"
-                            staff="7"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="7"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                      <octave xml:id="m9706b025-c99a-4d1c-8fa3-75cf380e3e72"
                              staff="8"
                              startid="#mad3f7dd2-51dc-4548-8173-3664ab8f5f72"
@@ -800,38 +800,38 @@
                              dis="8"
                              dis.place="above"/>
                      <dir xml:id="m0b2ccdab-962e-48cc-8722-bee76bd94400"
-                            place="below"
-                            staff="8"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="8"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                      <dir xml:id="mad292132-db0b-4705-aac9-45606e91d1d3"
-                            place="below"
-                            staff="9"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="9"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                      <dir xml:id="mb27d49b5-1d10-46e7-a8a2-2b8eb29079cc"
-                            place="below"
-                            staff="10"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="10"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                      <slur xml:id="mceafdd8a-dbbd-4507-ba9d-7d9abed7a473"
                            startid="#m1ee658ba-2269-4cc6-8b13-b25d273d14e7"
                            endid="#m5d6fb025-d988-48e2-bb07-1d3cf3cadcd2"
                            curvedir="above"/>
                      <dir xml:id="me0f526ba-282e-44c7-abb4-ab0d0f134abf"
-                            place="below"
-                            staff="11"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="11"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                      <slur xml:id="m64f502ed-4ae9-4e7b-b72c-e5fd4cffec09"
                            startid="#m5363ee19-b836-47e9-ad24-cc79753839ce"
                            endid="#mfaf02b7f-d4bd-478e-9748-d58b94935652"
                            curvedir="above"/>
                      <dir xml:id="mf32ad989-3b6d-47b7-aecd-5986fa705b25"
-                            place="below"
-                            staff="12"
-                            tstamp="2"
-                            tstamp2="1m+4">piu F</dir>
+                          place="below"
+                          staff="12"
+                          tstamp="2"
+                          tstamp2="1m+4">piu F</dir>
                   </measure>
                   <measure xml:id="mbb4beaea-fc68-4a3d-845c-acbad84a6f56" n="2">
                      <staff xml:id="m0ca0be03-3d18-48d5-8190-7b409baa3a85" n="1">
@@ -3853,9 +3853,7 @@
                                  oct="2"
                                  pname="b"
                                  stem.dir="up">
-                              <accid xml:id="m2e2fee7c-3e63-4e56-bd47-23bebdb72b58"
-                                     accid="f"
-                                     accid.ges="f"/>
+                              <accid xml:id="m2e2fee7c-3e63-4e56-bd47-23bebdb72b58" accid="f"/>
                            </note>
                         </layer>
                      </staff>
@@ -4184,9 +4182,7 @@
                                  oct="3"
                                  pname="b"
                                  stem.dir="down">
-                              <accid xml:id="m774320fa-da6c-4a07-9459-6f21a6938ae2"
-                                     accid="f"
-                                     accid.ges="f"/>
+                              <accid xml:id="m774320fa-da6c-4a07-9459-6f21a6938ae2" accid="f"/>
                            </note>
                         </layer>
                      </staff>
@@ -4202,9 +4198,7 @@
                                  oct="3"
                                  pname="b"
                                  stem.dir="down">
-                              <accid xml:id="m4cefcd32-8d91-4513-ad36-5f7cc8beff49"
-                                     accid="f"
-                                     accid.ges="f"/>
+                              <accid xml:id="m4cefcd32-8d91-4513-ad36-5f7cc8beff49" accid="f"/>
                            </note>
                         </layer>
                      </staff>
@@ -4769,10 +4763,11 @@
                                  pname="d"
                                  stem.dir="up"/>
                         </layer>
-                        <layer xml:id="m9f5c4b02-8001-43b3-a1fd-d85ee871ec33" n="2">
+                        <layer xml:id="m9f5c4b02-8001-43b3-a1fd-d85ee871ec32" n="2">
                            <space xml:id="m8bb7f378-438a-4883-b460-6eb110b4981a" dur="4"/>
                            <rest xml:id="m8bb7f377-438a-4883-b460-6eb110b4981a" dur="4"/>
-                           <rest xml:id="m8bb7f379-438a-4883-b460-6eb110b4981a" dur="4"/>
+                           <rest xml:id="m8bb7f379-438a-4882-b460-6eb110b4981a" dur="4"/>
+                        </layer>
                      </staff>
                      <staff xml:id="m7bcb59b4-623d-4b69-8a20-5e481888101d" n="4">
                         <layer xml:id="med5b81a8-33df-4cc5-a762-054d13d90085" n="1">
@@ -4784,7 +4779,8 @@
                            <rest xml:id="me1d65794-ea59-4cd7-ad61-4200350486cc" dur="8"/>
                            <note xml:id="m78701a20-97d4-49a4-bdb5-ff9397673e56"
                                  oct="3"
-                                 pname="a"artic="stacc"
+                                 pname="a"
+                                 artic="stacc"
                                  dur="4"
                                  stem.dir="up"/>
                            <note xml:id="m20064bcb-db35-4add-9f44-020a2bdd4516"
@@ -4802,8 +4798,8 @@
                                  stem.dir="down"/>
                            <space xml:id="m47dd3c0b-11e9-4a6f-9028-ff82590420fc" dur="8"/>
                            <note xml:id="mb3d41138-86fd-4fbe-adf3-14b7f26c5357"
-                                 oct="3" p
-                                 name="f"
+                                 oct="3"
+                                 pname="f"
                                  dur="4"
                                  stem.dir="down"/>
                            <note xml:id="ma275399f-fa2a-434e-b4c5-6dc9aadd8c7a"
@@ -4948,6 +4944,10 @@
                            startid="#m479d385c-cb4e-4f16-aebe-fa1a3940d31c"
                            endid="#m554aac34-71a7-45ce-abfb-7493d6571584"
                            curvedir="above"/>
+                     <slur xml:id="maff7d0d9-3532-46fe-8839-2b93b372e461"
+                        startid="#m78701a20-97d4-49a4-bdb5-ff9397673e56"
+                        endid="#m20064bcb-db35-4add-9f44-020a2bdd4516"
+                        curvedir="above"/>
                      <dir xml:id="m71247438-676d-4204-b6a5-b96dfcd0bee4"
                           place="below"
                           staff="3"
@@ -4956,10 +4956,6 @@
                             place="below"
                             staff="4"
                             tstamp="2">P</dynam>
-                     <slur xml:id="md8507154-ef8a-4bf6-9d47-7509bb1df996"
-                           startid="#m53251739-4787-407b-abc2-ead7aa107c3b"
-                           endid="#m418668ea-1e06-4475-a222-8715d7cac15d"
-                           curvedir="above"/>
                      <dir xml:id="m07401782-76f8-47dc-99c8-5f5525334ef9"
                           place="below"
                           staff="4"
