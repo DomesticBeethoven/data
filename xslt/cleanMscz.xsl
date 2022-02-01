@@ -49,7 +49,7 @@
             <xsl:apply-templates select="node() | @*"/>
         </xsl:copy>
     </xsl:template>
-    <!--
+
     <xd:doc>
         <xd:desc>
             <xd:p>Add schematron</xd:p>
@@ -61,7 +61,7 @@
         </xsl:processing-instruction>
         <xsl:apply-templates/>
     </xsl:template>
-    -->
+
     <xd:doc>
         <xd:desc>
             <xd:p>Remove text and font attributes</xd:p>
@@ -128,15 +128,13 @@
         </xd:desc>
     </xd:doc>
     <xsl:template match="@wordpos[.='s']"/>
-    
-    <!--
+
     <xd:doc>
         <xd:desc>
             <xd:p>Remove @accid.ges when @accid = @accid.ges</xd:p>
         </xd:desc>
     </xd:doc>
     <xsl:template match="mei:accid[@accid.ges = @accid]/@accid.ges"/>
-    -->
     
     <xd:doc>
         <xd:desc>
