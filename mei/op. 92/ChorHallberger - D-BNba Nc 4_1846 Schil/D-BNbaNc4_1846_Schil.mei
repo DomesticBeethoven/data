@@ -326,9 +326,7 @@
                                  oct="3"
                                  pname="c"
                                  stem.dir="down">
-                              <accid xml:id="m7578d1b5-6a99-4961-9b28-f20b35d1d3df"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="m7578d1b5-6a99-4961-9b28-f20b35d1d3df" accid="s"/>
                            </note>
                            <note xml:id="m455cc385-2ad5-4b0e-b5e6-ddaa99eae84b"
                                  dur="4"
@@ -1005,9 +1003,7 @@
                                  oct="3"
                                  pname="g"
                                  stem.dir="up">
-                              <accid xml:id="m09487f13-e208-4a86-b7b0-f9e0f00ea5ec"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="m09487f13-e208-4a86-b7b0-f9e0f00ea5ec" accid="s"/>
                            </note>
                            <note xml:id="m39424c39-ee36-4c44-a38b-352724050bd7"
                                  dur="4"
@@ -1068,9 +1064,7 @@
                                     oct="5"
                                     pname="c"
                                     stem.dir="up">
-                                 <accid xml:id="m6fa01a7f-652e-43af-a608-d2bfd4ee4bc2"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="m6fa01a7f-652e-43af-a608-d2bfd4ee4bc2" accid="s"/>
                                  <verse xml:id="m1b38fc0a-230d-479f-b241-3e4dcfc5a4b5" n="1">
                                     <syl xml:id="m8bccc66c-0e18-43f9-8f53-6a761f1ca60a" con="s">aus</syl>
                                  </verse>
@@ -1089,8 +1083,8 @@
                                  oct="4"
                                  pname="b"
                                  stem.dir="down">
-                                <accid xml:id="madf07d4f-f1cb-4cb1-86cd-bb70d64b0466" accid="n"/>
-                              </note>
+                              <accid xml:id="madf07d4f-f1cb-4cb1-86cd-bb70d64b0467" accid="n"/>
+                           </note>
                            <beam xml:id="m721eb542-4bfe-4167-9273-ec6f9624a75e">
                               <note xml:id="mfa4d216a-74e2-443b-b1cb-f6c6e9c76f88"
                                     dur="8"
@@ -1202,9 +1196,7 @@
                                  oct="3"
                                  pname="f"
                                  stem.dir="up">
-                              <accid xml:id="mbe05ff27-6f26-438b-a578-01540c137080"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="mbe05ff27-6f26-438b-a578-01540c137080" accid="s"/>
                            </note>
                            <note xml:id="m08efed13-d246-47f0-bcc2-9d8160f2f9aa"
                                  dur="4"
@@ -1297,13 +1289,13 @@
                         </layer>
                      </staff>
                      <dynam xml:id="mfc1042f9-ce32-4676-b31c-30b2f210a36d"
-                           place="above"
-                           staff="1"
-                           tstamp="1">p</dynam>
+                            place="above"
+                            staff="1"
+                            tstamp="1">p</dynam>
                      <dynam xml:id="m86defd7f-12b7-4861-bccc-265a5df3265b"
-                           place="below"
-                           staff="2"
-                           tstamp="1">p</dynam>
+                            place="below"
+                            staff="2"
+                            tstamp="1">p</dynam>
                      <staff xml:id="md327500e-d41f-479f-bba9-763d4112f908" n="2">
                         <layer xml:id="m7eb27912-905f-4ed1-b3e9-f074da17c28b" n="1">
                            <note xml:id="ma8c02b60-9c85-4562-ad05-549b6a562795"
@@ -1401,9 +1393,7 @@
                                  oct="3"
                                  pname="c"
                                  stem.dir="down">
-                              <accid xml:id="m237b7601-71b1-4ccf-97f0-aaf38dcad8a8"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="m237b7601-71b1-4ccf-97f0-aaf38dcad8a8" accid="s"/>
                            </note>
                            <note xml:id="ma851be15-dd08-43d7-8153-77d6c2c204a6"
                                  dur="4"
@@ -1447,9 +1437,7 @@
                                     oct="5"
                                     pname="c"
                                     stem.dir="up">
-                                 <accid xml:id="mc42bcba3-b7a1-4c40-8d7e-df7f2ba7b6af"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="mc42bcba3-b7a1-4c40-8d7e-df7f2ba7b6af" accid="s"/>
                                  <verse xml:id="m59b0121b-6da3-443b-86a7-d6be6f747dab" n="1">
                                     <syl xml:id="m306a3a6c-4ff5-40e6-b7c2-c98668be090a" con="d" wordpos="i">Ge</syl>
                                  </verse>
