@@ -267,9 +267,7 @@
                                  oct="4"
                                  pname="c"
                                  stem.dir="up">
-                              <accid xml:id="mc36cc8e1-0b92-496b-9098-761cb5d92974"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="mc36cc8e1-0b92-496b-9098-761cb5d92974" accid="s"/>
                            </note>
                            <rest xml:id="m79199b53-04d2-4b34-9464-94c12ac4354c" dur="4"/>
                            <rest xml:id="mddbf4e6c-eb96-491f-89e0-b01b0e8965d5" dur="4"/>
@@ -416,9 +414,7 @@
                                  oct="4"
                                  pname="c"
                                  stem.dir="up">
-                              <accid xml:id="mb13f15a5-6046-4154-8744-7ecec8952ec9"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="mb13f15a5-6046-4154-8744-7ecec8952ec9" accid="s"/>
                            </note>
                         </layer>
                      </staff>
@@ -484,9 +480,7 @@
                                  oct="4"
                                  pname="f"
                                  stem.dir="up">
-                              <accid xml:id="md2d64a9d-d576-4ad6-9f24-f014f62f90f2"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="md2d64a9d-d576-4ad6-9f24-f014f62f90f2" accid="s"/>
                            </note>
                            <note xml:id="maad34c5a-c809-4a0e-b820-7d5d6310f226"
                                  artic="stacc"
@@ -542,9 +536,7 @@
                                     oct="5"
                                     pname="c"
                                     stem.dir="down">
-                                 <accid xml:id="md76223f0-25d3-436d-afb4-6674875c172d"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="md76223f0-25d3-436d-afb4-6674875c172d" accid="s"/>
                               </note>
                               <note xml:id="m679d52f2-700a-481c-8b9d-32217f5f678f"
                                     dur="8"
@@ -589,9 +581,7 @@
                                     oct="4"
                                     pname="c"
                                     stem.dir="up">
-                                 <accid xml:id="m69eb5700-f0c4-411a-a5ef-0a7b758779be"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="m69eb5700-f0c4-411a-a5ef-0a7b758779be" accid="s"/>
                               </note>
                               <note xml:id="mb6067275-8fc3-42b9-9de8-540d6487bc14"
                                     dur="8"
@@ -652,9 +642,9 @@
                            endid="#m679d52f2-700a-481c-8b9d-32217f5f678f"
                            curvedir="above"/>
                      <dir xml:id="md11678e7-337e-477b-9b50-b966818cc918"
-                            place="below"
-                            staff="8"
-                            tstamp="1.5">sempre P</dir>
+                          place="below"
+                          staff="8"
+                          tstamp="1.5">sempre P</dir>
                      <tie xml:id="m4fe4d920-8c7a-4485-9e41-80194804666b"
                           startid="#ma4855d62-07cd-4b26-8a35-708d72715566"
                           endid="#m9656eee2-2215-42d5-a3ca-9bd76de598c5"/>
@@ -663,9 +653,9 @@
                            endid="#mb6067275-8fc3-42b9-9de8-540d6487bc14"
                            curvedir="below"/>
                      <dir xml:id="m183722b5-4105-4872-8842-0bf23f603a31"
-                            place="below"
-                            staff="9"
-                            tstamp="1.5">sempre P</dir>
+                          place="below"
+                          staff="9"
+                          tstamp="1.5">sempre P</dir>
                      <tie xml:id="m82aa3e29-df5d-49a4-b877-f2bb5022af7d"
                           startid="#ma2f707d2-a70c-4347-9873-0cf3ac0ed776"
                           endid="#md08a1eda-7739-4f7a-9ded-707e6050f492"/>
@@ -706,9 +696,7 @@
                                  oct="3"
                                  pname="c"
                                  stem.dir="up">
-                              <accid xml:id="m001be168-c479-4a4f-a411-680475fa9296"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="m001be168-c479-4a4f-a411-680475fa9296" accid="s"/>
                            </note>
                         </layer>
                         <layer xml:id="m98b43f95-62a9-4dba-b27f-22999ac92b96" n="2">
@@ -744,9 +732,7 @@
                                     oct="5"
                                     pname="c"
                                     stem.dir="down">
-                                 <accid xml:id="m712803c5-0a9a-4efc-81d2-b5120aca5dbd"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="m712803c5-0a9a-4efc-81d2-b5120aca5dbd" accid="s"/>
                               </note>
                            </beam>
                            <beam xml:id="m7c3ce6cf-3078-47c4-aca4-0f8d26a9d430">
@@ -789,9 +775,7 @@
                                     oct="4"
                                     pname="c"
                                     stem.dir="up">
-                                 <accid xml:id="m111e043d-802a-4f48-a4dd-f7edd7040b85"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="m111e043d-802a-4f48-a4dd-f7edd7040b85" accid="s"/>
                               </note>
                            </beam>
                            <beam xml:id="m61a9c0ee-3b23-4616-a3ee-df5eefb5b917">
@@ -827,9 +811,7 @@
                                   dur="4"
                                   stem.dir="down">
                               <note xml:id="m0436961f-c115-4036-a4c2-655a447dbd14" oct="4" pname="c">
-                                 <accid xml:id="m7e3b2e48-b529-4bb1-b4e8-ae7749bfbff6"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="m7e3b2e48-b529-4bb1-b4e8-ae7749bfbff6" accid="s"/>
                               </note>
                               <note xml:id="m9bf12c15-9e58-4813-baff-1013c0b2f631" oct="4" pname="e"/>
                            </chord>
@@ -898,9 +880,7 @@
                                  oct="3"
                                  pname="f"
                                  stem.dir="up">
-                              <accid xml:id="meae6b999-63ba-4917-80b2-134b9cedaf43"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="meae6b999-63ba-4917-80b2-134b9cedaf43" accid="s"/>
                            </note>
                            <note xml:id="m87c98532-f414-43aa-9d48-31ccfb8fd000"
                                  artic="stacc"
@@ -959,9 +939,7 @@
                                     oct="5"
                                     pname="f"
                                     stem.dir="down">
-                                 <accid xml:id="m9189822c-cd2b-491b-aba1-1c6661f101cb"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="m9189822c-cd2b-491b-aba1-1c6661f101cb" accid="s"/>
                               </note>
                            </beam>
                            <beam xml:id="m81ba391f-c101-4d12-88f7-63b65d9681d4">
@@ -1004,9 +982,7 @@
                                     oct="4"
                                     pname="f"
                                     stem.dir="up">
-                                 <accid xml:id="me6343e0c-6632-41d3-acfa-3b044a405ecc"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="me6343e0c-6632-41d3-acfa-3b044a405ecc" accid="s"/>
                               </note>
                            </beam>
                            <beam xml:id="mb5e19a63-972e-4fee-98b3-f30323b7aede">
@@ -1031,9 +1007,7 @@
                                   stem.dir="down">
                               <note xml:id="m818c8e28-11d9-4a2f-9c8b-932511a3f1b8" oct="4" pname="d"/>
                               <note xml:id="m044f0d6d-8439-4249-80bc-8bf341a8cf1b" oct="4" pname="f">
-                                 <accid xml:id="mf30b3b09-1c92-4f5a-939b-f696753eecde"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="mf30b3b09-1c92-4f5a-939b-f696753eecde" accid="s"/>
                               </note>
                            </chord>
                            <rest xml:id="m46995640-d4fb-4088-9d9f-0311cfe603c3" dur="4"/>
@@ -1110,9 +1084,7 @@
                                  oct="3"
                                  pname="f"
                                  stem.dir="up">
-                              <accid xml:id="m51538677-9775-4009-bd69-f992c4d8240a"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="m51538677-9775-4009-bd69-f992c4d8240a" accid="s"/>
                            </note>
                         </layer>
                         <layer xml:id="m26b394a0-b1b7-4e6d-b31d-263105451503" n="2">
@@ -1168,9 +1140,7 @@
                                   dur="4"
                                   stem.dir="down">
                               <note xml:id="ma3ab08f9-a0c7-425d-a9ab-59c21d1b9c8e" oct="4" pname="c">
-                                 <accid xml:id="mb2b20b4b-f260-4f21-a23d-ceea74530a59"
-                                        accid="s"
-                                        accid.ges="s"/>
+                                 <accid xml:id="mb2b20b4b-f260-4f21-a23d-ceea74530a59" accid="s"/>
                               </note>
                               <note xml:id="m995fea1f-d4ac-4955-830c-b9570c617057" oct="4" pname="e"/>
                            </chord>
@@ -1515,9 +1485,7 @@
                                  oct="5"
                                  pname="e"
                                  stem.dir="down">
-                              <accid xml:id="m31a996ac-0b72-4918-97a8-85e515a89b15"
-                                     accid="f"
-                                     accid.ges="f"/>
+                              <accid xml:id="m31a996ac-0b72-4918-97a8-85e515a89b15" accid="f"/>
                            </note>
                         </layer>
                      </staff>
@@ -1552,9 +1520,7 @@
                                  oct="4"
                                  pname="e"
                                  stem.dir="up">
-                              <accid xml:id="m567ab29f-1ea8-4fba-a740-71a37d96c97f"
-                                     accid="f"
-                                     accid.ges="f"/>
+                              <accid xml:id="m567ab29f-1ea8-4fba-a740-71a37d96c97f" accid="f"/>
                            </note>
                         </layer>
                      </staff>
@@ -1586,9 +1552,7 @@
                                  oct="3"
                                  pname="f"
                                  stem.dir="down">
-                              <accid xml:id="m2d6e5b2d-c5a5-4290-a7f0-781d4dd39640"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="m2d6e5b2d-c5a5-4290-a7f0-781d4dd39640" accid="s"/>
                            </note>
                         </layer>
                      </staff>
@@ -1605,9 +1569,7 @@
                                  oct="3"
                                  pname="f"
                                  stem.dir="down">
-                              <accid xml:id="m711b655c-58f3-49d4-9455-a899a049817c"
-                                     accid="s"
-                                     accid.ges="s"/>
+                              <accid xml:id="m711b655c-58f3-49d4-9455-a899a049817c" accid="s"/>
                            </note>
                         </layer>
                      </staff>
