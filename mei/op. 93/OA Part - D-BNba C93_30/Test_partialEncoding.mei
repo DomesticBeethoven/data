@@ -21,6 +21,23 @@
       <encodingDesc>
          <samplingDecl>
             <p>Only measures 36 to 44 and 188 to 197 are encoded.</p>
+            <sampleList>
+               <sample n="1">
+                  <range type="measure">1-35</range>
+               </sample>
+               <sample n="2">
+                  <range type="measure">36-44</range>
+               </sample>
+               <sample n="3">
+                  <range type="measure">45-187</range>
+               </sample>
+               <sample n="4">
+                  <range type="measure">188-197</range>
+               </sample>
+               <sample n="5">
+                  <range type="measure">198-374</range>
+               </sample>
+            </sampleList>
          </samplingDecl>
          <appInfo xml:id="m1bbbaf46-427e-4c59-a682-a757d2f7332a">
             <application xml:id="m5af3090e-3171-4b5a-99b0-4ed0c9b9baca">
