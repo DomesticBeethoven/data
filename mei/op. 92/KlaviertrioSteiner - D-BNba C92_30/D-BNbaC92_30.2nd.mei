@@ -17514,11 +17514,7 @@
                      <dir xml:id="m095c0efd-bf1e-44f4-8139-595d4d120e6d"
                           place="below"
                           staff="3"
-                          tstamp="1">sempre</dir>
-                     <dynam xml:id="m86e5a43f-d1b6-4487-b496-a4125db38922"
-                            place="below"
-                            staff="3"
-                            tstamp="2">p</dynam>
+                          tstamp="1">sempre p</dir>
                   </measure>
                   <measure xml:id="m520863b6-97a7-452d-8f3c-46627ec4ee93" n="160">
                      <staff xml:id="m03041e3c-9d34-4832-8c96-e9798e57ee0e" n="1">
