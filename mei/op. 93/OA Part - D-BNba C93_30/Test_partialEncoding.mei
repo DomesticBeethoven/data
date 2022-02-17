@@ -19,23 +19,17 @@
          </pubStmt>
       </fileDesc>
       <encodingDesc>
-         <samplingDecl>
+         <samplingDecl> 
+            <!-- <gap/> possible here? 
+            change numbering? 
+            add features? -->
             <p>Only measures 36 to 44 and 188 to 197 are encoded.</p>
             <sampleList>
                <sample n="1">
-                  <range type="measure">1-35</range>
+                  <range unit="measure" min="36" max="44"/>
                </sample>
                <sample n="2">
-                  <range type="measure">36-44</range>
-               </sample>
-               <sample n="3">
-                  <range type="measure">45-187</range>
-               </sample>
-               <sample n="4">
-                  <range type="measure">188-197</range>
-               </sample>
-               <sample n="5">
-                  <range type="measure">198-374</range>
+                  <range unit="measure" min="188" max="197"/>
                </sample>
             </sampleList>
          </samplingDecl>
