@@ -1844,7 +1844,7 @@
                            endid="#mdfb2fe61-e506-4e37-b853-f03d3034b9e3"
                            curvedir="above"/>
                   </measure>
-                  <measure xml:id="m87843707-db18-40fa-a471-a52c1e755978" right="end" n="50">
+                  <measure xml:id="m87843707-db18-40fa-a471-a52c1e755978" n="50">
                      <staff xml:id="mc6b764f2-9ba5-486f-8dee-fe1c2f0f2f17" n="1">
                         <layer xml:id="m0b4b3ddc-2d39-4bd2-bff1-99f48a3ed88d" n="1">
                            <mRest xml:id="m1c1c6044-dcd2-438b-8b46-0f2e073cb61d"/>
