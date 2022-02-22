@@ -30,14 +30,15 @@
                <p xml:id="m088a1968-3f51-4f2e-a817-44dfb93fe4f0">Transcoded from MusicXML</p>
             </application>
          </appInfo>
-         <samplingDecl> 
-            <!-- <gap/> possible here? 
-            change numbering? 
+         <samplingDecl>
+            <!-- <gap/> possible here?
+            change numbering?
             add features? -->
             <p>Only measures 27 to 50 are encoded.</p>
             <sampleList>
                <sample n="1">
                   <range unit="measure" min="27" max="50"/>
+                  <p>pages 30f</p>
                </sample>
             </sampleList>
          </samplingDecl>
@@ -172,13 +173,13 @@
                                  stem.dir="up"/>
                            <beam xml:id="m251214b6-5ea4-4beb-9bcd-91adac30455c">
                               <note xml:id="m0a0af5c6-b0ee-4e5f-970e-b41e3ee980d7"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="e"
                                     stem.dir="up"/>
                               <note xml:id="m8698465f-6e04-4fd2-9679-32189e00e030"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="e"
@@ -200,13 +201,13 @@
                            <rest xml:id="mc87f7793-c40c-4de0-95f6-212ee4689821" dur="4"/>
                            <beam xml:id="mdb53426e-83cd-47c7-910f-63701e0502a1">
                               <note xml:id="m4c39002e-db16-40d6-9024-a3799a809f2a"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="2"
                                     pname="a"
                                     stem.dir="up"/>
                               <note xml:id="mb0c3a388-ab68-4760-991b-9a6ec3951040"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="2"
                                     pname="a"
@@ -306,13 +307,13 @@
                                  stem.dir="up"/>
                            <beam xml:id="m6a99016d-7705-42a9-b974-698f2586164c">
                               <note xml:id="m59727206-54fd-41a1-b218-bff0c2e26aed"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="e"
                                     stem.dir="up"/>
                               <note xml:id="mc3981929-daf6-4e79-aaeb-1d1e78c50431"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="e"
@@ -465,13 +466,13 @@
                                  stem.dir="up"/>
                            <beam xml:id="mdfe58722-5026-45e4-991f-19856c58ab04">
                               <note xml:id="m2c2a4dbb-6c6a-4da5-a97e-d9b33fafe7f4"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="e"
                                     stem.dir="up"/>
                               <note xml:id="mde4b3b0c-c71f-4d61-81a7-3088c59319f0"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="f"
@@ -508,13 +509,13 @@
                            <rest xml:id="m89211ddb-05c7-4ceb-8491-13d55a592614" dur="4"/>
                            <beam xml:id="mbe1ccbae-3b03-4055-bd6e-56cd2bfd0a17">
                               <note xml:id="m4ecf9e5d-6868-485e-a919-a987a385bbf2"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="2"
                                     pname="a"
                                     stem.dir="up"/>
                               <note xml:id="m168df156-c391-4402-b224-0aafcf69de69"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="2"
                                     pname="a"
@@ -615,13 +616,13 @@
                                  stem.dir="up"/>
                            <beam xml:id="m9b4dc136-a9c3-42fe-8541-dbf5bee9055e">
                               <note xml:id="m93039d3a-87c4-492b-85db-4db24b8fb7a5"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="g"
                                     stem.dir="up"/>
                               <note xml:id="mf0345bf4-051b-4f26-8092-acab9cacf14a"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="g"
@@ -702,6 +703,7 @@
                      <staff xml:id="me66d77e5-30f4-4c05-8b55-bdd4dd70a2fa" n="2">
                         <layer xml:id="m1e8fd258-5621-4dde-9dc8-279b143a8b7f" n="5">
                            <note xml:id="m2963043e-331d-456f-8b21-44be6c06233b"
+                              artic="stacc"
                                  dur="4"
                                  oct="4"
                                  pname="g"
@@ -766,13 +768,13 @@
                                  stem.dir="up"/>
                            <beam xml:id="mac6b2341-2541-4ce0-8a04-c90eeeeadc99">
                               <note xml:id="mfe64bec9-7a25-4e12-8e2a-c1110dc27230"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="g"
                                     stem.dir="up"/>
                               <note xml:id="mb38ad5ea-b401-4e2e-88ad-0d1e0e5fd10d"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="a"
@@ -882,14 +884,14 @@
                            </note>
                            <beam xml:id="mbe9db7d4-cf2d-4b04-8bfb-cede110b57db">
                               <note xml:id="m35e09d3c-4c76-4736-9fe4-6cb2a8e69278"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="f"
                                     stem.dir="up"
                                     accid.ges="s"/>
                               <note xml:id="m1c805aa5-af83-43dc-8c3c-c52a4fdc412a"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="g"
@@ -1168,7 +1170,7 @@
                                  stem.dir="up"/>
                            <beam xml:id="m497287c5-7246-404c-b600-509b18675ab8">
                               <note xml:id="m5c9194d9-2965-4067-a37c-7c43bfdc99dd"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="f"
@@ -1176,7 +1178,7 @@
                                  <accid xml:id="mbd42903c-ba34-4262-aef8-9570f7202042" accid="s"/>
                               </note>
                               <note xml:id="m3de623b9-c6df-4d9e-a82d-4e93b0501153"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="g"
@@ -1227,13 +1229,13 @@
                            <rest xml:id="m72a96cc7-69e9-4c51-a4bb-5919657ca7bf" dur="4"/>
                            <beam xml:id="m189c7c03-7df0-4fbf-bd2e-659920a50263">
                               <note xml:id="md837ef9b-542e-4e0e-baaa-80eba7f98a85"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="2"
                                     pname="e"
                                     stem.dir="up"/>
                               <note xml:id="mf4e9be67-6d08-42dc-9834-9a499a2cd689"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="2"
                                     pname="e"
@@ -1270,7 +1272,7 @@
                         <layer xml:id="m6c347b3f-6e18-49e8-862c-2a966ca89219" n="1">
                            <beam xml:id="mb329525b-3eee-45ee-a26c-c8fe13c83493">
                               <note xml:id="mac4fac8e-abca-4ff0-807e-4f4ee5818850"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="3"
                                     pname="a"
@@ -1288,7 +1290,7 @@
                            </beam>
                            <beam xml:id="mc7e3d141-7e95-4978-88e6-98c733a8dced">
                               <note xml:id="mf72696b2-e35f-475e-a582-face022e932a"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="c"
@@ -1348,13 +1350,13 @@
                            </note>
                            <beam xml:id="m05381fd0-82c5-4247-9e5e-75de3a641f56">
                               <note xml:id="m6f31eaec-0769-47b9-a517-358f9ff5ea29"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="g"
                                     stem.dir="up"/>
                               <note xml:id="mec75c8e0-0183-4d0a-981f-593407e158d9"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="a"
@@ -1476,14 +1478,14 @@
                            </note>
                            <beam xml:id="m7abd7c14-1ab7-4ec1-8839-5000cf3dffed">
                               <note xml:id="m96d96009-7baf-4aa4-87e8-042b9b6b2a79"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="f"
                                     stem.dir="up"
                                     accid.ges="s"/>
                               <note xml:id="m542b5c76-a56a-4faf-840f-64e8753144a9"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="g"
@@ -1643,13 +1645,13 @@
                                  stem.dir="up"/>
                            <beam xml:id="m0621163a-b03b-4a79-ad88-a15641b752f6">
                               <note xml:id="m12073c4d-390e-4bbc-bdc4-5b5e2a905702"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="e"
                                     stem.dir="up"/>
                               <note xml:id="ma632f41a-8f32-4d15-a22f-7086e25b448f"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="e"
@@ -1762,7 +1764,7 @@
                                  stem.dir="up"/>
                            <beam xml:id="mfdb4ead0-0c78-477d-9e32-990cfb23a4d8">
                               <note xml:id="m3ca70f1f-132f-4f45-bb0f-ac97387d3b93"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="f"
@@ -1770,7 +1772,7 @@
                                  <accid xml:id="m3c6f8feb-124f-41f0-94ac-dd3c2c0721ac" accid="s"/>
                               </note>
                               <note xml:id="m0ce7efab-74a7-4579-ad4f-9edb4e895be2"
-                                    artic="stacciss"
+                                    artic="stacc"
                                     dur="8"
                                     oct="4"
                                     pname="g"
