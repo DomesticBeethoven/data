@@ -5,21 +5,91 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title type="desc">Op 92 / 2nd mov - Piano Trio (Litolff)</title>
+            <title type="desc">Op 92 / 2nd mov - Piano trio (Litolff)</title>
             <title type="alternative">D-BNbaC92_12.mei</title>
-            <respStmt />
+            <respStmt>
+               <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
+            </respStmt>
          </titleStmt>
          <pubStmt><date isodate="2022-02-22" type="encoding-date">2022-02-22</date>
          </pubStmt>
       </fileDesc>
       <encodingDesc xml:id="encodingdesc-pds0fq">
          <appInfo xml:id="appinfo-ruffwt">
+            <application xml:id="m71d4d76e-4fb3-446a-a809-2763e1e921a3">
+               <name xml:id="m364f5ac9-549b-43d8-8c39-42c1fc76e4fc">MuseScore</name>
+            </application>
             <application xml:id="application-6jhrer" isodate="2022-02-22T15:56:58" version="3.8.1-1af3b41">
                <name xml:id="name-4gkg67">Verovio</name>
                <p xml:id="p-rezsps">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016417">
+            <identifier type="opusNumber">92</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 7, op. 92 (A-Dur)</title>
+            <title type="abbreviated" xml:lang="en">7th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <date startdate="1811" enddate="1816"/>
+            </creation>
+            <expressionList>
+               <expression xml:id="g725cbc0-2925-4edg-95d6-b95850ac8d70">
+                  <identifier type="genre"
+                              auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1425997"/>
+                  <title type="desc">Op 92 / 2nd mov - Piano trio (Litolff)</title>
+                  <arranger auth.uri="https://www.wikidata.org/wiki/Q1065884">Renaud de Vilbac</arranger>
+                  <arranger auth.uri="">August Schulz</arranger>
+                  <arranger auth.uri="https://www.wikidata.org/wiki/Q89102916">August Schulz</arranger>
+                  <arranger>Heinrich Plock</arranger>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015782"/>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015120"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>ALLEGRETTO DE LA VIIme SYMPHONIE DE L. VAN BEETHOVEN.</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q2773"/>
+               </pubPlace>
+               <date notbefore="1894"/>
+               <publisher>
+                  <corpName>Henry Litolff's Verlag</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="e148f6c8-1ab8-22ec-9621-0233ac130102">
+                  <physLoc>
+                     <repository>D-BNba</repository>
+                     <identifier>C 92 / 12</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#g725cbc0-2925-4edg-95d6-b95850ac8d70"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc>
+         <change n="1" isodate="2022-02-22" resp="#bithTeam_lr">
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music>
       <body>
