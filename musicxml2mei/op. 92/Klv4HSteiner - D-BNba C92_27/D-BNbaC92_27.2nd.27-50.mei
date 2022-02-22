@@ -6,7 +6,8 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title type="desc">Op 92 / 2nd mov - Piano 4 Hands (Steiner/Diabelli)</title>
+            <title type="desc">Op 92 / 2nd mov - Piano 4 Hands (Steiner/Diabelli), measures 27-50</title>
+            <title type="alternative">D-BNbaC92_27.2nd.27-50.mei</title>
             <respStmt>
                <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
             </respStmt> 
@@ -47,7 +48,7 @@
             <expressionList>
                <expression xml:id="a9446116-1add-11ec-9621-0242ac130002">
                   <identifier type="genre" auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q63512357"/>
-                  <title type="desc">Op 92 / 2nd mov - Piano 4 Hands (Steiner/Diabelli)</title>
+                  <title type="desc">Op 92 / 2nd mov - Piano 4 Hands (Steiner/Diabelli), measures 27-50</title>
                   <arranger>
                      <persName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q160061">Anton Diabelli</persName>
                   </arranger>
