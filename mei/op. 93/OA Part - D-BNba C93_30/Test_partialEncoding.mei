@@ -22,12 +22,23 @@
          <samplingDecl>
             <p>Only measures 36 to 44 and 188 to 197 are encoded.</p>
             <sampleList>
-               <sample xml:id="sample1">
-                  <range unit="measure">36-44</range>
+               <sample xml:id="sample1">                    <!-- n="1" -->
+                  <range unit="measure">36-44</range>       <!-- tstamp + tstamp2 / startid + endid / min + max -->
+               </sample>  
+               <!--  
+               <gap xml:id="gap1"
+                  <range unit="measure">45-187</range>
+               </gap>
+               -->
+               <sample xml:id="sample2">                    <!-- label="developmentSection" -->
+                  <range unit="measure">188-197</range>       
                </sample>
-               <sample xml:id="sample2">
-                  <range unit="measure">188-197</range>
-               </sample>
+               <!--  
+               <featureList>
+                  <feature>contains the last part of the development section</feature>
+                  <feature>fff-marking in m. 190</feature>
+               </featureList>
+               -->
             </sampleList>
             <notesStmt>
                <annot n="1" plist="#sample1" resp="#bithTeam_lr" isodate="2022-02-23">
@@ -38,25 +49,6 @@
                </annot>
             </notesStmt>
          </samplingDecl>
-         <!--
-         <samplingDecl> 
-            <p>Only measures 36 to 44 and 188 to 197 are encoded.</p>
-            <sampleList>
-               <sample n="1">
-                  <range unit="measure" label="2ndTheme" min="36" max="44"/>
-                  <featureList>
-                     <feature>contains the beginning of the 2nd theme</feature>
-                  </featureList>
-               <sample n="2">
-                  <range unit="measure" label="developmentSection" min="188" max="197"/>
-                  <featureList>
-                     <feature>contains the last part of the development section</feature>
-                     <feature>fff-marking in m. 190</feature>
-                  </featureList>
-               </sample>
-            </sampleList>
-         </samplingDecl>
-         -->
          <appInfo xml:id="m1bbbaf46-427e-4c59-a682-a757d2f7332a">
             <application xml:id="m5af3090e-3171-4b5a-99b0-4ed0c9b9baca">
                <name xml:id="m4ed4c660-6119-490d-a452-10ee6b723b33">MuseScore</name>
@@ -247,70 +239,17 @@
                </scoreDef>
                <section xml:id="m89953832-787f-44a7-b1c3-8abec4cd5da7">
                   <pb xml:id="md51d8b52-4b82-458a-8260-70bd27a7c329"/>
-                   <measure>
-                       <staff n="1">
-                           <layer>
-                               <multiRest num="35" />
-                           </layer>
-                       </staff>
-                      <staff n="2">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
-                      <staff n="3">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
-                      <staff n="4">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
-                      <staff n="5">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
-                      <staff n="6">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
-                      <staff n="7">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
-                      <staff n="8">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
-                      <staff n="9">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
-                      <staff n="10">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
-                      <staff n="11">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
-                      <staff n="12">
-                         <layer>
-                            <multiRest num="35" />
-                         </layer>
-                      </staff>
+                  <measure xml:id="m268d12cb-331b-4544-93ff-a8e63b66a1e2" n="1">       <!-- <gap extent="35m" reason="sampling"/> -->
+                     <gap reason="sampling"/>
+                  </measure>
+                  <!-- measures 2 to 34 -->
+                  <measure xml:id="m46899d47-5fa9-4653-a211-11eac44898c5" n="35">
+                      <gap reason="sampling"/>
                    </measure>
+               </section>                                                                 <!-- mdiv -->
+               <section corresp="sample1">
                   <measure xml:id="m36898d47-30b6-4653-a211-00eac44898c5" n="36">
-                     <staff xml:id="m02f94aff-9a69-42d3-97e1-8c605fc31234" n="1">
+                     <staff xml:id="m02f94aff-9a69-42d3-97e1-8c605fc31234" n="1">         <!-- corresp="#sample1"  -->
                         <layer xml:id="m78d68077-2473-4405-b87b-6a6bf3ab8876" n="1">
                            <mRest xml:id="m1661eb4e-0aea-4898-a662-9f2b056b2a68"/>
                         </layer>
@@ -1935,7 +1874,9 @@
                           staff="12"
                           tstamp="1">a tempo</dir>
                   </measure>
-                  <measure>
+                </section>
+               <section>
+                  <measure> <!-- update -->
                       <staff n="1">
                           <layer>
                               <multiRest num="143" />
@@ -1997,6 +1938,8 @@
                         </layer>
                      </staff>
                   </measure>
+               </section>
+               <section corresp="sample2">
                    <measure xml:id="m41efb216-aa1e-4dca-9701-70ec77be14a2" n="188">
                      <staff xml:id="m41ff4eff-2d5b-4116-993f-ac60df181b32" n="1">
                         <layer xml:id="m2ac23ecf-617b-4685-bb93-b150cb6b77fc" n="1">
@@ -6761,6 +6704,8 @@
                           staff="5"
                           tstamp="3">dol:</dir>
                   </measure>
+               </section>
+               <section> <!-- update -->
                <measure right="end">
                    <staff n="1">
                        <layer>
