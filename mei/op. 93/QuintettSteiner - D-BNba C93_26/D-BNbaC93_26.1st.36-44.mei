@@ -1327,7 +1327,7 @@
                           staff="5"
                           tstamp="1">à tempo</dir>
                   </measure>
-                  <measure>
+                  <measure right="end">
                      <staff n="1">
                         <layer>
                            <multiRest num="329" />
