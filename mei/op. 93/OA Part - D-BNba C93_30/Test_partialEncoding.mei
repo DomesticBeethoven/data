@@ -19,20 +19,44 @@
          </pubStmt>
       </fileDesc>
       <encodingDesc>
+         <samplingDecl>
+            <p>Only measures 36 to 44 and 188 to 197 are encoded.</p>
+            <sampleList>
+               <sample xml:id="sample1">
+                  <range unit="measure">36-44</range>
+               </sample>
+               <sample xml:id="sample2">
+                  <range unit="measure">188-197</range>
+               </sample>
+            </sampleList>
+            <notesStmt>
+               <annot n="1" plist="#sample1" resp="#bithTeam_lr" isodate="2022-02-23">
+                  contains the beginning of the 2nd theme
+               </annot>
+               <annot n="2" plist="#sample2" resp="#bithTeam_lr" isodate="2022-02-23">
+                  contains the last part of the development section with fff-marking (m. 190)
+               </annot>
+            </notesStmt>
+         </samplingDecl>
+         <!--
          <samplingDecl> 
-            <!-- <gap/> possible here? 
-            change numbering? 
-            add features? -->
             <p>Only measures 36 to 44 and 188 to 197 are encoded.</p>
             <sampleList>
                <sample n="1">
-                  <range unit="measure" min="36" max="44"/>
-               </sample>
+                  <range unit="measure" label="2ndTheme" min="36" max="44"/>
+                  <featureList>
+                     <feature>contains the beginning of the 2nd theme</feature>
+                  </featureList>
                <sample n="2">
-                  <range unit="measure" min="188" max="197"/>
+                  <range unit="measure" label="developmentSection" min="188" max="197"/>
+                  <featureList>
+                     <feature>contains the last part of the development section</feature>
+                     <feature>fff-marking in m. 190</feature>
+                  </featureList>
                </sample>
             </sampleList>
          </samplingDecl>
+         -->
          <appInfo xml:id="m1bbbaf46-427e-4c59-a682-a757d2f7332a">
             <application xml:id="m5af3090e-3171-4b5a-99b0-4ed0c9b9baca">
                <name xml:id="m4ed4c660-6119-490d-a452-10ee6b723b33">MuseScore</name>
