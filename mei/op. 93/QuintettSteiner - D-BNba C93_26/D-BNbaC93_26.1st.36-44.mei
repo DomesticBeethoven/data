@@ -156,6 +156,33 @@
                </scoreDef>
                <section xml:id="me621dfd3-92d0-4202-ab7b-6ff7fff398a8">
                   <pb xml:id="m8fc0b9cd-0e8d-4c02-802a-b0aa9bbde0e6"/>
+                  <measure>
+                     <staff n="1">
+                        <layer>
+                           <multiRest num="35" />
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <multiRest num="35" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <multiRest num="35" />
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <multiRest num="35" />
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer>
+                           <multiRest num="35" />
+                        </layer>
+                     </staff>
+                  </measure>
                   <measure xml:id="maa132ba9-840b-49e6-93a1-88846316bf9b" n="36">
                      <staff xml:id="m6f866173-699b-4982-8c51-1129a9f5b7fe" n="1">
                         <layer xml:id="m80af6f44-5a96-45ae-a371-131c7ab87c71" n="1">
@@ -1299,6 +1326,33 @@
                           place="below"
                           staff="5"
                           tstamp="1">à tempo</dir>
+                  </measure>
+                  <measure>
+                     <staff n="1">
+                        <layer>
+                           <multiRest num="329" />
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <multiRest num="329" />
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer>
+                           <multiRest num="329" />
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer>
+                           <multiRest num="329" />
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer>
+                           <multiRest num="329" />
+                        </layer>
+                     </staff>
                   </measure>
                </section>
             </score>
