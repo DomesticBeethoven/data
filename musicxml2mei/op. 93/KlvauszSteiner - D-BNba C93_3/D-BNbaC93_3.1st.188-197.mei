@@ -6,6 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title type="desc">Op 93 / 1st mov - Piano reduction (Steiner), measures 188-197</title>
+            <title type="alternative">D-BNbaC93_3.1st.188-197.mei</title>
             <respStmt>
                <persName xml:id="bithTeam_lr" role="mrk trc">Lisa Rosendahl</persName>
             </respStmt>
@@ -121,7 +122,19 @@
                </scoreDef>
                <section xml:id="section-0000001939555562">
                   <pb xml:id="pb-0000000727522563" />
-                  <measure xml:id="measure-0000000835490518" n="1">
+                  <measure>
+                     <staff n="1">
+                        <layer>
+                           <multiRest num="187" />
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <multiRest num="187" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="measure-0000000835490518" n="188">
                      <staff xml:id="staff-0000000016763889" n="1">
                         <layer xml:id="layer-0000000654691306" n="1">
                            <beam xml:id="beam-0000000186791248">
@@ -188,7 +201,7 @@
                      <dynam xml:id="dynam-0000000300276312" place="below" staff="1" tstamp="1.750000" val="96" vgrp="60">Più f</dynam>
                      <slur xml:id="slur-0000002123061556" startid="#note-0000000535485652" endid="#note-0000000384787464" curvedir="above" />
                   </measure>
-                  <measure xml:id="measure-0000001912833125" n="2">
+                  <measure xml:id="measure-0000001912833125" n="189">
                      <staff xml:id="staff-0000000677859561" n="1">
                         <layer xml:id="layer-0000000904759344" n="1">
                            <beam xml:id="beam-0000001746888199">
@@ -261,7 +274,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="measure-0000001946115563" n="3">
+                  <measure xml:id="measure-0000001946115563" n="190">
                      <staff xml:id="staff-0000000822520874" n="1">
                         <layer xml:id="layer-0000000873684143" n="1">
                            <beam xml:id="beam-0000000753588668">
@@ -332,7 +345,7 @@
                      <slur xml:id="slur-0000002142680565" startid="#note-0000002129843259" endid="#note-0000000502261180" curvedir="below" />
                   </measure>
                   <sb xml:id="sb-0000001875946096" />
-                  <measure xml:id="measure-0000000539346595" n="4">
+                  <measure xml:id="measure-0000000539346595" n="191">
                      <staff xml:id="staff-0000000624617572" n="1">
                         <layer xml:id="layer-0000000493529189" n="1">
                            <beam xml:id="beam-0000001137436081">
@@ -393,7 +406,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="measure-0000000954808535" n="5">
+                  <measure xml:id="measure-0000000954808535" n="192">
                      <staff xml:id="staff-0000001057334911" n="1">
                         <layer xml:id="layer-0000001549201049" n="1">
                            <beam xml:id="beam-0000001841155951">
@@ -466,7 +479,7 @@
                      </staff>
                      <slur xml:id="slur-0000000960584544" startid="#note-0000001728368801" endid="#note-0000000229512582" curvedir="below" />
                   </measure>
-                  <measure xml:id="measure-0000000135041457" n="6">
+                  <measure xml:id="measure-0000000135041457" n="193">
                      <staff xml:id="staff-0000002022007141" n="1">
                         <layer xml:id="layer-0000000660853126" n="1">
                            <beam xml:id="beam-0000000147547267">
@@ -522,7 +535,7 @@
                      </staff>
                   </measure>
                   <sb xml:id="sb-0000000467638019" />
-                  <measure xml:id="measure-0000000728835786" n="7">
+                  <measure xml:id="measure-0000000728835786" n="194">
                      <staff xml:id="staff-0000000733551537" n="1">
                         <layer xml:id="layer-0000001787818844" n="1">
                            <beam xml:id="beam-0000001498963788">
@@ -589,7 +602,7 @@
                      </staff>
                      <slur xml:id="slur-0000001091756835" startid="#note-0000000877657609" endid="#note-0000001858942741" curvedir="below" />
                   </measure>
-                  <measure xml:id="measure-0000000121450343" n="8">
+                  <measure xml:id="measure-0000000121450343" n="195">
                      <staff xml:id="staff-0000000955877786" n="1">
                         <layer xml:id="layer-0000000270481718" n="1">
                            <beam xml:id="beam-0000001067994765">
@@ -646,7 +659,7 @@
                      </staff>
                      <slur xml:id="slur-0000001151243315" startid="#note-0000000099971233" endid="#note-0000000212065981" curvedir="below" />
                   </measure>
-                  <measure xml:id="measure-0000001074416922" n="9">
+                  <measure xml:id="measure-0000001074416922" n="196">
                      <staff xml:id="staff-0000000873488005" n="1">
                         <layer xml:id="layer-0000000174231444" n="1">
                            <beam xml:id="beam-0000000464090069">
@@ -712,7 +725,7 @@
                      <slur xml:id="slur-0000001146298567" startid="#note-0000001079914646" endid="#note-0000002021012920" curvedir="below" />
                      <slur xml:id="slur-0000000326125322" startid="#note-0000001388583426" endid="#note-0000000027308040" curvedir="below" />
                   </measure>
-                  <measure xml:id="measure-0000001044701788" right="end" n="10">
+                  <measure xml:id="measure-0000001044701788" n="197">
                      <staff xml:id="staff-0000001296106164" n="1">
                         <layer xml:id="layer-0000001176432732" n="1">
                            <chord xml:id="chord-0000000264162652" dur.ppq="2" dur="8" stem.dir="down">
@@ -751,6 +764,18 @@
                      <dynam xml:id="dynam-0000000456977978" place="below" staff="1" tstamp="1.500000" val="49" vgrp="40">p</dynam>
                      <dir xml:id="dir-0000000892390970" place="below" staff="1" tstamp="2.000000" vgrp="42">Dolce</dir>
                      <dynam xml:id="dynam-0000001879176899" place="below" staff="2" tstamp="1.500000" val="49" vgrp="40">p</dynam>
+                  </measure>
+                  <measure right="end">
+                     <staff n="1">
+                        <layer>
+                           <multiRest num="177" />
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer>
+                           <multiRest num="177" />
+                        </layer>
+                     </staff>
                   </measure>
                </section>
             </score>
