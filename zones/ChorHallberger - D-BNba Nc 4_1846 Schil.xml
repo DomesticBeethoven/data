@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei">
+    <meiHead>
+        <fileDesc>
+            <titleStmt/>
+            <pubStmt/>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="application_4d1bf602-5f38-4e04-bbb3-69333df25faa" isodate="2022-04-07">
+                    <name>Vertaktoid v2.0.2</name>
+                    <ptr target="https://github.com/cemfi/vertaktoid/releases/tag/v2.0.2"/>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </meiHead>
+    <music>
+        <facsimile>
+            <surface xml:id="surface_1507819b-ba17-478b-b96b-28617dd29c67" n="1" ulx="0" uly="0" lrx="1916" lry="2384">
+                <graphic xml:id="graphic_c9031aaa-ce11-4b25-b6a5-0852960f620d" target="Hallberger (Silcher), Male 4-Voice Choir - Nc 4 - 1846 Schil.jpg" type="facsimile" width="1916" height="2384"/>
+                <zone xml:id="zone_be45baff-330c-4be8-a32c-bf14cdb2b645" type="measure" ulx="300" uly="442" lrx="943" lry="987"/>
+                <zone xml:id="zone_e781cd34-0c05-47bf-a286-de51468dbc5b" type="measure" ulx="872" uly="459" lrx="1101" lry="992"/>
+                <zone xml:id="zone_b763dabd-f6ae-410d-b581-475f4610ac67" type="measure" ulx="1032" uly="448" lrx="1300" lry="987"/>
+                <zone xml:id="zone_84ff0ed6-61b5-4a8b-89f7-7da4cc33a047" type="measure" ulx="1244" uly="454" lrx="1460" lry="984"/>
+                <zone xml:id="zone_da87922d-c16c-42d1-943f-cb0cea21c5e7" type="measure" ulx="1382" uly="462" lrx="1687" lry="938"/>
+                <zone xml:id="zone_95b6523e-8900-4b1c-a5b8-f2e311b0ad8b" type="measure" ulx="335" uly="1001" lrx="680" lry="1501"/>
+                <zone xml:id="zone_a40ca7d6-ffd7-4576-b116-067a7b1c3b5a" type="measure" ulx="627" uly="961" lrx="886" lry="1474"/>
+                <zone xml:id="zone_e0c235a4-f402-4bd8-a5f4-3ff69970140d" type="measure" ulx="825" uly="981" lrx="1035" lry="1470"/>
+                <zone xml:id="zone_7b20ef0b-163b-42da-a70a-28a6e37fa746" type="measure" ulx="959" uly="974" lrx="1281" lry="1474"/>
+                <zone xml:id="zone_574eb66c-73e2-4c54-88c3-d6a9f5cf9ecd" type="measure" ulx="1216" uly="984" lrx="1433" lry="1438"/>
+                <zone xml:id="zone_9417d809-bce5-420b-8035-f7ed4b3c10d3" type="measure" ulx="1369" uly="994" lrx="1659" lry="1448"/>
+                <zone xml:id="zone_f9416406-c7bc-4501-9aae-9473f2fe861f" type="measure" ulx="303" uly="1471" lrx="652" lry="1952"/>
+                <zone xml:id="zone_9973ed3d-cd01-4aea-a1f1-386baec33fcf" type="measure" ulx="578" uly="1456" lrx="857" lry="1930"/>
+                <zone xml:id="zone_f234720c-d787-449e-afb2-5316a9a5866f" type="measure" ulx="798" uly="1449" lrx="1050" lry="1912"/>
+                <zone xml:id="zone_7f7b3ebd-ca4c-4b07-af18-6b31de02ad8e" type="measure" ulx="966" uly="1454" lrx="1255" lry="1907"/>
+                <zone xml:id="zone_4af43e4f-46dd-41b2-84a5-e551a6be7143" type="measure" ulx="1201" uly="1450" lrx="1425" lry="1958"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv xml:id="page_f51fc1e7-1dbd-42e6-b030-b67e072992e6" n="1" label="">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_5d3cc91a-de9f-43c6-aaee-441758bac085" facs="#zone_be45baff-330c-4be8-a32c-bf14cdb2b645"/>
+                        <measure n="2" label="2" xml:id="measure_0b2390b2-3c9d-455a-92ca-4f2f3becdcb6" facs="#zone_e781cd34-0c05-47bf-a286-de51468dbc5b"/>
+                        <measure n="3" label="3" xml:id="measure_3aa5811c-1c0c-4222-a348-694fe8e3faf4" facs="#zone_b763dabd-f6ae-410d-b581-475f4610ac67"/>
+                        <measure n="4" label="4" xml:id="measure_2faa4147-c32c-4d5b-be57-463f27735cd9" facs="#zone_84ff0ed6-61b5-4a8b-89f7-7da4cc33a047"/>
+                        <measure n="5" label="5" xml:id="measure_f59a5286-e444-45bb-8eb2-ebcd5468f2fc" facs="#zone_da87922d-c16c-42d1-943f-cb0cea21c5e7"/>
+                        <sb/>
+                        <measure n="6" label="6" xml:id="measure_776e23b9-7769-45a7-b34f-ed478680b651" facs="#zone_95b6523e-8900-4b1c-a5b8-f2e311b0ad8b"/>
+                        <measure n="7" label="7" xml:id="measure_07adf213-d8e0-4d48-96e4-eb601c16abb6" facs="#zone_a40ca7d6-ffd7-4576-b116-067a7b1c3b5a"/>
+                        <measure n="8" label="8" xml:id="measure_2c8c8023-b980-4fbe-bb22-1a4ad94a7d1f" facs="#zone_e0c235a4-f402-4bd8-a5f4-3ff69970140d"/>
+                        <measure n="9" label="9" xml:id="measure_9827601f-83cd-4cca-99cc-e2affa366615" facs="#zone_7b20ef0b-163b-42da-a70a-28a6e37fa746"/>
+                        <measure n="10" label="10" xml:id="measure_9af44797-9214-43f5-91f9-3ff612dfffed" facs="#zone_574eb66c-73e2-4c54-88c3-d6a9f5cf9ecd"/>
+                        <measure n="11" label="11" xml:id="measure_907624b3-aae4-4c9e-b13e-bd7611feaa41" facs="#zone_9417d809-bce5-420b-8035-f7ed4b3c10d3"/>
+                        <sb/>
+                        <measure n="12" label="12" xml:id="measure_feae7edb-8147-47fc-811d-c4d51b05c738" facs="#zone_f9416406-c7bc-4501-9aae-9473f2fe861f"/>
+                        <measure n="13" label="13" xml:id="measure_c225cbd2-e878-4326-ac54-add496c13ef4" facs="#zone_9973ed3d-cd01-4aea-a1f1-386baec33fcf"/>
+                        <measure n="14" label="14" xml:id="measure_c82fb22d-1437-492d-b86b-1b7c974cfb00" facs="#zone_f234720c-d787-449e-afb2-5316a9a5866f"/>
+                        <measure n="15" label="15" xml:id="measure_5e12eb46-8fc8-43ab-bb04-b06562c670cd" facs="#zone_7f7b3ebd-ca4c-4b07-af18-6b31de02ad8e"/>
+                        <measure n="16" label="16" xml:id="measure_a771ee14-5710-4168-95cb-2dd18505a70a" facs="#zone_4af43e4f-46dd-41b2-84a5-e551a6be7143"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
