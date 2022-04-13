@@ -20,6 +20,9 @@
       </fileDesc>
       <encodingDesc>
          <appInfo xml:id="mdca75bc3-7c2e-41b5-aa27-2715b043aee8">
+            <application xml:id="m60e79f5a-ae61-4d25-be13-6f328e735666">
+               <name xml:id="m34e8731b-896a-45ae-ae72-114d95269a2f">MuseScore</name>
+            </application>
             <application xml:id="m55d8fde5-5e05-40d9-a4dc-de83f6613483"
                          isodate="2022-04-12T21:18:00"
                          version="3.8.1-1af3b41">
@@ -28,6 +31,82 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016417">
+            <identifier type="opusNumber">92</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 7, op. 92 (A-Dur)</title>
+            <title type="abbreviated" xml:lang="en">7th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <date startdate="1811" enddate="1816"/>
+            </creation>
+            <expressionList>
+               <expression xml:id="m2101f64-bb18-11ec-8422-0242ac120002">
+                  <identifier type="genre"
+                     auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1425997"/>
+                  <title type="desc">Op 92 / 2nd mov - Piano reduction (Hutchings)</title>
+                  <arranger>
+                     <persName>Jane Roeckel
+                        <addName type="alias">Jules de Sivrai</addName>
+                     </persName>
+                  </arranger>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>THE MONKS' CHANT, Andantino Religioso, BY Beethoven. Transcribed for the PIANO FORTE, by JULES DE SIVRAI.</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q84"/>
+               </pubPlace>
+               <date startdate="1877" enddate="1884"/>
+               <publisher>
+                  <corpName>Hutchings and Romer</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="m542ffca-bb18-11ec-8422-0242ac120002">
+                  <physLoc>
+                     <repository>D-BNba</repository>
+                     <identifier>C 92 / 50</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#m2101f64-bb18-11ec-8422-0242ac120002"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc>
+         <change n="1" isodate="2022-04-12" resp="#bithTeam_lr">
+            <changeDesc>
+               <p/>
+            </changeDesc>
+         </change>
+         <change resp="#bithTeam_lr" n="2" isodate="2022-04-12">
+            <changeDesc>
+               <p>Applied "cleanMscz.xsl"</p>
+               <p>Remove unwanted attributes and mistakes from MuseScore export; add schema</p>
+            </changeDesc>
+         </change>
+         <change resp="#bithTeam_lr" n="3" isodate="2022-04-12">
+            <changeDesc>
+               <p>Applied "IDs4Mscz.xsl"</p>
+               <p>Delete IDs from Musescore; insert UUID(s) for the document, encoding description and music elements</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
    </meiHead>
    <music meiversion="5.0.0-dev">
       <body xml:id="mf05723a3-a8b4-4873-b73a-5ba82033aba9">
