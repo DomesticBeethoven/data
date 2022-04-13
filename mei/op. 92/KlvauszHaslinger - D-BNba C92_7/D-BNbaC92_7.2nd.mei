@@ -43,7 +43,7 @@
                <date startdate="1811" enddate="1816"/>
             </creation>
             <expressionList>
-               <expression xml:id="4877d6dc-785d-11ec-90d6-0242ac120003">
+               <expression xml:id="d877d6dc-785d-11ec-90d6-0242ac120003">
                   <identifier type="genre"
                               auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1425997"/>
                   <title type="desc">Op 92 / 2nd mov - Piano reduction (Haslinger)</title>
@@ -74,7 +74,7 @@
                </publisher>
             </pubStmt>
             <itemList>
-               <item xml:id="238a7814-785f-11ec-90d6-0242ac120003">
+               <item xml:id="m38a7814-785f-11ec-90d6-0242ac120003">
                   <physLoc>
                      <repository>D-BNba</repository>
                      <identifier>C 92 / 7</identifier>
@@ -82,7 +82,7 @@
                </item>
             </itemList>
             <relationList>
-               <relation rel="isEmbodimentOf" target="#4877d6dc-785d-11ec-90d6-0242ac120003"/>
+               <relation rel="isEmbodimentOf" target="#d877d6dc-785d-11ec-90d6-0242ac120003"/>
             </relationList>
          </manifestation>
       </manifestationList>
