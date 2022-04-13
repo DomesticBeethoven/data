@@ -280,18 +280,23 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dir xml:id="mf89e5751-e52f-4b0c-a125-2a731d04b01b"
+                     <metaMark startid="#mf89e5751-e52f-4b0c-a125-2a731d04b01b">
+                        <dir xml:id="mf89e5751-e52f-4b0c-a125-2a731d04b01b"
                           place="above"
                           staff="1"
                           tstamp="1">ten</dir>
+                     </metaMark>
                      <dynam xml:id="me6941ec0-5b51-436f-b85c-6fa45abd6b80"
                             place="below"
                             staff="1"
                             tstamp="1">p</dynam>
-                     <fing xml:id="m976a715a-6e4f-4169-aaac-edc98a677149"
+                     <metaMark startid="#m9a988d25-6dd2-4bfd-8811-085f53792a5a">
+                        <fing xml:id="m976a715a-6e4f-4169-aaac-edc98a677149"
+                           type="english"
                            place="below"
                            staff="2"
                            startid="#m9a988d25-6dd2-4bfd-8811-085f53792a5a">+</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="ma6881b9b-e51b-4e99-9df5-548604047108" n="4">
                      <staff xml:id="m4a85e4e6-8dcc-4369-a608-75f986d319ab" n="1">
@@ -706,12 +711,18 @@
                               tstamp2="1m+1.5000"
                               form="cres"
                               place="below"/>
-                     <fing xml:id="mbfb52e80-03ea-447d-a328-c5fa5eb855f5"
+                     <metaMark startid="#me9322a51-bd85-482c-be43-9a3beab33c25">
+                        <fing xml:id="mbfb52e80-03ea-447d-a328-c5fa5eb855f5"
+                           type="english"
                            staff="1"
                            startid="#me9322a51-bd85-482c-be43-9a3beab33c25">+</fing>
-                     <fing xml:id="m58631538-2f43-4572-a93d-9c3be9af1107"
+                     </metaMark>
+                     <metaMark startid="#m6b349848-1457-4c3d-b7d5-7fded7141dc1">
+                        <fing xml:id="m58631538-2f43-4572-a93d-9c3be9af1107"
+                           type="english"
                            staff="1"
                            startid="#m6b349848-1457-4c3d-b7d5-7fded7141dc1">2</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="mb44797db-8548-47b3-9da1-e05dc3974b9a" n="12">
                      <staff xml:id="mf0d2dfe5-9c1c-40fb-a891-d865a6fd9410" n="1">
@@ -758,12 +769,18 @@
                            startid="#m98704fd7-3bc8-4e10-bb9b-a68e5a86220e"
                            endid="#mde03bbd6-4026-48c1-8eb0-1621a93775b2"
                            curvedir="below"/>
-                     <fing xml:id="mdec7c104-2c5f-4170-83d5-b0c6188b15f5"
+                     <metaMark startid="#m945e9de9-431d-4f18-8836-973d2d9eafe9">
+                        <fing xml:id="mdec7c104-2c5f-4170-83d5-b0c6188b15f5"
+                           type="english"
                            staff="1"
                            startid="#m945e9de9-431d-4f18-8836-973d2d9eafe9">+</fing>
-                     <fing xml:id="m617b15a0-d0a6-4e10-bf63-c529d65817e8"
+                     </metaMark>
+                     <metaMark startid="#m8c9181f2-15b6-4f5e-b01a-6e2096080e6c">
+                        <fing xml:id="m617b15a0-d0a6-4e10-bf63-c529d65817e8"
+                           type="english"
                            staff="1"
                            startid="#m8c9181f2-15b6-4f5e-b01a-6e2096080e6c">4</fing>
+                        </metaMark>
                      <slur xml:id="me58da4ef-ff81-472e-87da-eedd5bce30f0"
                            startid="#mb281fd27-e29e-49c4-a5c4-495b691a9413"
                            endid="#m56abb781-517e-4b96-bc0f-199d5e294433"
@@ -883,18 +900,30 @@
                            startid="#mcf56de00-96ca-4c7e-a259-8263791078fd"
                            endid="#md3f6afc4-6b14-4f50-93c8-047dd4b3e6c4"
                            curvedir="below"/>
-                     <fing xml:id="m4ceae3fc-4095-4c96-87bf-f0343cb02040"
+                     <metaMark startid="#mac38ed13-a510-422c-9cbe-d0cd757e9b60">
+                        <fing xml:id="m4ceae3fc-4095-4c96-87bf-f0343cb02040"
+                           type="english"
                            staff="1"
                            startid="#mac38ed13-a510-422c-9cbe-d0cd757e9b60">1</fing>
-                     <fing xml:id="m1898f817-6539-4fa6-9b27-dcf07aaaa6f5"
+                     </metaMark>
+                     <metaMark startid="#m755d3441-896a-4b45-a599-d028e298cc6e">
+                        <fing xml:id="m1898f817-6539-4fa6-9b27-dcf07aaaa6f5"
+                           type="english"
                            staff="1"
                            startid="#m755d3441-896a-4b45-a599-d028e298cc6e">4</fing>
-                     <fing xml:id="m77b4c269-10f0-4c81-8c82-9a3b6991f905"
+                     </metaMark>
+                     <metaMark startid="#medd52698-f839-4c7b-a900-bfb0aa62d205">
+                        <fing xml:id="m77b4c269-10f0-4c81-8c82-9a3b6991f905"
+                           type="english"
                            staff="1"
                            startid="#medd52698-f839-4c7b-a900-bfb0aa62d205">+</fing>
-                     <fing xml:id="m5360553a-c632-41bd-b7d1-4b70a1f19e16"
+                     </metaMark>
+                     <metaMark startid="#m5d8b8950-fda9-4b12-820a-017e9081572c">
+                        <fing xml:id="m5360553a-c632-41bd-b7d1-4b70a1f19e16"
+                           type="english"
                            staff="1"
                            startid="#m5d8b8950-fda9-4b12-820a-017e9081572c">4</fing>
+                        </metaMark>
                      <slur xml:id="m2e8c2cf0-2732-4a52-a17b-1aa78de7a9ed"
                            startid="#mde9eefac-5d3e-44ab-88ce-e5315e3a18df"
                            endid="#maa7d5d94-4db2-46c4-8bd4-b07ee484cc36"
@@ -1210,12 +1239,18 @@
                            startid="#m12da7af7-e9c9-4412-a361-31e9fe6d720e"
                            endid="#mcf38e73f-8319-452e-864f-a2c9b70236ef"
                            curvedir="below"/>
-                     <fing xml:id="m682128b9-9d3c-462a-a4c8-e6d6e20e570a"
+                     <metaMark startid="#ma98cbc0e-1db5-4b20-9271-0a20fe176cf3">
+                        <fing xml:id="m682128b9-9d3c-462a-a4c8-e6d6e20e570a"
+                           type="english"
                            staff="1"
                            startid="#ma98cbc0e-1db5-4b20-9271-0a20fe176cf3">1</fing>
-                     <fing xml:id="medd2bdcb-511d-44a8-a897-1feabf1cfd7a"
+                     </metaMark>
+                     <metaMark startid="#mc932857f-1dee-477f-bbc3-8942e391bc42">
+                        <fing xml:id="medd2bdcb-511d-44a8-a897-1feabf1cfd7a"
+                           type="english"
                            staff="1"
                            startid="#mc932857f-1dee-477f-bbc3-8942e391bc42">4</fing>
+                     </metaMark>
                      <slur xml:id="mb3b1e9f0-061b-44b6-8908-ca33872ec9a6"
                            startid="#mfe71f1bb-9f83-4c12-9a4b-a4c199a44f6d"
                            endid="#m97b0c354-b59e-4d6e-b096-4090b2bb80ee"
@@ -1335,18 +1370,30 @@
                            startid="#m5d5cc65b-fa2b-4f9b-a394-90f87b50693d"
                            endid="#m156e75f8-b97c-4078-a2c4-c862e9af064e"
                            curvedir="below"/>
-                     <fing xml:id="m3b77033d-75d6-4637-ba31-81c430d6a67f"
+                     <metaMark startid="#md138a986-bee4-448a-bee9-f91bffc1428a">
+                        <fing xml:id="m3b77033d-75d6-4637-ba31-81c430d6a67f"
+                           type="english"
                            staff="1"
                            startid="#md138a986-bee4-448a-bee9-f91bffc1428a">1</fing>
-                     <fing xml:id="me5dbe3dd-715a-4324-bf7d-38b9b4b6839e"
+                     </metaMark>
+                     <metaMark startid="#m45bda1e7-c945-4259-95aa-6aa396c8924b">
+                        <fing xml:id="me5dbe3dd-715a-4324-bf7d-38b9b4b6839e"
+                           type="english"
                            staff="1"
                            startid="#m45bda1e7-c945-4259-95aa-6aa396c8924b">4</fing>
-                     <fing xml:id="m174faac5-ef8e-411d-a3b3-8627eefdf30a"
+                     </metaMark>
+                     <metaMark startid="#m0b85f1ca-2c57-4d74-aeb7-aa72a1834c01">
+                        <fing xml:id="m174faac5-ef8e-411d-a3b3-8627eefdf30a"
+                           type="english"
                            staff="1"
                            startid="#m0b85f1ca-2c57-4d74-aeb7-aa72a1834c01">+</fing>
-                     <fing xml:id="m8dae77fd-4c88-474d-bd6c-dca61daf4e80"
+                     </metaMark>
+                     <metaMark startid="#m25b14dd8-38dc-4bd1-833e-96526f5a8bc4">
+                        <fing xml:id="m8dae77fd-4c88-474d-bd6c-dca61daf4e80"
+                           type="english"
                            staff="1"
                            startid="#m25b14dd8-38dc-4bd1-833e-96526f5a8bc4">4</fing>
+                     </metaMark>
                      <slur xml:id="mffac0b76-9758-40c7-b893-17dfa1549cdb"
                            startid="#m97f0f96a-7937-4156-88a8-1b037ec55e7b"
                            endid="#m7dd162ee-957d-4ffc-a72e-627cf4699842"
@@ -1511,9 +1558,12 @@
                            </beam>
                         </layer>
                      </staff>
-                     <fing xml:id="ma632fab2-b07a-4e30-a0ff-7612f3d8f704"
+                     <metaMark startid="#m5e12aacd-391f-458b-a7c4-be43e4d23c1a">
+                        <fing xml:id="ma632fab2-b07a-4e30-a0ff-7612f3d8f704"
+                           type="english"
                            staff="1"
                            startid="#m5e12aacd-391f-458b-a7c4-be43e4d23c1a">+</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="mec813555-8862-4f2b-8abd-7fce10b94609" n="26">
                      <staff xml:id="m62dc2133-837a-45ea-af3f-481cf31299bd" n="1">
@@ -1601,10 +1651,13 @@
                             place="below"
                             staff="2"
                             tstamp="1">p</dynam>
-                     <fing xml:id="mc83ad6d5-c18b-4abb-90f7-83d00e83e70e"
+                     <metaMark startid="#m53f81ae4-c524-4f75-89a7-77539e3866d5">
+                        <fing xml:id="mc83ad6d5-c18b-4abb-90f7-83d00e83e70e"
+                           type="english"
                            place="below"
                            staff="2"
                            startid="#m53f81ae4-c524-4f75-89a7-77539e3866d5">2</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="mda39f374-2d0e-4a30-bd20-db74ba5175c4" n="28">
                      <staff xml:id="m22b40409-b3ce-431a-b7e9-053f1dca96b1" n="1">
@@ -1837,10 +1890,13 @@
                            startid="#me2db4f8e-c398-465c-9394-0d9c501eb97c"
                            endid="#m7b9749b9-80aa-46c7-86e4-aaeca30b8473"
                            curvedir="below"/>
-                     <fing xml:id="mec639eca-2727-4d4c-bccf-6ac75bb1b55a"
+                     <metaMark startid="#m476d758b-12a2-4bd3-8580-116cb2db2860">
+                        <fing xml:id="mec639eca-2727-4d4c-bccf-6ac75bb1b55a"
+                           type="english"
                            place="above"
                            staff="2"
                            startid="#m476d758b-12a2-4bd3-8580-116cb2db2860">1</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="mee46d6e9-3738-4e94-ae74-a2c321e2fb4b" n="32">
                      <staff xml:id="m92192ded-0334-4115-8ca7-c1659be27619" n="1">
@@ -1887,10 +1943,13 @@
                            startid="#m8d2d2684-4a05-4b94-a37d-753f39b85d12"
                            endid="#m990a5183-c232-4da7-882a-a4ce54b8f001"
                            curvedir="above"/>
-                     <fing xml:id="mf3013d8e-92c4-43e1-8458-841d99f074ba"
+                     <metaMark startid="#m498e6c09-c81b-4009-a010-d2eba8c15d32">
+                        <fing xml:id="mf3013d8e-92c4-43e1-8458-841d99f074ba"
+                           type="english"
                            place="above"
                            staff="2"
                            startid="#m498e6c09-c81b-4009-a010-d2eba8c15d32">+</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="mae8c52d3-9673-44d9-bcd8-f9a81bdc1825" n="33">
                      <staff xml:id="mc759bd4b-3f5e-4b2a-aa30-9cef3c1e1803" n="1">
@@ -2266,9 +2325,12 @@
                            </beam>
                         </layer>
                      </staff>
-                     <fing xml:id="m0870f382-52a1-4900-9c02-0723e093dd2d"
+                     <metaMark startid="#me592a4c9-6dd8-45b6-b130-ca07835de958">
+                        <fing xml:id="m0870f382-52a1-4900-9c02-0723e093dd2d"
+                           type="english"
                            staff="1"
                            startid="#me592a4c9-6dd8-45b6-b130-ca07835de958">2</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="me334fede-092d-4663-8e0b-485c410c60a7" n="40">
                      <staff xml:id="m67af4788-6273-476e-90bc-5b48bb55b442" n="1">
@@ -2381,9 +2443,12 @@
                            </beam>
                         </layer>
                      </staff>
-                     <fing xml:id="m7cb29eaa-55cf-452c-9d5b-43890a80651d"
+                     <metaMark startid="#m419b7e7e-0be5-4d31-a91b-40ae39b8e436">
+                        <fing xml:id="m7cb29eaa-55cf-452c-9d5b-43890a80651d"
+                           type="english"
                            staff="1"
                            startid="#m419b7e7e-0be5-4d31-a91b-40ae39b8e436">1</fing>
+                     </metaMark>
                      <slur xml:id="m36b31633-039c-48a7-8f23-7310b29e6cad"
                            startid="#m3d58a1b6-847f-4e71-857a-240ba7caf187"
                            endid="#m4e22f10e-7afd-488d-966a-ba17cbcd6be8"
@@ -2448,9 +2513,12 @@
                               tstamp2="0m+2.5000"
                               form="cres"
                               place="below"/>
-                     <fing xml:id="m20af5257-2f98-4403-ba03-4d1af6ffa55f"
+                     <metaMark startid="#m2002c533-b05c-4ab4-baa6-abb411ac9da1">
+                        <fing xml:id="m20af5257-2f98-4403-ba03-4d1af6ffa55f"
+                           type="english"
                            staff="1"
                            startid="#m2002c533-b05c-4ab4-baa6-abb411ac9da1">+</fing>
+                     </metaMark>
                      <slur xml:id="m776979a8-5021-4f47-877d-c615e7ce5422"
                            startid="#mc60fdbf2-a037-495f-98ff-885ad25074d0"
                            endid="#m543c83f6-d3ab-4633-8af9-ebe4cd9eba02"
@@ -2505,14 +2573,20 @@
                           tstamp2="0m+3.0000"
                           lform="dashed"
                           extender="true">Cres:</dir>
-                     <fing xml:id="mc4cbb320-8cdd-4507-a5c2-4c1047a74e5a"
+                     <metaMark startid="#ma1c746a7-3c05-488e-b932-1aaad732de28">
+                        <fing xml:id="mc4cbb320-8cdd-4507-a5c2-4c1047a74e5a"
+                           type="english"
                            place="below"
                            staff="2"
                            startid="#ma1c746a7-3c05-488e-b932-1aaad732de28">3</fing>
-                     <fing xml:id="m4f20fe1b-d831-43a9-b21c-dc3c2786384a"
+                     </metaMark>
+                     <metaMark startid="#m4bbd8b79-0ac9-4a0b-8fc0-c0758c612702">
+                        <fing xml:id="m4f20fe1b-d831-43a9-b21c-dc3c2786384a"
+                           type="english"
                            place="above"
                            staff="2"
                            startid="#m4bbd8b79-0ac9-4a0b-8fc0-c0758c612702">+</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="m98b4d3a3-ac3c-4cdf-8fb2-a48b9615c548" n="44">
                      <staff xml:id="m4a2e0320-fbe2-43c1-97ad-8d907b5e939b" n="1">
@@ -2720,10 +2794,13 @@
                             place="below"
                             staff="1"
                             tstamp="1">p</dynam>
-                     <fing xml:id="mb8b8ded3-4fba-4bd2-83d3-fac9608b271f"
+                     <metaMark startid="#m50559302-c4ec-4e3c-94ee-3ab2d8d17372">
+                        <fing xml:id="mb8b8ded3-4fba-4bd2-83d3-fac9608b271f"
+                           type="english"
                            place="below"
                            staff="2"
                            startid="#m50559302-c4ec-4e3c-94ee-3ab2d8d17372">2</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="ma286490b-c502-4c60-afc2-9f8e3ee2edb1" n="48">
                      <staff xml:id="m863c5501-3d6b-4e9c-a3a4-8ec9d8009970" n="1">
@@ -2988,15 +3065,17 @@
                                     accid="s"/>
                               <note xml:id="m2bf4f753-76ad-473d-8a0a-4e8d65cd6894" oct="5" pname="e"/>
                            </chord>
+                        </layer>
+                        <metaMark startid="#mdf1f2a6e-6e64-4dca-8a94-bffa0fd7e9c4">
                            <chord xml:id="mdf1f2a6e-6e64-4dca-8a94-bffa0fd7e9c4"
-                                  dur="8"
-                                  grace="acc"
-                                  stem.dir="up">
+                              dur="8"
+                              grace="acc"
+                              stem.visible="false">
                               <note xml:id="mc808e180-7632-49f3-8023-fd08502a53c2" oct="4" pname="c"/>
                               <note xml:id="ma9ee58b4-6d6f-4793-b1b7-b34577f84321" oct="4" pname="e"/>
                               <note xml:id="m0bbfb2c0-edcb-46c1-9336-40f262c2ac25" oct="4" pname="a"/>
                            </chord>
-                        </layer>
+                        </metaMark>
                      </staff>
                      <staff xml:id="m7463b1ea-5e5c-464b-b0b1-01c6374cf9f4" n="2">
                         <layer xml:id="m4af2ed5b-8009-430d-88ba-b724771bf96b" n="5">
@@ -3012,16 +3091,18 @@
                               <note xml:id="mec6bc74d-2991-4ae5-93dc-9e7cb03df113" oct="3" pname="b"/>
                               <note xml:id="mae1d8d0c-c4fa-4224-8815-683b412b91d8" oct="4" pname="d"/>
                            </chord>
-                           <chord xml:id="mea7b64a5-53e4-4f3c-8f9f-7529a30b6696"
+                           <metaMark startid="#mea7b64a5-53e4-4f3c-8f9f-7529a30b6696">
+                              <chord xml:id="mea7b64a5-53e4-4f3c-8f9f-7529a30b6696"
                                   dur="8"
                                   grace="acc"
-                                  stem.dir="up">
-                              <note xml:id="m2bed9e11-9392-425c-8334-6c82b9da3b04" oct="2" pname="a"/>
-                              <note xml:id="m4a571a96-ec7a-48c0-98fb-dbc2cef7c5c1" oct="3" pname="c"/>
-                              <note xml:id="m0bf14f55-3252-4d7f-88ca-2216bffd54a3" oct="3" pname="e"/>
-                              <note xml:id="m5d4e55ed-8269-4938-99f7-13437aa7bc04" oct="3" pname="a"/>
-                              <note xml:id="m00b5489d-6e0c-4864-b187-5b8be9b256f3" oct="4" pname="c"/>
-                           </chord>
+                                  stem.visible="false">
+                                 <note xml:id="m2bed9e11-9392-425c-8334-6c82b9da3b04" oct="2" pname="a"/>
+                                 <note xml:id="m4a571a96-ec7a-48c0-98fb-dbc2cef7c5c1" oct="3" pname="c"/>
+                                 <note xml:id="m0bf14f55-3252-4d7f-88ca-2216bffd54a3" oct="3" pname="e"/>
+                                 <note xml:id="m5d4e55ed-8269-4938-99f7-13437aa7bc04" oct="3" pname="a"/>
+                                 <note xml:id="m00b5489d-6e0c-4864-b187-5b8be9b256f3" oct="4" pname="c"/>
+                              </chord>
+                           </metaMark>
                         </layer>
                         <layer xml:id="md6635d38-3733-4b86-9f0c-4773bf200f24" n="6">
                            <chord xml:id="md09af14e-4122-45a9-9289-1a2085ff24f2"
@@ -3038,16 +3119,20 @@
                               form="norm"
                               place="above"/>
                      <arpeg xml:id="m67c02473-f103-44e8-9a35-a00986687376"
-                            plist="#cfmw7cf #cuw3i09"/>
+                            plist="#m5b98c720-3ee5-428d-9026-9cdd0d072b82 #m2bf4f753-76ad-473d-8a0a-4e8d65cd6894"/>
+                     <arpeg xml:id="m78c02473-f103-44e8-9a35-a00986687376"
+                           plist="#mc533eec3-2c41-4574-914d-a9decab340d0 #mae1d8d0c-c4fa-4224-8815-683b412b91d8"/>
                      <fermata xml:id="mef36f7a8-00a2-437b-be75-0222e1d17f66"
                               staff="1"
                               startid="#mdf1f2a6e-6e64-4dca-8a94-bffa0fd7e9c4"
                               form="norm"
                               place="above"/>
-                     <dir xml:id="md4b1b477-de64-4edc-8218-42b17093889f"
+                     <metaMark>
+                        <dir xml:id="md4b1b477-de64-4edc-8218-42b17093889f"
                           place="below"
                           staff="2"
-                          tstamp="2">Sen</dir>
+                          tstamp="2">Ten</dir>
+                     </metaMark>
                      <fermata xml:id="me6a422e6-90a7-4b78-9de8-16b9a1956194"
                               staff="2"
                               startid="#mda0e1f2d-9ef1-434b-bfe6-d52b0da4bcc5"
@@ -7681,6 +7766,7 @@
                               </chord>
                            </beam>
                            <beam xml:id="mdcd5b30e-1df7-48c5-9cbb-44a920287175">
+                           <clef xml:id="ma79d03d5-f87a-4905-ad05-9b155851c19a" shape="F" line="4"/>
                               <chord xml:id="m813988e1-614a-4a7b-9f22-1a783646529e"
                                      artic="stacc"
                                      dur="8"
@@ -7703,7 +7789,6 @@
                                  <note xml:id="mb30d7858-5ab8-4cf6-b452-b33cad93d522" oct="4" pname="c"/>
                               </chord>
                            </beam>
-                           <clef xml:id="ma79d03d5-f87a-4905-ad05-9b155851c19a" shape="F" line="4"/>
                         </layer>
                      </staff>
                      <staff xml:id="m8922aaa3-14a7-43de-b2eb-d3a3a8c77409" n="2">
@@ -9219,13 +9304,19 @@
                               tstamp2="0m+2.5000"
                               form="cres"
                               place="below"/>
-                     <fing xml:id="m5c56ad2f-e37b-465c-a21b-e943ab923170"
+                     <metaMark startid="#mf410bb1d-a14d-4a7b-8430-5b8297d414b6">
+                        <fing xml:id="m5c56ad2f-e37b-465c-a21b-e943ab923170"
+                           type="english"
                            staff="1"
                            startid="#mf410bb1d-a14d-4a7b-8430-5b8297d414b6">3</fing>
-                     <fing xml:id="m01da42fc-62be-4d40-8696-79294baed785"
+                     </metaMark>
+                     <metaMark startid="#m57f5a64a-e0ec-411e-88db-e2f09c154e0a">
+                        <fing xml:id="m01da42fc-62be-4d40-8696-79294baed785"
+                           type="english"
                            place="below"
                            staff="2"
                            startid="#m57f5a64a-e0ec-411e-88db-e2f09c154e0a">2</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="mdc4d1b13-c07f-429e-9046-074c99ffcebc" n="122">
                      <staff xml:id="m5d72c9b7-2135-4df6-84ac-f68fdba33b88" n="1">
@@ -9451,9 +9542,12 @@
                           place="above"
                           staff="1"
                           tstamp="1">Rall:</dir>
-                     <fing xml:id="mfc8d371b-773b-4803-9827-957051cc7101"
+                     <metaMark startid="#m18b616b2-f99b-459e-9899-c670c9eeec83">
+                        <fing xml:id="mfc8d371b-773b-4803-9827-957051cc7101"
+                           type="english"
                            staff="1"
                            startid="#m18b616b2-f99b-459e-9899-c670c9eeec83">4</fing>
+                     </metaMark>
                   </measure>
                   <measure xml:id="mcdca158b-8b98-449a-9bb6-7d5cadf801a0" n="126">
                      <staff xml:id="m91640b6e-e973-4cc8-b439-647070f4e82d" n="1">
@@ -9561,12 +9655,14 @@
                      <tie xml:id="m87d9741a-4ff1-43aa-ba8a-75e0aa2118cb"
                           startid="#m6bb183dd-ff50-443d-97d0-ac72f481ccb4"
                           endid="#m933f5bb4-b77f-4d6b-84e4-e93dd4eac800"/>
-                     <pedal xml:id="me541e152-8f6f-4146-93ba-7d6f725fc15e"
+                     <metaMark startid="#me541e152-8f6f-4146-93ba-7d6f725fc15e">
+                        <pedal xml:id="me541e152-8f6f-4146-93ba-7d6f725fc15e"
                             staff="2"
                             tstamp="1"
                             dir="down"
                             form="line"
                             place="below"/>
+                     </metaMark>
                   </measure>
                   <measure xml:id="mb264928f-3cba-4ffb-a48b-719c1e861416" n="128">
                      <staff xml:id="m6a7d7e45-ded0-40aa-8604-62d3a3c30ee0" n="1">
@@ -9596,6 +9692,15 @@
                            </chord>
                         </layer>
                      </staff>
+                     <tie xml:id="ma12038fb-6804-40b0-ad76-e7b2707904f1"
+                        startid="#m933f5bb4-b77f-4d6b-84e4-e93dd4eac800"
+                        endid="#m0b17437b-4f99-46e0-8af1-e10877202d83"/>
+                     <tie xml:id="ma12038fb-6804-40b0-ad76-e7b2707904f1"
+                        startid="#mc2215e44-d2fb-4686-bafb-53174abb31d2"
+                        endid="#m0c7a3d1a-f49c-4405-9727-2bde2180ea57"/>
+                     <tie xml:id="ma12038fb-6804-40b0-ad76-e7b2707904f1"
+                        startid="#m3395c583-dbd5-4315-8764-3d90b5d28e9d"
+                        endid="#mc084157f-55aa-42dd-af44-5705b9fa5a13"/>
                   </measure>
                   <measure xml:id="m103812c7-b4a9-4f1a-aa48-4eb28ce1e07b" right="end" n="129">
                      <staff xml:id="m6ec6fe19-d2c1-4b5b-8714-d6070bea1975" n="1">
@@ -9625,7 +9730,7 @@
                               form="norm"
                               place="above"/>
                      <dynam xml:id="mfa864e78-99b7-4a4d-8bd8-837a9fc8c21f"
-                            place="below"
+                            place="above"
                             staff="2"
                             tstamp="1">p</dynam>
                      <fermata xml:id="m121adad7-b038-48c7-8c6e-f182fd83ed2d"
