@@ -67,8 +67,27 @@
          <pubStmt>
             <date isodate="2021-05-21" type="encoding-date">2021-05-21</date>
          </pubStmt>
+            
+            <!-- 
+            source description:
+            3.4.1.6.1Associating Metadata and Data
+               @data @decls
+         -->
+            
+            <sourceDesc>
+                  <source></source>
+            </sourceDesc>
+            
       </fileDesc>
       <encodingDesc>
+            <projectDesc>
+                  <head>
+                        <identifier>bith</identifier>
+                        <date startdate="2020-04" enddate="2023-04"/>
+                  </head>
+                  <p>"Beethoven in the House": Digitale Studien von Bearbeitungen für Hausmusik. A digital study of domestic music arrangements, and the use of 
+                        selectively encoded sources for comparison and analyis</p>
+            </projectDesc>
          <samplingDecl>
                   <p>Only measures 188 to 197 are encoded.</p>
                   <sampleList>
