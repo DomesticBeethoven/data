@@ -1,46 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei"
      xml:id="m27b0323f-c7c3-4a96-9c6d-67fccb5eb589"
-     meiversion="4.0.0">
-   <meiHead meiversion="4.0.0">
+     meiversion="5.0.0-dev">
+   <meiHead meiversion="5.0.0-dev">
       <fileDesc>
          <titleStmt>
             <title type="desc">Op 93 / 1st mov - Piano reduction (Steiner), measures 188-197</title>
+            <title type="subordinate">a partial encoding</title>
             <title type="alternative">D-BNbaC93_3.1st.188-197.mei</title>
          </titleStmt>
-            
-            <!-- edition Statment, if later more sections are encoded -->
-            <!--
-            The edition element should contain phrases describing the edition or version, 
-            including the word ‘edition’, ‘version’, or an equivalent term, together with a number or date, 
-            or terms indicating difference from other editions such as ‘new edition’, ‘revised edition’, etc. 
-            Any dates that occur within the edition statement should be marked with the date element. 
-            The @n attribute of the edition element may be used as elsewhere to supply any formal identification 
-            (such as a version number) for the edition.
-
-            One or more respStmt elements may also be used to supply statements of responsibility for the edition in question. 
-            These may refer to individuals or corporate bodies and can indicate functions such as that of a reviser, 
-            or can name the person or body responsible for the provision of supplementary matter, 
-            of appendices, etc., in a new edition.
-         -->
-            
+            <!-- when do revisions warrant a new edition number? -->
             <editionStmt>
-                  <edition n=""> <!-- which number? in order of enconding? <p/> instead of edition? -->
-                        <date isodate="2021-05-21"/> <!-- which date? encoding date already in the pubStmt -->
+                  <edition n="">
+                        <date isodate="2021-05-21"/> 
                   </edition>
                   <respStmt>
-                        <persName xml:id="bithTeam_lr" role="mrk trc"> Lisa Rosendahl</persName>
+                        <persName xml:id="bithTeam_lr" role="rtm mrk trc"> Lisa Rosendahl</persName>
                         <persName xml:id="bithTeam_ms" role="res dtm">Mark Saccomano</persName>
                         <persName xml:id="bithTeam_es" role="res dtc">Elisabete Shibata</persName>
                         <persName xml:id="bithTeam_dl" role="res">David Lewis</persName>
-                        <persName xml:id="bithTeam_cs" role="led res">Christine Siegert</persName>
-                        <persName xml:id="bithTeam_jk" role="led pdr">Johannes Kepper</persName>
+                        <persName xml:id="bithTeam_cs" role="led">Christine Siegert</persName>
+                        <persName xml:id="bithTeam_jk" role="led">Johannes Kepper</persName>
                         <persName xml:id="bithTeam_kp" role="led pdr">Kevin Page</persName>
                         <persName xml:id="bithTeam_ah" role="led">Andrew Hankinson</persName>
+                        <persName xml:id="bithTam_ch" role="res dtc" startdate="2021-10" enddate="2021-11">Christin Heitmann</persName>
+                        <persName xml:id="bithTeam_fs" role="mrk trc" startdate="2020-10" enddate="2020-12">Fabian Schmidt</persName>
                         <!-- 
+                   
+                    MARC Code List for Relators
                     ann	Annotator
                     dtc	Data contributor
                     dtm      Data manager
@@ -48,6 +38,7 @@
                     mrk	Markup editor
                     pfr	Proofreader
                     res	Researcher
+                    rtm	Research team member
                     trc	Transcriber
                     pdr	Project director
                     led	Lead
@@ -77,7 +68,7 @@
             <sourceDesc>
                   <source></source>
             </sourceDesc>
-            
+
       </fileDesc>
       <encodingDesc>
             <projectDesc>
@@ -91,21 +82,21 @@
          <samplingDecl>
                   <p>Only measures 188 to 197 are encoded.</p>
                   <sampleList>
-                        <sample xml:id="sample1">
+                        <sample n="1" xml:id="sample1">
                               <range unit="measure" min="188" max="197">188-197</range>       <!-- tstamp + tstamp2 / startid + endid / min + max -->
                         </sample>  
-                        <!--  
-                        <sample xml:id="sample2">
-                              <range unit="measure">xyz</range>
+                        <!---
+                        <sample n="2" xml:id="sample2">
+                              <range unit="ema">36-42/4/@all</range>
                         </sample>
                         -->
                   </sampleList>
-                  <notesStmt>
-                        <annot n="1" plist="#sample1" resp="#bithTeam_lr" isodate="2022-04-26">
-                              contains the last part of the development section with a fff-marking in m. 190
-                        </annot>
-                  </notesStmt>
             </samplingDecl>
+            <notesStmt>
+                  <annot n="1" plist="#sample1" resp="#bithTeam_lr" isodate="2022-04-26">
+                        contains the last part of the development section with a fff-marking in m. 190
+                  </annot>
+            </notesStmt>
          <appInfo xml:id="me2d1a3b7-6c36-473d-93de-b6185f920b96">
             <application xml:id="m2077d627-8857-44fd-a6f9-cde87e7c189a">
                <name xml:id="mfecf8cd7-52dd-4fb2-9d4e-906852b7f89f">MuseScore</name>
@@ -197,7 +188,7 @@
          </change>
       </revisionDesc>
    </meiHead>
-   <music meiversion="4.0.0">
+   <music meiversion="5.0.0-dev">
       <facsimile/>
       <body xml:id="mfa308b5d-39ef-4893-854f-3aa3a8e68415">
          <mdiv xml:id="m8f0e98a5-64e2-48c6-b556-50a65a0cd7da">
@@ -226,6 +217,7 @@
                               <gap reason="sampling" unit="measure" extent="186"/>
                         </measure>
                </section>
+               <section>
                   <measure xml:id="m9af6f737-2196-4d22-8901-4af65e3c5f50" n="188">
                      <staff xml:id="mbb119d0f-5c77-432b-b4cd-0a3a9f37f890" n="1">
                         <layer xml:id="m6145a288-779f-4f3c-b72e-44eaa5a3d17d" n="1">
@@ -1951,12 +1943,14 @@
                             staff="2"
                             tstamp="1.5">p</dynam>
                   </measure>
+                  </section>
                   <section xml:id="m89953832-787f-66a7-b1c3-8abec4cd5da7">
                            <pb xml:id="md51d8b52-4b66-458a-8260-70bd27a7c329"/>
                            <measure xml:id="m268d12cb-661b-4544-93ff-a8e63b66a1e2" n="1" right="end">
                                  <gap reason="sampling" unit="measure" extent="176"/>
                            </measure>
-                  </section>
+               </section>
+
             </score>
          </mdiv>
       </body>
