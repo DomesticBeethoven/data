@@ -119,9 +119,9 @@
          <sch:assert test="./mei:title[@type='desc']/text()">
             Every expression needs a descriptive title (./mei:title[@type='desc']/text()).
          </sch:assert>
-         <sch:assert test="./mei:arranger/mei:persName[@auth.uri and text()]">
+         <!-- <sch:assert test="./mei:arranger/mei:persName[@auth.uri and text()]">
             Every expression needs an arranger 
-         </sch:assert>
+         </sch:assert> -->
          <sch:assert test="./mei:perfMedium/mei:perfResList/mei:perfRes/@auth.uri">
             Every expression needs a perfResList/perfRes/@auth.uri.
          </sch:assert>
