@@ -4,8 +4,8 @@
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei"
      xml:id="m4c4120bc-21f6-4dbb-9c8e-d035a1b9d602"
-     meiversion="4.0.0">
-   <meiHead meiversion="4.0.0">
+     meiversion="5.0.0-dev">
+   <meiHead meiversion="5.0.0-dev">
       <fileDesc>
          <titleStmt>
             <title type="desc">Op 92 / 2nd mov - Piano reduction (Harmonicon)</title>
@@ -71,7 +71,7 @@
                </publisher>
             </pubStmt>
             <itemList>
-               <item xml:id="9b00f132-785c-11ec-90d6-0242ac120003">
+               <item xml:id="m9b00f132-785c-11ec-90d6-0242ac120003">
                   <physLoc>
                      <repository>D-BNba</repository>
                      <identifier>HCB P / 1823 Harm</identifier>
@@ -103,7 +103,7 @@
          </change>
       </revisionDesc>
    </meiHead>
-   <music meiversion="4.0.0">
+   <music meiversion="5.0.0-dev">
       <body xml:id="mfbaf820c-f1df-48d8-add9-c8551ddc7ed9">
          <mdiv xml:id="m1d1c56df-949c-44fa-a1d1-53bb5a65ed71">
             <score xml:id="m616acd0d-3611-4d97-a232-7cb3ffb9c090">
@@ -3119,7 +3119,7 @@ L. VON BEETHOVEN;</pgFoot>
                           place="above"
                           staff="2"
                           tstamp="1"
-                          tstamp2="+2.5m">Crescendo poco a poco.</dir>
+                          tstamp2="2m+2">Crescendo poco a poco.</dir>
                      <slur xml:id="m6e171ff1-38fb-4530-86ce-7d7161785f05"
                            startid="#mc7d90684-61dd-428b-82c9-e349beef5bbb"
                            endid="#mad5ec426-66a2-4a28-8e7f-57ca680b23dd"
