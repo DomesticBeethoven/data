@@ -4,8 +4,8 @@
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei"
      xml:id="m5df3d8b4-0c6f-4ee5-9292-ed9538c7cdc8"
-     meiversion="4.0.0">
-   <meiHead meiversion="4.0.0">
+     meiversion="5.0.0-dev">
+   <meiHead meiversion="5.0.0-dev">
       <fileDesc>
          <titleStmt>
             <title type="desc">Op 93 / 1st mov - Quintett (Steiner), measures 36-44</title>
@@ -75,7 +75,7 @@
                </publisher>
             </pubStmt>
             <itemList>
-               <item xml:id="72b974be-7862-11ec-90d6-0242ac120003">
+               <item xml:id="e72b974be-7862-11ec-90d6-0242ac120003">
                   <physLoc>
                      <repository>D-BNba</repository>
                      <identifier>C 93 / 26</identifier>
@@ -107,7 +107,7 @@
          </change>
       </revisionDesc>
    </meiHead>
-   <music meiversion="4.0.0">
+   <music meiversion="5.0.0-dev">
       <body xml:id="m1e527449-b584-401e-a28f-20cfefdc3212">
          <mdiv xml:id="m27bacbc4-a1fd-424a-8057-0ae1e51ff9ed">
             <score xml:id="m0d68410d-c9f3-4ee2-9e97-6b17dd3ea703">
