@@ -151,26 +151,24 @@
                                  <syl xml:id="m829b1f6f-6ec4-4d68-bfa2-be9acb916c1c" con="s" wordpos="i">Star</syl>
                               </verse>
                            </note>
-                           <beam xml:id="m88c92de1-a387-4f1b-84ba-68f8e464f0a3">
-                              <note xml:id="m1dd316e0-8b3c-4f1b-b1cf-f464d94e1edc"
-                                    dur="8"
-                                    oct="4"
-                                    pname="e"
-                                    stem.dir="up">
-                                 <verse xml:id="m88186960-77f1-4e6c-8de2-71d945474661" n="1">
-                                    <syl xml:id="m8d4d4559-7f84-4ec7-a2a7-fb2c624d1af5" con="d" wordpos="i">bright</syl>
-                                 </verse>
-                              </note>
-                              <note xml:id="m2c93e9d8-331b-4655-aef8-5c451c00287c"
-                                    dur="8"
-                                    oct="4"
-                                    pname="e"
-                                    stem.dir="up">
-                                 <verse xml:id="m53498e66-df20-4a26-94e5-e00f2e9f30cd" n="1">
-                                    <syl xml:id="m76c732ca-c08c-46fb-a8e9-c68f0da38866" con="s" wordpos="t">ly</syl>
-                                 </verse>
-                              </note>
-                           </beam>
+                           <note xml:id="m1dd316e0-8b3c-4f1b-b1cf-f464d94e1edc"
+                                 dur="8"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up">
+                              <verse xml:id="m88186960-77f1-4e6c-8de2-71d945474661" n="1">
+                                 <syl xml:id="m8d4d4559-7f84-4ec7-a2a7-fb2c624d1af5" con="d" wordpos="i">bright</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m2c93e9d8-331b-4655-aef8-5c451c00287c"
+                                 dur="8"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up">
+                              <verse xml:id="m53498e66-df20-4a26-94e5-e00f2e9f30cd" n="1">
+                                 <syl xml:id="m76c732ca-c08c-46fb-a8e9-c68f0da38866" con="s" wordpos="t">ly</syl>
+                              </verse>
+                           </note>
                         </layer>
                      </staff>
                      <staff xml:id="mb28311c1-811c-4cbb-bc3c-bb75fe607b6f" n="2">
@@ -312,26 +310,24 @@
                                  <syl xml:id="mea16083a-56db-4eb8-a2be-42278b9e72a2" con="s">where</syl>
                               </verse>
                            </note>
-                           <beam xml:id="m835c349a-31a6-42ab-9bcf-7642858a7d00">
-                              <note xml:id="m6cde8550-47b1-4a54-a7ee-53e0787eab57"
-                                    dur="8"
-                                    oct="4"
-                                    pname="e"
-                                    stem.dir="up">
-                                 <verse xml:id="mb07b3a32-c0b0-4f22-8e6e-b383f43f739e" n="1">
-                                    <syl xml:id="m66b7c6ee-9eab-4ebb-bdfe-2142a7b95267" con="s">dost</syl>
-                                 </verse>
-                              </note>
-                              <note xml:id="mc0a4284e-19e0-4e11-9a82-f16877db99fb"
-                                    dur="8"
-                                    oct="4"
-                                    pname="e"
-                                    stem.dir="up">
-                                 <verse xml:id="m5eb17a67-49c6-47af-8270-98eb3e39639c" n="1">
-                                    <syl xml:id="mcd0111ce-582f-4200-9027-f0b415e481ea" con="s">thou</syl>
-                                 </verse>
-                              </note>
-                           </beam>
+                           <note xml:id="m6cde8550-47b1-4a54-a7ee-53e0787eab57"
+                                 dur="8"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up">
+                              <verse xml:id="mb07b3a32-c0b0-4f22-8e6e-b383f43f739e" n="1">
+                                 <syl xml:id="m66b7c6ee-9eab-4ebb-bdfe-2142a7b95267" con="s">dost</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="mc0a4284e-19e0-4e11-9a82-f16877db99fb"
+                                 dur="8"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up">
+                              <verse xml:id="m5eb17a67-49c6-47af-8270-98eb3e39639c" n="1">
+                                 <syl xml:id="mcd0111ce-582f-4200-9027-f0b415e481ea" con="s">thou</syl>
+                              </verse>
+                           </note>
                         </layer>
                      </staff>
                      <staff xml:id="ma3865b31-eda7-4f81-a4d8-0e4fbc80a556" n="2">
@@ -459,27 +455,25 @@
                                  <syl xml:id="mde793623-1972-4e4b-8cea-63817d7ed363" con="d" wordpos="i">Ev</syl>
                               </verse>
                            </note>
-                           <beam xml:id="m731ec12e-37d7-4429-b5b6-255fc6d33643">
-                              <note xml:id="m9964b89a-f69c-4e13-9d10-9f5dfd3b58b7"
-                                    dur="8"
-                                    oct="4"
-                                    pname="e"
-                                    stem.dir="up">
-                                 <verse xml:id="m4ed60506-322c-49ae-86db-b2b6c9595941" n="1">
-                                    <syl xml:id="m1d308c4b-bd93-4920-96d7-522030c4aa93" con="s" wordpos="t">er</syl>
-                                 </verse>
-                              </note>
-                              <note xml:id="me581b02b-d535-45c7-ba82-d8997c55a721"
-                                    dur="8"
-                                    oct="4"
-                                    pname="f"
-                                    stem.dir="up">
-                                 <accid xml:id="md55adec9-faa7-476a-9961-0e71dd8d40da" accid="s"/>
-                                 <verse xml:id="m77c09911-ff7e-4854-933b-8aa4667f87e3" n="1">
-                                    <syl xml:id="mad3c1fb0-50fc-47eb-841d-50fdcbe6ea91" con="d" wordpos="i">be</syl>
-                                 </verse>
-                              </note>
-                           </beam>
+                           <note xml:id="m9964b89a-f69c-4e13-9d10-9f5dfd3b58b7"
+                                 dur="8"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up">
+                              <verse xml:id="m4ed60506-322c-49ae-86db-b2b6c9595941" n="1">
+                                 <syl xml:id="m1d308c4b-bd93-4920-96d7-522030c4aa93" con="s" wordpos="t">er</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="me581b02b-d535-45c7-ba82-d8997c55a721"
+                                 dur="8"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="up">
+                              <accid xml:id="md55adec9-faa7-476a-9961-0e71dd8d40da" accid="s"/>
+                              <verse xml:id="m77c09911-ff7e-4854-933b-8aa4667f87e3" n="1">
+                                 <syl xml:id="mad3c1fb0-50fc-47eb-841d-50fdcbe6ea91" con="d" wordpos="i">be</syl>
+                              </verse>
+                           </note>
                         </layer>
                      </staff>
                      <staff xml:id="m8ba31250-425e-4b1a-919e-c23c975f01e1" n="2">
@@ -608,26 +602,24 @@
                                  <syl xml:id="m7f449360-8b26-4960-a0d7-ad767085ef49" con="s">still</syl>
                               </verse>
                            </note>
-                           <beam xml:id="m24ee6d5f-7a5d-42dd-b668-9ab71b24f86f">
-                              <note xml:id="m25e2abdf-701b-4f15-b86e-d7994e61409d"
-                                    dur="8"
-                                    oct="4"
-                                    pname="g"
-                                    stem.dir="up">
-                                 <verse xml:id="m2c42ce75-d192-47bc-a9ef-07ef133f397c" n="1">
-                                    <syl xml:id="me0ff6c36-1500-4dd6-95b3-bb4e90ac41d4" con="d" wordpos="i">shin</syl>
-                                 </verse>
-                              </note>
-                              <note xml:id="m59b62878-c89b-426b-bab1-4ed4c650ccdd"
-                                    dur="8"
-                                    oct="4"
-                                    pname="g"
-                                    stem.dir="up">
-                                 <verse xml:id="m565a176f-b85b-4678-827a-fd321965ed6a" n="1">
-                                    <syl xml:id="m3e203ef8-845a-4e92-872d-04f3b0269144" con="s" wordpos="t">ing</syl>
-                                 </verse>
-                              </note>
-                           </beam>
+                           <note xml:id="m25e2abdf-701b-4f15-b86e-d7994e61409d"
+                                 dur="8"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up">
+                              <verse xml:id="m2c42ce75-d192-47bc-a9ef-07ef133f397c" n="1">
+                                 <syl xml:id="me0ff6c36-1500-4dd6-95b3-bb4e90ac41d4" con="d" wordpos="i">shin</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m59b62878-c89b-426b-bab1-4ed4c650ccdd"
+                                 dur="8"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up">
+                              <verse xml:id="m565a176f-b85b-4678-827a-fd321965ed6a" n="1">
+                                 <syl xml:id="m3e203ef8-845a-4e92-872d-04f3b0269144" con="s" wordpos="t">ing</syl>
+                              </verse>
+                           </note>
                         </layer>
                      </staff>
                      <staff xml:id="mfdf0d2df-19be-44b5-b0e2-2f2d91025932" n="2">
@@ -734,26 +726,24 @@
                                  <syl xml:id="mf5d159c7-ba31-45e2-8d82-cc74a021c58f" con="s">Is</syl>
                               </verse>
                            </note>
-                           <beam xml:id="m94395585-c1c9-4f93-b667-6e58b4d74cdf">
-                              <note xml:id="ma8c4722c-2ea8-418c-8582-01e572dcb120"
-                                    dur="8"
-                                    oct="4"
-                                    pname="g"
-                                    stem.dir="up">
-                                 <verse xml:id="m3b9b9647-0f62-4938-86d9-ffeef160db2d" n="1">
-                                    <syl xml:id="m104e0da6-9e8f-465a-a9c3-81df32e52f37" con="s">it</syl>
-                                 </verse>
-                              </note>
-                              <note xml:id="ma245207e-a9d7-4b62-bb3f-b7c8d88f6422"
-                                    dur="8"
-                                    oct="4"
-                                    pname="a"
-                                    stem.dir="up">
-                                 <verse xml:id="m56ff0118-9d4e-4be7-9c3b-02fbf3c31600" n="1">
-                                    <syl xml:id="mea8ed86f-1302-4adc-aa18-73543f819c0f" con="s">in</syl>
-                                 </verse>
-                              </note>
-                           </beam>
+                           <note xml:id="ma8c4722c-2ea8-418c-8582-01e572dcb120"
+                                 dur="8"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up">
+                              <verse xml:id="m3b9b9647-0f62-4938-86d9-ffeef160db2d" n="1">
+                                 <syl xml:id="m104e0da6-9e8f-465a-a9c3-81df32e52f37" con="s">it</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="ma245207e-a9d7-4b62-bb3f-b7c8d88f6422"
+                                 dur="8"
+                                 oct="4"
+                                 pname="a"
+                                 stem.dir="up">
+                              <verse xml:id="m56ff0118-9d4e-4be7-9c3b-02fbf3c31600" n="1">
+                                 <syl xml:id="mea8ed86f-1302-4adc-aa18-73543f819c0f" con="s">in</syl>
+                              </verse>
+                           </note>
                         </layer>
                      </staff>
                      <staff xml:id="m5cd7797c-cd44-41ab-8004-cd6c71a91e13" n="2">
@@ -808,15 +798,13 @@
                           staff="1"
                           tstamp="1"
                           tstamp2="0m+3.0000"
-                          lform="dashed"
-                          extender="true">Cres.</dir>
+                          lform="dashed">Cres.</dir>
                      <dir xml:id="m452bcd77-a25c-4ad9-9c06-540c91e7e9ea"
                           place="below"
                           staff="2"
                           tstamp="1"
                           tstamp2="0m+3.0000"
-                          lform="dashed"
-                          extender="true">Cres.</dir>
+                          lform="dashed">Cres.</dir>
                   </measure>
                   <measure xml:id="mfe1a7755-f690-4aad-a01a-737ca3dfaef1" n="12">
                      <staff xml:id="me55e3322-6a53-49b2-bc6f-88221dca5e35" n="1">
@@ -896,28 +884,26 @@
                                  <syl xml:id="mbb4852d4-b512-4d4a-a3fe-4199391e22c0" con="s">GOD'S</syl>
                               </verse>
                            </note>
-                           <beam xml:id="m3e5f1b82-ce56-440e-8104-c2ff0a06206b">
-                              <note xml:id="m22392e58-a40b-4da6-baf7-30fbe536349f"
-                                    dur="8"
-                                    oct="4"
-                                    pname="f"
-                                    stem.dir="up"
-                                    accid.ges="s">
-                                 <verse xml:id="mbb7292f5-a583-47ac-b8e0-08a9608f6660" n="1">
-                                    <syl xml:id="m385d94dd-5ffa-40a4-b9b0-5ff7de33be40" con="d" wordpos="i">sa</syl>
-                                 </verse>
-                              </note>
-                              <note xml:id="m2e76c45d-ae20-4280-9707-1a22aed0defb"
-                                    dur="8"
-                                    oct="4"
-                                    pname="g"
-                                    stem.dir="up">
-                                 <accid xml:id="m5caf2e3f-52bc-424f-b46b-beb4490145b1" accid="s"/>
-                                 <verse xml:id="m110a3382-0205-4669-8ede-4ad27f1ad530" n="1">
-                                    <syl xml:id="mbeaa8631-3d95-441b-885a-abf64ff6599d" con="s" wordpos="t">cred</syl>
-                                 </verse>
-                              </note>
-                           </beam>
+                           <note xml:id="m22392e58-a40b-4da6-baf7-30fbe536349f"
+                                 dur="8"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="up"
+                                 accid.ges="s">
+                              <verse xml:id="mbb7292f5-a583-47ac-b8e0-08a9608f6660" n="1">
+                                 <syl xml:id="m385d94dd-5ffa-40a4-b9b0-5ff7de33be40" con="d" wordpos="i">sa</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="m2e76c45d-ae20-4280-9707-1a22aed0defb"
+                                 dur="8"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up">
+                              <accid xml:id="m5caf2e3f-52bc-424f-b46b-beb4490145b1" accid="s"/>
+                              <verse xml:id="m110a3382-0205-4669-8ede-4ad27f1ad530" n="1">
+                                 <syl xml:id="mbeaa8631-3d95-441b-885a-abf64ff6599d" con="s" wordpos="t">cred</syl>
+                              </verse>
+                           </note>
                         </layer>
                      </staff>
                      <staff xml:id="me416c969-09ab-44db-bea4-52e9fd5529bc" n="2">
@@ -1041,7 +1027,7 @@
                            endid="#me41817ca-f6b8-4266-bc13-db49f3fe5530"
                            curvedir="below"/>
                   </measure>
-                  <!-- gap --> 
+                  <!-- gap -->
                </section>
             </score>
          </mdiv>
