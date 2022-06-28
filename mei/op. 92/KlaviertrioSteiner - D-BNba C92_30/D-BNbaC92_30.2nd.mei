@@ -69,7 +69,7 @@
                </pubPlace>
                <date isodate="1816"/>
                <publisher>
-                  <corpName>S. A. Steiner und Comp.</corpName>
+                  <corpName auth.uri="http://viaf.org/viaf/30329703">S. A. Steiner und Comp.</corpName>
                </publisher>
             </pubStmt>
             <itemList>
