@@ -48,7 +48,6 @@
                               auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q1425997"/>
                   <title type="desc">Op 92 / 2nd mov - Piano trio (Litolff)</title>
                   <arranger auth.uri="https://www.wikidata.org/wiki/Q1065884">Renaud de Vilbac</arranger>
-                  <arranger auth.uri="">August Schulz</arranger>
                   <arranger auth.uri="https://www.wikidata.org/wiki/Q89102916">August Schulz</arranger>
                   <arranger>Heinrich Plock</arranger>
                   <perfMedium>
@@ -73,7 +72,7 @@
                </pubPlace>
                <date notbefore="1894"/>
                <publisher>
-                  <corpName>Henry Litolff's Verlag</corpName>
+                  <corpName auth.uri="https://d-nb.info/dnbn/1027856756">Henry Litolff's Verlag</corpName>
                </publisher>
             </pubStmt>
             <itemList>
