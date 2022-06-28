@@ -40,7 +40,7 @@
                <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
             </composer>
             <creation>
-               <date startdate="1811" enddate="1816"/>
+               <date startdate="1811" enddate="1812"/>
             </creation>
             <expressionList>
                <expression xml:id="g725cbc0-2925-4edg-95d6-b95850ac8d70">
@@ -70,7 +70,7 @@
                <pubPlace>
                   <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q2773"/>
                </pubPlace>
-               <date notbefore="1894"/>
+               <date notafter="1879"/>
                <publisher>
                   <corpName auth.uri="https://d-nb.info/dnbn/1027856756">Henry Litolff's Verlag</corpName>
                </publisher>
