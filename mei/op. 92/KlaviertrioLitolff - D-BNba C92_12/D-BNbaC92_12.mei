@@ -205,7 +205,7 @@
                               place="below"/>
                      <tie xml:id="mad6d3a00-555d-42df-a503-878d73890854"
                           startid="#me26b8c99-eda2-4f9e-8d7e-a4d77161e697"
-                          endid="#mc4f77f4b-c67c-4571-a1d8-4d7120704348"/>
+                          endid="#ma6c67a97-f2ce-4b74-ac76-5f41938b1718"/>
                      <dynam xml:id="ma4a3da90-bac5-4325-9031-bc08bb2c664a"
                             place="below"
                             staff="2"
@@ -218,7 +218,7 @@
                               place="below"/>
                      <tie xml:id="m16b92e8e-21ec-43b1-98e9-3a99441ea6af"
                           startid="#me53af9d5-193b-486b-b500-840a85a01cb2"
-                          endid="#medd882e5-a43d-4197-aa34-38731a480fd4"/>
+                          endid="#m0d6a6808-f8d6-400a-b8e4-5acb1208160a"/>
                      <dynam xml:id="m5e7ce1aa-d387-4835-995e-83b55f17cee9"
                             place="below"
                             staff="3"
@@ -368,6 +368,12 @@
                            </beam>
                         </layer>
                      </staff>
+                     <tie xml:id="mad6d3a00-555d-42df-a503-878d73890854"
+                        startid="#ma6c67a97-f2ce-4b74-ac76-5f41938b1718"
+                        endid="#mc4f77f4b-c67c-4571-a1d8-4d7120704348"/>
+                     <tie xml:id="m16b92e8e-21ec-43b1-98e9-3a99441ea6af"
+                        startid="#m0d6a6808-f8d6-400a-b8e4-5acb1208160a"
+                        endid="#medd882e5-a43d-4197-aa34-38731a480fd4"/>
                      <dynam xml:id="ma0893fe0-dcb5-487e-8aa8-fbfd19120d32"
                             place="below"
                             staff="1"
