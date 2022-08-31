@@ -16,11 +16,13 @@
     </meiHead>
     <music>
         <facsimile>
+
+           <!-- local target substitued with info.json  -->
             <surface xml:id="surface_2ef1a059-5f09-42de-a9d4-9c10251c188a" n="1" ulx="0" uly="0" lrx="3000" lry="3978">
-                <graphic xml:id="graphic_504ff9a4-5542-4990-9c99-ebb6d6c7e5cc" target="00056.jpg" type="facsimile" width="3000" height="3978"/>
+                <graphic xml:id="graphic_504ff9a4-5542-4990-9c99-ebb6d6c7e5cc" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20C92%2F48%2F00056.jpg" type="facsimile" width="3000" height="3978"/>
             </surface>
             <surface xml:id="surface_0fd9e977-a867-40b7-ab1b-1515aba1b91f" n="2" ulx="0" uly="0" lrx="2989" lry="3974">
-                <graphic xml:id="graphic_8f282cc3-1c57-44a6-a3e9-854153e3761b" target="00058.jpg" type="facsimile" width="2989" height="3974"/>
+                <graphic xml:id="graphic_8f282cc3-1c57-44a6-a3e9-854153e3761b" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20C92%2F48%2F00058.jpg" type="facsimile" width="2989" height="3974"/>
                 <zone xml:id="zone_9966966d-2198-43d3-8655-7eb9bfab1dce" type="measure" ulx="1344" uly="2066" lrx="1896" lry="2808"/>
                 <zone xml:id="zone_c19e22a6-676e-448c-a297-f2f860cae9ec" type="measure" ulx="1802" uly="2054" lrx="2238" lry="2830"/>
                 <zone xml:id="zone_06be57ab-5043-4481-a4de-1ff9284aac79" type="measure" ulx="2148" uly="2094" lrx="2678" lry="2850"/>
@@ -33,7 +35,7 @@
                 <zone xml:id="zone_630478a2-d601-4bb0-bbe2-c7f33588db8f" type="measure" ulx="1112" uly="2018" lrx="1426" lry="2783"/>
             </surface>
             <surface xml:id="surface_c6616511-89f9-4850-b8cb-d3f7957cb516" n="3" ulx="0" uly="0" lrx="2972" lry="3878">
-                <graphic xml:id="graphic_a76b2812-33d7-405e-97e3-c83e65e9e474" target="00059.jpg" type="facsimile" width="2972" height="3878"/>
+                <graphic xml:id="graphic_a76b2812-33d7-405e-97e3-c83e65e9e474" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20C92%2F48%2F00059.jpg" type="facsimile" width="2972" height="3878"/>
                 <zone xml:id="zone_03472da2-6c0d-44dc-be8a-2418d4236ae8" type="measure" ulx="358" uly="574" lrx="1220" lry="1374"/>
                 <zone xml:id="zone_9f4df1ce-0764-4476-bb3b-3a367ef50abc" type="measure" ulx="1116" uly="606" lrx="1612" lry="1316"/>
                 <zone xml:id="zone_2b320227-c678-4c5e-8d94-b8d86b40e63e" type="measure" ulx="1518" uly="622" lrx="2228" lry="1356"/>
@@ -53,7 +55,7 @@
                 <zone xml:id="zone_817f3abe-5338-43c0-993f-05d8f77bdc4f" type="measure" ulx="1917" uly="2938" lrx="2666" lry="3685"/>
             </surface>
             <surface xml:id="surface_6e97c79a-cbca-4816-b4f5-d73cc2a3df47" n="4" ulx="0" uly="0" lrx="2938" lry="3948">
-                <graphic xml:id="graphic_e615e04c-eba0-43c4-8d9f-ab915e902010" target="00060.jpg" type="facsimile" width="2938" height="3948"/>
+                <graphic xml:id="graphic_e615e04c-eba0-43c4-8d9f-ab915e902010" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20C92%2F48%2F00060.jpg" type="facsimile" width="2938" height="3948"/>
                 <zone xml:id="zone_52928ef0-8485-4e4b-b833-a75465ce8566" type="measure" ulx="301" uly="576" lrx="1033" lry="1313"/>
                 <zone xml:id="zone_1e4c731e-64de-4d6c-8ad2-28b0d0775e03" type="measure" ulx="899" uly="578" lrx="1631" lry="1305"/>
                 <zone xml:id="zone_fcd69b68-5873-4a15-8891-dc7cd7c0b01a" type="measure" ulx="1534" uly="622" lrx="2041" lry="1299"/>
@@ -73,7 +75,7 @@
                 <zone xml:id="zone_a6e81848-9b6f-4e42-b2bf-2e44aa69b5f2" type="measure" ulx="2122" uly="2907" lrx="2687" lry="3596"/>
             </surface>
             <surface xml:id="surface_34ecd01c-4d3a-488d-8b30-de43d892bb2c" n="5" ulx="0" uly="0" lrx="2961" lry="3864">
-                <graphic xml:id="graphic_4e0fd6a7-9136-4519-bd8c-893bfc587aee" target="00061.jpg" type="facsimile" width="2961" height="3864"/>
+                <graphic xml:id="graphic_4e0fd6a7-9136-4519-bd8c-893bfc587aee" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20C92%2F48%2F00061.jpg" type="facsimile" width="2961" height="3864"/>
                 <zone xml:id="zone_b6a2d212-f914-4f59-a265-bfb2681b0064" type="measure" ulx="284" uly="591" lrx="1217" lry="1350"/>
                 <zone xml:id="zone_cbab1db4-764d-43d1-8161-b7e4641ee5cc" type="measure" ulx="1116" uly="616" lrx="1605" lry="1295"/>
                 <zone xml:id="zone_621adcd6-382f-4090-b61c-a0926d2731fc" type="measure" ulx="1515" uly="583" lrx="2213" lry="1284"/>
