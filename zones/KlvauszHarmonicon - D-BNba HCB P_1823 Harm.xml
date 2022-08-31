@@ -52,7 +52,7 @@
                 <zone xml:id="zone_721e534b-9f3b-47ad-a8db-51675b6dcfdc" type="measure" ulx="1770" uly="2350" lrx="2119" lry="2770"/>
             </surface>
             <surface xml:id="surface_0226b226-c81e-4387-a935-392028e734dc" n="2" ulx="0" uly="0" lrx="2416" lry="3200">
-                <graphic xml:id="graphic_b9a405b1-f90a-44b8-9287-acda15f9d264" target="00019.jpg" type="facsimile" width="2416" height="3200"/>
+                <graphic xml:id="graphic_b9a405b1-f90a-44b8-9287-acda15f9d264" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20HCB%20P-1823%20Harm%2F00019.jpg" type="facsimile" width="2416" height="3200"/>
                 <zone xml:id="zone_70eb4cff-aa0d-417c-8e99-e33506add94e" type="measure" ulx="206" uly="164" lrx="727" lry="609"/>
                 <zone xml:id="zone_c7a0407b-1a26-4060-8526-34034e5f7ca7" type="measure" ulx="654" uly="150" lrx="1044" lry="598"/>
                 <zone xml:id="zone_a56fc1c4-b779-47bf-bfc4-d172f8b5f873" type="measure" ulx="968" uly="144" lrx="1402" lry="562"/>

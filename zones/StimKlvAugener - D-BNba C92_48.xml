@@ -20,7 +20,7 @@
                 <graphic xml:id="graphic_504ff9a4-5542-4990-9c99-ebb6d6c7e5cc" target="00056.jpg" type="facsimile" width="3000" height="3978"/>
             </surface>
             <surface xml:id="surface_0fd9e977-a867-40b7-ab1b-1515aba1b91f" n="2" ulx="0" uly="0" lrx="2989" lry="3974">
-                <graphic xml:id="graphic_8f282cc3-1c57-44a6-a3e9-854153e3761b" target="00058.jpg" type="facsimile" width="2989" height="3974"/> 
+                <graphic xml:id="graphic_8f282cc3-1c57-44a6-a3e9-854153e3761b" target="00058.jpg" type="facsimile" width="2989" height="3974"/>
                 <zone xml:id="zone_9966966d-2198-43d3-8655-7eb9bfab1dce" type="measure" ulx="1344" uly="2066" lrx="1896" lry="2808"/>
                 <zone xml:id="zone_c19e22a6-676e-448c-a297-f2f860cae9ec" type="measure" ulx="1802" uly="2054" lrx="2238" lry="2830"/>
                 <zone xml:id="zone_06be57ab-5043-4481-a4de-1ff9284aac79" type="measure" ulx="2148" uly="2094" lrx="2678" lry="2850"/>
