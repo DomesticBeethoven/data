@@ -17,7 +17,9 @@
     <music>
         <facsimile>
             <surface xml:id="surface_1507819b-ba17-478b-b96b-28617dd29c67" n="1" ulx="0" uly="0" lrx="1916" lry="2384">
-                <graphic xml:id="graphic_c9031aaa-ce11-4b25-b6a5-0852960f620d" target="Hallberger (Silcher), Male 4-Voice Choir - Nc 4 - 1846 Schil.jpg" type="facsimile" width="1916" height="2384"/>
+                <!-- dimensions are correct  -->
+                <!-- local target substitued with info.json  -->
+                <graphic xml:id="graphic_c9031aaa-ce11-4b25-b6a5-0852960f620d" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20Nc%204%2F1846%20Schil%2F00015.jpg" type="facsimile" width="1916" height="2384"/>
                 <zone xml:id="zone_be45baff-330c-4be8-a32c-bf14cdb2b645" type="measure" ulx="300" uly="442" lrx="943" lry="987"/>
                 <zone xml:id="zone_e781cd34-0c05-47bf-a286-de51468dbc5b" type="measure" ulx="872" uly="459" lrx="1101" lry="992"/>
                 <zone xml:id="zone_b763dabd-f6ae-410d-b581-475f4610ac67" type="measure" ulx="1032" uly="448" lrx="1300" lry="987"/>

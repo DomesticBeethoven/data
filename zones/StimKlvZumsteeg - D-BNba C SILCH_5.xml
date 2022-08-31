@@ -16,11 +16,13 @@
     </meiHead>
     <music>
         <facsimile>
+           <!-- dimensions are correct  -->
+           <!-- local target substitued with info.json  -->
             <surface xml:id="surface_8505e71d-0b7a-46ff-a56e-4f72a898117e" n="1" ulx="0" uly="0" lrx="1026" lry="1280">
-                <graphic xml:id="graphic_673459d8-59e8-4309-a8ee-555af85d11db" target="cover.jpg" type="facsimile" width="1026" height="1280"/>
+                <graphic xml:id="graphic_673459d8-59e8-4309-a8ee-555af85d11db" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20C%20SILCH%2F5%2Fcover.jpg" type="facsimile" width="1026" height="1280"/>
             </surface>
             <surface xml:id="surface_7730351f-6d81-4807-a560-3c3729191fe5" n="2" ulx="0" uly="0" lrx="1026" lry="1280">
-                <graphic xml:id="graphic_0fc11edd-71a9-4d45-a32d-b20b18714a93" target="pg01.jpg" type="facsimile" width="1026" height="1280"/>
+                <graphic xml:id="graphic_0fc11edd-71a9-4d45-a32d-b20b18714a93" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20C%20SILCH%2F5%2Fpg01.jpg" type="facsimile" width="1026" height="1280"/>
                 <zone xml:id="zone_53d4ee14-6ab2-4a8f-80a9-b78c9b9ace13" type="measure" ulx="209" uly="183" lrx="513" lry="404"/>
                 <zone xml:id="zone_8594887c-3920-4662-9d9f-c09d168700a0" type="measure" ulx="475" uly="186" lrx="568" lry="408"/>
                 <zone xml:id="zone_53aa01c4-5387-4279-943e-bae76b98dec6" type="measure" ulx="541" uly="190" lrx="663" lry="408"/>
@@ -50,7 +52,7 @@
                 <zone xml:id="zone_613d53cd-199a-4179-8f04-7e0fcc0b681e" type="measure" ulx="772" uly="885" lrx="932" lry="1091"/>
             </surface>
             <surface xml:id="surface_a5a967ad-659c-40a5-b71b-b95d094b8b11" n="3" ulx="0" uly="0" lrx="1026" lry="1280">
-                <graphic xml:id="graphic_6f222c4a-c4a9-4463-bf05-b91109e1285d" target="pg02.jpg" type="facsimile" width="1026" height="1280"/>
+                <graphic xml:id="graphic_6f222c4a-c4a9-4463-bf05-b91109e1285d" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20C%20SILCH%2F5%2Fpg02.jpg" type="facsimile" width="1026" height="1280"/>
                 <zone xml:id="zone_a3d3ffd9-c09e-40ec-93ac-9a4ce2bba092" type="measure" ulx="112" uly="159" lrx="282" lry="384"/>
                 <zone xml:id="zone_a7263871-a439-43a1-b6a3-34d08b876f7f" type="measure" ulx="249" uly="164" lrx="379" lry="381"/>
                 <zone xml:id="zone_221799e2-3181-4894-9554-4c9bab85f4b8" type="measure" ulx="356" uly="169" lrx="485" lry="385"/>
