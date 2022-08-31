@@ -17,7 +17,9 @@
     <music>
         <facsimile>
             <surface xml:id="surface_0c075f5a-4e48-458c-8706-a0112f4c9b50" n="1" ulx="0" uly="0" lrx="2392" lry="3044">
-                <graphic xml:id="graphic_9cc61543-8637-4e0e-8af0-e6bb1cdd4564" target="00018.jpg" type="facsimile" width="2392" height="3044"/>
+               <!-- dimensions are correct  -->
+               <!-- local target substitued with info.json  -->
+                <graphic xml:id="graphic_9cc61543-8637-4e0e-8af0-e6bb1cdd4564" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20HCB%20P-1823%20Harm%2F00018.jpg" type="facsimile" width="2392" height="3044"/>
                 <zone xml:id="zone_88969840-9de7-4a52-9683-a4cca2998302" type="measure" ulx="40" uly="887" lrx="760" lry="1347"/>
                 <zone xml:id="zone_406865a6-88f9-44d5-a8aa-edbef2355836" type="measure" ulx="666" uly="882" lrx="967" lry="1392"/>
                 <zone xml:id="zone_1e2be313-173e-48de-a5a2-fcb6cca46c5e" type="measure" ulx="890" uly="915" lrx="1194" lry="1393"/>
