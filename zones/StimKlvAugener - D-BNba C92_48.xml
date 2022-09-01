@@ -16,7 +16,7 @@
     </meiHead>
     <music>
         <facsimile>
-
+           <!-- dimensions are correct  -->
            <!-- local target substitued with info.json  -->
             <surface xml:id="surface_2ef1a059-5f09-42de-a9d4-9c10251c188a" n="1" ulx="0" uly="0" lrx="3000" lry="3978">
                 <graphic xml:id="graphic_504ff9a4-5542-4990-9c99-ebb6d6c7e5cc" target="https://images.domestic-beethoven.eu/iiif/2/D-BNba%20C92%2F48%2F00056.jpg" type="facsimile" width="3000" height="3978"/>
