@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-        ?>
+<?xml-model href="../../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="../../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -42,7 +41,7 @@
                <date enddate="1813"/>
             </creation>
             <expressionList>
-               <expression xml:id="e4babeba-1ae0-11ec-9621-0242ac130999">
+               <expression xml:id="m82428840-337d-11ed-a261-0242ac120002">
                   <identifier type="genre"
                               auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q10349334"/>
                   <title type="desc">Op 91 - Piano (Steiner)</title>
@@ -73,7 +72,7 @@
                </publisher>
             </pubStmt>
             <itemList>
-               <item xml:id="m931c89c-1ae0-11ec-9621-0242ac130002">
+               <item xml:id="m82428ade-337d-11ed-a261-0242ac120002">
                   <physLoc>
                      <repository>D-BNba</repository>
                      <identifier>C 91 / 1</identifier>
@@ -81,7 +80,7 @@
                </item>
             </itemList>
             <relationList>
-               <relation rel="isEmbodimentOf" target="#e4babeba-1ae0-11ec-9621-0242ac1309992"/>
+               <relation rel="isEmbodimentOf" target="#m82428840-337d-11ed-a261-0242ac120002"/>
             </relationList>
          </manifestation>
       </manifestationList>
