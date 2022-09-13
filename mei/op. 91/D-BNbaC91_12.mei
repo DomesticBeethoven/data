@@ -88,23 +88,18 @@
          </manifestation>
       </manifestationList>
       <revisionDesc>
-         <change n="1" isodate="2022-06-17" resp="#bithTeam_ms">
-            <changeDesc>
-               <p/>
-            </changeDesc>
-         </change>
-         <change resp="#bithTeam_lr" n="2" isodate="2022-09-13">
+         <change resp="#bithTeam_lr" n="1" isodate="2022-09-13">
             <changeDesc>
                <p>Merged with new file including two more sections</p>
             </changeDesc>
          </change>
-         <change resp="#bithTeam_lr" n="3" isodate="2022-09-13">
+         <change resp="#bithTeam_lr" n="2" isodate="2022-09-13">
             <changeDesc>
                <p>Applied "cleanMscz.xsl"</p>
                <p>Remove unwanted attributes and mistakes from MuseScore export; add schema</p>
             </changeDesc>
          </change>
-         <change resp="#bithTeam_lr" n="4" isodate="2022-09-13">
+         <change resp="#bithTeam_lr" n="3" isodate="2022-09-13">
             <changeDesc>
                <p>Applied "IDs4Mscz.xsl"</p>
                <p>Delete IDs from Musescore; insert UUID(s) for the document, encoding description and music elements</p>
