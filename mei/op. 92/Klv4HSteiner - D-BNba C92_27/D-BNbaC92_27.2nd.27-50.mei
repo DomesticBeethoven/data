@@ -84,7 +84,7 @@
                </pubPlace>
                <date isodate="1816"/>
                <publisher>
-                  <corpName>S. A. Steiner und Comp.</corpName>
+                  <corpName auth.uri="https://d-nb.info/gnd/1123836310">S. A. Steiner und Comp.</corpName>
                </publisher>
             </pubStmt>
             <itemList>
