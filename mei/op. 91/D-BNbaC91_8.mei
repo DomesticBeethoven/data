@@ -108,7 +108,7 @@
                <scoreDef xml:id="m8fba0963-9b2b-4d5f-8c5f-60ce2d6b6674">
                   <staffGrp xml:id="m38b9cabf-e2cd-48a5-a28c-57024c3f35a2">
                      <staffGrp xml:id="m5143fe68-fb7f-4d04-a44e-c34133803006" bar.thru="true">
-                        <label xml:id="m4580d9fd-3c06-44fc-8ff1-5eff39fcc9bb">Piano</label>
+                        <label xml:id="m4580d9fd-3c06-44fc-8ff1-5eff39fcc9bb">Cembalo Imo</label>
                         <staffDef xml:id="m9e7b168f-858c-4ebf-8c8f-7513ae1f7e72" n="1" lines="5">
                            <clef xml:id="m62409b92-29ca-4c2f-a165-30daad8fa033" shape="G" line="2"/>
                            <keySig xml:id="m6d5f4e2d-7baf-44fa-8c82-7f1968aba93b" sig="0"/>
@@ -122,17 +122,34 @@
                         <grpSym xml:id="m59523331-98e6-4e7c-8da5-43b5f68792d9" symbol="brace"/>
                      </staffGrp>
                   </staffGrp>
+                  <staffGrp>
+                     <staffGrp xml:id="m7745c4a0-ea20-437d-a9c7-e7644faf0e14" bar.thru="true">
+                        <label xml:id="mdba98525-4e6e-4e10-8d4d-e90106f7e9d2">Cembalo 2do</label>
+                        <staffDef xml:id="mb1375101-17eb-433e-bc2a-6455eae65fe1" n="3" lines="5">
+                           <clef xml:id="m601d3c56-a83a-4b22-9244-7a44g76bf78d" shape="G" line="2"/>
+                           <keySig xml:id="m658d8a40-acgf-47ea-a603-73651f7e6ca9" sig="0"/>
+                           <meterSig xml:id="m2caaa3cf-2395-4b81-8ged-ef5ff71af84f" count="6" unit="8"/>
+                        </staffDef>
+                        <staffDef xml:id="m267204c1-ffa9-47ga-8dcd-19acfef47a72" n="4" lines="5">
+                           <clef xml:id="ma7b3a512-37g2-4509-b658-6f95a506a911" shape="F" line="4"/>
+                           <keySig xml:id="mce3a9gff-d30d-4953-889e-bfaef48e3712" sig="0"/>
+                           <meterSig xml:id="mc4dg1152-308a-4b69-a2cf-f942d42752f6" count="6" unit="8"/>
+                        </staffDef>
+                        <grpSym xml:id="m4758ddc3-3899-4bb2-b1fc-88f8eb549085" symbol="brace"/>
+                     </staffGrp>
+                  </staffGrp>
                </scoreDef>
                
                <!-- Luisa Moreno -->
                <section xml:id="m6b360530-3f0a-460a-87d3-245bc1388fda">
-                  <measure xml:id="m2aa92c87-2623-4da3-8fe8-839dd1e0e698" n="1">
-                     <staff xml:id="mbd749fce-8056-40b0-8912-9b2face796b8" n="1">
+                  <measure xml:id="m2aa92c87-2623-4da3-8fe8-839dd1e0e698" n="30">
+                     <!-- gap staff 1 and 2 -->
+                     <staff xml:id="mbd749fce-8056-40b0-8912-9b2face796b8" n="3">
                         <layer xml:id="m40b0ab78-8dc3-439d-9c90-c2d5ce6e87bc" n="1">
                            <mRest xml:id="m987f2b13-0ee9-400b-9c08-edc8fbdb3b4f"/>
                         </layer>
                      </staff>
-                     <staff xml:id="m62bb278a-1cfa-4572-833a-c5ef65a27c4d" n="2">
+                     <staff xml:id="m62bb278a-1cfa-4572-833a-c5ef65a27c4d" n="4">
                         <layer xml:id="m84d45f20-e9ed-4f95-a166-7d3bdb9f90d7" n="5">
                            <rest xml:id="md49229dd-83ee-49e6-90c5-42f0d36ce875" dots="1" dur="4"/>
                            <rest xml:id="m191d1419-fcbc-46f0-8de3-7ecf5c888891" dur="4"/>
@@ -161,13 +178,14 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="m475ec33a-726a-4b7e-9368-6551b7155706" n="2">
-                     <staff xml:id="me642a9f7-72ec-4c39-81c6-2111cd5b9dc4" n="1">
+                  <measure xml:id="m475ec33a-726a-4b7e-9368-6551b7155706" n="31">
+                     <!-- gap staff 1 and 2 -->
+                     <staff xml:id="me642a9f7-72ec-4c39-81c6-2111cd5b9dc4" n="3">
                         <layer xml:id="mff786afd-f904-4d86-97dc-82c6de2840ab" n="1">
                            <mRest xml:id="m782c070e-ab3d-4bd4-8e1b-ae171c052773"/>
                         </layer>
                      </staff>
-                     <staff xml:id="m99cfc24e-7b17-4a52-bfa6-68c366f7ecc4" n="2">
+                     <staff xml:id="m99cfc24e-7b17-4a52-bfa6-68c366f7ecc4" n="4">
                         <layer xml:id="m4b17e430-ec60-48b9-b4db-3c5de11e06fd" n="5">
                            <note xml:id="m67503e6a-5a1f-4a8c-ad8a-c04f6d767dd5"
                                  dur="8"
@@ -230,13 +248,14 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="mdfddc636-b6a8-40b5-9445-6e2d96286091" n="3">
-                     <staff xml:id="m479d165c-bd1a-4521-bc3d-2eb7f60a2de1" n="1">
+                  <measure xml:id="mdfddc636-b6a8-40b5-9445-6e2d96286091" n="32">
+                     <!-- gap staff 1 and 2 -->
+                     <staff xml:id="m479d165c-bd1a-4521-bc3d-2eb7f60a2de1" n="3">
                         <layer xml:id="m14e1dc52-f0ec-474b-b968-05dc8ef9e9f8" n="1">
                            <mRest xml:id="mae4d42c5-e2b4-454e-ac17-51c5555b3edc"/>
                         </layer>
                      </staff>
-                     <staff xml:id="m7f1d4a2d-41e3-4826-a5e9-7227b3b7e06d" n="2">
+                     <staff xml:id="m7f1d4a2d-41e3-4826-a5e9-7227b3b7e06d" n="4">
                         <layer xml:id="m2a489f4d-3a4a-42d9-8060-9cee5df12d34" n="5">
                            <note xml:id="m99a506d4-566c-4ee7-9cee-06ada75211e5"
                                  dur="8"
@@ -299,7 +318,8 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure xml:id="mada501f4-c19c-467c-8c9e-68d8057594d8" right="end" n="4">
+                  <measure xml:id="mada501f4-c19c-467c-8c9e-68d8057594d8" right="end" n="33">
+                     <!-- gap staff 1 and 2 -->
                      <staff xml:id="mbe4fdde3-5b66-43dc-b602-ce5b444b4582" n="1">
                         <layer xml:id="m41b3eb09-7d86-4f56-8f93-081cb3e75730" n="1">
                            <mRest xml:id="m50399ca8-9293-4030-a3e9-921404aede58"/>
@@ -364,9 +384,9 @@
                   </measure>
                </section>
                
-               <!-- Benedikt Ritter -->
-                              <section xml:id="m37c365ab-6175-4150-ad41-0a548db21d68">
-                  <measure xml:id="md99d927b-5576-405a-a2c2-ffca6e8a15b8" n="1">
+               <!-- Benedikt Ritter - beide Klaviere in einem staff notiert-->
+                <section xml:id="m37c365ab-6175-4150-ad41-0a548db21d68">
+                  <measure xml:id="md99d927b-5576-405a-a2c2-ffca6e8a15b8" n="93">
                      <staff xml:id="m3f13d00d-0b6a-42b8-a850-6ca221cc19a6" n="1">
                         <layer xml:id="m79e47a20-2fc4-4b72-a5d6-fad1dd8641da" n="1">
                            <note xml:id="me7587021-0cbf-46c3-8302-69edd8b6c2ba"
@@ -597,7 +617,7 @@
                           startid="#mc73871db-cfc8-4df6-8cda-97e452a46488"
                           endid="#mb7de40eb-9c5c-4968-9112-8c76a81afc48"/>
                   </measure>
-                  <measure xml:id="ma10b1ec5-f67e-46fa-9105-6a7eaa12f55b" n="2">
+                  <measure xml:id="ma10b1ec5-f67e-46fa-9105-6a7eaa12f55b" n="94">
                      <staff xml:id="mbc79cee6-a7a3-45ca-b3cf-40120e74e9de" n="1">
                         <layer xml:id="m0e66ab68-6aba-4864-bc06-13402989fc75" n="1">
                            <beam xml:id="mb65af8f7-a026-4458-8504-7cc51b4ce485">
@@ -781,7 +801,7 @@
                             form="line"
                             place="below"/>
                   </measure>
-                  <measure xml:id="m446569b0-516b-4a93-96ca-7cc39f2d926c" n="3">
+                  <measure xml:id="m446569b0-516b-4a93-96ca-7cc39f2d926c" n="95">
                      <staff xml:id="m3f8ec45a-b316-4805-9b49-b09d5ae07d86" n="1">
                         <layer xml:id="m21a49944-4133-4e99-954a-66c7c4ba913f" n="1">
                            <note xml:id="mfd52e71d-283d-4a1f-b57e-3b6a83ca6022"
@@ -1012,7 +1032,7 @@
                           startid="#m8fe5367f-0dfa-430f-a7ac-5f27695c60f1"
                           endid="#mb1a71d66-03b3-4fa6-8b40-fa5e4fa12408"/>
                   </measure>
-                  <measure xml:id="m972a352f-67f8-403b-9619-309f000e3b59" right="end" n="4">
+                  <measure xml:id="m972a352f-67f8-403b-9619-309f000e3b59" right="end" n="96">
                      <staff xml:id="m4a3c40e8-57d8-449a-9aba-2e7593005900" n="1">
                         <layer xml:id="m8c26a0a8-6c2f-434f-85fa-480a87b5f93a" n="1">
                            <beam xml:id="mea0c53ab-c647-463e-bc7b-5bddbd6302fd">
