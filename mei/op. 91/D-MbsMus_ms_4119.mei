@@ -1804,7 +1804,7 @@
                           staff="9"
                           tstamp="1">p</dir>
                   </measure>
-                  <measure xml:id="mf27ab86c-685e-4603-8c88-6e0f6f1d1092" right="end" n="139">
+                  <measure xml:id="mf27ab86c-685e-4603-8c88-6e0f6f1d1092" n="139">
                      <staff xml:id="m299eaf05-0d83-4e0d-9ebd-e9866fbe0503" n="1">
                         <layer xml:id="m6de79f9a-2462-4122-991e-2465ac66192e" n="1">
                            <note xml:id="m21289cb7-b993-47b3-95af-337bd2035301"
