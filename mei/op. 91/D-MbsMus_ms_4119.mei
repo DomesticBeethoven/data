@@ -1,0 +1,2357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei"
+     xml:id="m43b5364c-f194-4e59-be16-1293c92436b6"
+     meiversion="5.0.0-dev">
+   <meiHead meiversion="5.0.0-dev">
+      <fileDesc>
+         <titleStmt>
+            <title type="desc">Op 91 - 2 Pianos 10 Hands (Ett)</title>
+            <title type="alternative">D-MbsMus_ms_4119.mei</title>
+            <respStmt>
+               <persName xml:id="CJ" role="trc">Carla Jürgens</persName>
+               <persName xml:id="GC" role="trc">Giulia Calovini</persName>
+               <persName xml:id="bithTeam_lr" role="mrk crr">Lisa Rosendahl</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2022-09-13" type="encoding-date">2022-09-13</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo xml:id="mde450ba3-7999-43a1-91a2-99f6a463a82c">
+            <application xml:id="md5b78151-b72e-4661-87e3-6e7ffc051766"
+                         isodate="2022-09-13T16:44:17"
+                         version="3.8.1-1af3b41">
+               <name xml:id="mf55831df-edf5-4a0b-9806-e80b9dd91c29">Verovio</name>
+               <p xml:id="m4bb636ec-d03e-4511-b8ae-7b112f006c7c">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300017723">
+            <identifier type="opusNumber">91</identifier>
+            <title type="uniform" xml:lang="de">Wellingtons Sieg</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <date enddate="1813"/>
+            </creation>
+            <expressionList>
+               <expression xml:id="meade993c-3415-11ed-a261-0242ac120002">
+                  <identifier type="genre"
+                              auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q9004585"/>
+                  <title type="desc">Op 91 - 2 Pianos 10 Hands (Ett)</title>
+                  <arranger>
+                     <persName auth.uri="http://d-nb.info/gnd/119333465">Caspar Ett</persName>
+                  </arranger>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="http://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                        <perfRes auth.uri="http://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>Wellingtons Sieg oder Die Schlacht beÿ Vittoria In Musik gesetzt von Ludwig van Beethoven Arrangiert für 2 Pianos zu 10 Händen v. C. Ett.</title>
+            </titleStmt>
+            <itemList>
+               <item xml:id="meade9a5e-3415-11ed-a261-0242ac120002">
+                  <physLoc>
+                     <repository>D-Mbs</repository>
+                     <identifier>Mus.ms. 4119</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#eade993c-3415-11ed-a261-0242ac120002"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <revisionDesc>
+         <change resp="#bithTeam_lr" n="1" isodate="2022-09-14">
+            <changeDesc>
+               <p>Applied "cleanMscz.xsl"</p>
+               <p>Remove unwanted attributes and mistakes from MuseScore export; add schema</p>
+            </changeDesc>
+         </change>
+         <change resp="#bithTeam_lr" n="2" isodate="2022-09-14">
+            <changeDesc>
+               <p>Applied "IDs4Mscz.xsl"</p>
+               <p>Delete IDs from Musescore; insert UUID(s) for the document, encoding description and music elements</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music meiversion="5.0.0-dev">
+      <body xml:id="m934e68ce-c784-4f80-a855-fad4fc4f2001">
+         <mdiv xml:id="m879cf5c4-17d1-44dc-bacb-ca279a92b4d7">
+            <score xml:id="m3f54e5cc-ffce-4f9a-9e59-1e511063d2d6">
+               <scoreDef xml:id="mfc9c139a-6e57-41b9-b04e-5f34eba5f726">
+                  <staffGrp xml:id="m01065625-d3e8-4ea0-a682-e54d59a7a415">
+                     <staffGrp xml:id="m341ffe71-fd8a-43f8-8619-4969191614a4" bar.thru="true">
+                        <label xml:id="md209918b-5af8-415c-b89b-665400499fef">Klavier</label>
+                        <staffDef xml:id="ma7bbfde4-9e82-40a6-a770-9bfc3f902e24" n="1" lines="5">
+                           <clef xml:id="m648d60e9-1e31-4287-8ca9-ee50ed5d633f" shape="G" line="2"/>
+                           <keySig xml:id="mf73cb1d5-a1fc-423d-b836-69fa4cdf4de6" sig="2s"/>
+                           <meterSig xml:id="mfba6f317-d8f5-4623-a9ff-5da1e37def60" count="3" unit="4"/>
+                        </staffDef>
+                        <staffDef xml:id="ma6ab38c5-253b-45ff-a28b-072e508798da" n="2" lines="5">
+                           <clef xml:id="mc69d18f9-7081-40dc-b099-474d4a13cad9" shape="F" line="4"/>
+                           <keySig xml:id="m86a1ea60-cd1c-4ada-a7a0-eb620b842f66" sig="2s"/>
+                           <meterSig xml:id="m62615e5b-37d1-4d23-a133-11440b1f5942" count="3" unit="4"/>
+                        </staffDef>
+                        <grpSym xml:id="m44a177e6-1cfe-494a-8b2e-e0075afe4cbe" symbol="brace"/>
+                     </staffGrp>
+                     <staffGrp xml:id="m6745c4a0-ea20-437d-a9c7-e7644faf0e14" bar.thru="true">
+                        <label xml:id="mdba97525-4e6e-4e10-8d4d-e90106f7e9d2">Klavier</label>
+                        <staffDef xml:id="mb1375109-17eb-433e-bc2a-6455eae65fe1" n="3" lines="5">
+                           <clef xml:id="m601d3c56-a83a-4b22-9244-7a44776bf78d" shape="G" line="2"/>
+                           <keySig xml:id="m658d8a40-ac5f-47ea-a603-73651f7e6ca9" sig="2s"/>
+                           <meterSig xml:id="m2caaa3cf-2395-4b81-86ed-ef5ff71af84f" count="3" unit="4"/>
+                        </staffDef>
+                        <staffDef xml:id="m267204c1-ffa9-473a-8dcd-19acfef47a72" n="4" lines="5">
+                           <clef xml:id="ma7b3a512-3702-4509-b658-6f95a506a911" shape="F" line="4"/>
+                           <keySig xml:id="mce3a90ff-d30d-4953-889e-bfaef48e3712" sig="2s"/>
+                           <meterSig xml:id="mc4df1152-308a-4b69-a2cf-f942d42752f6" count="3" unit="4"/>
+                        </staffDef>
+                        <grpSym xml:id="m3758ddc3-3899-4bb2-b1fc-88f8eb549085" symbol="brace"/>
+                     </staffGrp>
+                     <staffGrp xml:id="mf0a458ab-75d3-4bf5-a1f5-c829de4e4b00" bar.thru="true">
+                        <label xml:id="md1fa0fd9-14fa-468d-a3ec-d7f316713bf2">Klavier</label>
+                        <staffDef xml:id="maaa6ec91-fdaf-4db1-9005-faaa3107c33d" n="5" lines="5">
+                           <clef xml:id="m326a3634-b37f-4312-9a58-e5f1064042cb" shape="G" line="2"/>
+                           <keySig xml:id="m8605d8ef-0cc3-464c-9e09-5a8e49da2b56" sig="2s"/>
+                           <meterSig xml:id="m6e5783b2-1b4c-41ac-a964-e64c8e7718e4" count="3" unit="4"/>
+                        </staffDef>
+                        <staffDef xml:id="m3ed86ddf-8d30-4f89-8884-4f53bb6cf5ad" n="6" lines="5">
+                           <clef xml:id="me5025c7f-678d-4056-b6a9-376ed27b7a8b" shape="F" line="4"/>
+                           <keySig xml:id="m3ce016a1-57a1-41b5-a14a-fcf7f982e8ca" sig="2s"/>
+                           <meterSig xml:id="mece7299d-e4f2-4bee-be67-c8c4d8a2aaa3" count="3" unit="4"/>
+                        </staffDef>
+                        <grpSym xml:id="m7e605171-65f9-4ab4-8c5f-5d2e83e55618" symbol="brace"/>
+                     </staffGrp>
+                     <staffGrp xml:id="ma6a6ac95-7d3b-4c7b-b6fa-bae5d7b2c45a" bar.thru="true">
+                        <label xml:id="m7a247937-653f-40a0-8706-a7e5a300333b">Klavier</label>
+                        <staffDef xml:id="m48a8f360-9951-483b-ac6e-47774d4ac1ca" n="7" lines="5">
+                           <clef xml:id="m7bc4d6e7-029b-49a4-89ee-1c6ae923c365" shape="G" line="2"/>
+                           <keySig xml:id="mb370109b-121a-4c40-94d7-2c079b7c1055" sig="2s"/>
+                           <meterSig xml:id="m5303548d-f34b-431b-95b8-744c2d014ad0" count="3" unit="4"/>
+                        </staffDef>
+                        <staffDef xml:id="m1e961999-6046-47c8-8c34-8193b853e947" n="8" lines="5">
+                           <clef xml:id="ma4ed6209-634f-4d51-92fb-8ddee538e17f" shape="F" line="4"/>
+                           <keySig xml:id="m94948ea0-855f-4990-aa18-708a4b5e1486" sig="2s"/>
+                           <meterSig xml:id="m522e96c0-8bf4-4585-9430-585386220f1b" count="3" unit="4"/>
+                        </staffDef>
+                        <grpSym xml:id="m8fc9681a-a383-47c2-ab51-bc8e9da0037f" symbol="brace"/>
+                     </staffGrp>
+                     <staffGrp xml:id="mbf68f5c7-fbad-47fe-9c16-d28f66ff3f48" bar.thru="true">
+                        <label xml:id="m9b73ebd6-3d6b-43b4-a44f-a69c2ba27612">Klavier</label>
+                        <staffDef xml:id="m03fd8e50-08c6-40f3-a5c2-54ec8474a148" n="9" lines="5">
+                           <clef xml:id="m9b70bd6c-e004-43c6-bc35-06be094395cf" shape="G" line="2"/>
+                           <keySig xml:id="m2d958b4e-f9f6-438d-87bc-394e89b4328f" sig="2s"/>
+                           <meterSig xml:id="mfd75c29d-8962-4618-a732-1313d9ba56f5" count="3" unit="4"/>
+                        </staffDef>
+                        <staffDef xml:id="m2eb411f8-f005-46af-9ea3-c88d046d200a" n="10" lines="5">
+                           <clef xml:id="me2f6d45d-d645-4a6a-b4a4-d55e67efd1b9" shape="F" line="4"/>
+                           <keySig xml:id="mfbe22b00-37af-41ce-812e-19f117971614" sig="2s"/>
+                           <meterSig xml:id="md7010097-9e54-4f73-a516-a7be951f2b77" count="3" unit="4"/>
+                        </staffDef>
+                        <grpSym xml:id="m3dfcbe9c-b2e0-4cbd-8744-61130f2ab672" symbol="brace"/>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <!-- Giulia Calovini -->
+               <section xml:id="m2588bf9a-fc85-480c-8ce8-d07e83d1dfaf">
+                  <measure xml:id="m804ddd31-3250-483e-a73d-fc1295c198a0" n="0">
+                     <mNum xml:id="m006fe500-49a0-4544-949c-03da99a58fe6"/>
+                     <staff xml:id="m753d6c4d-0a13-4f05-81dc-45fac805d501" n="1">
+                        <layer xml:id="m92fbb765-ab94-4f03-bf57-43c5e76fd6dd" n="1">
+                           <note xml:id="m4161f1bc-1863-45c6-a827-ff14bc5f2817"
+                                 dur="8"
+                                 oct.ges="5"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m60b47473-6b70-4298-a23e-f41368db4bc9" n="2">
+                        <layer xml:id="m1493fb5e-b42f-46de-99a4-1c0dc3a2715d" n="5">
+                           <rest xml:id="ma3511327-5d73-42c7-916d-b8ca3da96269" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m78e64fdb-423a-4e5f-bbc0-b63b33e532d2" n="3">
+                        <layer xml:id="m15612a5c-f3d0-47ba-b716-b36c5ab93e53" n="1">
+                           <rest xml:id="m113a3e04-afb4-47b1-a469-9cca5f087f48" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m697fd563-396a-4e6b-befc-bd437549691a" n="4">
+                        <layer xml:id="mc197d4d6-203f-4d72-9637-8f033e11dca6" n="5">
+                           <rest xml:id="m5a782dcf-52e0-4001-9492-449e4e30d6a8" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m5210dcab-3ed6-4c8a-af15-93f2cd6ab7d8" n="5">
+                        <layer xml:id="m1ad3e7d4-cbb4-4c68-829a-ef2e0472a4ab" n="1">
+                           <note xml:id="m2cc3b382-520a-4f16-bf2d-90e5e2278b93"
+                                 dur="8"
+                                 oct.ges="5"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mfd6ec7b1-c87f-45f8-bd3f-40dc38750a88" n="6">
+                        <layer xml:id="md6d01ddd-0f35-4a9a-9f58-c2c4ddd86731" n="5">
+                           <rest xml:id="md432003b-81f7-4331-96af-81eb6ee6d13f" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mff5fe4d9-afde-43f8-bc97-828c7cf53b7b" n="7">
+                        <layer xml:id="mdad621bd-ef65-40a3-8d9f-f7641b30bfa8" n="1">
+                           <rest xml:id="m5dca25e9-0265-41ed-94fb-6f5a81ecb034" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m1a9860db-1e72-4742-a105-e1619b559854" n="8">
+                        <layer xml:id="m95047ff2-945d-4ab7-b9b7-b801b19ec8e2" n="5">
+                           <rest xml:id="m199c1244-c77d-453c-b712-427d92877133" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="meff20fd0-6871-406d-8596-ace89e5bfc95" n="9">
+                        <layer xml:id="m122eb511-5536-455a-8262-4c4108e3b1ca" n="1">
+                           <rest xml:id="m831a2a5e-fbdc-4af2-a2cd-08e9b3ce244a" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="md7d9c2c9-d1f8-4eec-ba29-99de4f94785a" n="10">
+                        <layer xml:id="m12a2abe7-b252-40ec-b31f-9545680b274c" n="5">
+                           <rest xml:id="m6d5de873-159e-4a77-ad1f-0fa9053a7e18" dur="8"/>
+                        </layer>
+                     </staff>
+                     <dynam xml:id="m6d5ba204-ec77-40bb-8c75-f0eff5c3c719"
+                            place="below"
+                            staff="1"
+                            tstamp="1">pp</dynam>
+                     <octave xml:id="m3243c1ba-9505-4c8b-a277-2b1a11121576"
+                             staff="1"
+                             startid="#m4161f1bc-1863-45c6-a827-ff14bc5f2817"
+                             endid="#mc1c7acc8-feb4-474d-8a1f-33557ad7706f"
+                             n="1"
+                             dis="8"
+                             dis.place="above"/>
+                     <dynam xml:id="me04f041e-692b-4d1e-8179-ef30f8656a87"
+                            place="below"
+                            staff="5"
+                            tstamp="1">pp</dynam>
+                     <octave xml:id="m5fa29875-2c27-43df-92cc-c38f74a4e90f"
+                             staff="5"
+                             startid="#m2cc3b382-520a-4f16-bf2d-90e5e2278b93"
+                             endid="#m24b244cb-53ff-4049-886f-99400ca1ffe5"
+                             n="1"
+                             dis="8"
+                             dis.place="above"/>
+                  </measure>
+                  <measure xml:id="m3060cc96-387c-4ce3-8726-5bedf9e83dda" n="1">
+                     <staff xml:id="m66a0b415-3fc4-418a-87e5-276dfe4a5ac1" n="1">
+                        <layer xml:id="m1e3446e6-5e93-4f36-a8ad-e25b996d9313" n="1">
+                           <beam xml:id="m45c9c9ba-e3ce-4d44-b968-596c61ce2533">
+                              <note xml:id="mc0f3518c-f2d8-4e37-afdd-79c9f50f2d9a"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="5"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="m00817f2f-3adc-4be8-b8dc-23c9eeff6dac"
+                                    artic="stacc"
+                                    dur="16"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="mdf075925-786b-4821-8b9c-c28cf35a3e45"
+                                    artic="stacc"
+                                    dur="16"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="ma1fb82f3-0365-4750-aca2-de7077dc21d4">
+                              <note xml:id="me205b1ad-e928-454f-8ade-eaaf33c73d86"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="mfcd8b1ca-5f4c-487a-a2a3-d03d5c22fac6"
+                                    artic="stacc"
+                                    dur="16"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="mff85500c-3983-45ff-b673-a38549d49bd7"
+                                    artic="stacc"
+                                    dur="16"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m1e014e1c-7b07-42c7-9d75-3af47504a1a9" n="2">
+                        <layer xml:id="m81062c43-d576-45db-82d9-a092733e81a9" n="5">
+                           <mRest xml:id="m09328df6-e5aa-4292-bd56-e21a70830075"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mfe11aad7-30d8-441a-b7aa-520783559756" n="3">
+                        <layer xml:id="m5351503b-cccd-4c6d-90d7-ea457dee0e92" n="1">
+                           <beam xml:id="m215e6d73-bf6f-4b4c-af99-5cab6b057c43">
+                              <note xml:id="mf3de11d3-7e7d-499c-a832-02f79e238a5c"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m7e2e275d-bd48-4223-ad8a-20c64a004c3b"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="me96ae79f-9f90-4043-bb81-11036a9a680a"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m95931f8a-2277-4ef6-9ebd-7bfc5d40f273"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="me9147219-fbdd-4040-aa39-bb32b6735e2d"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                           <beam xml:id="mda9eaaaf-66dd-477b-8929-f73a9abc0c32">
+                              <note xml:id="m22520c90-41b6-4019-aa9d-089b01f36c40"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m992ae944-43cb-473b-92eb-b79d54d9d489"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m907f97db-b881-4b91-a324-b5d89cb519d5" n="4">
+                        <layer xml:id="m5bf4c7d8-0717-4132-8e05-772f382c2471" n="5">
+                           <mRest xml:id="m000d2903-f847-4230-8d13-00f97a2e9acb"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="md4af8427-5803-4c44-b656-730401ea2522" n="5">
+                        <layer xml:id="m18a5eb46-5304-490f-94f8-2df4d53cff5c" n="1">
+                           <beam xml:id="m507d2169-52ce-4235-8b97-7918e6609872">
+                              <note xml:id="m5403f267-aa16-4aea-b42f-01dc2c66ab58"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m2bded0e4-42f6-416b-90d6-f5c876d2ce33"
+                                    artic="stacc"
+                                    dur="16"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="m4ca5f6d0-dc4b-41a3-ace5-65037634effc"
+                                    artic="stacc"
+                                    dur="16"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                           <beam xml:id="m97dd7286-bee5-44a8-82c3-e3d3390c21bb">
+                              <note xml:id="m4c2a3a1e-6b96-4775-8c45-6c590419d90d"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="mb46ae6c9-c7e1-43f6-8fbf-02f710e252ef"
+                                    artic="stacc"
+                                    dur="16"
+                                    oct.ges="7"
+                                    oct="6"
+                                    pname="c"
+                                    stem.dir="down"/>
+                              <note xml:id="m7e5d5737-4e3e-423b-8d2c-d39b30617bdd"
+                                    artic="stacc"
+                                    dur="16"
+                                    oct.ges="7"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mf39f69af-99bd-446f-9f64-e8ca2c1e389c" n="6">
+                        <layer xml:id="m24244306-49a6-4114-af0e-9436ca964d2f" n="5">
+                           <mRest xml:id="m722934bf-6e63-4ee7-a5e4-9c84fa879eac"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="md9e61590-d599-4b73-8296-40837ce1a8a6" n="7">
+                        <layer xml:id="mb1b0657f-93e0-44d5-a42b-eb190ac7ded3" n="1">
+                           <mRest xml:id="mdfc551df-bbf6-48fa-87df-1eaa5d1b9eef"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mdf034e75-b6e5-4cef-afc3-244876681bf1" n="8">
+                        <layer xml:id="m929ca6b9-457c-48f6-8418-ad76673f9e6d" n="5">
+                           <mRest xml:id="m79758d0d-687f-4b82-be14-9268bde37078"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m6470fc9e-74f5-43a0-95f6-9475fc92ade1" n="9">
+                        <layer xml:id="ma5a058bd-1bc4-4367-9dc9-8e08d81ca7ba" n="1">
+                           <beam xml:id="mef39fd2f-161d-4ed4-8b87-9c73894bd1a5">
+                              <note xml:id="m6daab7bf-e71d-4f52-baaa-7d4253635065"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m7851e557-235d-4cc5-94b9-c052ee77b570"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m50cce139-cf28-41e1-aff5-8f80cea158db"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m48f7b186-ff75-46e3-8f05-798fb96d1aa4"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m090281a8-5f55-4c25-8cdd-756bd5505edc"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                           <beam xml:id="m09182f05-59ac-4dce-aec0-87172c966f88">
+                              <note xml:id="m92265aea-d7cc-405b-a394-f8593341b17f"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m41bd51bf-3a56-4b0e-93ba-b75ec5b83b92"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m99bb3969-ace7-489b-9bd3-57b35794f2ab" n="10">
+                        <layer xml:id="m4a804c13-aad3-4882-ac0e-765cf10b0045" n="5">
+                           <mRest xml:id="m7bbeaf36-3e24-419d-b3f7-e86a4b072e6a"/>
+                        </layer>
+                     </staff>
+                     <dynam xml:id="m0dfbc96a-8076-4f81-9bde-e7de4c93c1ba"
+                            place="below"
+                            staff="3"
+                            tstamp="1">pp</dynam>
+                     <dir xml:id="m8881648f-8172-42aa-9656-2c045a79c043"
+                          place="above"
+                          staff="7"
+                          tstamp="1">6</dir>
+                     <dir xml:id="md677b983-edbc-4a54-bb76-7ac4505ab815"
+                          place="above"
+                          staff="7"
+                          tstamp="1">8</dir>
+                     <dir xml:id="m41d42ec8-b3cd-436a-9685-d0d09df0168d"
+                          place="above"
+                          staff="8"
+                          tstamp="1">6</dir>
+                     <dir xml:id="me7f7437b-77ab-4b77-8f94-4e2394714a3a"
+                          place="above"
+                          staff="8"
+                          tstamp="1">8</dir>
+                     <dynam xml:id="m2f5307fa-6251-4ad3-bfde-3176934866c8"
+                            place="below"
+                            staff="9"
+                            tstamp="1">pp</dynam>
+                  </measure>
+                  <measure xml:id="mfe974652-0c59-4530-b186-4b8325bd67eb" n="2">
+                     <staff xml:id="m8c70a1df-5c5d-4d91-9c12-bd651e48c8c5" n="1">
+                        <layer xml:id="m01fcebbe-26d7-44ef-81fe-1d1e8021853f" n="1">
+                           <beam xml:id="m53375e6f-33fc-4ec0-8ccc-beb009baca72">
+                              <note xml:id="m80b913db-b9d1-4f5e-ade4-cc59f7752719"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="m31f58ce2-8d28-4bcc-ba16-f79e7246c768"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="m8ed3c7cb-1caf-4ba8-bc79-f6f68055370a"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="mdb32bc59-28ab-42f8-8b25-d9abdace68db"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mf1c2cfb2-f400-45c9-80d5-7b6f9b840763" n="2">
+                        <layer xml:id="med7ba0ee-cd42-4589-8868-3e8fddc08749" n="5">
+                           <mRest xml:id="md98050a6-33a0-4f61-921d-0d99a872b4a3"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="meeb8f8b7-a8a7-41cc-acab-9fe2be9b8c06" n="3">
+                        <layer xml:id="mbfe44c93-b6a4-45be-9c0b-76a8362d8c17" n="1">
+                           <beam xml:id="mfd6c45b3-1ff9-474a-a3fa-d0d2291510f9">
+                              <note xml:id="m1ff6b1bd-6add-4b12-891f-97a95c47e718"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="mb24a4f11-2788-4951-9448-edd4e04d18b8"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m6008219c-5079-4993-a1d9-7135b49c1be2"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m30a6e367-0541-4785-b536-b904a836afbc"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m4003057c-4526-454f-b5c3-9400f282ac92"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                           <beam xml:id="m575eacc5-855b-41b4-a7d5-575a68b4cbf1">
+                              <note xml:id="maf85ec2d-6d1b-49d1-86b6-366fa64dcded"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m7574f3fd-6cda-46c8-a8a1-1546921466f8"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m09cd1b03-9d04-47b9-ae68-cd4cea6552c5" n="4">
+                        <layer xml:id="ma86983e1-a1d8-48ab-ace5-e50e9413c33f" n="5">
+                           <mRest xml:id="mf6cdb2f4-dc5c-4c60-942b-6b7eb6e15d3a"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m2e54c774-f417-45df-aea7-de6aab911f1a" n="5">
+                        <layer xml:id="m18c9831b-5d1e-4e80-ad88-6e82044715aa" n="1">
+                           <beam xml:id="m88dc0096-9790-4d06-b244-0fe9444137d4">
+                              <note xml:id="m2a5e45bf-314c-4386-95a9-684da9aa998a"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="7"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m0a2e44a1-f2c0-488c-a427-a57b64ccdbca"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="7"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="m82d0619b-2967-41d4-a906-22124518d842"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="7"
+                                    oct="6"
+                                    pname="c"
+                                    stem.dir="down"/>
+                              <note xml:id="m451021e1-a023-4168-99ad-b753f211ed4d"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m7f65adff-141c-4767-a172-89039cc6f497" n="6">
+                        <layer xml:id="mc71384dd-99b6-426c-8f50-c000c943ee2c" n="5">
+                           <mRest xml:id="m6dfb2073-f132-4204-9a14-6b10a1d7dc57"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m30ea5d3c-d6c1-4d04-a6af-e81414a601ee" n="7">
+                        <layer xml:id="m7c61a68f-4c79-4f55-af5d-680b26043886" n="1">
+                           <tuplet xml:id="m199cade2-6ca8-445c-b5f3-65244baad211"
+                                   num="3"
+                                   numbase="2"
+                                   bracket.visible="true">
+                              <note xml:id="m4c205137-79d7-4a5d-ac55-99e6322b176a"
+                                    dots="1"
+                                    dur="4"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    accid.ges="f"/>
+                           </tuplet>
+                           <tuplet xml:id="m413ce460-d5ed-4af3-b8f5-df8b30dd7458"
+                                   num="3"
+                                   numbase="2"
+                                   bracket.visible="true">
+                              <note xml:id="m792d42d2-103a-476e-9960-135efaa7218f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    accid.ges="f"/>
+                              <rest xml:id="maa0f5c8e-a18a-4af7-96f6-bf36747acaba" dur="8"/>
+                              <beam xml:id="mf9649f76-d8d5-4979-85c5-82cc74e4de27">
+                                 <tuplet xml:id="m0e5e2e9d-5f7f-48c1-80fb-dbdb516965ea"
+                                         num="3"
+                                         numbase="2"
+                                         bracket.visible="false">
+                                    <note xml:id="m04cfe31d-152f-4e0d-b2f5-da9885c18289"
+                                          artic="stacc"
+                                          dur="16"
+                                          oct="4"
+                                          pname="e"
+                                          stem.dir="up"
+                                          accid.ges="f"/>
+                                    <note xml:id="m82cd43ac-c9a2-4c75-891b-e49c9bd81dc2"
+                                          artic="stacc"
+                                          dur="16"
+                                          oct="4"
+                                          pname="e"
+                                          stem.dir="up"
+                                          accid.ges="f"/>
+                                    <note xml:id="m78a67b5e-5705-4cad-81e1-fa4a65374758"
+                                          artic="stacc"
+                                          dur="16"
+                                          oct="4"
+                                          pname="e"
+                                          stem.dir="up"
+                                          accid.ges="f"/>
+                                 </tuplet>
+                              </beam>
+                           </tuplet>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m3b8eb8af-6328-413e-a7e3-0a1905471842" n="8">
+                        <layer xml:id="m30e6cea5-6234-4103-a066-367bc88bbb48" n="5">
+                           <mRest xml:id="mf5f3e3a6-f7a7-4891-bd1f-f63715657621"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m520e6129-c992-4773-a754-52a3ac684aba" n="9">
+                        <layer xml:id="m4003cd6b-c2b3-4693-afb8-bde38a7b7b1d" n="1">
+                           <beam xml:id="m7bfea6f2-fbec-4324-92bc-a59a8a4a0560">
+                              <note xml:id="m59af5a14-bc15-40be-9161-d82cbc4951cd"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="me0886695-918c-4679-9c36-3240fac34eab"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m41506855-299e-4ea4-aa6c-647e9c8b59f4"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="mf2e1e9d9-7ec5-4e68-8582-2e8606c77dfe"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m509dacfd-a24e-4860-82bf-70a7f06a0e20"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                           <beam xml:id="m75a08297-2eaa-4884-9643-3636f0fd09d6">
+                              <note xml:id="m0be4882e-a42e-4f29-9d1e-59a7c0dd8349"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m845db109-2ee4-4f29-9a19-b5aef0d72830"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m72a23703-8eab-49f9-b98e-08089e12db2d" n="10">
+                        <layer xml:id="m955d357a-ac64-4f46-9326-09cf2f90a1b9" n="5">
+                           <mRest xml:id="m516670d0-7d68-4ef9-b708-c1e5a98824f7"/>
+                        </layer>
+                     </staff>
+                     <dynam xml:id="m9568f5b4-71d0-45d2-9db9-3826a300e8cf"
+                            place="below"
+                            staff="7"
+                            tstamp="1">f</dynam>
+                     <tie xml:id="m39dc684b-c620-4da0-9fc9-e21580437ebc"
+                          startid="#m4c205137-79d7-4a5d-ac55-99e6322b176a"
+                          endid="#m792d42d2-103a-476e-9960-135efaa7218f"/>
+                  </measure>
+                  <measure xml:id="m553ef2f2-0ce3-4349-b230-5a39e7992eb7" n="3">
+                     <staff xml:id="mb3c05bbd-92ff-48fb-92ba-2a3e9b5ba259" n="1">
+                        <layer xml:id="m62c88999-8e1e-4793-947b-9d90220b95d6" n="1">
+                           <beam xml:id="m88b5aacd-82dd-4da6-bf9a-4b26d204f287">
+                              <note xml:id="mfbd08947-9490-4bc5-8e60-8120924a68b1"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"/>
+                              <note xml:id="md0da825c-61d0-4b7a-985b-1e6600e49b52"
+                                    dur="16"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="maadbcd3b-9a4b-406a-a582-e92cb6bfb3c8"
+                                    dur="16"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                           <beam xml:id="m19ca9e94-71ad-43d1-8f38-c0da2725ccb0">
+                              <note xml:id="mb0185517-05b0-4c0e-9b03-679ebcc60b7d"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="m85d2bc76-f955-40d3-af9b-f73a8c5f5145"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m6a571d28-ad63-4a64-88cf-c6cd42552b2e" n="2">
+                        <layer xml:id="m397f73b4-3ecf-47b7-aa2f-e8fd31d2dab8" n="5">
+                           <mRest xml:id="m70146e70-ebe3-4074-ab76-4b5a79f6052b"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mcf8926da-2744-46ed-9e89-57d0329843d4" n="3">
+                        <layer xml:id="m80f8b002-1333-4896-b8c8-7e6b79f18b4a" n="1">
+                           <beam xml:id="m1f3cf9eb-ddd2-4b1c-95b5-d6fed8ed0df0">
+                              <note xml:id="mf7347ca8-1ba3-4399-bdc3-85cdf2be8ee5"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m64154f7e-75ac-400f-8779-3201e14592ec"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m6f858cd8-115a-4831-9fe1-ba8e0c0b8869"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m9a57d57a-fec2-49f0-8a0d-fb2b5a2e5322"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="mffe82e0e-15d3-4d31-952b-3f3981ffc7eb"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                           <beam xml:id="ma810e248-9b21-40b2-8575-4d7c7013e21c">
+                              <note xml:id="m9cc33460-96bd-4560-bd6f-0e8b5493864c"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m3f3d8c0a-9680-49b2-9cb2-3326eb00c615"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m3d35c7c6-6835-4ae3-a5dc-9f3e566acd23" n="4">
+                        <layer xml:id="mc0077194-4436-46a8-8f3c-8c4ee1f137f8" n="5">
+                           <mRest xml:id="m4537c5d3-0a6c-4640-a781-733f8cc8aa43"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="ma09f1312-ba1d-4742-8cef-4aaeb411ec04" n="5">
+                        <layer xml:id="m2867d421-3ad7-4a4b-aacc-f994eeec5446" n="1">
+                           <beam xml:id="mea242899-1a1b-4aff-bb3f-46be603ed673">
+                              <note xml:id="m3d373822-3b29-4a0a-80cb-5b520636c509"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="ma1a899ea-9c11-44a6-9977-df81b56d0afc"
+                                    dur="16"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m0787f8bc-07b9-4e56-a94c-d7ab1c01c0fc"
+                                    dur="16"
+                                    oct.ges="7"
+                                    oct="6"
+                                    pname="c"
+                                    stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="m8e29de3c-5f47-4d85-a3da-69d002f52d54">
+                              <note xml:id="me8d3b920-c444-4d90-8b1b-1f44d30ec7b2"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="me49c1246-8563-4943-a615-569a7515b03d"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct.ges="6"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m656da4fa-db3d-49e8-8b8e-3a1d874f4b0f" n="6">
+                        <layer xml:id="m8f89e179-3e6a-4692-a637-c837386025dd" n="5">
+                           <mRest xml:id="m02398f3a-eba1-458d-af9b-414190265f4a"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m85907b80-a367-4e7e-9886-77e3d954095b" n="7">
+                        <layer xml:id="m2573cbe4-3a7d-4b04-859a-286da5bc17a3" n="1">
+                           <tuplet xml:id="m56a04581-d18a-40e0-93ec-0f1111a1257e"
+                                   num="3"
+                                   numbase="2"
+                                   bracket.visible="true">
+                              <note xml:id="m6815e1b8-38bb-4b3f-b13a-e971d749beb5"
+                                    dots="1"
+                                    dur="4"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    accid.ges="f"/>
+                           </tuplet>
+                           <tuplet xml:id="m1a913b88-2d6b-4ba1-91e9-1b1049367521"
+                                   num="3"
+                                   numbase="2"
+                                   bracket.visible="true">
+                              <note xml:id="m5bdaa5a5-6d72-4b8e-bb5d-6329732a00ba"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    accid.ges="f"/>
+                              <rest xml:id="m35daa0b2-e3c9-4902-b6ea-7a63d32ead26" dur="8"/>
+                              <beam xml:id="mab9e1269-c893-41dd-af51-7d3794525b06">
+                                 <tuplet xml:id="mde3c2ef8-9c4f-4f70-a452-ed8d1e672dc6"
+                                         num="3"
+                                         numbase="2"
+                                         bracket.visible="false">
+                                    <note xml:id="ma4261b35-ea07-4697-a53b-db4318ef4c53"
+                                          artic="stacc"
+                                          dur="16"
+                                          oct="4"
+                                          pname="e"
+                                          stem.dir="up"
+                                          accid.ges="f"/>
+                                    <note xml:id="mbdd6a542-2a41-4524-9fde-19cff1d5360a"
+                                          artic="stacc"
+                                          dur="16"
+                                          oct="4"
+                                          pname="e"
+                                          stem.dir="up"
+                                          accid.ges="f"/>
+                                    <note xml:id="me2c3f753-6550-460b-bd78-e938a7a4c7ac"
+                                          artic="stacc"
+                                          dur="16"
+                                          oct="4"
+                                          pname="e"
+                                          stem.dir="up"
+                                          accid.ges="f"/>
+                                 </tuplet>
+                              </beam>
+                           </tuplet>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mc5e629f3-71e0-49ef-aac5-81d6527e2225" n="8">
+                        <layer xml:id="m4eb583fe-563e-4498-a893-59805b6fd6a7" n="5">
+                           <mRest xml:id="mca765efa-509c-46d5-8397-f1f179fd4387"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m42fcd8a4-f2bd-43b4-bc45-686cdc2d4a44" n="9">
+                        <layer xml:id="m36c4b83a-c2b3-4013-9f90-a2d9fb3aa748" n="1">
+                           <beam xml:id="mf9abe19f-011b-4300-892d-13dd713dfee6">
+                              <note xml:id="m5d9b41c9-b8d5-4a0b-8a28-f99d98445d3a"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m0cc71104-79bc-4638-8270-aff8fcfdefe6"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m0f3b4761-e4a7-4793-afd8-6ece1059d590"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m4b878ff1-f6d1-4946-b5b0-982223cb9e13"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="mdba027b9-9376-43e1-9ca9-f27aa8a95ed9"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                           <beam xml:id="mf5ca66c6-fa3c-49f9-b1d7-07b267d5d8dc">
+                              <note xml:id="mf936032e-a54f-4b5f-9461-e46b738d2f8e"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m51e863d3-5709-439e-941a-bfcd634ff8dc"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m9248a4ed-db77-4f60-93be-1f55a0165584" n="10">
+                        <layer xml:id="m49be0b66-c755-4891-9b0d-5e87b0c487a3" n="5">
+                           <mRest xml:id="m4249d18f-6f3f-4a32-abe8-147f64801f5b"/>
+                        </layer>
+                     </staff>
+                     <slur xml:id="m0843913a-260f-4881-89d9-c9ad7a7d56a7"
+                           startid="#mfbd08947-9490-4bc5-8e60-8120924a68b1"
+                           endid="#maadbcd3b-9a4b-406a-a582-e92cb6bfb3c8"
+                           curvedir="above"/>
+                     <slur xml:id="mabc76950-f4d5-4921-8b5b-c704c3b03cca"
+                           startid="#m3d373822-3b29-4a0a-80cb-5b520636c509"
+                           endid="#m0787f8bc-07b9-4e56-a94c-d7ab1c01c0fc"
+                           curvedir="above"/>
+                     <tie xml:id="m86f6052e-a2e7-42f3-8df0-ad4908d78fd3"
+                          startid="#m6815e1b8-38bb-4b3f-b13a-e971d749beb5"
+                          endid="#m5bdaa5a5-6d72-4b8e-bb5d-6329732a00ba"/>
+                  </measure>
+                  <measure xml:id="me2ca7f6b-edf0-4d90-8d5a-bb8b2ffabf77" n="4">
+                     <staff xml:id="m143a7d78-301f-4a8d-8a02-83422cf5a209" n="1">
+                        <layer xml:id="m05359630-f3b8-4ea3-88c4-1bedb2c8a78a" n="1">
+                           <note xml:id="md77c4a33-3b96-4947-b10c-830a9fa46fef"
+                                 dur="4"
+                                 oct.ges="6"
+                                 oct="5"
+                                 pname="e"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                           <rest xml:id="mf8712169-175e-48cc-bb5a-1623956ba40d" dur="8"/>
+                           <note xml:id="mc1c7acc8-feb4-474d-8a1f-33557ad7706f"
+                                 dur="8"
+                                 oct.ges="5"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mfde19591-00e8-4e94-b249-16c131b9d409" n="2">
+                        <layer xml:id="m3b900456-7246-4a35-8a70-02834d4e4825" n="5">
+                           <mRest xml:id="m82af81dd-0681-47c1-975b-7fc0cc41b183"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m7a9354b8-d4d6-4176-bd59-90e6fc8db145" n="3">
+                        <layer xml:id="m6b0c616c-98f1-430e-b436-3ff74588a929" n="1">
+                           <beam xml:id="m1145244b-0926-4e45-a9c6-44382cbcc7d0">
+                              <note xml:id="m919a7b01-5d85-4d74-8b3d-5bd3dfef5fad"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m2cf394b9-1332-4085-a604-dc29449ff2f3"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="md0817081-184d-456a-90b0-220e3fdd45b8"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m202d0db5-8b85-4d98-958e-85a4d191335e"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m0e5c6417-474d-4544-a4cb-d1201ca624d5"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                           <note xml:id="m9a66a1d5-64e9-492a-912e-54515c403bd7"
+                                 artic="stacc"
+                                 dur="8"
+                                 oct="3"
+                                 pname="e"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                           <rest xml:id="mad52a459-429e-4e7d-941a-be94248a439f" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="ma8278260-81e9-46e2-8524-538a208fb569" n="4">
+                        <layer xml:id="m35237f8e-17ea-4e9a-8be9-e9a1702349b9" n="5">
+                           <mRest xml:id="m49785fde-bb8b-42e5-b90c-85df1432a8d7"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m64c7bcf1-27da-43aa-9c95-2eea8292efd0" n="5">
+                        <layer xml:id="maca92641-0ce0-4ed6-8e47-8e44b92887c5" n="1">
+                           <note xml:id="m800a93dd-928c-46a0-bb75-9af22398d047"
+                                 dur="4"
+                                 oct.ges="6"
+                                 oct="5"
+                                 pname="g"
+                                 stem.dir="down"/>
+                           <rest xml:id="m77f218af-2552-4c6a-ace1-8e050883c47d" dur="8"/>
+                           <note xml:id="m24b244cb-53ff-4049-886f-99400ca1ffe5"
+                                 dur="8"
+                                 oct.ges="6"
+                                 oct="5"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m6e9a0ddb-c999-4ce5-b0ff-270fdb4ba82a" n="6">
+                        <layer xml:id="mb41f8ad1-c479-4a65-8c57-4a8ee0fea460" n="5">
+                           <mRest xml:id="m561b6338-a710-48a8-a8b0-8d20867f86f0"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m603816f0-2757-471c-b991-74664dee0deb" n="7">
+                        <layer xml:id="md375536b-beb5-4aeb-a838-ba7d937d3027" n="1">
+                           <tuplet xml:id="m6fb607c3-8a5e-4f17-be99-d444e2cf7fcb"
+                                   num="3"
+                                   numbase="2"
+                                   bracket.visible="true">
+                              <note xml:id="m1b6d81ce-776a-41a0-81a3-0e8a93be300f"
+                                    dots="1"
+                                    dur="4"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"/>
+                           </tuplet>
+                           <tuplet xml:id="ma41ba5fe-391f-4a6a-902e-b037e594e27c"
+                                   num="3"
+                                   numbase="2"
+                                   bracket.visible="true">
+                              <note xml:id="m6ebd2981-e8a9-47ab-852e-5ff743648c33"
+                                    dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"/>
+                              <rest xml:id="m2992a554-cbd3-4ad3-b987-3653d09f8876" dur="8"/>
+                              <beam xml:id="m7cb432da-53d7-4c74-9c1d-255cdb08c3ac">
+                                 <tuplet xml:id="mbc431443-433a-42d9-8033-b105c4ac23fd"
+                                         num="3"
+                                         numbase="2"
+                                         bracket.visible="false">
+                                    <note xml:id="m7bbcc6bc-1fc7-49d1-abc3-1bfa315e0c9b"
+                                          artic="stacc"
+                                          dur="16"
+                                          oct="4"
+                                          pname="e"
+                                          stem.dir="up"
+                                          accid.ges="f"/>
+                                    <note xml:id="mf49c7c61-8d46-4e41-9dcf-d2dccf5c8027"
+                                          artic="stacc"
+                                          dur="16"
+                                          oct="4"
+                                          pname="e"
+                                          stem.dir="up"
+                                          accid.ges="f"/>
+                                    <note xml:id="mcb3948e8-f88c-424d-b32f-3cf8bb6169af"
+                                          artic="stacc"
+                                          dur="16"
+                                          oct="4"
+                                          pname="e"
+                                          stem.dir="up"
+                                          accid.ges="f"/>
+                                 </tuplet>
+                              </beam>
+                           </tuplet>
+                        </layer>
+                     </staff>
+                     <staff xml:id="meef7d132-e200-419c-a58c-8ba0edd39b0b" n="8">
+                        <layer xml:id="m57cd5b36-f12d-4d14-a535-11c616a793c5" n="5">
+                           <mRest xml:id="m639cde52-4752-4065-8aa5-420e8f519f67"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m92f8f60a-2810-4186-a4d0-febd8a322618" n="9">
+                        <layer xml:id="m2f071c25-ee29-49d2-82d5-207dae6ccbb1" n="1">
+                           <beam xml:id="mbc2a99c2-e93d-4a92-a091-472a5be51891">
+                              <note xml:id="me6359cba-0b4c-45b1-b716-58e501e3533f"
+                                    artic="stacc"
+                                    dur="8"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="m5aedb1b9-dfc3-4332-b3b9-ed04b9b4297a"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="me3771c1a-7f1c-4a6f-b016-c8368e553df6"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="mc6ea5b7d-5dd0-46fb-b638-07bb637b92fa"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="me1b1da80-eeb3-4d70-8ec9-b56f2e754564"
+                                    dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                           <note xml:id="mdfb44849-7b94-40c1-82ff-931365faf049"
+                                 artic="stacc"
+                                 dur="8"
+                                 oct="3"
+                                 pname="e"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                           <rest xml:id="m228f7b58-5097-484b-9e4b-baec1be8f5c8" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mc0497e76-a467-4e21-b0d6-4dd295d111b9" n="10">
+                        <layer xml:id="m63321c2f-9297-4145-b5de-73924cae3488" n="5">
+                           <mRest xml:id="m0c2ed749-7a76-4f25-9ed3-e55f13ba4458"/>
+                        </layer>
+                     </staff>
+                     <tie xml:id="m6491379b-0578-4391-b79c-d560167f90bd"
+                          startid="#m1b6d81ce-776a-41a0-81a3-0e8a93be300f"
+                          endid="#m6ebd2981-e8a9-47ab-852e-5ff743648c33"/>
+                  </measure>
+               </section>
+               <!-- Correction -->
+               <section xml:id="m93895ae9-d6bf-42d0-9a13-df366c94b46d">
+                  <measure xml:id="m2936234f-7100-4642-ac2f-216444157337" n="1">
+                     <staff xml:id="m51068c2a-0207-4247-b305-757a9efb695b" n="1">
+                        <layer xml:id="mc17deeca-caaa-4aed-af29-b39dcad36f75" n="1">
+                           <note xml:id="m48e6a2dd-cbda-4702-8cf4-9769233ac78a"
+                                 dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 accid.ges="f"/>
+                           <note xml:id="m8d516fd3-422e-4a98-8301-f17faf2833a8"
+                                 dur="8"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 accid.ges="f"/>
+                           <rest xml:id="mb1b611b0-ebd3-4b61-ad0b-16e41dc5f02a" dur="8"/>
+                           <beam xml:id="m27a6a72e-5576-406b-a14d-67cef79bb63e">
+                              <tuplet xml:id="m2511217b-0988-41cf-b555-5157407c409a"
+                                      num="3"
+                                      numbase="2"
+                                      bracket.visible="false">
+                                 <note xml:id="m47bd75a0-c582-40b4-abbb-bc7a679cb5ce"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"
+                                       accid.ges="f"/>
+                                 <note xml:id="m0a8180fa-efe4-4d77-9259-b5b4ca34417f"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"
+                                       accid.ges="f"/>
+                                 <note xml:id="madc0f1a6-9348-4847-983f-23bb9a097310"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"
+                                       accid.ges="f"/>
+                              </tuplet>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m89a4e149-beca-4ce9-89bc-9a3b5b00fdc7" n="2">
+                        <layer xml:id="mb919e4cf-d83a-4cc0-98ea-d4b6f6a94239" n="5">
+                           <mRest xml:id="m7740ed9d-ffba-43da-8c5d-1680aa1760ea"/>
+                        </layer>
+                     </staff>
+                     <dynam xml:id="m6fed8828-bbee-4cc1-af3e-de23a91954ec"
+                            place="below"
+                            staff="1"
+                            tstamp="1">f</dynam>
+                     <slur xml:id="m5dabae73-8296-4187-8ce0-41320b2a74c6"
+                           startid="#m48e6a2dd-cbda-4702-8cf4-9769233ac78a"
+                           endid="#m8d516fd3-422e-4a98-8301-f17faf2833a8"
+                           curvedir="below"/>
+                  </measure>
+                  <measure xml:id="mca2a6fdc-9e17-4956-88de-44b929ba4eec" n="2">
+                     <staff xml:id="m3eb5d321-8151-4aea-9ab7-d5ca05e78feb" n="1">
+                        <layer xml:id="m2f04cb31-05a8-435c-87d4-c39d06c5aefc" n="1">
+                           <note xml:id="mf594d776-2152-4661-8b52-44956110847b"
+                                 dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 accid.ges="f"/>
+                           <note xml:id="m66c20c50-7bc4-4461-86b0-856db36f7264"
+                                 dur="8"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 accid.ges="f"/>
+                           <rest xml:id="ma5fcf79e-4083-49e4-a20f-2abba502704d" dur="8"/>
+                           <beam xml:id="me3e114c6-8748-445d-856c-c63bc1f240eb">
+                              <tuplet xml:id="m2b6f5d96-8a9b-47d0-854a-7f04bf8fab04"
+                                      num="3"
+                                      numbase="2"
+                                      bracket.visible="false">
+                                 <note xml:id="m8296a5d2-1973-4659-898e-242f7249fbe5"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"
+                                       accid.ges="f"/>
+                                 <note xml:id="m688c9042-3365-4c39-b113-891bd437abbe"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"
+                                       accid.ges="f"/>
+                                 <note xml:id="mb07301bb-36fa-4d87-b895-fe61a8e3d7a1"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"
+                                       accid.ges="f"/>
+                              </tuplet>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mf723187f-9b83-4624-aa7a-036a83517cb8" n="2">
+                        <layer xml:id="mbe0bb442-cc6e-40e0-a0f8-610876b5904f" n="5">
+                           <mRest xml:id="mfbcc8440-828f-43af-8a0a-696c0f1d2998"/>
+                        </layer>
+                     </staff>
+                     <dynam xml:id="m71de3c30-bd0a-4edd-8804-f86082fdb006"
+                            place="below"
+                            staff="1"
+                            tstamp="1">f</dynam>
+                     <slur xml:id="m87ddc0e2-57d6-45ba-98ea-56c4eb2c121f"
+                           startid="#mf594d776-2152-4661-8b52-44956110847b"
+                           endid="#m66c20c50-7bc4-4461-86b0-856db36f7264"
+                           curvedir="below"/>
+                  </measure>
+                  <measure xml:id="m9484a5c5-5bda-48f1-bbbe-891db2c3a2b6" right="end" n="3">
+                     <staff xml:id="m029ed49b-cbcd-42f2-a87d-1d3ebb67fbdb" n="1">
+                        <layer xml:id="m71a66f97-b7bf-404a-a0ee-80d60563e2b5" n="1">
+                           <note xml:id="m00b525ba-6fa7-4dae-acbc-88277d92f37a"
+                                 dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"/>
+                           <note xml:id="m70cd4a39-3914-4f97-985a-2df6bd519f85"
+                                 dur="8"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"/>
+                           <rest xml:id="m4602cb8a-b8c1-476b-acc8-5296fcb52757" dur="8"/>
+                           <beam xml:id="m143ce0f5-23ff-4623-a342-4d365f9aa83a">
+                              <tuplet xml:id="m8a725e1a-4f9c-4c99-9466-d15f416026d8"
+                                      num="3"
+                                      numbase="2"
+                                      bracket.visible="false">
+                                 <note xml:id="mff3edc11-f062-4368-918f-ba496e392b69"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"
+                                       accid.ges="f"/>
+                                 <note xml:id="mfe53d4ea-cacd-45d3-8b8b-eca2f893ee2b"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"
+                                       accid.ges="f"/>
+                                 <note xml:id="ma22caa51-c3b2-4842-81b1-a521af8fe016"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"
+                                       accid.ges="f"/>
+                              </tuplet>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m66340e3e-0540-4b96-a64b-8d2cfecee800" n="2">
+                        <layer xml:id="m48781f87-d897-459b-aeff-819b65cd0d39" n="5">
+                           <mRest xml:id="m7d0ca8e6-96c2-43dd-b0ca-b6834d7d37c2"/>
+                        </layer>
+                     </staff>
+                     <dynam xml:id="m77b9e57b-97c9-4dc4-9417-9feed1491922"
+                            place="below"
+                            staff="1"
+                            tstamp="1">f</dynam>
+                     <slur xml:id="m95906e86-b21d-4e9c-9aac-1b9c4befcc06"
+                           startid="#m00b525ba-6fa7-4dae-acbc-88277d92f37a"
+                           endid="#m70cd4a39-3914-4f97-985a-2df6bd519f85"
+                           curvedir="below"/>
+                  </measure>
+               </section>
+               <!-- Carla Jürgens -->
+               <section xml:id="m8bad207a-5b05-47ad-af7c-f40dd0e1c3d9">
+                  <measure xml:id="mcd1cab5c-d486-40ac-9114-39e70becbc6a" n="1">
+                     <staff xml:id="m9f41d600-7647-4716-83ef-024bea0d7c8d" n="1">
+                        <layer xml:id="m52fb1ec6-094b-461b-b938-24c7b640221d" n="1">
+                           <note xml:id="m6fdf876b-5914-48b1-b037-8206549951ae"
+                                 dots="2"
+                                 dur="4"
+                                 oct="5"
+                                 pname="d"
+                                 stem.dir="down"/>
+                           <note xml:id="ma85438f2-fa1a-4c4d-97c5-1cf44230cf87"
+                                 dur="16"
+                                 oct="5"
+                                 pname="c"
+                                 stem.dir="down"
+                                 accid.ges="s"/>
+                           <beam xml:id="mc04d4f93-5400-4c8c-8ba4-30dfbd074ccb">
+                              <note xml:id="m2d7cb8fe-cb95-41aa-8ca4-88575e90cc23"
+                                    dur="16"
+                                    oct="5"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="mda3b0724-bd9c-47e1-ab58-f5b7c371e7b6"
+                                    dur="16"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"/>
+                              <note xml:id="md3e90d19-7bcf-4746-bd3a-4f7577946d6a"
+                                    dur="16"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"
+                                    accid.ges="s"/>
+                              <note xml:id="m903529e8-d7c4-4a0d-ab79-a1afc5fb9397"
+                                    dur="16"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m118bb207-f40c-4ac8-81fc-55dcac9dac84" n="2">
+                        <layer xml:id="m814545ae-c65e-4a2e-8d0e-bb92e57b80fe" n="5">
+                           <mRest xml:id="m90d64088-37fb-44e2-af29-81590a621542"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="md13090c1-d8e0-4a9a-b708-604adf1cafdb" n="3">
+                        <layer xml:id="m29c75269-9389-46d3-b13d-7b42e32560d9" n="1">
+                           <note xml:id="m0bb71b0b-f2c0-400d-bef1-2078d2a0a1d5"
+                                 dots="2"
+                                 dur="4"
+                                 oct="5"
+                                 pname="b"
+                                 stem.dir="down"/>
+                           <note xml:id="m00da0e34-63c6-4923-a4e9-b9035e14a3ec"
+                                 artic="stacc"
+                                 dur="16"
+                                 oct="5"
+                                 pname="a"
+                                 stem.dir="down"/>
+                           <note xml:id="mb251959c-1c62-4d85-b5d6-c5b8d4c2221b"
+                                 artic="stacc"
+                                 dur="4"
+                                 oct="5"
+                                 pname="b"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m16483365-e32c-435a-b314-bfedd5bb5ee3" n="4">
+                        <layer xml:id="m5e05a31f-369e-4e0d-8234-47da620a058a" n="5">
+                           <note xml:id="m158d76ab-d0ae-432a-af3b-3657f04317ce"
+                                 dots="2"
+                                 dur="4"
+                                 oct="2"
+                                 pname="d"
+                                 stem.dir="up"/>
+                           <note xml:id="m3283d16a-81b4-4fc6-ba16-3c5543a3d990"
+                                 artic="stacc"
+                                 dur="16"
+                                 oct="2"
+                                 pname="d"
+                                 stem.dir="up"/>
+                           <note xml:id="m01923739-8f3b-4bf2-9568-aa4b232c2bfb"
+                                 artic="stacc"
+                                 dur="4"
+                                 oct="2"
+                                 pname="d"
+                                 stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mf9c89e11-6ff2-4226-ae12-94bc8d0fb1de" n="5">
+                        <layer xml:id="m4501738f-8828-40ce-8fa3-a5cb03809b7c" n="1">
+                           <note xml:id="m9dddad38-89cf-4252-a313-763e2c633a87"
+                                 dur="4"
+                                 oct="6"
+                                 pname="d"
+                                 stem.dir="down"/>
+                           <beam xml:id="mc2ef04ff-7ded-4831-b18d-41b936fd4b81">
+                              <note xml:id="mcfcf1da3-2e5c-453c-a8a3-3ee7ac67b089"
+                                    dur="16"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="me1269c78-9792-4fa7-acb1-50bec264aeb8"
+                                    dur="32"
+                                    oct="6"
+                                    pname="c"
+                                    stem.dir="down"
+                                    accid.ges="s"/>
+                              <note xml:id="m274a7ab9-d7a3-4e0c-8e42-e8a7cc61f896"
+                                    dur="32"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"/>
+                              <note xml:id="m5a73d29d-b49e-41b3-8dee-394654928bc0"
+                                    dur="32"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"/>
+                              <note xml:id="m53732ac1-091c-4941-8415-b2349940ec51"
+                                    dur="32"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="md7489a33-bb61-49e1-9ac5-b5ec97f2e0ac"
+                                    dur="32"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"
+                                    accid.ges="s"/>
+                              <note xml:id="m343406e9-b1c6-4c8d-8419-49bde2884dd2"
+                                    dur="32"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"/>
+                           </beam>
+                           <note xml:id="m6c41545a-12f8-4b09-bdc9-b7a0a71a05c7"
+                                 dur="8"
+                                 oct="5"
+                                 pname="d"
+                                 stem.dir="down"/>
+                           <rest xml:id="m6eb1922b-a54a-466d-9d53-4cd281851413" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m91b4022f-e58e-4816-9799-ccdcd57cf9f3" n="6">
+                        <layer xml:id="m2df566d2-0661-4691-b883-c97cdad04615" n="5">
+                           <note xml:id="m18eb3e93-97fb-4757-b3f9-ad4e9bfb5829"
+                                 dur="4"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="down"
+                                 accid.ges="s"/>
+                           <beam xml:id="m73378dfa-ae9c-4772-967a-96a3bdff3f0c">
+                              <note xml:id="mb8bc94a1-4c63-4ed3-a8b1-e7dd0018b711"
+                                    dots="1"
+                                    dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="down"
+                                    accid.ges="s"/>
+                              <note xml:id="m69b61390-853a-488e-ab4d-b498eacf1acb"
+                                    artic="stacc"
+                                    dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="down"/>
+                           </beam>
+                           <note xml:id="m1551748d-7aae-40e5-8851-3c464338f6b1"
+                                 artic="stacc"
+                                 dur="8"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="down"
+                                 accid.ges="s"/>
+                           <rest xml:id="m398454eb-db9d-41e7-8327-720e8270d363" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m51061e75-bdf0-42e0-85e3-183043b8c96d" n="7">
+                        <layer xml:id="m2b5c35a0-0af0-403c-a82e-8c4334302cd0" n="1">
+                           <note xml:id="m644f6355-7964-477e-91e4-1937ff2c11b4"
+                                 dots="2"
+                                 dur="4"
+                                 oct="4"
+                                 pname="d"
+                                 stem.dir="up"/>
+                           <note xml:id="mb155396c-68b7-4da1-8c32-98141a7efff3"
+                                 artic="stacc"
+                                 dur="16"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"
+                                 accid.ges="s"/>
+                           <beam xml:id="m809e68b4-6a44-486c-b573-7db1b5592ac3">
+                              <note xml:id="m13fa64b5-55ed-4570-8c33-7486a53190f5"
+                                    dur="16"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"/>
+                              <note xml:id="mad4d6403-546e-46c0-b619-cc6d0904f7e6"
+                                    dur="16"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"/>
+                              <note xml:id="m3190a8f1-e6c8-4118-8877-b24cb41d0580"
+                                    dur="16"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    accid.ges="s"/>
+                              <note xml:id="ma1494e02-9e57-4ec7-8899-da23691defe1"
+                                    dur="16"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m93165a3b-d337-4dfa-95fc-da2b7444aefd" n="8">
+                        <layer xml:id="m5d8fbe88-a033-4ffd-b9c9-e503b5195d34" n="5">
+                           <mRest xml:id="m253bdb95-3c7d-4ae7-bcc6-f6a87e1485e8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m951d4255-5271-49a6-aac5-0c09412d2f1f" n="9">
+                        <layer xml:id="m35376996-71f1-4012-afb4-1b483e82734c" n="1">
+                           <note xml:id="m1665de18-2b39-47b3-9e70-5c3ebf48a638"
+                                 dots="2"
+                                 dur="4"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"/>
+                           <note xml:id="m4c853303-b5dc-4478-9769-cad81335958c"
+                                 dur="16"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"/>
+                           <note xml:id="m11b63779-d080-46d6-aec6-daaed9c8cf36"
+                                 artic="stacc"
+                                 dur="4"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m49fc9f2d-cd93-49b3-a0fa-e7a56c410524" n="10">
+                        <layer xml:id="mdc412326-f15e-4860-864d-df3ed6634304" n="5">
+                           <note xml:id="m97b16f31-3412-46aa-ae3f-c72f336c7280"
+                                 dur="2"
+                                 oct="2"
+                                 pname="d"
+                                 stem.dir="up"/>
+                           <note xml:id="mf4a1ee9e-67c9-4ebf-bd23-8573e9aba025"
+                                 dur="4"
+                                 oct="2"
+                                 pname="d"
+                                 stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <dir xml:id="mcc58de34-dd3e-4c5b-b58b-38b9434583c1"
+                          place="below"
+                          staff="1"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="m4e27efed-8dfd-46dc-a2e6-dce99a5bf188"
+                          place="above"
+                          staff="1"
+                          tstamp="1">tr</dir>
+                     <slur xml:id="m76a8fdf6-5644-4a21-bb7f-7b83859c856b"
+                           startid="#m2d7cb8fe-cb95-41aa-8ca4-88575e90cc23"
+                           endid="#m903529e8-d7c4-4a0d-ab79-a1afc5fb9397"
+                           curvedir="above"/>
+                     <dir xml:id="m90b24c15-4c44-4222-b3a1-3c58d5084fce"
+                          place="below"
+                          staff="3"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="m522e5a41-8406-4ef1-9000-6363db0836c5"
+                          place="above"
+                          staff="3"
+                          tstamp="1">tr</dir>
+                     <dir xml:id="m2b399038-1182-46b7-9057-50b94173e06b"
+                          place="below"
+                          staff="4"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="mbcf7eff2-9059-4ee9-96a7-a94eb28c4846"
+                          place="above"
+                          staff="4"
+                          tstamp="1">tr</dir>
+                     <dir xml:id="m150cc038-9728-4f27-a6ad-6e362a8c84cd"
+                          place="below"
+                          staff="5"
+                          tstamp="1">ff</dir>
+                     <tie xml:id="m2838853a-b029-4000-a8cf-299044f22184"
+                          startid="#m9dddad38-89cf-4252-a313-763e2c633a87"
+                          endid="#mcfcf1da3-2e5c-453c-a8a3-3ee7ac67b089"/>
+                     <slur xml:id="m4648f58d-f611-4b39-aac1-d5ad6ff27986"
+                           startid="#mcfcf1da3-2e5c-453c-a8a3-3ee7ac67b089"
+                           endid="#m6c41545a-12f8-4b09-bdc9-b7a0a71a05c7"
+                           curvedir="above"/>
+                     <dir xml:id="ma03b1eae-3101-4482-be18-b28cdf94d11d"
+                          place="below"
+                          staff="6"
+                          tstamp="1">ff</dir>
+                     <tie xml:id="m61b364d0-b7ed-415e-acba-f48c741f4390"
+                          startid="#m18eb3e93-97fb-4757-b3f9-ad4e9bfb5829"
+                          endid="#mb8bc94a1-4c63-4ed3-a8b1-e7dd0018b711"/>
+                     <dir xml:id="mf7893671-cbcd-4f53-936f-7822bac5fd8f"
+                          place="below"
+                          staff="7"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="m5ff087ab-d16a-4dec-b32d-4c22225a1eb7"
+                          place="above"
+                          staff="7"
+                          tstamp="1">tr</dir>
+                     <slur xml:id="mfdfe7c29-3a2b-42e0-8a47-7264ae2ad9b7"
+                           startid="#m13fa64b5-55ed-4570-8c33-7486a53190f5"
+                           endid="#mad4d6403-546e-46c0-b619-cc6d0904f7e6"
+                           curvedir="below"/>
+                     <dir xml:id="m2aa2e3a7-0899-4670-8bff-cab7774928c8"
+                          place="below"
+                          staff="9"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="m87041da3-6697-4889-b3e6-322a18b7e72d"
+                          place="above"
+                          staff="9"
+                          tstamp="1">tr</dir>
+                     <dir xml:id="m693bc1df-743d-4436-8108-07975b1004bb"
+                          place="below"
+                          staff="10"
+                          tstamp="1">ff</dir>
+                  </measure>
+                  <measure xml:id="m6433acc1-1372-4578-9bec-b3e44477315b" n="2">
+                     <staff xml:id="m7df458a6-eef1-43b8-9c8e-ba922fc7ad6f" n="1">
+                        <layer xml:id="m9284ecdf-a294-4d1f-aa0e-ecb5cce88ac7" n="1">
+                           <note xml:id="mcb8cdb36-5614-4c0c-8457-28cb65d1055c"
+                                 dur="4"
+                                 oct="5"
+                                 pname="a"
+                                 stem.dir="down"/>
+                           <note xml:id="m2aa4855d-7cc1-4c64-ac68-641794b50907"
+                                 dur="4"
+                                 oct="5"
+                                 pname="a"
+                                 stem.dir="down"/>
+                           <note xml:id="m641882ac-ce0c-41be-8583-59eec953a33b"
+                                 dur="4"
+                                 oct="5"
+                                 pname="a"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="ma93765fb-49ec-432d-a732-cd8499eb545a" n="2">
+                        <layer xml:id="md9e3b909-2efd-4f22-b7e4-c8ae2dcffd13" n="5">
+                           <note xml:id="m7af4ddc7-bb26-44bb-8855-0873c4de7095"
+                                 dur="4"
+                                 oct="3"
+                                 pname="e"
+                                 stem.dir="down"
+                                 accid="n"/>
+                           <note xml:id="m254dc946-ea9b-421c-964b-a8b63e093811"
+                                 dur="4"
+                                 oct="3"
+                                 pname="e"
+                                 stem.dir="down"/>
+                           <note xml:id="m43728178-3077-4b63-bd69-2d30daca5d84"
+                                 dur="4"
+                                 oct="3"
+                                 pname="e"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mc82c19b3-d8f6-42f3-8b74-822fe315aad6" n="3">
+                        <layer xml:id="m41907602-5391-4ae3-982a-f4d82099244c" n="1">
+                           <note xml:id="m9d973785-1877-4c31-a164-38621dae2664"
+                                 dur="4"
+                                 oct="5"
+                                 pname="a"
+                                 stem.dir="down"
+                                 accid="n"/>
+                           <note xml:id="m4a0a4755-2cbc-40af-a074-d92df21b2c3b"
+                                 dur="4"
+                                 oct="5"
+                                 pname="a"
+                                 stem.dir="down"/>
+                           <note xml:id="m114d82d5-04f7-44e4-8909-136b00318734"
+                                 dur="4"
+                                 oct="5"
+                                 pname="a"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="mab0fbf19-613c-4ff0-a981-5d5e39059378" n="4">
+                        <layer xml:id="m35b9592e-5110-4f4d-9dac-3ccadc912091" n="5">
+                           <note xml:id="m31a23e73-f40b-47b5-a30f-66d59f62a11a"
+                                 dur="4"
+                                 oct="3"
+                                 pname="d"
+                                 stem.dir="down"/>
+                           <note xml:id="mdb3f2c1c-635e-4f24-8693-422232d9127e"
+                                 dur="4"
+                                 oct="3"
+                                 pname="d"
+                                 stem.dir="down"/>
+                           <note xml:id="m547d5d22-1b37-415e-95d5-3d2be000408a"
+                                 dur="4"
+                                 oct="3"
+                                 pname="d"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m51358e00-812a-4e70-b63e-3d97f9e53e30" n="5">
+                        <layer xml:id="m345a5d6c-acd8-4a5d-8fce-f3d0b7af8c1f" n="1">
+                           <mRest xml:id="mbf4aa855-23f6-4e79-8c9c-cfc12735cf81"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m0f48c63b-9811-475e-b30b-ee25982a6bd0" n="6">
+                        <layer xml:id="m72a49446-943c-4962-b693-c96f6e15cec4" n="5">
+                           <mRest xml:id="m01f7ffb0-db5b-4ca0-9eb2-3f745a4f3bbc"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m657ad3fa-c312-4b92-8cd1-ba2c500ca89d" n="7">
+                        <layer xml:id="m6f20988e-a618-4131-ad25-46ebaba8ce8f" n="1">
+                           <note xml:id="m5d6397c0-d01c-4403-8702-b40fd4059504"
+                                 dur="4"
+                                 oct="4"
+                                 pname="a"
+                                 stem.dir="up"/>
+                           <note xml:id="mdc160148-b099-46ac-91c4-2cc71b8fa9b8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="a"
+                                 stem.dir="up"/>
+                           <note xml:id="m59400a99-ad1a-48cd-86f6-d4c417efc035"
+                                 dur="4"
+                                 oct="4"
+                                 pname="a"
+                                 stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m94969b7c-e7dc-44e9-bd16-02d9cfc9604f" n="8">
+                        <layer xml:id="m5256fb30-714d-4fe6-b21b-e2d93b53fcc6" n="5">
+                           <note xml:id="mb59b8200-d44f-432f-89b6-21fd3f0b6611"
+                                 dur="4"
+                                 oct="2"
+                                 pname="f"
+                                 stem.dir="up"
+                                 accid.ges="s"/>
+                           <note xml:id="m84d9e9dc-30ce-4cf5-90b6-ccfe927dcc6d"
+                                 dur="4"
+                                 oct="2"
+                                 pname="f"
+                                 stem.dir="up"
+                                 accid.ges="s"/>
+                           <note xml:id="m54b484de-d16f-4a06-af07-8428aeee1438"
+                                 dur="4"
+                                 oct="2"
+                                 pname="f"
+                                 stem.dir="up"
+                                 accid.ges="s"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m1e1ff22b-abae-4a32-bfe4-a704d9f8ea58" n="9">
+                        <layer xml:id="m2d54b604-0c6b-4c3a-b7d4-e072d2b542d6" n="1">
+                           <note xml:id="m071f777b-190d-47a4-92c8-e40b2e27baa5"
+                                 dur="4"
+                                 oct="5"
+                                 pname="f"
+                                 stem.dir="down"
+                                 accid.ges="s"/>
+                           <note xml:id="me4fa79d8-6001-4ffe-9683-83824dc5f76a"
+                                 dur="4"
+                                 oct="5"
+                                 pname="f"
+                                 stem.dir="down"
+                                 accid.ges="s"/>
+                           <note xml:id="m3fa4ef75-02cd-4c2e-9afb-82588380cfb0"
+                                 dur="4"
+                                 oct="5"
+                                 pname="f"
+                                 stem.dir="down"
+                                 accid.ges="s"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m24758ec1-6f64-48ab-af8b-b42af1a9f689" n="10">
+                        <layer xml:id="mcbb1d4b0-6187-47c9-b0ff-92f84cb3f80c" n="5">
+                           <mRest xml:id="m3c2cfc06-132c-4809-ba88-a2ab45dd734a"/>
+                        </layer>
+                     </staff>
+                     <dir xml:id="mc0a600f8-7046-4f9e-89a6-b8db20386d2c"
+                          place="below"
+                          staff="1"
+                          tstamp="1">p</dir>
+                     <dir xml:id="mdb16f4c8-51ce-4ae2-99dd-1d1e00db95b4"
+                          place="below"
+                          staff="2"
+                          tstamp="1">p</dir>
+                     <dir xml:id="mc7c63272-d41b-4ad9-abe6-466cac5fe3a4"
+                          place="below"
+                          staff="3"
+                          tstamp="1">p</dir>
+                     <dir xml:id="m9fa1a913-546f-45b4-a4d8-e7231cb5780c"
+                          place="below"
+                          staff="4"
+                          tstamp="1">p</dir>
+                     <dir xml:id="m0a020c00-a0eb-48f9-8604-28c4ad992a16"
+                          place="below"
+                          staff="7"
+                          tstamp="1">p</dir>
+                     <dir xml:id="m70c05d33-ffac-4814-aef9-5a275c7e166f"
+                          place="below"
+                          staff="8"
+                          tstamp="1">p</dir>
+                     <dir xml:id="me4b78477-8d73-4934-8912-534d98ecca9a"
+                          place="below"
+                          staff="9"
+                          tstamp="1">p</dir>
+                  </measure>
+                  <measure xml:id="mf27ab86c-685e-4603-8c88-6e0f6f1d1092" right="end" n="3">
+                     <staff xml:id="m299eaf05-0d83-4e0d-9ebd-e9866fbe0503" n="1">
+                        <layer xml:id="m6de79f9a-2462-4122-991e-2465ac66192e" n="1">
+                           <note xml:id="m21289cb7-b993-47b3-95af-337bd2035301"
+                                 dots="2"
+                                 dur="4"
+                                 oct="5"
+                                 pname="a"
+                                 stem.dir="down"/>
+                           <note xml:id="m3f1c06fb-b354-4567-887a-cfadc0cc71d0"
+                                 artic="stacc"
+                                 dur="16"
+                                 oct="5"
+                                 pname="g"
+                                 stem.dir="down"/>
+                           <note xml:id="m11f76e99-9dc4-4b6b-80b0-037f8c79d24d"
+                                 artic="stacc"
+                                 dur="4"
+                                 oct="5"
+                                 pname="f"
+                                 stem.dir="down"
+                                 accid.ges="s"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m14334715-ed10-4f0f-a4e7-b6a1462471a7" n="2">
+                        <layer xml:id="m1beb4937-f78c-45a6-8ff8-9bfa8e3e96a7" n="5">
+                           <note xml:id="m6e91de12-32ed-4883-b7c3-7764806c7244"
+                                 dots="2"
+                                 dur="4"
+                                 oct="3"
+                                 pname="e"
+                                 stem.dir="down"
+                                 accid="n"/>
+                           <note xml:id="m5f370c71-b336-4ea6-a496-309709602c91"
+                                 artic="stacc"
+                                 dur="16"
+                                 oct="3"
+                                 pname="d"
+                                 stem.dir="down"/>
+                           <note xml:id="m6f69eb9b-66d2-4b92-9a34-6d8c7b0ed027"
+                                 artic="stacc"
+                                 dur="4"
+                                 oct="3"
+                                 pname="c"
+                                 stem.dir="up"
+                                 accid.ges="s"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m1dce9dd5-0b00-4a2c-b20b-b915fdb1e1e2" n="3">
+                        <layer xml:id="m4f2e094a-5831-4329-9d7a-e12b5c8d86ab" n="1">
+                           <note xml:id="m964403d8-55ab-473e-9930-c156e9cb7a34"
+                                 dots="2"
+                                 dur="4"
+                                 oct="5"
+                                 pname="a"
+                                 stem.dir="down"
+                                 accid="n"/>
+                           <note xml:id="m1ed5b2e1-5b9f-44e4-bfdd-c25cee4bb99b"
+                                 artic="stacc"
+                                 dur="16"
+                                 oct="5"
+                                 pname="g"
+                                 stem.dir="down"/>
+                           <note xml:id="m77d81a96-b959-4b00-a085-5764111b6eb3"
+                                 artic="stacc"
+                                 dur="4"
+                                 oct="5"
+                                 pname="f"
+                                 stem.dir="down"
+                                 accid.ges="s"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m9ce853a1-08d6-48ee-89a0-84c415a37593" n="4">
+                        <layer xml:id="m75ffe601-3b18-4237-b01d-73abde9d414c" n="5">
+                           <note xml:id="m2b15d89f-4014-4765-91ee-8f1daea0a22f"
+                                 dots="2"
+                                 dur="4"
+                                 oct="3"
+                                 pname="d"
+                                 stem.dir="down"/>
+                           <note xml:id="m696e109a-2d0f-4d46-8a26-420b8445e1ac"
+                                 artic="stacc"
+                                 dur="16"
+                                 oct="3"
+                                 pname="d"
+                                 stem.dir="down"/>
+                           <note xml:id="m060fcb0e-8256-43a4-bd88-423960d74c4d"
+                                 artic="stacc"
+                                 dur="4"
+                                 oct="3"
+                                 pname="d"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m39c6f990-fbeb-436c-b45f-eaf066b9ae0f" n="5">
+                        <layer xml:id="mbfa07592-fc54-4a4a-a5fc-18dea13fa877" n="1">
+                           <beam xml:id="m346c0119-ce22-4364-8674-4baf0b11a335">
+                              <note xml:id="m0a7ebf07-9062-416c-9d72-a2e782377efc"
+                                    dur="32"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="mb5f2c689-e580-4091-b91d-2f5699d19da7"
+                                    dur="32"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"/>
+                              <note xml:id="m65966514-20dc-41c8-a99a-e1da5efecec0"
+                                    dur="32"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="mfccfc9b9-b90e-464e-8d22-17d5909e3850"
+                                    dur="32"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"/>
+                              <note xml:id="m32b1444f-99e4-418c-b2b3-736d80947a2c"
+                                    dur="32"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="mf0a8eb80-e7f2-4197-8dd2-1f64e0fdff43"
+                                    dur="32"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"/>
+                              <note xml:id="m90935f27-7d45-4a62-a616-4dfae7fde589"
+                                    dur="32"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="mf6d4c144-e8ca-4090-8168-6a61ee651cee"
+                                    dur="32"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="mc47f84e4-e7d5-4b72-a40f-55398f853caa">
+                              <note xml:id="m345aabf8-bccd-4ed3-bea2-e6c7ee679af5"
+                                    dur="32"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="m085c69ca-cde0-45b6-97f9-02edda37a14a"
+                                    dur="32"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"/>
+                              <note xml:id="m62319367-f5ed-43de-b477-4d847c30706f"
+                                    dur="32"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="mbdade993-4b35-49c4-915e-d86fb5ff8382"
+                                    dur="32"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"/>
+                              <note xml:id="m79f92dc4-c400-4da8-970a-05a05ba582b8"
+                                    dur="32"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="m7d2b1b09-f5a2-485a-a955-85863babe30b"
+                                    dur="32"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"/>
+                              <note xml:id="m0b93b2ca-d304-478d-b69c-a853926119ed"
+                                    dur="32"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="me0eee6ff-df78-4d6e-945c-48366d9e3b1b"
+                                    dur="32"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"/>
+                           </beam>
+                           <note xml:id="m3b67692d-5e45-42cb-b4b3-628be30978ef"
+                                 dur="8"
+                                 oct="6"
+                                 pname="d"
+                                 stem.dir="down"/>
+                           <rest xml:id="mb0f22dae-76ac-46e0-a2a6-6468a625e63d" dur="8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m73c471bb-d09a-430e-989d-cc4a80a89635" n="6">
+                        <layer xml:id="mdda77de9-ef4b-44db-9781-cdccd4ad9d0d" n="5">
+                           <chord xml:id="m32c76e52-00dc-45f3-9ecd-fd4b19fbefc9"
+                                  dots="2"
+                                  dur="4"
+                                  stem.dir="down">
+                              <note xml:id="mca0aa587-771b-49c2-b51d-3ebbe1cbdf06"
+                                    oct="4"
+                                    pname="c"
+                                    accid="n"/>
+                              <note xml:id="m86856c98-430e-49b9-963c-7bcc6ce86d83" oct="4" pname="e"/>
+                           </chord>
+                           <chord xml:id="m705bfc4b-7eb4-45a6-b173-0a4240092dfa"
+                                  artic="stacc"
+                                  dur="16"
+                                  stem.dir="down">
+                              <note xml:id="m0f3bfd17-0dc3-4d9b-90b0-e1a431cc299a" oct="4" pname="c"/>
+                              <note xml:id="m21466742-36d5-4853-a54a-65c2d714af38" oct="4" pname="e"/>
+                           </chord>
+                           <chord xml:id="mff09d978-7b6f-421f-85cd-8891e87f9a28"
+                                  artic="stacc"
+                                  dur="4"
+                                  stem.dir="down">
+                              <note xml:id="m023780fe-1a8a-450d-be42-0abc387257c4" oct="3" pname="a"/>
+                              <note xml:id="md4b7402b-15e4-4757-a7d9-6a0caad8ce1a" oct="4" pname="c"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m257d31ab-b73e-46cb-909b-557fae8d3f82" n="7">
+                        <layer xml:id="m3f865402-7f40-4910-9bca-d2280eb4e90b" n="1">
+                           <note xml:id="m7ed3d8d7-dc94-46b8-8eac-d276d4d258d0"
+                                 dots="2"
+                                 dur="4"
+                                 oct="4"
+                                 pname="a"
+                                 stem.dir="up"/>
+                           <note xml:id="mceed4475-f2bf-45f8-a26e-b00dc67ca853"
+                                 artic="stacc"
+                                 dur="16"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"/>
+                           <note xml:id="m9b315383-0d6b-4146-9d63-d9edb92d6830"
+                                 artic="stacc"
+                                 dur="4"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="up"
+                                 accid.ges="s"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m9d50c76d-a494-4ebe-98d6-e2d15a3ab1e2" n="8">
+                        <layer xml:id="mdff37b80-3659-44da-8159-b2e9fe631c95" n="5">
+                           <note xml:id="m029a77cb-5283-4862-830d-b3ca6d369e14"
+                                 dots="2"
+                                 dur="4"
+                                 oct="2"
+                                 pname="f"
+                                 stem.dir="up"
+                                 accid.ges="s"/>
+                           <note xml:id="m63d57f15-f68f-4317-b2bf-b08efc72e910"
+                                 artic="stacc"
+                                 dur="16"
+                                 oct="2"
+                                 pname="f"
+                                 stem.dir="up"
+                                 accid.ges="s"/>
+                           <note xml:id="m563997be-c99f-4bad-8af6-7aef4af1523c"
+                                 artic="stacc"
+                                 dur="4"
+                                 oct="2"
+                                 pname="f"
+                                 stem.dir="up"
+                                 accid.ges="s"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m1efd470c-3fbd-44fb-b055-d16bddb3b733" n="9">
+                        <layer xml:id="m034395c3-2502-4646-9cdf-dfa06173df91" n="1">
+                           <note xml:id="m0ac80275-a1b4-4875-9543-bd141ca0d9ca"
+                                 dots="2"
+                                 dur="4"
+                                 oct="5"
+                                 pname="f"
+                                 stem.dir="down"
+                                 accid.ges="s"/>
+                           <note xml:id="m29996ede-bf6d-41a6-aefa-fb5ec04a6ae8"
+                                 artic="stacc"
+                                 dur="16"
+                                 oct="5"
+                                 pname="e"
+                                 stem.dir="down"/>
+                           <note xml:id="m8f0cff77-b8af-4398-b8e4-545be5354518"
+                                 artic="stacc"
+                                 dur="4"
+                                 oct="5"
+                                 pname="d"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="m517e534a-a96b-4f63-8a6c-6f3dec73b2a7" n="10">
+                        <layer xml:id="m69d96825-a720-4375-a679-c80fda1f8b9a" n="5">
+                           <note xml:id="mbae8dcae-e5f0-47f3-b933-8d0b8b34ac12"
+                                 dur="2"
+                                 oct="2"
+                                 pname="d"
+                                 stem.dir="up"/>
+                           <note xml:id="mc53b16ef-ef44-48a8-b895-504f120ad97e"
+                                 dur="4"
+                                 oct="2"
+                                 pname="d"
+                                 stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <dir xml:id="m8a47e18c-3b38-4524-a50c-6fd65bbc7658"
+                          place="below"
+                          staff="1"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="m1081941f-1457-4a8f-a8cb-4e4de98d53af"
+                          place="above"
+                          staff="1"
+                          tstamp="1">tr</dir>
+                     <dir xml:id="m5db35322-4e3e-46e6-b677-dc1604d1803f"
+                          place="below"
+                          staff="2"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="mb2a3b3af-0a8c-446d-a8ae-200b5d35df6c"
+                          place="above"
+                          staff="2"
+                          tstamp="1">tr</dir>
+                     <dir xml:id="m45df656a-2b24-411d-8704-cc9385c329e4"
+                          place="below"
+                          staff="3"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="m50d9b68e-45b4-4ba2-8809-1a86b7f6908d"
+                          place="above"
+                          staff="3"
+                          tstamp="1">tr</dir>
+                     <dir xml:id="mdb492989-4681-4c60-a6e3-e1aeca80915d"
+                          place="below"
+                          staff="4"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="me37b6a5d-7226-40ea-a7a2-aef55acded7a"
+                          place="above"
+                          staff="4"
+                          tstamp="1">tr</dir>
+                     <dir xml:id="m1d03419b-557d-494a-ae9a-415dc4b01f01"
+                          place="below"
+                          staff="5"
+                          tstamp="1">ff</dir>
+                     <slur xml:id="m0afd876d-92ab-417a-9e5b-dddd236ff785"
+                           startid="#m0a7ebf07-9062-416c-9d72-a2e782377efc"
+                           endid="#mb5f2c689-e580-4091-b91d-2f5699d19da7"
+                           curvedir="above"/>
+                     <dir xml:id="m5d6caaf6-20cc-444e-9d8a-d13fafc9cd2f"
+                          place="below"
+                          staff="6"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="me0641d80-5001-4f4e-859b-9da90cd9be77"
+                          place="below"
+                          staff="7"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="m05b9fa96-dca6-4944-b879-4226a22a895a"
+                          place="above"
+                          staff="7"
+                          tstamp="1">tr</dir>
+                     <dir xml:id="m870e4765-a3e0-437e-86d8-061a423ad417"
+                          place="below"
+                          staff="8"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="m0b6c7d5f-355d-4f5c-8360-a61770855ab8"
+                          place="below"
+                          staff="9"
+                          tstamp="1">ff</dir>
+                     <dir xml:id="ma7467ccb-ab9e-4747-8f81-e55551df39dc"
+                          place="above"
+                          staff="9"
+                          tstamp="1">tr</dir>
+                     <dir xml:id="m2c088b2a-b836-4ce4-b360-a437e8a3e700"
+                          place="below"
+                          staff="10"
+                          tstamp="1">ff</dir>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
