@@ -247,6 +247,12 @@
             <graphic xml:id="mdba11509-1716-42a3-9eaf-5391a7bedbf7"
                target="https://images.domestic-beethoven.eu/iiif/2/D-BNbaC91_12%2FD-BNbaC91_12_p24.jpg"/>
          </surface>
+         <surface xml:id="m05891c8e-0644-4739-b341-944a77ffb1b0"
+            label="p25"
+            rotate="0">
+            <graphic xml:id="mjea11509-1716-42a3-hafg-5391a7bedbf7"
+               target="https://images.domestic-beethoven.eu/iiif/2/D-BNbaC91_12%2FD-BNbaC91_12_p25.jpg"/>
+         </surface>
       </facsimile>
       <body xml:id="m566598e5-b4e1-427a-99a5-2f2d5cd97ca8">
          <mdiv xml:id="m4dcd8ea8-5f02-42d8-bb97-2e5340a8bd28">
