@@ -111,11 +111,6 @@
          </manifestation>
       </manifestationList>
       <revisionDesc>
-         <change>
-            <changeDesc>
-               <p/>
-            </changeDesc>
-         </change>
          <change resp="#bithTeam_lr" n="1" isodate="2022-09-22">
             <changeDesc>
                <p>Applied "cleanMscz.xsl"</p>
