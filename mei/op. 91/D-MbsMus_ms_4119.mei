@@ -93,8 +93,376 @@
       </revisionDesc>
    </meiHead>
    <music meiversion="5.0.0-dev">
+      <facsimile>
+         <surface xml:id="s826be747-5a94-4854-b6c4-5f9bb4bec6ed" n="1" label="1" ulx="0" uly="0" lrx="3614" lry="2841">
+            <graphic xml:id="ga124c751-cfdb-4b19-bd56-742f8f65fb3a" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00106/info.json" width="3614" height="2841"/>
+         </surface>
+         <surface xml:id="s547fb7a9-1d4d-4185-b6c0-e2110e820119" n="2" label="2" ulx="0" uly="0" lrx="3611" lry="2918">
+            <graphic xml:id="g57659e5a-e360-457e-8a59-c60a1fee98d4" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00107/info.json" width="3611" height="2918"/>
+         </surface>
+         <surface xml:id="s02faada4-e14d-4c92-b5a4-c95a7af323e1" n="3" label="3" ulx="0" uly="0" lrx="3681" lry="2860">
+            <graphic xml:id="g42c64fcd-d403-4991-9194-3bebe3456760" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00108/info.json" width="3681" height="2860"/>
+         </surface>
+         <surface xml:id="sc3b07d9f-5cc8-4207-a239-81953080c98a" n="4" label="4" ulx="0" uly="0" lrx="3590" lry="2895">
+            <graphic xml:id="g1e1b9c61-5305-48a5-9a7d-5398f24821bd" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00109/info.json" width="3590" height="2895"/>
+         </surface>
+         <surface xml:id="se9b3360e-d76e-4733-a5eb-9128a029bad7" n="5" label="5" ulx="0" uly="0" lrx="3595" lry="2866">
+            <graphic xml:id="g36f826c8-760b-4316-8ee6-4aa948688ec6" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00110/info.json" width="3595" height="2866"/>
+         </surface>
+         <surface xml:id="sf2eaddcd-5e53-4650-908f-8fa1b1a44d1d" n="6" label="6" ulx="0" uly="0" lrx="3580" lry="2895">
+            <graphic xml:id="g13298414-d36e-401c-baad-077546408186" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00111/info.json" width="3580" height="2895"/>
+         </surface>
+         <surface xml:id="sffda9098-9e79-4bd6-814a-32fefc39c2dc" n="7" label="7" ulx="0" uly="0" lrx="3595" lry="2890">
+            <graphic xml:id="g2d2e446d-3ba6-4972-acb9-1511131f5df4" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00112/info.json" width="3595" height="2890"/>
+         </surface>
+         <surface xml:id="s101afb0e-bca9-4f62-a8bf-0e46d7ea02d9" n="8" label="8" ulx="0" uly="0" lrx="3580" lry="2895">
+            <graphic xml:id="ga9b4600f-b8c6-44ec-87f6-5dc4defd213f" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00113/info.json" width="3580" height="2895"/>
+         </surface>
+         <surface xml:id="s67aaf32f-1a08-45d4-b1ab-00e7bd51e32b" n="9" label="9" ulx="0" uly="0" lrx="3595" lry="2893">
+            <graphic xml:id="g4fe257cb-2393-4acc-8496-cd252661e04c" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00114/info.json" width="3595" height="2893"/>
+         </surface>
+         <surface xml:id="s4d0a3c5f-9a8a-4d2d-87a4-0170c63ffaed" n="10" label="10" ulx="0" uly="0" lrx="3580" lry="2895">
+            <graphic xml:id="g8f9352a4-532c-4265-a2b6-96c7bb2b7219" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00115/info.json" width="3580" height="2895"/>
+         </surface>
+         <surface xml:id="s54fc8f1b-6579-4be1-bd54-4283f01261d3" n="11" label="11" ulx="0" uly="0" lrx="3595" lry="2894">
+            <graphic xml:id="g9c04dcf2-df92-4d44-ac3f-4080bbeaa0c5" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00116/info.json" width="3595" height="2894"/>
+         </surface>
+         <surface xml:id="sbd2f8058-dcdb-465a-8e66-6d7f1e31621f" n="12" label="12" ulx="0" uly="0" lrx="3580" lry="2895">
+            <graphic xml:id="geea7dae3-2111-4399-812d-cc2f7890ddcd" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00117/info.json" width="3580" height="2895"/>
+         </surface>
+         <surface xml:id="sb17862f6-6722-405c-b19c-6c2d74c08b23" n="13" label="13" ulx="0" uly="0" lrx="3604" lry="2894">
+            <graphic xml:id="ge509e310-67d3-447e-b588-9d9641da8f9c" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00118/info.json" width="3604" height="2894"/>
+         </surface>
+         <surface xml:id="s9c422b24-2f08-4007-827a-39ee88acbcf3" n="14" label="14" ulx="0" uly="0" lrx="3561" lry="2895">
+            <graphic xml:id="g1e5e2779-735e-43bd-a385-8cc4ed48c305" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00119/info.json" width="3561" height="2895"/>
+         </surface>
+         <surface xml:id="s176934fc-276d-4e67-807b-faf15f7df018" n="15" label="15" ulx="0" uly="0" lrx="3562" lry="2894">
+            <graphic xml:id="g229c0ce1-d854-4b40-9952-bd742101f5ae" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00120/info.json" width="3562" height="2894"/>
+         </surface>
+         <surface xml:id="s3fcd37b9-4ad0-4d82-a3d4-7b696db3a902" n="16" label="16" ulx="0" uly="0" lrx="3545" lry="2910">
+            <graphic xml:id="g6cc72426-b208-4a55-84f0-48e2dc66a502" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00121/info.json" width="3545" height="2910"/>
+         </surface>
+         <surface xml:id="saae4d4ef-c1ae-4b53-87de-9674867122c3" n="17" label="17" ulx="0" uly="0" lrx="3557" lry="2889">
+            <graphic xml:id="ge5a3609a-c846-40fe-96a8-9c0a2945d8e6" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00122/info.json" width="3557" height="2889"/>
+         </surface>
+         <surface xml:id="sde135321-309a-44b5-b5ef-d6cd028afbe8" n="18" label="18" ulx="0" uly="0" lrx="3544" lry="2901">
+            <graphic xml:id="g61dffaf3-7cf1-45f7-b196-d6bfa2e98c5b" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00123/info.json" width="3544" height="2901"/>
+         </surface>
+         <surface xml:id="s8127a9f1-d2bd-4867-a37f-0f155336acdf" n="19" label="19" ulx="0" uly="0" lrx="3556" lry="2889">
+            <graphic xml:id="gac82f7ae-22f1-44b3-9b55-d4183e752fbe" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00124/info.json" width="3556" height="2889"/>
+         </surface>
+         <surface xml:id="sdddaa3f8-bea6-49a4-be4c-646cc106c3fa" n="20" label="20" ulx="0" uly="0" lrx="3558" lry="2913">
+            <graphic xml:id="g8e33d0d9-3ddb-4e6e-80eb-a86b050cf4ac" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00125/info.json" width="3558" height="2913"/>
+         </surface>
+         <surface xml:id="s0261df94-641c-4c24-a161-3dcae92ab41b" n="21" label="21" ulx="0" uly="0" lrx="3556" lry="2889">
+            <graphic xml:id="gfe52ce5f-8a93-40dd-80ca-9014ab2ff6fb" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00126/info.json" width="3556" height="2889"/>
+         </surface>
+         <surface xml:id="sf0822c85-4486-4b62-8da1-2da07f1a2b0c" n="22" label="22" ulx="0" uly="0" lrx="3541" lry="2883">
+            <graphic xml:id="g37bbe124-55a0-4174-aaf5-0de2863871da" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00127/info.json" width="3541" height="2883"/>
+         </surface>
+         <surface xml:id="sbab3fae0-0c90-456a-862c-3fd1daf3c303" n="23" label="23" ulx="0" uly="0" lrx="3556" lry="2892">
+            <graphic xml:id="g94a6b16c-3379-4a78-9c5a-7c76346919f7" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00128/info.json" width="3556" height="2892"/>
+         </surface>
+         <surface xml:id="s5565fb52-7cb9-42a6-946f-78ed68e4c87d" n="24" label="24" ulx="0" uly="0" lrx="3566" lry="2883">
+            <graphic xml:id="gfe061481-135a-47e3-8cf6-ec57e626b4b8" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00129/info.json" width="3566" height="2883"/>
+         </surface>
+         <surface xml:id="s1f1223ff-0e07-4fbb-9106-5f67754c2372" n="25" label="25" ulx="0" uly="0" lrx="3556" lry="2892">
+            <graphic xml:id="gb365e61a-1258-4411-8720-c2f51c6b82f9" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00130/info.json" width="3556" height="2892"/>
+         </surface>
+         <surface xml:id="sb7e6faf1-745a-426a-868c-5edc3267997d" n="26" label="26" ulx="0" uly="0" lrx="3554" lry="2896">
+            <graphic xml:id="g79971cf6-65d3-4153-b702-bc33e17a96df" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00131/info.json" width="3554" height="2896"/>
+         </surface>
+         <surface xml:id="sb1271514-50be-487f-b5ed-d4d65432c18b" n="27" label="27" ulx="0" uly="0" lrx="3556" lry="2892">
+            <graphic xml:id="g16cd222c-82d9-4e37-a776-697ce71e101f" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00132/info.json" width="3556" height="2892"/>
+         </surface>
+         <surface xml:id="sa7395db1-3653-4e7e-8b43-49f3f430da51" n="28" label="28" ulx="0" uly="0" lrx="3566" lry="2921">
+            <graphic xml:id="gb0dab814-e168-4b80-8ef3-bd18cf769cb5" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00133/info.json" width="3566" height="2921"/>
+         </surface>
+         <surface xml:id="s0212b149-286d-431e-b0e8-25e7dbe3d861" n="29" label="29" ulx="0" uly="0" lrx="3548" lry="2892">
+            <graphic xml:id="g06e6cdd9-63e9-45fa-b0f1-be6f3378c1b2" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00134/info.json" width="3548" height="2892"/>
+         </surface>
+         <surface xml:id="s88dc4748-e6a3-4532-b6ed-8c01036c097b" n="30" label="30" ulx="0" uly="0" lrx="3567" lry="2921">
+            <graphic xml:id="g6037d22c-f8aa-4f2d-9615-e6d5dd7427cb" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00135/info.json" width="3567" height="2921"/>
+         </surface>
+         <surface xml:id="sc0428b56-bc41-4f17-ae20-3de275ce7b6d" n="31" label="31" ulx="0" uly="0" lrx="3536" lry="2889">
+            <graphic xml:id="gd9ae8754-9030-43ac-a2b1-2144473ec266" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00136/info.json" width="3536" height="2889"/>
+         </surface>
+         <surface xml:id="sd11d8244-004a-4002-afd5-12d65db0dc07" n="32" label="32" ulx="0" uly="0" lrx="3558" lry="2877">
+            <graphic xml:id="g847f7b47-03db-428f-991e-48d78b2c7f41" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00137/info.json" width="3558" height="2877"/>
+         </surface>
+         <surface xml:id="sbed5931f-0a08-4502-89f8-a20bddd7d913" n="33" label="33" ulx="0" uly="0" lrx="3536" lry="2889">
+            <graphic xml:id="ge5aa8d5c-1766-44c5-bcbf-323c4aacdd8a" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00138/info.json" width="3536" height="2889"/>
+         </surface>
+         <surface xml:id="s15411bf1-3ee4-4806-9320-5e1c9bbed341" n="34" label="34" ulx="0" uly="0" lrx="3591" lry="2901">
+            <graphic xml:id="g0ad01f6c-7e3e-455a-a075-c20d2967fd8f" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00139/info.json" width="3591" height="2901"/>
+         </surface>
+         <surface xml:id="s99a7e7db-25ac-4ac4-8fb2-54b5abf15a3f" n="35" label="35" ulx="0" uly="0" lrx="3535" lry="2877">
+            <graphic xml:id="g78e82603-9e5c-43f8-ab08-4bebacd70da8" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00140/info.json" width="3535" height="2877"/>
+         </surface>
+         <surface xml:id="s7bfe091d-ebc1-42d5-abb9-59cb9e0067cd" n="36" label="36" ulx="0" uly="0" lrx="3536" lry="2877">
+            <graphic xml:id="g5e78ef8d-3ea1-43fa-b09c-c95d99a27098" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00141/info.json" width="3536" height="2877"/>
+         </surface>
+         <surface xml:id="sd58046e2-1a18-4898-930c-76b385992b08" n="37" label="37" ulx="0" uly="0" lrx="3535" lry="2877">
+            <graphic xml:id="ga1879672-13a9-4324-8a99-d6207049561c" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00142/info.json" width="3535" height="2877"/>
+         </surface>
+         <surface xml:id="s6a260d34-6f96-41cf-ac68-4582e132923c" n="38" label="38" ulx="0" uly="0" lrx="3511" lry="2877">
+            <graphic xml:id="gb4fd1d6c-4d99-4e63-b8b4-4be29331c3bb" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00143/info.json" width="3511" height="2877"/>
+         </surface>
+         <surface xml:id="s9d186e34-72a5-47ff-a311-4c317501360a" n="39" label="39" ulx="0" uly="0" lrx="3545" lry="2877">
+            <graphic xml:id="g2c702231-3200-4e90-9ca9-2017a2f92d4d" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00144/info.json" width="3545" height="2877"/>
+         </surface>
+         <surface xml:id="s385a55d7-7e30-48c4-a3ed-5e80c0cf7653" n="40" label="40" ulx="0" uly="0" lrx="3511" lry="2877">
+            <graphic xml:id="g446a7524-e6e2-4823-b4df-cf7d704bcdaf" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00145/info.json" width="3511" height="2877"/>
+         </surface>
+         <surface xml:id="se93cb759-e5c3-4a70-ba93-80c4bbe90ce3" n="41" label="41" ulx="0" uly="0" lrx="3545" lry="2891">
+            <graphic xml:id="ga6d845cb-03c2-4252-84e9-d4f177540c19" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00146/info.json" width="3545" height="2891"/>
+         </surface>
+         <surface xml:id="sf88b1a8c-c08c-4442-961b-ab5c8a069997" n="42" label="42" ulx="0" uly="0" lrx="3562" lry="2867">
+            <graphic xml:id="gbcf7430e-9eb2-49df-b047-704ec7f1766b" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00147/info.json" width="3562" height="2867"/>
+         </surface>
+         <surface xml:id="sde271426-a709-49aa-bb67-dc050451d2eb" n="43" label="43" ulx="0" uly="0" lrx="3545" lry="2891">
+            <graphic xml:id="g0c8882f4-7120-4685-8468-b03b07809dce" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00148/info.json" width="3545" height="2891"/>
+         </surface>
+         <surface xml:id="sc19d1189-d094-4f6f-9e95-201e6088da5c" n="44" label="44" ulx="0" uly="0" lrx="3562" lry="2885">
+            <graphic xml:id="g42a7457b-3b7a-4995-a9f4-c48c62672aff" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00149/info.json" width="3562" height="2885"/>
+         </surface>
+         <surface xml:id="s1909d0a5-03e2-4e9d-96e8-60678fdd4126" n="45" label="45" ulx="0" uly="0" lrx="3544" lry="2890">
+            <graphic xml:id="g2550a37e-8bb5-4890-aa20-793bbd337e68" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00150/info.json" width="3544" height="2890"/>
+         </surface>
+         <surface xml:id="s2606c172-0389-4327-b92f-a2f5f9e28f81" n="46" label="46" ulx="0" uly="0" lrx="3590" lry="2885">
+            <graphic xml:id="g90f8fba9-0989-4742-93ff-2ddd657d3585" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00151/info.json" width="3590" height="2885"/>
+         </surface>
+         <surface xml:id="sa7386d44-8ddd-46d9-81e1-880d424f1dba" n="47" label="47" ulx="0" uly="0" lrx="3558" lry="2898">
+            <graphic xml:id="ga2fce600-4df5-4ce6-86cb-aeab6d20cdca" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00152/info.json" width="3558" height="2898"/>
+         </surface>
+         <surface xml:id="s01fc2d53-149b-414d-bbba-28e3a0aa3e00" n="48" label="48" ulx="0" uly="0" lrx="3549" lry="2868">
+            <graphic xml:id="g146bac9b-26b2-4db3-a5e1-76e2d8616eba" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00153/info.json" width="3549" height="2868"/>
+         </surface>
+         <surface xml:id="s011bbbaf-3d2a-427c-8fb2-24f3d4ca81d5" n="49" label="49" ulx="0" uly="0" lrx="3604" lry="2899">
+            <graphic xml:id="g90fa1fc4-5756-4edb-a98b-03a29e2d4c3e" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00154/info.json" width="3604" height="2899"/>
+         </surface>
+         <surface xml:id="sa866bbde-a968-49d4-b657-11f69762569d" n="50" label="50" ulx="0" uly="0" lrx="3550" lry="2887">
+            <graphic xml:id="gf6856bd4-d87a-4783-9182-4e9f8e05e888" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00155/info.json" width="3550" height="2887"/>
+         </surface>
+         <surface xml:id="s1e46f53b-7487-4505-8d97-e37781c575f4" n="51" label="51" ulx="0" uly="0" lrx="3605" lry="2886">
+            <graphic xml:id="gb472844e-af20-49c1-9f21-9cb9c2bfe6bf" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00156/info.json" width="3605" height="2886"/>
+         </surface>
+         <surface xml:id="s1bd01649-ccff-42f7-8c58-20995f33eb11" n="52" label="52" ulx="0" uly="0" lrx="3550" lry="2887">
+            <graphic xml:id="g748cf45e-9262-4313-88b8-776acc3b3af2" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00157/info.json" width="3550" height="2887"/>
+         </surface>
+         <surface xml:id="s99639920-6976-43f2-a3e2-f3126d53ad86" n="53" label="53" ulx="0" uly="0" lrx="3604" lry="2892">
+            <graphic xml:id="gca15289f-ae76-4b7f-8857-32bd6fc1bfa3" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00158/info.json" width="3604" height="2892"/>
+         </surface>
+         <surface xml:id="sd3b978f7-2fa3-4e9c-a9cf-196c4168bfc8" n="54" label="54" ulx="0" uly="0" lrx="3549" lry="2887">
+            <graphic xml:id="g0eb1b0c0-76e1-41e5-9b1d-1ebd2218153e" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00159/info.json" width="3549" height="2887"/>
+         </surface>
+         <surface xml:id="s714f074d-5906-403a-aba8-34cf4896dd87" n="55" label="55" ulx="0" uly="0" lrx="3620" lry="2881">
+            <graphic xml:id="gf91f83fe-4922-4bd3-ab50-146e60cec58d" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00160/info.json" width="3620" height="2881"/>
+         </surface>
+         <surface xml:id="s324749d2-ec8a-4899-adb0-c512e1f243d8" n="56" label="56" ulx="0" uly="0" lrx="3558" lry="2887">
+            <graphic xml:id="gd91c751a-2634-460c-a978-0611f2937580" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00161/info.json" width="3558" height="2887"/>
+         </surface>
+         <surface xml:id="s7bf68a19-46ad-4b5d-b2ac-49bcc2ff3736" n="57" label="57" ulx="0" uly="0" lrx="3619" lry="2881">
+            <graphic xml:id="g2ca6c413-9842-48c7-9f54-22077e5df4dc" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00162/info.json" width="3619" height="2881"/>
+         </surface>
+         <surface xml:id="s9523afac-6201-49a6-804d-df3aff6ab014" n="58" label="58" ulx="0" uly="0" lrx="3573" lry="2887">
+            <graphic xml:id="g24efc898-bda1-4f49-bc3e-352e46cdc46a" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00163/info.json" width="3573" height="2887"/>
+         </surface>
+         <surface xml:id="sca0f5aa2-4c0e-4cd6-b243-5ae3ec199d8c" n="59" label="59" ulx="0" uly="0" lrx="3595" lry="2881">
+            <graphic xml:id="g909577b9-4357-4946-9140-4b345a454168" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00164/info.json" width="3595" height="2881"/>
+         </surface>
+         <surface xml:id="s8f30ec5f-db79-444a-bf36-17e43be18a2b" n="60" label="60" ulx="0" uly="0" lrx="3573" lry="2888">
+            <graphic xml:id="gdcf1ac85-e080-44a4-9dc7-5b08e1e90289" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00165/info.json" width="3573" height="2888"/>
+         </surface>
+         <surface xml:id="sd73d64be-be0b-454c-8476-dc4eaa076fcf" n="61" label="61" ulx="0" uly="0" lrx="3609" lry="2901">
+            <graphic xml:id="g68a0a609-71c7-40b9-8092-e26cea15f155" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00166/info.json" width="3609" height="2901"/>
+         </surface>
+         <surface xml:id="s484e5d06-ea1e-4037-bd3d-bf24cfce824b" n="62" label="62" ulx="0" uly="0" lrx="3573" lry="2887">
+            <graphic xml:id="gaaf2455a-8001-4075-8b20-126636c456c4" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00167/info.json" width="3573" height="2887"/>
+         </surface>
+         <surface xml:id="sfcf1955e-cf42-4739-9b30-52bb3b7376d3" n="63" label="63" ulx="0" uly="0" lrx="3609" lry="2874">
+            <graphic xml:id="g0b203f48-bab4-441c-9dec-a9a522d48231" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00168/info.json" width="3609" height="2874"/>
+         </surface>
+         <surface xml:id="s6c5b44c0-2e94-4945-b094-77858cb75b83" n="64" label="64" ulx="0" uly="0" lrx="3573" lry="2887">
+            <graphic xml:id="g8d3d3276-5267-43a6-bedd-8dee4fecc85e" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00169/info.json" width="3573" height="2887"/>
+         </surface>
+         <surface xml:id="s835954b5-6faa-4b09-bf22-707188366ce0" n="65" label="65" ulx="0" uly="0" lrx="3602" lry="2883">
+            <graphic xml:id="g7fa37665-6f66-4d24-87f8-505c79f45515" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00170/info.json" width="3602" height="2883"/>
+         </surface>
+         <surface xml:id="sb32adc98-0b43-45ec-bbd1-402a77a39129" n="66" label="66" ulx="0" uly="0" lrx="3573" lry="2887">
+            <graphic xml:id="g5d01fbff-fce6-4856-830d-3436e127cd3a" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00171/info.json" width="3573" height="2887"/>
+         </surface>
+         <surface xml:id="sa15c15ca-d62a-45b1-9d8b-2be00d8d35bf" n="67" label="67" ulx="0" uly="0" lrx="3594" lry="2898">
+            <graphic xml:id="g1f9478c1-37dd-4bb8-8b84-4bfdf01f7c2c" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00172/info.json" width="3594" height="2898"/>
+         </surface>
+         <surface xml:id="sc713db1a-0247-4836-94d5-c6a806867fc0" n="68" label="68" ulx="0" uly="0" lrx="3582" lry="2887">
+            <graphic xml:id="g5fb0fe56-1f59-4a02-aa8f-de2830217ec8" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00173/info.json" width="3582" height="2887"/>
+         </surface>
+         <surface xml:id="s8d4243c1-1c2c-43f6-a202-89c2516f964a" n="69" label="69" ulx="0" uly="0" lrx="3636" lry="2941">
+            <graphic xml:id="gdc259710-cde7-4ca5-8fb8-510dd8d8f5d8" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00174/info.json" width="3636" height="2941"/>
+         </surface>
+         <surface xml:id="s42460af9-2e63-4df1-9d4d-ec155a63c60c" n="70" label="70" ulx="0" uly="0" lrx="3630" lry="2888">
+            <graphic xml:id="ga00eda50-911d-4ed5-a7b3-8878dbab15d2" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00175/info.json" width="3630" height="2888"/>
+         </surface>
+         <surface xml:id="sadc21a5c-c6d5-489c-93c7-6feb05d53e7a" n="71" label="71" ulx="0" uly="0" lrx="3636" lry="2903">
+            <graphic xml:id="g23d45e93-41bb-4550-83f1-08e7c2d97c5a" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00176/info.json" width="3636" height="2903"/>
+         </surface>
+         <surface xml:id="s82e848f9-a6c5-4100-98b2-c7da9aa69c94" n="72" label="72" ulx="0" uly="0" lrx="3630" lry="2888">
+            <graphic xml:id="g220bd834-238e-4b0a-8f58-6069335ca34e" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00177/info.json" width="3630" height="2888"/>
+         </surface>
+         <surface xml:id="s4e128db7-f5c9-44d0-9b06-ebc145281535" n="73" label="73" ulx="0" uly="0" lrx="3636" lry="2903">
+            <graphic xml:id="g65157add-1616-4c9f-bb7a-d474b3405ef8" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00178/info.json" width="3636" height="2903"/>
+         </surface>
+         <surface xml:id="s9c18d85c-5286-43e2-b875-507c2144ec52" n="74" label="74" ulx="0" uly="0" lrx="3616" lry="2879">
+            <graphic xml:id="g5bf6bb99-8bc4-488a-a91b-a08ae984901c" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00179/info.json" width="3616" height="2879"/>
+         </surface>
+         <surface xml:id="se44aaecc-e925-4149-817d-1e6ccae5827a" n="75" label="75" ulx="0" uly="0" lrx="3636" lry="2902">
+            <graphic xml:id="gd34b3aa5-13be-4a7f-931c-c5139ad47231" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00180/info.json" width="3636" height="2902"/>
+         </surface>
+         <surface xml:id="s405a2f6b-59e1-45ba-b281-314d2dcb8c50" n="76" label="76" ulx="0" uly="0" lrx="3616" lry="2870">
+            <graphic xml:id="gad750254-dee7-4212-a235-c03765014836" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00181/info.json" width="3616" height="2870"/>
+         </surface>
+         <surface xml:id="s462ed532-fed0-43be-a479-edebaa31316b" n="77" label="77" ulx="0" uly="0" lrx="3639" lry="2896">
+            <graphic xml:id="g8bcd0359-33df-4c0e-81f0-4b2f6674aeb8" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00182/info.json" width="3639" height="2896"/>
+         </surface>
+         <surface xml:id="sf886a4fd-35de-4a79-84df-532d5dd942dc" n="78" label="78" ulx="0" uly="0" lrx="3594" lry="2916">
+            <graphic xml:id="g462582b6-ee0e-402f-b718-de7ce851d824" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00183/info.json" width="3594" height="2916"/>
+         </surface>
+         <surface xml:id="sd48aea25-3df6-4b64-a13d-361ac81f9e20" n="79" label="79" ulx="0" uly="0" lrx="3639" lry="2896">
+            <graphic xml:id="g24d0f892-d650-433e-a1be-a4a45540ad13" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00184/info.json" width="3639" height="2896"/>
+         </surface>
+         <surface xml:id="sb26050d8-5625-4134-8461-e065850bbaee" n="80" label="80" ulx="0" uly="0" lrx="3574" lry="2886">
+            <graphic xml:id="g43841bb5-8b56-40f6-a05b-2486b3465899" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00185/info.json" width="3574" height="2886"/>
+         </surface>
+         <surface xml:id="s35d17692-1c6b-4c27-a985-0c2c2f01bfd2" n="81" label="81" ulx="0" uly="0" lrx="3639" lry="2896">
+            <graphic xml:id="g3eeaeaf2-3850-4cb0-b8f1-0608f296446a" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00186/info.json" width="3639" height="2896"/>
+         </surface>
+         <surface xml:id="sf27bd9a6-ba96-49ac-b7de-eb7c0c6d73bd" n="82" label="82" ulx="0" uly="0" lrx="3574" lry="2897">
+            <graphic xml:id="g9a5e3457-2902-4856-92aa-e90ac4af15e7" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00187/info.json" width="3574" height="2897"/>
+         </surface>
+         <surface xml:id="sd2d89295-7e31-4566-9aee-b9a5639711fa" n="83" label="83" ulx="0" uly="0" lrx="3639" lry="2896">
+            <graphic xml:id="g05fdc0cc-d469-46e9-bdfd-8b46f65021f2" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00188/info.json" width="3639" height="2896"/>
+         </surface>
+         <surface xml:id="sc8b9c539-25d6-4fa6-aefe-96da7e272dcb" n="84" label="84" ulx="0" uly="0" lrx="3593" lry="2882">
+            <graphic xml:id="gc6928337-d7f0-4d48-86f7-2a06ec3a1219" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00189/info.json" width="3593" height="2882"/>
+         </surface>
+         <surface xml:id="s2ff7cae6-5315-4e8e-a616-47ba374dcc45" n="85" label="85" ulx="0" uly="0" lrx="3580" lry="2903">
+            <graphic xml:id="gd15453ed-8b6a-4dce-a7e8-c458a18c099c" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00190/info.json" width="3580" height="2903"/>
+         </surface>
+         <surface xml:id="sc3c61c6a-2846-47c1-9541-bac71bf5d04f" n="86" label="86" ulx="0" uly="0" lrx="3593" lry="2881">
+            <graphic xml:id="g94ae9451-6a87-41aa-989f-7980bb730f46" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00191/info.json" width="3593" height="2881"/>
+         </surface>
+         <surface xml:id="s87f33086-0676-4c23-a7d5-7a56b770858f" n="87" label="87" ulx="0" uly="0" lrx="3622" lry="2903">
+            <graphic xml:id="gda155b6a-2151-4366-9641-6af3b344c080" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00192/info.json" width="3622" height="2903"/>
+         </surface>
+         <surface xml:id="s6c93b606-995e-4077-ace1-2307a1463387" n="88" label="88" ulx="0" uly="0" lrx="3593" lry="2881">
+            <graphic xml:id="g0d92cb67-9145-4d9b-85c6-4c94db873923" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00193/info.json" width="3593" height="2881"/>
+         </surface>
+         <surface xml:id="se8814304-aab7-40dd-8af7-09ca156010a4" n="89" label="89" ulx="0" uly="0" lrx="3622" lry="2903">
+            <graphic xml:id="gfe4a91c1-88af-4989-9ef3-6b974785344f" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00194/info.json" width="3622" height="2903"/>
+         </surface>
+         <surface xml:id="s63dd2683-a656-44f3-9222-496d6d474d5a" n="90" label="90" ulx="0" uly="0" lrx="3593" lry="2881">
+            <graphic xml:id="g8bd655a4-df49-4405-88d5-8b708037f097" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00195/info.json" width="3593" height="2881"/>
+         </surface>
+         <surface xml:id="sf6e83eee-35f0-4f4f-af9a-00a383dd2471" n="91" label="91" ulx="0" uly="0" lrx="3622" lry="2903">
+            <graphic xml:id="g5784dce5-f119-430a-a2e1-3d0858af4995" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00196/info.json" width="3622" height="2903"/>
+         </surface>
+         <surface xml:id="sc5a382dd-21d9-4b7c-babb-f6638611540c" n="92" label="92" ulx="0" uly="0" lrx="3607" lry="2875">
+            <graphic xml:id="gebb4329a-d015-43f1-a8ec-6b8877718c78" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00197/info.json" width="3607" height="2875"/>
+         </surface>
+         <surface xml:id="s277faa22-a5e9-418f-a4e9-bc8637ecc9db" n="93" label="93" ulx="0" uly="0" lrx="3622" lry="2903">
+            <graphic xml:id="gacd7324a-0019-4487-bfc1-c2444ade3ce2" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00198/info.json" width="3622" height="2903"/>
+         </surface>
+         <surface xml:id="s3006d9d2-2f5a-4499-975f-2026d99bab2f" n="94" label="94" ulx="0" uly="0" lrx="3628" lry="2874">
+            <graphic xml:id="gc26939b7-514f-497e-90a7-8f8d6a5dc7bc" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00199/info.json" width="3628" height="2874"/>
+         </surface>
+         <surface xml:id="s9ac682f4-2ad8-473b-9df1-0f359ce69024" n="95" label="95" ulx="0" uly="0" lrx="3622" lry="2903">
+            <graphic xml:id="gf0502a8b-e706-4f40-97f1-d5f985507074" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00200/info.json" width="3622" height="2903"/>
+         </surface>
+         <surface xml:id="s003299ab-f2ce-4eb1-8d38-d84b485fbe1f" n="96" label="96" ulx="0" uly="0" lrx="3628" lry="2874">
+            <graphic xml:id="g45fd25b8-1448-47a0-81a2-2851cb704d43" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00201/info.json" width="3628" height="2874"/>
+         </surface>
+         <surface xml:id="s043cc5a0-be21-4508-aae0-02b5099af2aa" n="97" label="97" ulx="0" uly="0" lrx="3622" lry="2912">
+            <graphic xml:id="gac5da0e0-bc3c-4439-89b9-ad5b73554e07" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00202/info.json" width="3622" height="2912"/>
+         </surface>
+         <surface xml:id="se351817c-bf89-49b8-b105-25ba1ef8ea7f" n="98" label="98" ulx="0" uly="0" lrx="3629" lry="2874">
+            <graphic xml:id="gc01b6796-8f92-4dc3-b2c9-fa46a208eb73" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00203/info.json" width="3629" height="2874"/>
+         </surface>
+         <surface xml:id="sdadb4cdf-0f90-407f-afb8-ef666a761eec" n="99" label="99" ulx="0" uly="0" lrx="3622" lry="2912">
+            <graphic xml:id="g6087673b-9d9d-45c6-9751-f8f73aa7ae06" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00204/info.json" width="3622" height="2912"/>
+         </surface>
+         <surface xml:id="se41b031a-18f6-4b0c-a00d-cf37d6a7eccd" n="100" label="100" ulx="0" uly="0" lrx="3629" lry="2874">
+            <graphic xml:id="g1eeefc57-e46d-4683-8114-d1cbe1aa1626" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00205/info.json" width="3629" height="2874"/>
+         </surface>
+         <surface xml:id="s2f69e76e-ae26-4754-a308-532e9627dcf0" n="101" label="101" ulx="0" uly="0" lrx="3623" lry="2911">
+            <graphic xml:id="g5bc989a0-9072-4cc1-a874-d70090622886" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00206/info.json" width="3623" height="2911"/>
+         </surface>
+         <surface xml:id="se8508da9-6b1d-4fad-a78d-9cb377979645" n="102" label="102" ulx="0" uly="0" lrx="3618" lry="2874">
+            <graphic xml:id="ge1ebb3a3-0e7f-44ae-83fe-aafdc8d31603" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00207/info.json" width="3618" height="2874"/>
+         </surface>
+         <surface xml:id="sd6ed4891-a38f-41e2-b235-5e2c2c80bd63" n="103" label="103" ulx="0" uly="0" lrx="3623" lry="2911">
+            <graphic xml:id="g752cb36d-53ca-476c-907e-a02468ff9ea3" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00208/info.json" width="3623" height="2911"/>
+         </surface>
+         <surface xml:id="s6dab04b1-96a9-4bdb-8fc0-e2c24055a2f5" n="104" label="104" ulx="0" uly="0" lrx="3588" lry="2874">
+            <graphic xml:id="gd21d60bf-6bd5-4f00-ae6a-a52f8ca4148e" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00209/info.json" width="3588" height="2874"/>
+         </surface>
+         <surface xml:id="s7a3552d0-821e-429c-840b-1528c3a2dec6" n="105" label="105" ulx="0" uly="0" lrx="3623" lry="2912">
+            <graphic xml:id="g07fd3434-3d12-4422-b3bc-f8edec5cb105" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00210/info.json" width="3623" height="2912"/>
+         </surface>
+         <surface xml:id="s455b3c86-face-41ad-9bf0-b1f077471cdb" n="106" label="106" ulx="0" uly="0" lrx="3547" lry="2874">
+            <graphic xml:id="g50cbf7a1-6446-4bcf-9c6b-e1891f79f54c" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00211/info.json" width="3547" height="2874"/>
+         </surface>
+         <surface xml:id="sa18d4ee0-9545-42a4-86da-511286c5e9c6" n="107" label="107" ulx="0" uly="0" lrx="3623" lry="2912">
+            <graphic xml:id="ga870ff6b-4e46-40d3-9b56-079aadd8e53a" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00212/info.json" width="3623" height="2912"/>
+         </surface>
+         <surface xml:id="s37457a81-e5e1-4e2e-913f-a0840a52bd67" n="108" label="108" ulx="0" uly="0" lrx="3547" lry="2866">
+            <graphic xml:id="g80a7bc48-5a3d-49e6-88b5-05b782893ad8" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00213/info.json" width="3547" height="2866"/>
+         </surface>
+         <surface xml:id="sb617c230-8d0f-4d48-a3f6-a5578409d567" n="109" label="109" ulx="0" uly="0" lrx="3623" lry="2911">
+            <graphic xml:id="g1bc21886-b631-4d8e-aad3-8b2403edcf2e" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00214/info.json" width="3623" height="2911"/>
+         </surface>
+         <surface xml:id="s8cf8a5dd-bfb8-4441-9d07-668783e68424" n="110" label="110" ulx="0" uly="0" lrx="3563" lry="2881">
+            <graphic xml:id="g71fcfd42-1d34-4769-b3d9-6a2014a6fb8b" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00215/info.json" width="3563" height="2881"/>
+         </surface>
+         <surface xml:id="s78c33ace-ae7a-463b-99d2-b935950fd6dd" n="111" label="111" ulx="0" uly="0" lrx="3623" lry="2911">
+            <graphic xml:id="g48ed38c6-fdf6-42dc-a6eb-8c4b6900d849" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00216/info.json" width="3623" height="2911"/>
+         </surface>
+         <surface xml:id="sd97d3f62-d60d-4b2a-a4ce-c4869ca9f7a4" n="112" label="112" ulx="0" uly="0" lrx="3598" lry="2859">
+            <graphic xml:id="gdc302c6b-e552-4633-a36d-ff55937183ce" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00217/info.json" width="3598" height="2859"/>
+         </surface>
+         <surface xml:id="s238d1c5c-be41-49b9-bd34-219df130da02" n="113" label="113" ulx="0" uly="0" lrx="3623" lry="2911">
+            <graphic xml:id="gaafb8019-2c35-4cba-89d8-a0e0a60224c9" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00218/info.json" width="3623" height="2911"/>
+         </surface>
+         <surface xml:id="s00ad87ce-7119-449f-afb3-28ca81dcce1f" n="114" label="114" ulx="0" uly="0" lrx="3598" lry="2860">
+            <graphic xml:id="g48cc8c48-b504-4330-a368-a500e81fe2e3" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00219/info.json" width="3598" height="2860"/>
+         </surface>
+         <surface xml:id="sfb2f1192-7107-4fab-8b49-bda292e1b303" n="115" label="115" ulx="0" uly="0" lrx="3623" lry="2911">
+            <graphic xml:id="g2ff54a91-d274-4be4-b89d-f6541be29ef7" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00220/info.json" width="3623" height="2911"/>
+         </surface>
+         <surface xml:id="s574914a4-cbe9-4ca4-b86a-4f5d75bdcc63" n="116" label="116" ulx="0" uly="0" lrx="3599" lry="2860">
+            <graphic xml:id="g829b70a0-48f9-4ad7-8c86-95c28b5aa0ce" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00221/info.json" width="3599" height="2860"/>
+         </surface>
+         <surface xml:id="scab95127-1503-4fed-950a-aa901cb774e9" n="117" label="117" ulx="0" uly="0" lrx="3623" lry="2904">
+            <graphic xml:id="g18c23260-b8de-4afc-8900-fc4d84a39d38" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00222/info.json" width="3623" height="2904"/>
+         </surface>
+         <surface xml:id="s59a18a2f-5b6e-44af-ba51-1fcb75c68ca2" n="118" label="118" ulx="0" uly="0" lrx="3598" lry="2860">
+            <graphic xml:id="g3125b109-b947-47d9-b62b-2b1118634681" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00223/info.json" width="3598" height="2860"/>
+         </surface>
+         <surface xml:id="s1874e116-c5a4-4e9c-832d-e38ff912975d" n="119" label="119" ulx="0" uly="0" lrx="3623" lry="2886">
+            <graphic xml:id="gebb6588a-eaad-41b2-b8dd-ce4e25b788a2" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00224/info.json" width="3623" height="2886"/>
+         </surface>
+         <surface xml:id="scf15f29b-ae00-4489-a375-61caf04ca097" n="120" label="120" ulx="0" uly="0" lrx="3612" lry="2888">
+            <graphic xml:id="g7b8281cd-a248-48e2-a286-835c502c9a02" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00225/info.json" width="3612" height="2888"/>
+         </surface>
+         <surface xml:id="s2ca499aa-117d-4e1e-8dec-93bd7a63fdeb" n="121" label="121" ulx="0" uly="0" lrx="3622" lry="2885">
+            <graphic xml:id="gc0537ce0-e418-4eb2-9364-55d39f99e8e4" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00226/info.json" width="3622" height="2885"/>
+         </surface>
+         <surface xml:id="s752e3016-cba3-4417-8c99-85ceeacfaeb2" n="122" label="122" ulx="0" uly="0" lrx="3612" lry="2877">
+            <graphic xml:id="g4a658fa5-c571-4bcb-b7ce-ab1af3747560" type="facsimile" target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143285_00227/info.json" width="3612" height="2877"/>
+         </surface>
+      </facsimile>
       <body xml:id="m934e68ce-c784-4f80-a855-fad4fc4f2001">
-         <mdiv xml:id="m879cf5c4-17d1-44dc-bacb-ca279a92b4d7">
+         <mdiv xml:id="m879cf5c4-17d1-44dc-bacb-ca279a92b4d7" label="Erste Abtheilung">
             <score xml:id="m3f54e5cc-ffce-4f9a-9e59-1e511063d2d6">
                <scoreDef xml:id="mfc9c139a-6e57-41b9-b04e-5f34eba5f726">
                   <staffGrp xml:id="m01065625-d3e8-4ea0-a682-e54d59a7a415">
@@ -170,8 +538,7 @@
                      </staffGrp>
                   </staffGrp>
                </scoreDef>
-               <!-- Giulia Calovini -->
-               <section xml:id="m2588bf9a-fc85-480c-8ce8-d07e83d1dfaf">
+               <section xml:id="m2588bf9a-fc85-480c-8ce8-d07e83d1dfaf" resp="#GC">
                   <measure xml:id="m804ddd31-3250-483e-a73d-fc1295c198a0" n="12">
                      <mNum xml:id="m006fe500-49a0-4544-949c-03da99a58fe6"/>
                      <staff xml:id="m753d6c4d-0a13-4f05-81dc-45fac805d501" n="1">
@@ -1286,11 +1653,9 @@
                </section>
             </score>
          </mdiv>
-         <mdiv>
+         <mdiv label="Zweite Abtheilung">
             <score>
-
-               <!-- Carla Jürgens -->
-               <section xml:id="m8bad207a-5b05-47ad-af7c-f40dd0e1c3d9">
+               <section xml:id="m8bad207a-5b05-47ad-af7c-f40dd0e1c3d9" resp="#CJ">
                   <measure xml:id="mcd1cab5c-d486-40ac-9114-39e70becbc6a" n="137">
                      <staff xml:id="m9f41d600-7647-4716-83ef-024bea0d7c8d" n="1">
                         <layer xml:id="m52fb1ec6-094b-461b-b938-24c7b640221d" n="1">
