@@ -123,12 +123,6 @@
                <p>Delete IDs from Musescore; insert UUID(s) for the document, encoding description and music elements</p>
             </changeDesc>
          </change>
-         <change resp="#bithTeam_lr" n="4" isodate="2022-09-22">
-            <changeDesc>
-               <p>Applied "IDs4Mscz.xsl"</p>
-               <p>Delete IDs from Musescore; insert UUID(s) for the document, encoding description and music elements</p>
-            </changeDesc>
-         </change>
       </revisionDesc>
    </meiHead>
    <music meiversion="5.0.0-dev">
