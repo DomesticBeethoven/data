@@ -9,9 +9,9 @@
       <fileDesc>
          <titleStmt>
             <title type="desc">Op 91 - Winds (Steiner)</title>
-            <title type="alternative">D-BNbaC91_6.mei</title>
             <respStmt>
-               <persName xml:id="FG" role="trc">Florian Giering</persName>
+                <persName role="composer">Ludwig van Beethoven</persName>
+                <persName xml:id="FG" role="trc">Florian Giering</persName>
                <persName xml:id="bithTeam_lr" role="mrk crr">Lisa Rosendahl</persName>
             </respStmt>
          </titleStmt>

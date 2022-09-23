@@ -9,8 +9,9 @@
         <fileDesc>
             <titleStmt>
                 <title type="desc">Op 91 - Piano (Augener)</title>
-                <title type="alternative">Stainer_Bell.mei</title>
                 <respStmt>
+                    <persName role="composer">Ludwig van Beethoven</persName>
+                    <persName role="arranger">Ernst Pauer</persName>
                     <persName xml:id="CJ" role="trc">Jil Paul</persName>
                     <persName xml:id="bithTeam_lr" role="mrk crr">Lisa Rosendahl</persName>
                 </respStmt>

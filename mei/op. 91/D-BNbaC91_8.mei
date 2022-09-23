@@ -9,8 +9,8 @@
       <fileDesc>
          <titleStmt>
             <title type="desc">Op 91 - 2 Pianos (Steiner)</title>
-            <title type="alternative">D-BNbaC91_8.mei</title>
             <respStmt>
+               <persName role="composer">Ludwig van Beethoven</persName>
                <persName xml:id="LM" role="trc">Luisa Moreno</persName>
                <persName xml:id="BR" role="trc">Benedikt Ritter</persName>
                <persName xml:id="bithTeam_lr" role="mrk crr">Lisa Rosendahl</persName>

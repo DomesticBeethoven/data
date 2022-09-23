@@ -9,8 +9,8 @@
         <fileDesc>
             <titleStmt>
                 <title type="desc">Op 91 - Panharmonicon (NGA)</title>
-                <title type="alternative">Panharmonicon.mei</title>
                 <respStmt>
+                    <persName role="composer">Ludwig van Beethoven</persName>
                     <persName xml:id="CJ" role="trc">Carla Jürgens</persName>
                     <persName xml:id="bithTeam_lr" role="mrk crr">Lisa Rosendahl</persName>
                 </respStmt>

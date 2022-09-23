@@ -9,8 +9,9 @@
       <fileDesc>
          <titleStmt>
             <title type="desc">Op 91 - 2 Pianos 10 Hands (Ett)</title>
-            <title type="alternative">D-MbsMus_ms_4119.mei</title>
             <respStmt>
+               <persName role="composer">Ludwig van Beethoven</persName>
+               <persName role="arranger">Caspar Ett</persName>
                <persName xml:id="CJ" role="trc">Carla Jürgens</persName>
                <persName xml:id="GC" role="trc">Giulia Calovini</persName>
                <persName xml:id="bithTeam_lr" role="mrk crr">Lisa Rosendahl</persName>
