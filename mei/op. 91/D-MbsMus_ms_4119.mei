@@ -1191,9 +1191,8 @@
                             staff="7"
                             tstamp="1">f</dynam>
                      <tie xml:id="m39dc684b-c620-4da0-9fc9-e21580437ebc"
-                          startid="#m4c205137-79d7-4a5d-ac55-99e6322b176a"
-                          endid="#m792d42d2-103a-476e-9960-135efaa7218f"/>
-                     
+                          startid="#m48e6a2dd-cbda-4702-8cf4-9769233ac78a"
+                          endid="#m8d516fd3-422e-4a98-8301-f17faf2833a8"/>                   
                   </measure>
                   <measure xml:id="m553ef2f2-0ce3-4349-b230-5a39e7992eb7" n="15">
                      <staff xml:id="mb3c05bbd-92ff-48fb-92ba-2a3e9b5ba259" n="1">
@@ -1464,8 +1463,8 @@
                            endid="#m0787f8bc-07b9-4e56-a94c-d7ab1c01c0fc"
                            curvedir="above"/>
                      <tie xml:id="m86f6052e-a2e7-42f3-8df0-ad4908d78fd3"
-                          startid="#m6815e1b8-38bb-4b3f-b13a-e971d749beb5"
-                          endid="#m5bdaa5a5-6d72-4b8e-bb5d-6329732a00ba"/>
+                          startid="#mf594d776-2152-4661-8b52-44956110847b"
+                          endid="#m66c20c50-7bc4-4461-86b0-856db36f7264"/>
                   </measure>
                   <measure xml:id="me2ca7f6b-edf0-4d90-8d5a-bb8b2ffabf77" n="16">
                      <staff xml:id="m143a7d78-301f-4a8d-8a02-83422cf5a209" n="1">
@@ -1662,8 +1661,8 @@
                         </layer>
                      </staff>
                      <tie xml:id="m6491379b-0578-4391-b79c-d560167f90bd"
-                          startid="#m1b6d81ce-776a-41a0-81a3-0e8a93be300f"
-                          endid="#m6ebd2981-e8a9-47ab-852e-5ff743648c33"/>
+                          startid="#m00b525ba-6fa7-4dae-acbc-88277d92f37a"
+                          endid="#m70cd4a39-3914-4f97-985a-2df6bd519f85"/>
                   </measure>
                </section>
                <section>
