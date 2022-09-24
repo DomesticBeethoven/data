@@ -38,7 +38,7 @@
                     <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
                 </composer>
                 <creation>
-                    <date enddate="1813"/>
+                    <date isodate="1813"/>
                 </creation>
                 <expressionList>
                     <expression xml:id="fd34908a-3818-11ed-a261-0242ac120002">
@@ -66,9 +66,9 @@
                     <pubPlace>
                         <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q84"/>
                     </pubPlace>
-                    <date notafter="1889"/>
+                    <date isodate="1889"/>
                     <publisher>
-                        <persName auth.uri="http://d-nb.info/gnd/1072942461">Augener and Co.</persName>
+                        <corpName auth.uri="http://d-nb.info/gnd/1072942461">Augener and Co.</corpName>
                     </publisher>
                 </pubStmt>
                 <itemList>
@@ -192,6 +192,7 @@
                             <staffGrp xml:id="m77f546b7-39a5-4ce4-8e61-c20d83f9c1d6"
                                 symbol="brace"
                                 bar.thru="true">
+                                <label xml:id="m26547b42-9bcb-4244-97b4-bfaf43626cc6">Piano</label>
                                 <staffDef xml:id="m9fbe5d5a-eb28-4a8c-9a66-ff7e2087b12f"
                                     clef.shape="G"
                                     clef.line="2"
@@ -208,7 +209,6 @@
                                     meter.unit="8"
                                     n="2"
                                     lines="5"/>
-                                <label xml:id="m26547b42-9bcb-4244-97b4-bfaf43626cc6">Piano</label>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
