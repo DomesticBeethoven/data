@@ -1101,7 +1101,7 @@
                 </score>
             </mdiv>
             <mdiv xml:id="m736d39d3-4b0c-499c-b38f-a92e9d785bc1" label="Englische Trompeten">
-               </score>
+               <score>
                   <section>
                         <sb/>
                         <measure xml:id="b9ae62328-5ecd-41f2-a946-511c1403f318" facs="#z9f8e397e-f77f-434d-9d0f-6a1fa2f4534c" n="0" type="upbeat" metcon="false"/>
@@ -1113,7 +1113,6 @@
                     </section>
                 </score>
             </mdiv>
-          <mdiv xml:id="m736d39d3-4b22-499c-b38f-a92e9d785bc1">
                 <score>
             <section>
                 <pb facs="#scae4047c-a7dc-42a2-9814-b5de45e97244" n="2"/>
@@ -1153,13 +1152,12 @@
                 <measure xml:id="b71f90695-cedc-425c-8776-94829029bd48" facs="#d4d32f4cf-9ec0-4c21-a771-7b89d3399de2" n="30"/>
             </section>
            </score>
-        </mdiv>
         <mdiv xml:id="m154d6b2e-fdc1-475b-97a1-9f22a5c93ff6" label="Französische Trommeln">
             <score>
                 <section>
                     <pb facs="#scce10728-146c-4160-832f-2c159003244c" n="7"/>
                     <measure xml:id="bca82db7e-ba6b-4522-aed1-6677222eea1e" facs="#z0a4348cc-fc88-4ba3-941a-f3400412f613" n="0" type="upbeat" metcon="false"/>
-                    <measure xml:id="bca82db7e-ba6b-455e-aed1-6677222eea1e" facs="z89da001b-88c7-4398-ad8b-e2638fcc99ee" n="1"/>
+                    <measure xml:id="bca82db7e-ba6b-455e-aed1-6677222eea1e" facs="#z89da001b-88c7-4398-ad8b-e2638fcc99ee" n="1"/>
                     <measure xml:id="b0060fb73-5962-4bfb-aaed-48af2cf9d94c" facs="#za406c5b3-d3f7-40f5-ac40-56ecd47e0ff8" n="2"/>
                     <measure xml:id="ba2d102f2-7fd0-4e7b-a65c-c55afe8435ed" facs="#zd01fd4dc-364d-4ec7-9a90-bfc86d63ef5d" n="3"/>
                     <measure xml:id="b5b80ef3c-e2ee-465e-be48-62465644b4e5" facs="#z001df1fc-a846-4caa-b67f-cc4f6007611d" n="4"/>
@@ -1182,12 +1180,11 @@
                 </section>
             </score>
         </mdiv>
-              <mdiv xml:id="m08f87dc3-f6fa-4a55-b4fe-e18e85b69a8f" corresp="#m736d39d3-4b22-499c-b38f-a92e9d785bc1">
               <score>
                   <section>
                       <pb facs="#s30915afb-38cd-4c27-8ebc-391f19a52621" n="8"/>
                       <measure xml:id="b564221e6-f520-417a-862a-8226aedf40a9" facs="#d0a4f91ee-a7c7-424a-8f0c-22d306c9ce31" n="31" type="upbeat" metcon="false"/>
-                      <measure xml:id="b564221e6-f520-417a-862a-8ce6aedf40a9" facs="##dd61f1d67-6cd2-4a34-a9c0-2c6e813de1a1" n="32"/>
+                      <measure xml:id="b564221e6-f520-417a-862a-8ce6aedf40a9" facs="#dd61f1d67-6cd2-4a34-a9c0-2c6e813de1a1" n="32"/>
                       <measure xml:id="b970b2f49-2ff8-4a34-b1fc-a71ceb964b39" facs="#dafdd6ac7-e87e-4c33-b05e-22487b6e3ba4" n="33"/>
                       <measure xml:id="b109e3e3c-9f10-4011-a57f-e49ebfd6fa83" facs="#d402b154f-c336-4d8b-ba6e-f66c713a5b44" n="34"/>
                       <measure xml:id="befbfbbdb-50a0-47bb-a5ca-228ef6fe2056" facs="#da0a7d791-8e59-4af9-926d-d1d499ec7f22" n="35"/>
@@ -1238,7 +1235,6 @@
                       <measure xml:id="b71b4337b-bdaf-4bd3-b894-ad0532224c39" facs="#d4722df98-938a-4568-9e52-9e65460b224d" n="75"/>
                   </section>
               </score>
-          </mdiv>
           <mdiv xml:id="mdac24e36-b130-44e0-aee9-8df3b1e64353" label="Aufforderung">
               <score>
                   <section>
@@ -1259,7 +1255,6 @@
                   </section>
               </score>
           </mdiv>
-              <mdiv xml:id="ma61474c0-7b88-4c2a-b48a-9f51da99ab00" corresp="#m736d39d3-4b22-499c-b38f-a92e9d785bc1">
               <score>
                   <section>
                       <pb facs="#s96017db9-22d2-4f62-a5ab-ae2af41ffd38" n="15"/>
@@ -1601,7 +1596,6 @@
                       <measure xml:id="b44d3dca5-ae49-4114-8778-03c45182a1c1" facs="#d88ac5e96-7aa4-4b43-be8f-f8735260c01d" n="364"/>
                   </section>
               </score>
-          </mdiv>
           </mdiv>
           <mdiv xml:id="m5e1c0281-cf4e-4a86-bd3b-f23d0efb25de" label="Zweite Abtheilung">
               <score>
