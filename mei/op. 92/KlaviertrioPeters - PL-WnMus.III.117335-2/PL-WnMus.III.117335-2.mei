@@ -69,7 +69,7 @@
                <pubPlace>
                   <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q2079"/>
                </pubPlace>
-               <date notafter="1894"/>
+               <date isodate="1894"/>
                <publisher>
                   <corpName auth.uri="https://d-nb.info/dnbn/330003461">C. F. Peters</corpName>
                </publisher>
