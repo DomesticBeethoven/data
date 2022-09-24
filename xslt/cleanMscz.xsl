@@ -113,6 +113,28 @@
     
     <xd:doc>
         <xd:desc>
+            <xd:p>Remove trailing zeros from @trans.diat</xd:p>
+        </xd:desc>
+    </xd:doc>
+    <xsl:template match="@trans.diat">
+        <xsl:attribute name="trans.diat">
+            <xsl:value-of select="number(.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc>
+            <xd:p>Remove trailing zeros from @trans.semi</xd:p>
+        </xd:desc>
+    </xd:doc>
+    <xsl:template match="@trans.semi">
+        <xsl:attribute name="trans.semi">
+            <xsl:value-of select="number(.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc>
             <xd:p>Normalize space on @label</xd:p>
         </xd:desc>
     </xd:doc>
