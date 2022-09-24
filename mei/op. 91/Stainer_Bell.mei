@@ -12,7 +12,7 @@
                 <respStmt>
                     <persName role="composer">Ludwig van Beethoven</persName>
                     <persName role="arranger">Ernst Pauer</persName>
-                    <persName xml:id="CJ" role="trc">Jil Paul</persName>
+                    <persName xml:id="JP" role="trc">Jil Paul</persName>
                     <persName xml:id="bithTeam_lr" role="mrk crr">Lisa Rosendahl</persName>
                 </respStmt>
             </titleStmt>
@@ -84,11 +84,6 @@
             </manifestation>
         </manifestationList>
         <revisionDesc>
-            <change>
-                <changeDesc>
-                    <p/>
-                </changeDesc>
-            </change>
             <change resp="#bithTeam_lr" n="2" isodate="2022-09-19">
                 <changeDesc>
                     <p>Applied "cleanMscz.xsl"</p>
@@ -373,7 +368,7 @@
                                 form="dim"
                                 place="below"/>
                         </measure>
-                        <measure xml:id="bb9808384-bc32-448f-a250-4ec749f13b62" facs="#z7ce07e20-f340-4364-8faf-12d4bbc04a5b" n="13"><staff xml:id="staff-0000001441081173" n="1">
+                        <measure xml:id="bb9808384-bc32-448f-a250-4ec749f13b62" facs="#z7ce07e20-f340-4364-8faf-12d4bbc04a5b" n="13">
                             <staff xml:id="m3fafa1b9-50a2-411a-b06e-2d628495116b" n="1">
                                 <layer xml:id="mf1d44554-eff5-4fee-9545-801f40610fbb" n="1">
                                     <chord xml:id="mbcc588ab-2ce3-41b7-94bf-098ae08622ca"
