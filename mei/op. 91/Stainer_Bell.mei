@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei"
@@ -475,11 +475,11 @@
                                         </chord>
                                     </beam>
                                 </layer>
+                            </staff>
                             <slur xml:id="mda8c97b8-966c-43bf-b97c-36a2269a7857"
                                 startid="#m16ed4d8c-f8aa-4204-bc4b-d56b96431ae2"
                                 endid="#mde6819b8-5129-4969-bba2-c3b90f2e902b"
                                 curvedir="below"/>
-                            </staff>
                         </measure>
                         <measure xml:id="b97badb13-31b4-4fe9-9bbc-ca65b8353c66" facs="#z821f3f0c-a8cd-4813-9853-0e1cc689e234" n="14">
                             <staff xml:id="mb273ca6b-ffd7-4e32-8f54-8c51fcac2271" n="1">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei"
@@ -761,7 +761,7 @@
                         <measure xml:id="b12f588f7-bb42-4c1e-841a-1409f7d95f4a" facs="#d14ee8da8-cc06-4e28-a255-5bd2fe918c48" n="136"/>
                         <measure xml:id="bba272e66-36dc-4a09-930e-471e3c094974" facs="#db4a24770-b0c1-4c5b-8707-33b03583a2bc" n="137"/>
                     </section>
-                    <section xml:id="mc4273c71-8227-4f52-9670-d57345667df7" resp="CJ">
+                    <section xml:id="mc4273c71-8227-4f52-9670-d57345667df7" resp="#CJ">
                         <measure xml:id="b8dd6ab17-21e4-4328-8538-e0a26017a8a1" facs="#ddda2bd16-b3e9-4d27-9a91-3ec9cf5ecf18" n="138">
                             <staff xml:id="m7cf1c56b-096a-4954-b169-dd47b7f72014" n="1">
                                <layer xml:id="m0ddc147a-d29c-4065-9b9b-595083e7eef9" n="1">
