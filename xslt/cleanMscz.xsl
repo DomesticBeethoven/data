@@ -57,7 +57,7 @@
     </xd:doc>
     <xsl:template match="/">
         <xsl:processing-instruction name="xml-model">
-            href="../../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+            href="../../schema/bith.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
         </xsl:processing-instruction>
         <xsl:apply-templates/>
     </xsl:template>
