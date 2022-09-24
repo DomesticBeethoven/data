@@ -305,7 +305,7 @@
          <mdiv xml:id="m22337f06-5f18-4f05-85f0-5726255e1440">
             <score xml:id="m937f9236-565d-4c5d-ae22-d51a4f38d8eb">
                <scoreDef xml:id="m8fba0963-9b2b-4d5f-8c5f-60ce2d6b6674">
-                  <staffGrp xml:id="m38b9cabf-e2cd-48a5-a28c-57024c3f35a2">
+                  <staffGrp>
                      <staffGrp xml:id="m5143fe68-fb7f-4d04-a44e-c34133803006" bar.thru="true">
                         <label xml:id="m4580d9fd-3c06-44fc-8ff1-5eff39fcc9bb">Cembalo Imo</label>
                         <staffDef xml:id="m9e7b168f-858c-4ebf-8c8f-7513ae1f7e72" n="1" lines="5">
@@ -320,8 +320,6 @@
                         </staffDef>
                         <grpSym xml:id="m59523331-98e6-4e7c-8da5-43b5f68792d9" symbol="brace"/>
                      </staffGrp>
-                  </staffGrp>
-                  <staffGrp>
                      <staffGrp xml:id="m7745c4a0-ea20-437d-a9c7-e7644faf0e14" bar.thru="true">
                         <label xml:id="mdba98525-4e6e-4e10-8d4d-e90106f7e9d2">Cembalo 2do</label>
                         <staffDef xml:id="mb1375101-17eb-433e-bc2a-6455eae65fe1" n="3" lines="5">
@@ -335,7 +333,7 @@
                            <meterSig xml:id="mc4dg1152-308a-4b69-a2cf-f942d42752f6" count="6" unit="8"/>
                         </staffDef>
                         <grpSym xml:id="m4758ddc3-3899-4bb2-b1fc-88f8eb549085" symbol="brace"/>
-                     </staffGrp>
+                     </staffGrp> 
                   </staffGrp>
                </scoreDef>
                <section xml:id="mf0f47798-677e-4185-8204-8f094b62c6a4">
