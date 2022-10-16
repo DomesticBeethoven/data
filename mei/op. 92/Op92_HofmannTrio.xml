@@ -66,7 +66,7 @@
       <manifestationList>
          <manifestation>
             <titleStmt>
-               <title>﻿Allegretto aus der siebenten Symphonie.</title>
+               <title>Allegretto aus der siebenten Symphonie.</title>
             </titleStmt>
             <pubStmt>
                <pubPlace>
@@ -321,7 +321,7 @@
                         <dynam xml:id="m5cd4786d-236a-4b8d-b13a-000fbb66ecc0"
                                place="below"
                                staff="4"
-                               startid="#m7fc3cf3a-c80d-4f18-a3c1-3b28f11b227f">sempre </dynam>
+                               startid="#m7fc3cf3a-c80d-4f18-a3c1-3b28f11b227f">sempre</dynam>
                      </measure>
                      <measure xml:id="m0a37c6f6-513d-4d7d-a0db-8d04207cae70" n="20">
                         <staff xml:id="mb7b78abe-0bdd-4b2b-9581-9cc67465460f" n="1">
