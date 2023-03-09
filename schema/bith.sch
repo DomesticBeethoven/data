@@ -11,7 +11,7 @@
 
    <sch:pattern id="check-mei-id">
       <sch:rule context="mei:mei">
-         <sch:assert test="@xml:id">A work must have an id / filename</sch:assert>
+         <sch:assert test="@xml:id">An mei file must have an id</sch:assert>
       </sch:rule>
    </sch:pattern>
    <sch:pattern id="check-title">
