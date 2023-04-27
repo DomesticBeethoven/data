@@ -1,0 +1,2947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/BitH-MEI-Customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/BitH-MEI-Customization.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei"
+     xml:id="me18b9e86-b7b6-47fe-9b66-0ad6f179b6a4"
+     meiversion="5.0.0-dev">
+   <meiHead meiversion="5.0.0-dev">
+      <fileDesc>
+         <titleStmt>
+            <title type="desc">Op 92 / 2nd mov - Piano trio ad lib. (Peters)</title>
+            <composer>Ludwig van Beethoven</composer>
+            <arranger>Richard Hofmann</arranger>
+            <respStmt>
+               <resp>Transcribed and encoded by</resp>
+               <persName sameas="#bithTeam_lr" role="mrk trc"/>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2023"/>
+            <availability>
+               <accessRestrict auth.uri="http://creativecommons.org/licenses/by-sa/4.0/"> Creative
+                  Commons Attribution-ShareAlike 4.0 International </accessRestrict>
+            </availability>
+         </pubStmt>
+         <seriesStmt>
+            <title>Beethoven in the House Encodings</title>
+            <respStmt>
+               <resp>Project Team</resp>
+               <persName xml:id="bithTeam_ch" role="res" startdate="2021-10" enddate="2021-11"
+                  >Christin Heitmann</persName>
+               <persName xml:id="bithTeam_dl" role="res"
+                  auth.uri="https://orcid.org/0000-0003-4151-0499">David Lewis</persName>
+               <persName xml:id="bithTeam_lr" role="res"
+                  auth.uri="https://orcid.org/0000-0002-4826-4553">Lisa Rosendahl</persName>
+               <persName xml:id="bithTeam_ms" role="res"
+                  auth.uri="https://orcid.org/0000-0002-4635-7684">Mark Saccomano</persName>
+               <persName xml:id="bithTeam_es" role="res"
+                  auth.uri="https://orcid.org/0009-0004-0272-8377">Elisabete
+                  Shibata</persName>
+               <persName xml:id="bithTeam_ah" role="led"
+                  auth.uri="https://orcid.org/0000-0003-2663-0003">Andrew Hankinson</persName>
+               <persName xml:id="bithTeam_jk" role="led"
+                  auth.uri="https://orcid.org/0000-0003-4891-260X">Johannes Kepper</persName>
+               <persName xml:id="bithTeam_kp" role="led"
+                  auth.uri="https://orcid.org/0000-0002-1668-6540">Kevin Page</persName>
+               <persName xml:id="bithTeam_cs" role="led">Christine Siegert</persName>
+               <persName xml:id="bithTeam_fs" role="ctb" startdate="2020-10" enddate="2020-12"
+                  >Fabian Schmidt</persName>
+            </respStmt>
+            <funder>
+               <identifier type="projectNumber">429039809</identifier>
+               <corpName auth.uri="http://viaf.org/viaf/122652571">Deutsche Forschungsgemeinschaft
+                  (DFG)</corpName>
+            </funder>
+            <funder>
+               <identifier type="projectNumber">AH/T01279X/1</identifier>
+               <corpName auth.uri="http://viaf.org/viaf/133029233">Arts and Humanities Research Council
+                  (AHRC)</corpName>
+            </funder>
+         </seriesStmt>
+         <sourceDesc>
+            <source sameas="#b4fede6f-a0b0-4846-9c45-546f757c63df"/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="3.6.2.548020600">
+               <name>MuseScore</name>
+            </application>
+            <application version="3.8.1-1af3b41">
+               <name>Verovio</name>
+            </application>
+         </appInfo>
+         <editorialDecl>
+            <interpretation>
+               <p>Visual prioritized, not overly concerned with anything that needs
+                  interpretation.</p>
+            </interpretation>
+            <correction>
+               <p>No corrections</p>
+            </correction>
+            <normalization>
+               <p>No normalizations, although not a diplomatic transcription</p>
+            </normalization>
+         </editorialDecl>
+         <projectDesc>
+            <head> Beethoven in the House </head>
+            <p>The project "Beethoven in the House: Digital Studies of Domestic Music Arrangements"
+               investigated domestic music arrangements of the 19th Century through two
+               complementary studies, a digital research environment developed
+               alongside the studies, and the innovative application of digital musicology
+               methods within this environment. Beethoven-Haus Bonn, Oxford e-Research Center, RISM Digital,
+               and Paderborn University partnered for this project.</p>
+            <p>Performance of music in the home was the means by which most works were received
+               before the advent of audio recordings and broadcasts, yet the notation sources
+               that form our primary record of this culture had not been the subject of
+               comprehensive or methodical study. Choices made by arrangers adapting music for
+               domestic consumption-of instrumentation, abbreviation, or simplification-reflect
+               the musical life of the 19th-century, and can inform our understanding alongside
+               contemporary accounts such as newspapers, adverts, and diaries.</p>
+            <p>By analysing the choices made by arrangers adapting music for domestic consumption,
+               such as instrumentation, abbreviation, or simplification, this project shed light on
+               the musical life of the 19th century and can inform our understanding alongside contemporary
+               accounts such as newspapers, adverts, and diaries. The project's studies surveyed
+               Steiner editions of Beethoven's 7th and 8th Symphonies and Wellingtons Sieg, as well
+               as a larger sample of lesser-known scores, collating emergent
+               indicators of arrangers' motivations within a narrative of the domestic market – the music
+               industry of its day.</p>
+            <p>The project developed new methods for including selective approaches to encodings, utilising Optical Music Recognition and Linked Data to find and structure
+               new knowledge. The project's findings provide new insights into the domestic music culture of the
+               19th Century. For more information and to view our publications, please visit the project website at
+               https://domestic-beethoven.eu.</p>
+            <p>The project ran from 2020 to 2023 and was jointly funded by DFG and
+               AHRC.</p>
+         </projectDesc>
+          <samplingDecl>
+              <p>The project "Beethoven in the House" aimed to provide a digital study of Beethoven's
+                  symphonic works arranged for home performance. As time and resources were limited,
+                  encoding entire symphonic scores was neither feasible nor necessary. Instead, the
+                  project focused on comparing certain passages of the large-scale works and their
+                  realisation in various arrangements. This led to the development of a procedure for
+                  "selective encodings," which involves encoding only the portions of a score relevant
+                  to a particular study.</p>
+              <p>This is a Selective Encoding that includes measures with empty layers.
+                  By contrast, a measure that is empty in the source would be encoded using mei:mSpace.
+                  Encoded measures are separated from empty measures with section elements with an @xml:id.
+                  For the encoded sections the attribute @resp is used to indicate the transcriber.</p>
+              <p>For more information, read the documentation at https://doi.org/10.5281/zenodo.7870625.</p>
+          </samplingDecl>
+         <domainsDecl anl="false" ges="true" vis="true"/>
+      </encodingDesc>
+      <workList>
+         <work auth.uri="http://d-nb.info/gnd/300016417">
+            <identifier type="opusNumber">92</identifier>
+            <title type="uniform" xml:lang="de">Sinfonien, Nr. 7, op. 92 (A-Dur)</title>
+            <title type="abbreviated" xml:lang="en">7th Symphony</title>
+            <composer>
+               <persName auth.uri="http://d-nb.info/gnd/118508288">Ludwig van Beethoven</persName>
+            </composer>
+            <creation>
+               <date startdate="1811" enddate="1812"/>
+            </creation>
+            <expressionList>
+               <expression xml:id="a4265e60-3abb-11ed-a261-0242ac120002">
+                  <identifier type="genre"
+                     auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q379755"/>
+                  <title type="desc">Op 92 / 2nd mov - Piano trio ad lib. (Peters)</title>
+                  <arranger>
+                     <persName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q3477764">Richard Hofmann</persName>
+                  </arranger>
+                  <perfMedium>
+                     <perfResList>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015550"/>
+                        <perfRes auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015782"/>
+                        <perfRes type="ad lib."
+                                 auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015120"/>
+                        <perfRes type="ad lib."
+                                 auth.uri="https://id.loc.gov/authorities/performanceMediums/mp2013015782"/>
+                     </perfResList>
+                  </perfMedium>
+               </expression>
+            </expressionList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation xml:id="b4fede6f-a0b0-4846-9c45-546f757c63df">
+            <titleStmt>
+               <title type="main">Allegretto aus der siebenten Symphonie.</title>
+            </titleStmt>
+            <pubStmt>
+               <pubPlace>
+                  <geogName auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q2079"/>
+               </pubPlace>
+               <date notafter="1916"/>
+               <publisher>
+                  <corpName auth.uri="https://d-nb.info/dnbn/330003461">C. F. Peters</corpName>
+               </publisher>
+            </pubStmt>
+            <itemList>
+               <item xml:id="a4265d84-3abb-11ed-a261-0242ac120002">
+                  <physLoc>
+                     <repository auth.uri="https://imslp.org/wiki/Special:ReverseLookup/307229">IMSLP</repository>
+                     <identifier type="fileNumber">307229</identifier>
+                  </physLoc>
+               </item>
+            </itemList>
+            <relationList>
+               <relation rel="isEmbodimentOf" target="#a4265e60-3abb-11ed-a261-0242ac120002"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music meiversion="5.0.0-dev">
+      <body xml:id="m8413fd4e-e6cc-41b6-9511-92f99c516001">
+         <mdiv xml:id="m254321cb-c858-44e2-99fb-506fdf129b6a" label="Allegretto">
+            <score xml:id="m29d3e415-0a69-4b85-9f83-5af6b3622ae8">
+                  <scoreDef xml:id="m9a31eb52-9c64-4366-8167-4a2745dae630">
+                     <staffGrp xml:id="me894d323-d94e-4d85-ad12-a09b799d00be">
+                        <staffDef xml:id="m402731c9-db5b-408b-96cb-161a753ca8ec"
+                                  clef.shape="G"
+                                  clef.line="2"
+                                  key.sig="0"
+                                  meter.count="2"
+                                  meter.unit="4"
+                                  n="1"
+                                  lines="5">
+                           <label xml:id="m3ee3fc6d-3ea8-4c7c-b733-3581bd6c6942">Violino I</label>
+                        </staffDef>
+                        <staffDef xml:id="m1e15335e-bfdc-4c71-ae21-dcf5243df393"
+                                  clef.shape="G"
+                                  clef.line="2"
+                                  key.sig="0"
+                                  meter.count="2"
+                                  meter.unit="4"
+                                  n="2"
+                                  lines="5">
+                           <label xml:id="mc8d85a79-8706-4bcf-8e77-46146291cd2e">Violino II</label>
+                        </staffDef>
+                        <staffDef xml:id="m8b184d0c-1550-4576-ae0b-2faedb88e065"
+                                  clef.shape="F"
+                                  clef.line="4"
+                                  key.sig="0"
+                                  meter.count="2"
+                                  meter.unit="4"
+                                  n="3"
+                                  lines="5">
+                           <label xml:id="md30a51f2-28ce-4c7b-b63f-4e5107cefbd0">Violoncello</label>
+                        </staffDef>
+                        <staffGrp xml:id="md9a2e958-f8a3-47c8-8b18-3beeb0c1e353"
+                                  symbol="brace"
+                                  bar.thru="true">
+                           <label xml:id="m0956769f-92cf-4f86-93f8-b9a8d57d7b95">Piano</label>
+                           <staffDef xml:id="m42b7882e-560e-4a23-9ccf-d5b14d3afe30"
+                                     clef.shape="G"
+                                     clef.line="2"
+                                     key.sig="0"
+                                     meter.count="2"
+                                     meter.unit="4"
+                                     n="4"
+                                     lines="5"/>
+                           <staffDef xml:id="mab378587-3bfd-43b5-b89c-084d32b6c4e6"
+                                     clef.shape="F"
+                                     clef.line="4"
+                                     key.sig="0"
+                                     meter.count="2"
+                                     meter.unit="4"
+                                     n="5"
+                                     lines="5"/>
+                        </staffGrp>
+                     </staffGrp>
+                  </scoreDef>
+                  <section xml:id="mdc709cfc-7a73-4447-a168-cb9bebdbf318">
+                     <pb xml:id="mc52825bf-5bda-403e-af5a-7f70650e247c"/>
+                     <measure xml:id="m92f1fce2-03fa-4f72-81ad-d14385ed021d" n="1">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m57733d9e-3ab5-4720-a1a4-34161c238054" n="2">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m02f51f7c-034a-46dc-9898-af9aa5a6e81d" n="3">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m437aa6ae-86cb-4783-8330-e85d22f3d16d" n="4">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m9a508c74-bcec-4766-9034-c77d9d4ec52c" n="5">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m9af8220c-b037-432e-9a39-f70782aca07e" n="6">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mb7686b8b-2509-4175-9435-f85b5d5773e1" n="7">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mb481d9e2-dfcb-4c0a-8ba8-e448ba0e3aa4" n="8">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m3ae49fc9-e387-4559-8913-574f06dbe7be" n="9">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m69807873-141c-42ab-a37a-f72ac9e620b5" n="10">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m6abcbc60-1807-4068-b1a2-86452e28f8d3" n="11">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mb1502db9-74a8-4516-8e1e-0149b67411c5" n="12">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mbe6a071f-1b94-4c25-8b72-03ed94e84d4a" n="13">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m01797ddf-6680-4286-b615-32c61cf65f2b" n="14">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m48c7ef37-6983-42f7-b4b7-775ef076b814" n="15">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mf8215221-517e-495a-8d23-0674ed5bac93" n="16">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="ma3564120-fa31-4a9b-9d25-fa8e76b131cc" n="17">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mfc1db335-3582-452b-b9cc-4c5a2ba20f0a" n="18">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                  </section>
+                  <section xml:id="me829b92b-8ac0-4480-9e20-2ac687a4f6a1">
+                     <measure xml:id="m2a57423a-de38-40d1-b7af-cb05cf2472dd" n="19">
+                        <staff xml:id="m25309a0e-cf53-4fe7-bb6c-875e2bf70d10" n="1">
+                           <layer xml:id="mcb4195f3-a0c1-4949-abf7-f13952c55da9" n="1">
+                              <note xml:id="mb63eaf09-0b21-43c8-9575-6c3db0b514be"
+                                    dur="2"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m513b02bc-e5e9-4dad-a1d9-aef0b33d56ba" n="2">
+                           <layer xml:id="mcf0bddd8-b422-4ad2-bb5e-521df9d5cf51" n="1">
+                              <chord xml:id="ma7992fe5-f7f2-41b5-8ad2-85ee442a8d29"
+                                     artic="dnbow"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m780ba38c-9fa0-49bc-9c0e-606482fe10a4" oct="3" pname="a"/>
+                                 <note xml:id="m1e0bca84-668e-4316-b88b-772bb4bcdf3e" oct="4" pname="e"/>
+                              </chord>
+                              <beam xml:id="m0153e391-2e27-4bd7-aea8-94ab19a52420">
+                                 <chord xml:id="m299d134a-111d-460b-910e-9969822c66b0"
+                                        artic="stacc upbow"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m105976e6-27af-42d1-81d3-d6729e677ef2" oct="3" pname="a"/>
+                                    <note xml:id="m96979b4e-1421-4ccc-8f84-6bdc891929e5" oct="4" pname="e"/>
+                                 </chord>
+                                 <chord xml:id="m1e27c789-a016-4852-9eb9-f845bb58eaa0"
+                                        artic="stacc"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="mfae52e34-872d-44a8-967d-bd69f8082428" oct="3" pname="a"/>
+                                    <note xml:id="m636f1ed2-85c1-4d7b-824a-699a902f565a" oct="4" pname="e"/>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="mc9aab6e6-d24d-494a-b8a6-c838df2dc900" n="3">
+                           <layer xml:id="m6da3b1b2-c816-40b7-a9ca-bfccca8ad1ba" n="1">
+                              <note xml:id="md8fd3184-16c9-4a55-a04f-38d60b493c50"
+                                    artic="dnbow"
+                                    dur="4"
+                                    oct="2"
+                                    pname="a"
+                                    stem.dir="up"/>
+                              <beam xml:id="m5628fcd6-93cc-4968-80c1-a7465c4b7710">
+                                 <note xml:id="m4bd3097f-9b84-4bb4-bb69-910b3b8aa5f5"
+                                       artic="stacc upbow"
+                                       dur="8"
+                                       oct="2"
+                                       pname="a"
+                                       stem.dir="up"/>
+                                 <note xml:id="m29d5632d-1f01-4fea-8465-5cfc32e1e24e"
+                                       artic="stacc"
+                                       dur="8"
+                                       oct="2"
+                                       pname="a"
+                                       stem.dir="up"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m85e65e6a-eb41-4987-a7d9-eaff9f6b327c" n="4">
+                           <layer xml:id="m7e93672b-b8b2-4a41-a7e6-277c23dfabcd" n="1">
+                              <chord xml:id="m7fc3cf3a-c80d-4f18-a3c1-3b28f11b227f"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="mbcf83bb8-f7a4-496f-9f4d-b06b0e3016ec" oct="3" pname="a"/>
+                                 <note xml:id="m36f8a72f-af4a-48b9-a6de-1493f5e53808" oct="4" pname="c"/>
+                                 <note xml:id="m6a44a36c-4357-4199-8a2e-09b671a75f29" oct="4" pname="e"/>
+                              </chord>
+                              <beam xml:id="mcf636c01-55f0-45e6-8a8a-a53566e5445b">
+                                 <chord xml:id="m330e7d5e-5fb8-48ba-85aa-029b57480092"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m37dd750f-3e2a-4e9d-a393-63af89a06612" oct="3" pname="a"/>
+                                    <note xml:id="m4f55e8ba-b722-476e-936e-b29ad1947b2e" oct="4" pname="c"/>
+                                    <note xml:id="m211bc407-932f-46ca-91dd-8e4de74fbba6" oct="4" pname="e"/>
+                                 </chord>
+                                 <chord xml:id="m1656b067-8266-4e61-a580-7b117ed8aa76"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m2755831b-19bc-4bcd-95f7-753080488d09" oct="3" pname="a"/>
+                                    <note xml:id="me5893306-5898-48bc-9b2c-bd8181896e6f" oct="4" pname="c"/>
+                                    <note xml:id="m44bcdd9e-7797-42aa-89cc-c96a50aabfc9" oct="4" pname="e"/>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m8751df1e-8240-45e1-ba2e-0a68264c1520" n="5">
+                           <layer xml:id="m52f36d66-75fc-4dff-9b35-bfc2d5cb996e" n="5">
+                              <chord xml:id="m11f6eec8-96b5-44d9-b48d-5053095688d2"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="mef631a18-dd98-4fed-aa62-4657850cf87e" oct="2" pname="a"/>
+                                 <note xml:id="m0a6bcb13-d4f0-428e-a282-84120b223b78" oct="3" pname="e"/>
+                              </chord>
+                              <beam xml:id="m67020e80-daab-415e-a65a-a5f289c213a7">
+                                 <chord xml:id="m8a9626ba-2e7c-49d5-a1c2-7a6740f26aa6"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="mc9d90118-5809-47da-bf93-b605a6f55c85" oct="2" pname="a"/>
+                                    <note xml:id="m96baed62-176b-4d92-a934-c206ee0312d1" oct="3" pname="e"/>
+                                 </chord>
+                                 <chord xml:id="m98cf5249-0e7b-4ae9-9070-d254d60e88b9"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m57884209-914c-49e6-8cb3-7bf538b039ab" oct="2" pname="a"/>
+                                    <note xml:id="m66b3096e-3104-43ab-a9d0-a8953226bd71" oct="3" pname="e"/>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <dynam xml:id="mcee6b3c5-4f0a-48bc-ac1c-243846d4fa20"
+                               place="below"
+                               staff="1"
+                               startid="#mb63eaf09-0b21-43c8-9575-6c3db0b514be">pp</dynam>
+                        <slur xml:id="me7bb8db0-f9d6-4679-84d3-e4aeda785f61"
+                              startid="#mb63eaf09-0b21-43c8-9575-6c3db0b514be"
+                              endid="#me460bc86-f9c1-4a38-a4b3-f7001beb12fb"
+                              curvedir="below"/>
+                        <dynam xml:id="m59e2ecf4-eac0-4ab2-a56a-dd55a6245514"
+                               place="below"
+                               staff="2"
+                               startid="#ma7992fe5-f7f2-41b5-8ad2-85ee442a8d29">pp</dynam>
+                        <slur xml:id="m54e38064-b0f7-4cc9-afd6-3f6bb60c049a"
+                              startid="#m299d134a-111d-460b-910e-9969822c66b0"
+                              endid="#m1e27c789-a016-4852-9eb9-f845bb58eaa0"
+                              curvedir="below"/>
+                        <dynam xml:id="maf643e67-ea77-4698-b30d-4c3ce26bbc48"
+                               place="below"
+                               staff="3"
+                               startid="#md8fd3184-16c9-4a55-a04f-38d60b493c50">pp</dynam>
+                        <slur xml:id="m618ef994-4a1f-4175-8bd6-a4e553af36ad"
+                              startid="#m4bd3097f-9b84-4bb4-bb69-910b3b8aa5f5"
+                              endid="#m29d5632d-1f01-4fea-8465-5cfc32e1e24e"
+                              curvedir="below"/>
+                        <dynam xml:id="m5cd4786d-236a-4b8d-b13a-000fbb66ecc0"
+                               place="below"
+                               staff="4"
+                               tstamp="1">sempre pp</dynam>
+                     </measure>
+                     <measure xml:id="m0a37c6f6-513d-4d7d-a0db-8d04207cae70" n="20">
+                        <staff xml:id="mb7b78abe-0bdd-4b2b-9581-9cc67465460f" n="1">
+                           <layer xml:id="m40a3a343-e9d7-4a1a-ab3d-f494b0346155" n="1">
+                              <note xml:id="me460bc86-f9c1-4a38-a4b3-f7001beb12fb"
+                                    dur="2"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m2f1a7043-4027-474c-b5ae-f258c63752ad" n="2">
+                           <layer xml:id="mffeeee8f-6060-4a42-9f6b-9248b11303d1" n="1">
+                              <chord xml:id="m84aada47-aa6b-45d5-9654-ab7ddaba8889"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="ma6835481-dfad-4136-a31b-999530afdb7d" oct="3" pname="b"/>
+                                 <note xml:id="m489a0e54-e732-4f82-895b-0bad2af62b9e" oct="4" pname="e"/>
+                              </chord>
+                              <chord xml:id="m909e1050-c1a2-4fad-8a39-52d1983fb2a6"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m4b60f326-905d-4f0b-8850-a57229e61c8e" oct="3" pname="b"/>
+                                 <note xml:id="m96839369-ef12-4b10-b1f5-c2e57df9e095" oct="4" pname="e"/>
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m086d3fee-dd40-474b-9d29-a7ff65f653a2" n="3">
+                           <layer xml:id="m2c07eb63-4796-462c-90ea-edf4f718576b" n="1">
+                              <note xml:id="m8753c144-cb8e-4749-ad1f-7a6998841956"
+                                    dur="4"
+                                    oct="2"
+                                    pname="g"
+                                    stem.dir="up">
+                                 <accid xml:id="mfc70604f-31a9-41d7-950c-01359ab73c2e" accid="s"/>
+                              </note>
+                              <note xml:id="m5d27c058-e60f-490e-8ca0-63115ef34eee"
+                                    dur="4"
+                                    oct="2"
+                                    pname="g"
+                                    stem.dir="up"
+                                    accid.ges="s"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m18146954-f39a-4dfb-9641-7804c2ea3305" n="4">
+                           <layer xml:id="m28a5ab97-be90-4f13-a609-b7ebf5fc276e" n="1">
+                              <chord xml:id="mdf1ebaf1-0194-42c7-8435-6bf04bb2e0f7"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="mf56b735f-118c-4990-a055-1f71f810f81e" oct="3" pname="b"/>
+                                 <note xml:id="m3fac2da7-e973-4a1f-b81b-414cd4ee6c2b" oct="4" pname="e"/>
+                              </chord>
+                              <chord xml:id="mf2a216d9-86ec-4083-8dc3-9ee5c5d97e17"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="me0b15917-1dd1-4c7f-8195-aa8165449dd6" oct="3" pname="b"/>
+                                 <note xml:id="m12fd8692-5d5e-4b3b-b0d3-f9f4f23c9d25" oct="4" pname="e"/>
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m3d8aec3c-07b4-4884-a349-a5fcbb543ac7" n="5">
+                           <layer xml:id="mca7fe8a0-6cc7-452f-b1bc-991d7c53f1db" n="5">
+                              <chord xml:id="m17f0c5f9-d92a-40c0-9fff-f7ac20ade0ed"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m13c86a0f-b4e7-4642-9fa4-15447a403cc8" oct="2" pname="g">
+                                    <accid xml:id="m6cd1004c-58b8-409a-a96e-353225864215" accid="s"/>
+                                 </note>
+                                 <note xml:id="m8fe99f92-1866-4f98-b036-8d3ee224cd2f" oct="3" pname="e"/>
+                              </chord>
+                              <chord xml:id="m836a9f23-9c12-41f5-b4db-350f3047556e"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="md19fdc85-3ad6-4145-b6e3-a4fd31753b50"
+                                       oct="2"
+                                       pname="g"
+                                       accid.ges="s"/>
+                                 <note xml:id="m63aa61d7-42d1-41c8-9ea5-dc5ec8fc2b7a" oct="3" pname="e"/>
+                              </chord>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="m52fa6756-a4ea-4465-91e7-cc554f75e55e" n="21">
+                        <staff xml:id="m8ed18957-c6c9-46d9-91d3-42f0a9f363f6" n="1">
+                           <layer xml:id="ma1a10de7-bb2c-4ce0-8a99-77dad6fe45b2" n="1">
+                              <beam xml:id="m32a6be23-5b1a-4f68-9f05-f79d8b19ad5a">
+                                 <note xml:id="m57e14f38-a683-4e5b-8e4b-6a5a960de01f"
+                                       dur="16"
+                                       oct="3"
+                                       pname="b"
+                                       grace="unknown"
+                                       stem.dir="up"/>
+                                 <note xml:id="ma44b16a8-9c84-4f75-9a47-1b0b9195fce2"
+                                       dur="16"
+                                       oct="4"
+                                       pname="c"
+                                       grace="unknown"
+                                       stem.dir="up"/>
+                              </beam>
+                              <note xml:id="me6a943e0-4b8a-4d1a-90ca-4c3489f3832c"
+                                    dots="1"
+                                    dur="4"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"/>
+                              <beam xml:id="m08c6d9a0-55f1-431c-9f22-d9ef4842fd3d">
+                                 <note xml:id="mc1c66ed4-0778-4a74-ac26-a8dc653b7fa8"
+                                       dur="16"
+                                       oct="4"
+                                       pname="c"
+                                       stem.dir="up"/>
+                                 <note xml:id="m02e9a413-c74a-412e-a72b-9e9cac5a03bd"
+                                       dur="16"
+                                       oct="3"
+                                       pname="b"
+                                       stem.dir="up"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m982ad3bb-6bf0-43ca-b459-733985047aa1" n="2">
+                           <layer xml:id="m26c1f015-0208-481e-bcbe-df5f118345ed" n="1">
+                              <chord xml:id="m3f1731a9-effa-422b-8f53-4aa00a701b8e"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m3d6d56c2-7547-46d1-b432-55495fef08b2" oct="3" pname="b"/>
+                                 <note xml:id="m9664c26f-d817-4347-9bd7-f12c11e0b4fb" oct="4" pname="e"/>
+                              </chord>
+                              <beam xml:id="m6c7f3daf-f69c-4893-b4b9-932cf56c784e">
+                                 <chord xml:id="mf8cab559-d77a-4718-b90a-9cc929c6915d"
+                                        artic="stacc"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m4bd472e6-ea76-4122-87db-3f810e8f540f" oct="3" pname="b"/>
+                                    <note xml:id="mbdc62a8c-b10d-40cf-a483-18fe8e0ee239" oct="4" pname="e"/>
+                                 </chord>
+                                 <chord xml:id="mf7679d77-27a3-4f6d-880d-cda99c313cc7"
+                                        artic="stacc"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m589d51bf-326f-44f0-9d2d-0e4afbf65155" oct="3" pname="b"/>
+                                    <note xml:id="me8c6e4d4-bf85-4264-98c2-13306fc74ccb" oct="4" pname="e"/>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m1a0887e0-edd4-4659-9f90-119039244069" n="3">
+                           <layer xml:id="m4244de16-6837-4a8c-8fbb-bb748890c7db" n="1">
+                              <note xml:id="mb284bf1d-7f56-4dbe-978b-8363983c1838"
+                                    dur="4"
+                                    oct="2"
+                                    pname="e"
+                                    stem.dir="up"/>
+                              <beam xml:id="m975f9a75-2a0f-472f-84eb-bc8c588abe30">
+                                 <note xml:id="m2a23c3d1-9227-48f2-971c-51beb9c9fd4a"
+                                       artic="stacc"
+                                       dur="8"
+                                       oct="2"
+                                       pname="e"
+                                       stem.dir="up"/>
+                                 <note xml:id="mc0306388-ba5e-4f3b-bce5-2d5120e475bf"
+                                       artic="stacc"
+                                       dur="8"
+                                       oct="2"
+                                       pname="e"
+                                       stem.dir="up"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m98b326f0-1b43-402f-baa6-80b9ab1f9b99" n="4">
+                           <layer xml:id="mc43fabed-9fc1-4e6b-99ea-2aa4ce0d9ce5" n="1">
+                              <chord xml:id="m6f86e116-b992-49ec-83fd-ccc7907a5a0d"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="mf4536f2b-0d80-40e6-b68a-4476156094fc" oct="3" pname="g">
+                                    <accid xml:id="mc3e13548-adaf-4861-916f-99aca3fa9ea0" accid="s"/>
+                                 </note>
+                                 <note xml:id="md3f7d0bd-cb0e-4a9b-8fe2-818240411cc3" oct="3" pname="b"/>
+                                 <note xml:id="md087abee-7535-4a4e-9c7f-ec696fe8cd0c" oct="4" pname="e"/>
+                              </chord>
+                              <beam xml:id="m6a538440-f1d0-493c-bf8f-f3c4876426d4">
+                                 <chord xml:id="mb2f98dd5-b23d-46f3-9e1a-34a8869ade0d"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m26650919-df9e-442a-a188-0c614b1a44cf"
+                                          oct="3"
+                                          pname="g"
+                                          accid.ges="s"/>
+                                    <note xml:id="m53a4133a-8f2d-4198-a713-9bbdc785cd15" oct="4" pname="e"/>
+                                 </chord>
+                                 <chord xml:id="m6d59c24f-5fe1-46cd-a1d2-dee75c2eaea9"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="md788ea3b-049c-4cc4-86fb-6809898f0731"
+                                          oct="3"
+                                          pname="g"
+                                          accid.ges="s"/>
+                                    <note xml:id="mf45d6ddb-63b7-448a-9045-7e56b28a828e" oct="4" pname="e"/>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m7b434543-58a1-4a48-a70c-b1cabd64d408" n="5">
+                           <layer xml:id="m72bc98db-f98d-4efe-9583-dd92a0bcbb68" n="5">
+                              <chord xml:id="m6efef561-83a0-4fbc-99d8-4bd7e6af80ab"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m7949c33f-20f5-49d3-afa7-9abf7f91609e" oct="2" pname="e"/>
+                                 <note xml:id="mc778af5c-4d20-413d-b3b0-f50da0d66fc2" oct="3" pname="e"/>
+                              </chord>
+                              <beam xml:id="m2fbb0a64-fc8b-48fc-902b-5d74064a86c8">
+                                 <chord xml:id="mb5462576-eb15-417f-84d8-507106e14200"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m680e5129-42b1-4a85-93d0-1ff5f9888a60" oct="2" pname="e"/>
+                                    <note xml:id="mb70888e6-fcdd-4f5c-bc01-83704d6d1f6e" oct="3" pname="e"/>
+                                 </chord>
+                                 <chord xml:id="mf0dceeae-cd00-4732-8149-18be25f8971c"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m1fd70654-5fff-468b-bdd4-7ef4d9472a15" oct="2" pname="e"/>
+                                    <note xml:id="m1c3f9156-7d90-40e4-946c-4933f5122399" oct="3" pname="e"/>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <slur xml:id="md269a77c-4bc6-4a65-8a14-1741c22082db"
+                              startid="#m57e14f38-a683-4e5b-8e4b-6a5a960de01f"
+                              endid="#ma44b16a8-9c84-4f75-9a47-1b0b9195fce2"
+                              curvedir="below"/>
+                        <slur xml:id="m482177e2-7913-46d9-b4dd-3e471c6801ed"
+                              startid="#me6a943e0-4b8a-4d1a-90ca-4c3489f3832c"
+                              endid="#m02e9a413-c74a-412e-a72b-9e9cac5a03bd"
+                              curvedir="below"/>
+                        <slur xml:id="m0343f95d-73ac-4e46-b6a6-e579f30c5647"
+                              startid="#mf8cab559-d77a-4718-b90a-9cc929c6915d"
+                              endid="#mf7679d77-27a3-4f6d-880d-cda99c313cc7"
+                              curvedir="below"/>
+                        <slur xml:id="mcd3a1c6e-38f8-48ec-a15d-bee4df9597cf"
+                              startid="#m2a23c3d1-9227-48f2-971c-51beb9c9fd4a"
+                              endid="#mc0306388-ba5e-4f3b-bce5-2d5120e475bf"
+                              curvedir="below"/>
+                     </measure>
+                     <measure xml:id="m9c7fa3a1-9e08-4dd3-9e42-16c35826102a" n="22">
+                        <staff xml:id="me6930398-c2b8-4dd2-9218-2632a96a8aca" n="1">
+                           <layer xml:id="ma226fb31-3ccd-48f2-ae34-6d68267f14a5" n="1">
+                              <beam xml:id="m38c5de62-ce49-45fb-8cdb-27c542723468">
+                                 <note xml:id="m0f6e6591-d823-46f3-83ae-1334ac803cf0"
+                                       dur="8"
+                                       oct="3"
+                                       pname="b"
+                                       stem.dir="up"/>
+                                 <note xml:id="m3183c177-43c0-44a9-a9c6-09ec891d7501"
+                                       dur="8"
+                                       oct="4"
+                                       pname="c"
+                                       stem.dir="up"/>
+                              </beam>
+                              <note xml:id="m90443e2e-da6e-47ed-938e-f4bc14b08e11"
+                                    dur="4"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m2a504246-3740-47e5-9df9-b0f01ff4a396" n="2">
+                           <layer xml:id="m57930039-0594-4162-b242-90f08d0f6b51" n="1">
+                              <chord xml:id="m7d8a4a01-72f1-46c1-887f-b4b68c68ef5c"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m6e849816-8a1f-4d22-b9af-881b708605d2" oct="3" pname="a"/>
+                                 <note xml:id="m71cb2531-62b4-49a1-b96a-9ac004618edb" oct="4" pname="e"/>
+                              </chord>
+                              <chord xml:id="m3b012251-a36c-441e-8920-bae3c0696812"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="mbb8d7034-7ee0-489c-b3e0-30dda683108f" oct="3" pname="a"/>
+                                 <note xml:id="m464886be-14cc-4d47-b686-bef04db3953d" oct="4" pname="e"/>
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m33e22548-372e-4e28-a264-83be91064404" n="3">
+                           <layer xml:id="m113987f0-f9b5-44e6-9a98-9e708ca29b90" n="1">
+                              <note xml:id="m495ddcc8-bdab-4659-b266-84bba608a3ab"
+                                    dur="4"
+                                    oct="2"
+                                    pname="a"
+                                    stem.dir="up"/>
+                              <note xml:id="m69fddbfd-976b-4679-9d33-8c62fcd89de0"
+                                    dur="4"
+                                    oct="2"
+                                    pname="a"
+                                    stem.dir="up"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m749d3ede-775b-48a5-a9e3-5b1d48c49e88" n="4">
+                           <layer xml:id="mc6e4e320-0545-4ff8-b928-735ff7503a2e" n="1">
+                              <chord xml:id="mdc0d4bcd-bf22-4e41-82c8-53c4f509ce22"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="mea5fa24f-285e-453f-ac82-51a1ae158f48" oct="3" pname="a"/>
+                                 <note xml:id="m977f74f9-eb11-427f-bb4e-94b16369c41a" oct="4" pname="e"/>
+                              </chord>
+                              <chord xml:id="m65a65785-95f3-4188-967a-f2868433f3c2"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m0207b95b-d720-4968-bdfa-32a2f0526b63" oct="3" pname="a"/>
+                                 <note xml:id="m17f7d479-de9e-4ade-a906-62cfa39cc4d4" oct="4" pname="c"/>
+                                 <note xml:id="m350e7bb9-5db2-4774-8681-4d8047a9f236" oct="4" pname="e"/>
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m79788281-8cc7-4370-9c03-0a406e5c8703" n="5">
+                           <layer xml:id="m91c95006-0303-4858-9515-f88246955ed6" n="5">
+                              <chord xml:id="mbcb8e8aa-5cbf-437e-97d3-bc9b9d6ef0f2"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m09477796-298c-47b5-b6fe-432f7f0e7f2f" oct="2" pname="a"/>
+                                 <note xml:id="me3877725-3087-4680-8912-960821b11dc7" oct="3" pname="e"/>
+                              </chord>
+                              <chord xml:id="ma6dcf90e-ebbe-428f-a5d8-22e0ae7d8d46"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m2cb827b6-a29f-4288-8cb7-545ecb02b47b" oct="2" pname="a"/>
+                                 <note xml:id="m71d4c8b9-d6a8-4547-ab41-afe4ed0e30cd" oct="3" pname="e"/>
+                              </chord>
+                           </layer>
+                        </staff>
+                        <slur xml:id="m62065e78-e5fe-4f1d-b2cc-f40d88ba7c96"
+                              startid="#m0f6e6591-d823-46f3-83ae-1334ac803cf0"
+                              endid="#m3183c177-43c0-44a9-a9c6-09ec891d7501"
+                              curvedir="below"/>
+                     </measure>
+                     <measure xml:id="mc95536b1-9748-4605-9f26-3953b43e249f" n="23">
+                        <staff xml:id="mb50ed328-140d-4cb5-b6a7-47a1973100cb" n="1">
+                           <layer xml:id="m89de9db7-4bde-4ce6-96a3-bd4f17da875e" n="1">
+                              <note xml:id="m8b881e1d-6110-4de5-b5fb-47b03b35bd4e"
+                                    dots="1"
+                                    dur="4"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"/>
+                              <beam xml:id="m70b3b8eb-5f09-4f38-8e20-5d1e127c0345">
+                                 <note xml:id="m9584b3e5-709f-4123-b8f7-d26d121126ee"
+                                       dur="16"
+                                       oct="4"
+                                       pname="c"
+                                       stem.dir="up"/>
+                                 <note xml:id="m6297f725-8e6d-40ab-8db8-ee4fa31dbd98"
+                                       dur="16"
+                                       oct="4"
+                                       pname="d"
+                                       stem.dir="up"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m4727afb9-dc0f-4c08-8419-f3397480a9a9" n="2">
+                           <layer xml:id="m0c73a6b0-6d38-4854-b2f6-c7eccedba5b7" n="1">
+                              <chord xml:id="mf43cc553-216f-476f-a2b6-3823fa5c9bb0"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="mbd120b4d-5aef-4035-9f64-54f0d0f43e50" oct="3" pname="a"/>
+                                 <note xml:id="mcf191ca3-196a-4587-a045-60968ba68e47" oct="4" pname="e"/>
+                              </chord>
+                              <beam xml:id="m198380f9-7c8b-4f39-9313-80db856061d7">
+                                 <chord xml:id="m69c6cbd8-d40d-44d5-9a34-02dfcb9b292f"
+                                        artic="stacc"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m1421eb2e-e8a1-4843-a616-a0b3ee00244c" oct="3" pname="a"/>
+                                    <note xml:id="m3e04302a-25e0-43b7-b278-77e51d6c7c74" oct="4" pname="e"/>
+                                 </chord>
+                                 <chord xml:id="mae9d6e4d-e8c8-4567-bb41-4a736e40f389"
+                                        artic="stacc"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="maf5be169-78bf-4c6c-8f89-61c1750cff35" oct="3" pname="a"/>
+                                    <note xml:id="m9bd33c77-8b09-4acc-9559-6ca80af4fada" oct="4" pname="f">
+                                       <accid xml:id="mbde339d5-7d54-413d-be41-bc49693f3c01" accid="s"/>
+                                    </note>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="ma815b920-f9c7-4b62-ae8e-a0c386bf5eea" n="3">
+                           <layer xml:id="m955b093b-f190-4dad-9135-e745904be0a3" n="1">
+                              <note xml:id="m036c7b9b-312e-442f-a2fd-e36966ef181f"
+                                    dur="4"
+                                    oct="2"
+                                    pname="a"
+                                    stem.dir="up"/>
+                              <beam xml:id="m4d7cd497-7199-4823-b9bb-f82da7a97759">
+                                 <note xml:id="m50270421-e38e-47bc-846f-ff9090c0fe79"
+                                       artic="stacc"
+                                       dur="8"
+                                       oct="2"
+                                       pname="a"
+                                       stem.dir="up"/>
+                                 <note xml:id="me09cf61e-8ebe-4e31-8da4-2dfc650947ca"
+                                       artic="stacc"
+                                       dur="8"
+                                       oct="2"
+                                       pname="a"
+                                       stem.dir="up"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m57af9d89-97f1-4786-934e-e87f66d0943a" n="4">
+                           <layer xml:id="mb996bff8-59cc-475e-a1aa-659bad22eb44" n="1">
+                              <chord xml:id="m8f0b5c0d-53d7-422d-9a75-870770442632"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="mf965c518-428b-46e3-9beb-68721dd82ac4" oct="4" pname="c"/>
+                                 <note xml:id="m1b23fe18-17d3-4d8f-af8e-753825fb3e05" oct="4" pname="e"/>
+                              </chord>
+                              <beam xml:id="mb76617c9-cf77-4512-a13e-3f5df14cbf52">
+                                 <chord xml:id="m076d64ed-7372-446c-8dff-bb6909c46ec8"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m72068a11-12c9-48b2-8271-e458f2bb824c" oct="4" pname="c"/>
+                                    <note xml:id="mba883133-23f1-44ee-adb1-3e1ba0685cba" oct="4" pname="e"/>
+                                 </chord>
+                                 <chord xml:id="mb0fd30df-e782-4e6c-be9f-fa84d5c2a081"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m611bbb5b-5ce8-45a5-bede-7d1bb9472622" oct="4" pname="c"/>
+                                    <note xml:id="mf587a7b0-a079-4f77-a856-ac537694ad67" oct="4" pname="f">
+                                       <accid xml:id="m06f08f79-cd27-43e4-98e1-ad3200572a0f" accid="s"/>
+                                    </note>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m24b48eb1-458a-48af-bb14-6ef345f35f7d" n="5">
+                           <layer xml:id="m12406c73-11ec-4fd9-8e6f-aef73a789b50" n="5">
+                              <chord xml:id="m3660e14a-f88a-499b-9f0e-f2c5531c87e4"
+                                     dur="4"
+                                     stem.dir="down">
+                                 <note xml:id="m29e81040-c7d8-4592-962e-1fc5c87faeef" oct="2" pname="a"/>
+                                 <note xml:id="mdaa32ce0-daee-4604-9384-c8f61be91770" oct="3" pname="a"/>
+                              </chord>
+                              <beam xml:id="m3ed5d828-f781-4fba-8f48-548bf5c94019">
+                                 <chord xml:id="m2d015c01-ecf7-4181-b2b1-18dbe8b1040b"
+                                        dur="8"
+                                        stem.dir="down">
+                                    <note xml:id="m32a6b0e5-bbe7-4376-a594-ce0792890d4f" oct="2" pname="a"/>
+                                    <note xml:id="mc76f22d9-6373-416b-a01b-1fdc06b1dfc9" oct="3" pname="c"/>
+                                    <note xml:id="m5bd17583-4859-43f6-8462-aadcc4fb2c49" oct="3" pname="a"/>
+                                 </chord>
+                                 <chord xml:id="m36bcaab1-2829-4f57-b504-06598f20e9a9"
+                                        dur="8"
+                                        stem.dir="down">
+                                    <note xml:id="m2cdc4e5e-44e4-4cad-9032-6f390ee040d2" oct="2" pname="a"/>
+                                    <note xml:id="ma77f439e-bb46-4e0c-af0e-0f546edaf840" oct="3" pname="c"/>
+                                    <note xml:id="m91d9c5c6-950d-43cc-b7cd-b57e1119e3d6" oct="3" pname="a"/>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <hairpin xml:id="mfca99bb1-2da3-4b73-b29c-9b8b7545203a"
+                                 staff="1"
+                                 startid="#m9584b3e5-709f-4123-b8f7-d26d121126ee"
+                                 endid="#m6297f725-8e6d-40ab-8db8-ee4fa31dbd98"
+                                 form="cres"
+                                 place="below"/>
+                        <slur xml:id="m00ef1d7f-1be2-4e4b-94e1-2a64b5688102"
+                              startid="#m9584b3e5-709f-4123-b8f7-d26d121126ee"
+                              endid="#mcbdb750d-da01-40b8-8406-4cdc70cd8158"
+                              curvedir="below"/>
+                        <slur xml:id="m3d78ba5c-db91-49e1-84c8-b4d5ca6f19a9"
+                              startid="#m69c6cbd8-d40d-44d5-9a34-02dfcb9b292f"
+                              endid="#mae9d6e4d-e8c8-4567-bb41-4a736e40f389"
+                              curvedir="below"/>
+                        <slur xml:id="m9470af6d-c594-4231-98da-9fd335d56bcc"
+                              startid="#m50270421-e38e-47bc-846f-ff9090c0fe79"
+                              endid="#me09cf61e-8ebe-4e31-8da4-2dfc650947ca"
+                              curvedir="below"/>
+                     </measure>
+                     <measure xml:id="m3fde531e-a079-4ae9-a619-1e26837b050b" n="24">
+                        <staff xml:id="m1f6a1e6b-a2f9-4880-955c-68fefbd33557" n="1">
+                           <layer xml:id="m932c4b13-58fa-4dcf-90f3-345c213a44f5" n="1">
+                              <beam xml:id="m294220d3-f485-4575-8f51-6f70b40498a1">
+                                 <note xml:id="m6450df9d-93d0-47cb-bb8f-64b341d71ab8"
+                                       dur="8"
+                                       oct="4"
+                                       pname="d"
+                                       stem.dir="up">
+                                    <accid xml:id="m5a7f92a6-8ce6-4852-96b0-35edfac92840" accid="s"/>
+                                 </note>
+                                 <note xml:id="mcbdb750d-da01-40b8-8406-4cdc70cd8158"
+                                       dur="8"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"/>
+                              </beam>
+                              <beam xml:id="m588c353a-bffe-4c86-87dd-7f253a6ac777">
+                                 <note xml:id="m90b01b06-5b77-4ffc-b304-d4faebbe0976"
+                                       dur="8"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"/>
+                                 <note xml:id="mf539dbbb-9383-4418-91e0-2a3fd9632446"
+                                       dur="8"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m84ed9c61-2ce1-42dc-94d6-6c34810c589c" n="2">
+                           <layer xml:id="m39452d54-737e-4fbf-83c4-524e012c8870" n="1">
+                              <chord xml:id="mb7efaf97-4fe0-4abe-91cc-ac16a5147c3f"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="ma41c89a3-6739-4ac1-91d7-924b2f501a84" oct="3" pname="g"/>
+                                 <note xml:id="m12fea121-1e22-4378-8137-3f7049285fa1" oct="4" pname="g"/>
+                              </chord>
+                              <chord xml:id="m7fedb4aa-1b90-4ea1-9b37-4035643dd0eb"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m05704c83-62f9-467e-8587-9d8f4d1f7340" oct="4" pname="c"/>
+                                 <note xml:id="mb9cb616c-c81f-487b-bfce-6ccb4426dd31" oct="4" pname="e"/>
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="mc664e5a0-7a19-47a4-954f-02dbadfdd8c5" n="3">
+                           <layer xml:id="mf97638d3-c42e-49a9-a2dd-cef2c49680c9" n="1">
+                              <note xml:id="m08e6a3b7-6430-4f27-b7f7-84a57805750a"
+                                    dur="4"
+                                    oct="2"
+                                    pname="g"
+                                    stem.dir="up">
+                                 <accid xml:id="m9c39d1a0-370a-425a-9b54-248e98668126" accid="n"/>
+                              </note>
+                              <note xml:id="md3ef5f7c-6fd1-4230-841d-3992f92edc78"
+                                    dur="4"
+                                    oct="2"
+                                    pname="g"
+                                    stem.dir="up"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="mace11b29-e1a8-438c-9fc3-a75e9b958487" n="4">
+                           <layer xml:id="m7c499226-8471-4f8a-aeba-b29030a49058" n="1">
+                              <chord xml:id="mccf3ba99-7f8f-4408-b08f-31194bcc54dd"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m87e23e09-c6fe-4f1b-aaab-65ba065373df" oct="4" pname="c"/>
+                                 <note xml:id="m8c558ac3-cf6c-4e83-88f1-8766e1743350" oct="4" pname="g"/>
+                              </chord>
+                              <chord xml:id="maf02ae6a-24ef-4403-b340-c58966218dd6"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m48c192fc-db91-4810-8425-bda0a093335d" oct="4" pname="c"/>
+                                 <note xml:id="m4231dc4d-9acf-4599-8166-f00349ed8fa7" oct="4" pname="e"/>
+                                 <note xml:id="m1d4318b0-455f-4807-b915-ad8145a2563c" oct="4" pname="g"/>
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="me1da7f08-7ab7-4c65-86bf-d06381c5de2f" n="5">
+                           <layer xml:id="mcfe3d74e-ad39-4ba0-95f7-c70cd6393eb2" n="5">
+                              <chord xml:id="m73717d6c-41ba-469c-95f0-fc421b48f41d"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m3c4457c9-c524-417f-9721-5c7e67038dc4" oct="2" pname="g"/>
+                                 <note xml:id="md0f016d2-ebdc-4d63-9f7f-87069b11bf76" oct="3" pname="c"/>
+                                 <note xml:id="m4cc161de-d57c-40c1-8d06-256b2a7f8bdf" oct="3" pname="g"/>
+                              </chord>
+                              <chord xml:id="m18f8977a-178d-490e-9d2b-91e68619dc54"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m76f4e483-77af-4287-b1e6-95b81eb3cfd4" oct="2" pname="g"/>
+                                 <note xml:id="m72673c8f-fef0-461f-88f6-51cee9b23fb9" oct="3" pname="g"/>
+                              </chord>
+                           </layer>
+                        </staff>
+                        <hairpin xml:id="m8bd72367-d09f-4eb2-9e1f-5b06507bb193"
+                                 staff="1"
+                                 startid="#m6450df9d-93d0-47cb-bb8f-64b341d71ab8"
+                                 endid="#mcbdb750d-da01-40b8-8406-4cdc70cd8158"
+                                 form="dim"
+                                 place="below"/>
+                        <hairpin xml:id="m9dd4fa06-9a8a-4e9c-b324-4f13a4543435"
+                                 staff="1"
+                                 startid="#m90b01b06-5b77-4ffc-b304-d4faebbe0976"
+                                 endid="#mf539dbbb-9383-4418-91e0-2a3fd9632446"
+                                 form="cres"
+                                 place="below"/>
+                     </measure>
+                     <measure xml:id="me86ebd3c-3829-41fe-ab12-159254cc7341" n="25">
+                        <staff xml:id="mb4c71723-6a39-4029-bc3f-4a1958d948a1" n="1">
+                           <layer xml:id="mf807d5b1-2c3f-4441-a5c4-2d5fc55edbcb" n="1">
+                              <beam xml:id="m719ab3f7-dcf8-4ddf-bb11-c3a0dede27b9">
+                                 <note xml:id="m66658498-b8a1-4de6-8770-0eaae92b70d8"
+                                       dur="16"
+                                       oct="4"
+                                       pname="d"
+                                       grace="unknown"
+                                       stem.dir="up">
+                                    <accid xml:id="m48da937e-730c-4e4f-a4cf-3b199387cdb4" accid="n"/>
+                                 </note>
+                                 <note xml:id="mf3c7941e-e543-4c3b-82ea-7c4068c64d5c"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       grace="unknown"
+                                       stem.dir="up"/>
+                              </beam>
+                              <note xml:id="mcbb377d4-55e4-4b72-a16b-86c8990c4ee4"
+                                    dots="1"
+                                    dur="4"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"/>
+                              <beam xml:id="mf4085a57-42b9-4110-b0a5-7734a859848b">
+                                 <note xml:id="md4b3dd91-f8ba-43d2-82ff-f6077fe46a46"
+                                       dur="16"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"/>
+                                 <note xml:id="m702efab2-ac50-40e0-bccd-021bee0970c3"
+                                       dur="16"
+                                       oct="4"
+                                       pname="d"
+                                       stem.dir="up"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m9529adfb-147b-4380-b56a-5a2660863e4f" n="2">
+                           <layer xml:id="mb3ced1bc-c307-46f6-8e83-f4460ece2357" n="1">
+                              <chord xml:id="mc79efcae-aed2-4b8f-bc9c-62de7fd56cf3"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m0d92d7ac-74b7-41c6-a600-c69eca9600e6" oct="3" pname="b"/>
+                                 <note xml:id="m37c9d4bb-14ff-456c-b5d1-03ca774c22aa" oct="4" pname="d"/>
+                              </chord>
+                              <beam xml:id="m0e6df6bb-13e6-4f38-ad57-d38d61eec689">
+                                 <chord xml:id="ma1b92053-ab66-4d68-a34d-4e821e2fb7da"
+                                        artic="stacc"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="mc87aaa43-4cf0-4cac-8ad3-1b2ae50fd537" oct="3" pname="b"/>
+                                    <note xml:id="m985b26f3-76e1-449a-83f5-ea0a87aa9ae2" oct="4" pname="d"/>
+                                 </chord>
+                                 <note xml:id="m13286a13-896d-4f6a-a091-27ed1bafdc4f"
+                                       artic="stacc"
+                                       dur="8"
+                                       oct="3"
+                                       pname="b"
+                                       stem.dir="up"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="md2a1424d-5323-4fb9-8f9e-e508b08a65ee" n="3">
+                           <layer xml:id="m97e82882-72f2-4a42-a2a6-0c43103f0ba1" n="1">
+                              <note xml:id="m50ac917e-252f-41c1-ba9a-8feb63092c2b"
+                                    dur="4"
+                                    oct="2"
+                                    pname="g"
+                                    stem.dir="up"/>
+                              <beam xml:id="mf7ae0ea8-416a-428c-99fb-74e7ab898fd8">
+                                 <note xml:id="mab04f6d7-4258-4f3f-940e-703da7bd0c05"
+                                       dur="8"
+                                       oct="2"
+                                       pname="g"
+                                       stem.dir="up"/>
+                                 <note xml:id="m2f9c59f6-f2da-4726-a4c7-400211f6a9b2"
+                                       dur="8"
+                                       oct="2"
+                                       pname="g"
+                                       stem.dir="up"/>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m1f5e1959-9a43-478e-a4d1-a5627716b676" n="4">
+                           <layer xml:id="m584d4740-4aac-4c09-9b2f-e18ef49ffbb7" n="1">
+                              <chord xml:id="m1984da84-95d4-4a8e-8b40-cce254f4ed90"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m343e3009-d641-46f7-bc0e-9dddd5acf0c1" oct="3" pname="b"/>
+                                 <note xml:id="m631cbd78-3d23-453c-aa11-2e930bbcd5e9" oct="4" pname="d"/>
+                                 <note xml:id="md8371990-cadb-45d4-9150-f48a823d74e5" oct="4" pname="g"/>
+                              </chord>
+                              <beam xml:id="m8336775c-5f76-48c4-81fd-258b78fd162c">
+                                 <chord xml:id="m97fbeeea-5a05-4195-886b-8e74ff3ea3cf"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="mbcd33b0e-6021-4c50-a5c4-9d076717f16f" oct="3" pname="b"/>
+                                    <note xml:id="m9906b76a-e840-49b1-a88b-c28ac06f08f8" oct="4" pname="g"/>
+                                 </chord>
+                                 <chord xml:id="mca901594-7ed2-4cf6-8ea5-bad97153ef11"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="mbfd06404-0430-4c43-8518-6ce82f38bdae" oct="3" pname="b"/>
+                                    <note xml:id="mc9668345-9f4d-4800-9745-e9af2f778d0d" oct="4" pname="g"/>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m153be811-12da-489f-a7e7-ac2b7149f7bb" n="5">
+                           <layer xml:id="m9b172066-93fc-4531-8b68-8ba2914b4569" n="5">
+                              <chord xml:id="mf138e252-fd6a-4efe-a143-8d4757dcac36"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m67a111f2-1ae2-4410-a052-836a25111632" oct="2" pname="g"/>
+                                 <note xml:id="m23dc8743-9bd5-4cf9-93f6-916ff2708687" oct="3" pname="g"/>
+                              </chord>
+                              <beam xml:id="m35b16d18-6807-4b90-adf1-72fc6d41c073">
+                                 <chord xml:id="m5f25e5d4-23be-4e43-b65d-7c8c8ed8d0b4"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="md5afa6cb-e6ca-414c-ae53-d302893bc542" oct="2" pname="g"/>
+                                    <note xml:id="m49b9c1ce-fa59-4923-b0ee-387a68b70345" oct="3" pname="g"/>
+                                 </chord>
+                                 <chord xml:id="mb1261801-ebd9-436e-bba5-29baa1a95b92"
+                                        dur="8"
+                                        stem.dir="up">
+                                    <note xml:id="m27a7718d-d943-4507-91f5-5780bfd3d744" oct="2" pname="g"/>
+                                    <note xml:id="m0e430006-03f4-4ccb-8f98-644f86c2d023" oct="3" pname="g"/>
+                                 </chord>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <hairpin xml:id="mc99acd1e-649d-486f-a320-a692c079a750"
+                                 staff="1"
+                                 startid="#m66658498-b8a1-4de6-8770-0eaae92b70d8"
+                                 endid="#mcbb377d4-55e4-4b72-a16b-86c8990c4ee4"
+                                 form="dim"
+                                 place="below"/>
+                        <slur xml:id="mcb1121de-95d4-4fd8-b46f-160c0e7ed295"
+                              startid="#m66658498-b8a1-4de6-8770-0eaae92b70d8"
+                              endid="#mf3c7941e-e543-4c3b-82ea-7c4068c64d5c"
+                              curvedir="below"/>
+                        <slur xml:id="m8223cb93-2600-4cf5-9a69-ac9e4b35dd4c"
+                              startid="#mcbb377d4-55e4-4b72-a16b-86c8990c4ee4"
+                              endid="#m702efab2-ac50-40e0-bccd-021bee0970c3"
+                              curvedir="below"/>
+                        <slur xml:id="me773db58-ac2c-4f1f-ae4c-10640b1772c8"
+                              startid="#ma1b92053-ab66-4d68-a34d-4e821e2fb7da"
+                              endid="#m13286a13-896d-4f6a-a091-27ed1bafdc4f"
+                              curvedir="below"/>
+                     </measure>
+                     <measure xml:id="mc9177b86-0aca-4a5e-8669-460994612513" n="26">
+                        <staff xml:id="m1e7ebd4b-b2da-4931-852e-ad0947507395" n="1">
+                           <layer xml:id="m3477544b-66c6-4395-8f17-64b0e4b130a1" n="1">
+                              <beam xml:id="m544e0068-a5be-447c-bb53-2fb421362e83">
+                                 <note xml:id="m8419763c-6b4a-4656-b822-eb01aa8739e4"
+                                       dur="8"
+                                       oct="4"
+                                       pname="d"
+                                       stem.dir="up"/>
+                                 <note xml:id="mf8722b97-7db9-40cc-b6cc-97f1eaa18be4"
+                                       dur="8"
+                                       oct="4"
+                                       pname="e"
+                                       stem.dir="up"/>
+                              </beam>
+                              <note xml:id="m35c74638-29b9-4db0-97b2-adfcda553d2b"
+                                    dur="4"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m9fc315d6-0940-4edc-a606-cdc0be5ee26a" n="2">
+                           <layer xml:id="m23ec831f-7732-4541-92d7-885431e521de" n="1">
+                              <note xml:id="m9a12663c-1d93-4f34-9990-d333c9132779"
+                                    dur="4"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"/>
+                              <rest xml:id="m5c900f4e-2446-4ae7-b512-fad600cb4d68" dur="4"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m6495f29a-67d9-4602-8421-3a9f8a9f4c25" n="3">
+                           <layer xml:id="m42690214-47fd-4bbb-a5cf-63314c61422d" n="1">
+                              <note xml:id="mf9614459-10f3-461c-96c8-00914b9a69f9"
+                                    dur="4"
+                                    oct="3"
+                                    pname="c"
+                                    stem.dir="up"/>
+                              <rest xml:id="m5b5c946f-6460-42f0-a6cb-b2d83b19cb31" dur="4"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m5940fd3e-58e4-4d2b-9d5f-838ed12e825f" n="4">
+                           <layer xml:id="m011739aa-7329-4950-99fd-d345af5e2f54" n="1">
+                              <chord xml:id="mbbf51975-a4f3-4560-ab12-b1863092e0b0"
+                                     dur="4"
+                                     stem.dir="up">
+                                 <note xml:id="m5553789c-089d-493f-89a9-5f51c978577a" oct="4" pname="c"/>
+                                 <note xml:id="md2b8a78a-2606-4a15-9ff6-922cfe1595b5" oct="4" pname="g"/>
+                              </chord>
+                              <rest xml:id="m71b6b6f1-fe64-402d-8f1f-9a91070dd325" dur="4"/>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m3f2eacf4-c3c7-4fff-92ed-67c0ae4e713b" n="5">
+                           <layer xml:id="m230a5039-bd8d-4702-b272-734c4462628e" n="5">
+                              <chord xml:id="m79ae1440-1f62-41e8-878c-1dc96aa63e3e"
+                                     dur="4"
+                                     stem.dir="down">
+                                 <note xml:id="m6510e279-0e66-4d6b-9187-3a7fbc67962f" oct="3" pname="c"/>
+                                 <note xml:id="m0cc7ac9b-47dc-408f-b12c-ae9a323e53be" oct="3" pname="e"/>
+                                 <note xml:id="m3a5b7426-2ab3-4249-956d-27d18c1f0507" oct="3" pname="g"/>
+                              </chord>
+                              <rest xml:id="m760f7b99-7398-4d5f-a627-a958a74d64d0" dur="4"/>
+                           </layer>
+                        </staff>
+                        <slur xml:id="m65430329-c3ef-4908-95d2-a876ab73230f"
+                              startid="#m8419763c-6b4a-4656-b822-eb01aa8739e4"
+                              endid="#mf8722b97-7db9-40cc-b6cc-97f1eaa18be4"
+                              curvedir="below"/>
+                     </measure>
+                  </section>
+                  <section xml:id="m06328413-3a8f-4af3-9a39-f6b349c69e68">
+                     <measure xml:id="m6db3b266-d0ca-42ee-bc96-4a47485619d7" n="27">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="ma7306113-a1cc-4ddf-a045-1e157e887194" n="28">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mf59e148f-ee80-4883-808d-f982af998004" n="29">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m146931ac-5f54-4f87-84a7-e289db308c94" n="30">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mc3bc3efc-374a-4841-a20e-fa93dd940def" n="31">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mc8247f11-ebee-497e-bfad-ec4fe520ed3a" n="32">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m53c96031-27de-4c3b-9589-ffc9c2c6acb3" n="33">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m5334b74e-0ea4-44f5-96a9-5cc71729daa6" n="34">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mb98c5fe6-8df5-445e-939f-d2146eed6db1" n="35">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m785748ac-c4c1-4e96-96f0-222d04595c16" n="36">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m52470ab0-fa1f-4277-b042-a5ba65e4204c" n="37">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m081dd702-6942-4099-8341-736f6eaf47c2" n="38">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m5164df54-5f36-4646-b2b5-a0fc366ecded" n="39">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mfb300c75-3732-4cc8-9efd-facfaa14e58b" n="40">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m129e1749-7fa3-4282-9b53-c35e61d85b8e" n="41">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m8a542ba0-1731-4cc3-8b78-ab042671421a" n="41">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="ma62c2685-ae75-4ea8-b28d-29ab0bfeb720" n="42">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m964b4fbd-c5e3-44d7-a682-129657be13b6" n="43">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m96194e3b-e380-44d3-9e0c-30779a85af88" n="44">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mc8eb7db8-a0f8-43c2-92cd-b4dc533caaa2" n="45">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mdd3ffa4a-0a62-4d6d-a544-ca8115e50e26" n="46">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m77ef3c38-5252-4b97-b624-6d3b0911088b" n="47">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m7c0af53a-4c6c-40e3-a452-7f9ac8e13dbb" n="48">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m6238ee76-4923-4e9c-a9e6-8612078a7827" n="49">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m627187d6-dfdb-4168-a0fc-1220e4a9be76" n="50">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m8d5f16c6-c549-48b4-b1a0-aac2a930e6f5" n="51">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m4c51d1b1-4fb5-4bec-978b-818317cefada" n="52">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m0859ce1e-b2c5-4581-906c-a2676192eee5" n="53">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="me81c9eca-70d1-47d0-a4f9-a75c34d9d1cf" n="54">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m9be6d39c-a342-4cf7-a97b-14adbdb0b099" n="55">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="md68d943f-70ed-4f75-b4ad-f27ac1d8b233" n="56">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m7686d70b-0835-40dd-9ba2-c3c6082347ed" n="57">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m6e2a1adc-b9a4-4cf5-a3b7-8a0f485f893a" n="58">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m29132bc8-dce9-4b93-85b6-95026020da45" n="59">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mdad9bfaa-fd67-486c-82e2-ab8512c9d28a" n="60">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m0fca9ca5-f741-44b6-83dd-a19abe51c3ca" n="61">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m4b1d061a-8ae7-47ac-8019-fb50f94d8d8f" n="62">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m0f873211-7f18-4dd4-b615-250800380bbe" n="63">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m27ba4e93-7818-456d-81da-e7ed7093f118" n="64">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mf86b2c31-265a-415c-be3e-1e167e96e715" n="65">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m6b335c4f-2f97-4e25-bd3b-ec5188b68b08" n="66">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m92cfca36-4569-4355-9a83-50fd90a464c5" n="67">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m44945a38-8778-4a98-916f-15ce6c5069e2" n="68">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m6cff9e82-9d4c-4ed7-b75f-88c0068153ef" n="69">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m554b2611-d296-475f-998a-ce37be6cb450" n="70">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m6b91dc5d-7c74-4045-a2b1-b0de82f901d1" n="71">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m64c6737c-5cc0-4ef3-b5a2-4a321d98ef8b" n="72">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m6b2b0e7e-f9fd-4de4-91eb-da6f94de0b9e" n="73">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mea75369d-70cb-4ee9-be2b-eed1ce29d709" n="74">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m69fc067f-3da8-4481-963e-607260e24e22" n="75">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="ma0e00a19-9f38-4eca-8fb6-c07e7d521875" n="76">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m4eb82869-92fd-4e3c-8185-ed3a7253be28" n="77">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m34b90e5c-ae73-44b0-bb8f-c3c22517dedd" n="78">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m96b331d1-8bb3-474e-98c1-2d41651d093f" n="79">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mede8d2c5-19a7-4fa6-8365-2227ea9edfdd" n="80">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mb3c7a470-4a1d-44be-9075-2a28c106fdd6" n="81">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m24717277-e86f-404b-938b-d99f8225be7c" n="82">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m2621961a-1cd5-40f0-9185-37e03343cd3b" n="83">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="macb99ae9-82a8-455f-b219-9c35561abd21" n="84">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="md650cec9-1774-42e6-b2d5-87c5186a79b4" n="85">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m84daa1d8-75a5-4d61-bcc1-e1319242dcb3" n="86">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m6d085bf8-559c-44f6-bab2-10f92925d8f2" n="87">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m2fb463ab-8b59-40d8-9075-72ac616918e6" n="88">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mbe0bc04f-77ed-4834-8ffb-2e1e122f76fd" n="89">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m0237e09a-57a5-44d2-9471-d05ec4cae1a7" n="90">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="md2d09e0c-4bc4-429a-bdfd-b64a351d8d14" n="91">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m0e024fdb-e6fa-4077-bd92-943343e7a24a" n="92">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="md0979505-5cbd-414a-bb02-37c7edaf57bf" n="93">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mb4cf0912-eeb4-4511-9eae-f835d431fc47" n="94">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mb9dc3c8a-83dd-4d36-8e9c-2348a88b7612" n="95">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="me0e34548-a698-48cf-9a5e-235d4cfaf563" n="96">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="me73be06f-03da-400a-898e-09a576f299c8" n="97">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m50822b40-f5c5-404c-84bd-1349d504206c" n="98">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="meed69aef-e734-47b9-bda3-916ba68f9c39" n="99">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mc0caed6b-568c-4f21-a47b-355c1dd3c4fd" n="100">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mb04f7bd5-fd77-488d-8bf8-d480dd9ee891" n="101">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m9157af0e-11af-4f3c-9782-84db5eb76c3a" n="102">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="me1e48a2d-b5b2-4faa-92bd-d4d5210d66cf" n="103">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m72467c4e-01a4-4e83-b382-d65e9f5023c3" n="104">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m96b67c89-63b4-4ef7-97e3-2cbe8f0fafc1" n="105">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="mbfff4d18-9c69-4981-b45b-ff6332faa65d" n="106">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m21fcb7a8-240d-4f7b-b918-a918b565b627" n="107">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="m126f2be6-7da4-413b-bb70-300048d1d1f6" n="108">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                     <measure xml:id="me458c006-353a-4f40-b966-ff3bb32cf624" n="109" right="end">
+                     <staff n="1">
+                        <layer/>
+                     </staff>
+                     <staff n="2">
+                        <layer/>
+                     </staff>
+                     <staff n="3">
+                        <layer/>
+                     </staff>
+                     <staff n="4">
+                        <layer/>
+                     </staff>
+                     <staff n="5">
+                        <layer/>
+                     </staff>
+                  </measure>
+                </section> 
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
