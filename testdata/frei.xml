@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../WeGA-ODD/schema/de/wegaWorks.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../../WeGA-ODD/schema/de/wegaWorks.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="H020014">
+	<identifier type="WeGA">A020040</identifier>
+	<identifier type="gnd">30017148X</identifier>
+	<identifier type="WeV">J 227</identifier>
+	<titleStmt analog="titleStmt">
+		<title xml:lang="de">Der Freischütz</title>
+		<title xml:lang="de" type="alt">Der Freyschütz</title>
+		<title type="sub" xml:lang="de">Romantische Oper in 3 Akten</title>
+		<respStmt>
+			<persName role="marc:cmp" dbkey="H000001">Carl Maria von Weber</persName>
+			<persName role="marc:lbt" dbkey="H000496">Kind, Johann Friedrich</persName>
+		</respStmt>
+	</titleStmt>
+	<incip>
+		<score>
+			<scoreDef>
+				<staffGrp>
+					<staffGrp n="1">
+						<staffDef n="1" lines="5" label.abbr="2 Picc"/>
+						<staffDef n="2" lines="5" label.abbr="2 Fl"/>
+						<staffDef n="3" lines="5" label.abbr="2 Ob"/>
+						<staffDef n="4" lines="5" label.abbr="2 Cl"/>
+						<staffDef n="5" lines="5" label.abbr="4 Cor"/>
+						<staffDef n="6" lines="5" label.abbr="2 Fg"/>
+						<staffDef n="7" lines="5" label.abbr="2 Tr"/>
+						<staffDef n="8" lines="5" label.abbr="3 Tbn"/>
+						<staffDef n="9" lines="5" label.abbr="Timp"/>
+						<staffDef n="10" lines="5" label.abbr="2 Vl"/>
+						<staffDef n="11" lines="5" label.abbr="Vla"/>
+						<staffDef n="12" lines="5" label.abbr="Vc"/>
+						<staffDef n="13" lines="5" label.abbr="Cb"/>
+					</staffGrp>
+					<staffGrp n="2">
+						<staffDef n="14" lines="5" label.abbr="Ag (S)"/>
+						<staffDef n="15" lines="5" label.abbr="Ae (S)"/>
+						<staffDef n="16" lines="5" label.abbr="B (S)"/>
+						<staffDef n="17" lines="5" label.abbr="M (T)"/>
+						<staffDef n="18" lines="5" label.abbr="O (Bar)"/>
+						<staffDef n="19" lines="5" label.abbr="K (B)"/>
+						<staffDef n="20" lines="5" label.abbr="Cu (B)"/>
+						<staffDef n="21" lines="5" label.abbr="Ca (B)"/>
+						<staffDef n="22" lines="5" label.abbr="E (B)"/>
+					</staffGrp>
+					<staffGrp n="3">
+						<staffDef n="23" lines="5" label.abbr="S"/>
+					</staffGrp>
+					<staffGrp n="4">
+						<staffDef n="24" lines="5" label.abbr="S"/>
+						<staffDef n="25" lines="5" label.abbr="A"/>
+						<staffDef n="26" lines="5" label.abbr="2 T"/>
+						<staffDef n="27" lines="5" label.abbr="B"/>
+					</staffGrp>
+					<staffGrp n="5">
+						<staffDef n="28" lines="5" label.abbr="Cl a. d. Th."/>
+						<staffDef n="29" lines="5" label.abbr="2 Cor a. d. Th."/>
+						<staffDef n="30" lines="5" label.abbr="Tr a. d. Th."/>
+						<staffDef n="31" lines="5" label.abbr="2 Vl a. d. Th."/>
+						<staffDef n="32" lines="5" label.abbr="Vc a. d. Th."/>
+						<staffDef n="33" lines="5" label.abbr="Cb a. d. Th."/>
+					</staffGrp>
+				</staffGrp>
+			</scoreDef>
+			<section/>
+		</score>
+	</incip>
+	<history>
+		<p>Vollendet am <date isodate="1820-05-13">13. Mai 1820</date>.</p>
+		<p>Mit nachkomponierter Arie Nr. 13: Komponiert am <date isodate="1821-05-28">28. Mai
+				1821</date>.</p>
+		<eventList>
+			<event>
+				<p>First Performance</p>
+				<date isodate="1821-06-18"/>
+				<geogName>Berlin</geogName>
+			</event>
+		</eventList>
+	</history>
+	<perfMedium>
+		<instrumentation>
+			<instrVoiceGrp>
+				<instrVoice count="2">2 Picc</instrVoice>
+				<instrVoice count="2" code="wa">2 Fl</instrVoice>
+				<instrVoice count="2" code="wb">2 Ob</instrVoice>
+				<instrVoice count="2" code="wc">2 Cl</instrVoice>
+				<instrVoice count="4" code="ba">4 Cor</instrVoice>
+				<instrVoice count="2" code="wd">2 Fg</instrVoice>
+				<instrVoice count="2" code="bb">2 Tr</instrVoice>
+				<instrVoice count="3">3 Tbn</instrVoice>
+				<instrVoice>Timp</instrVoice>
+				<instrVoice count="2">2 Vl</instrVoice>
+				<instrVoice>Vla</instrVoice>
+				<instrVoice>Vc</instrVoice>
+				<instrVoice>Cb</instrVoice>
+			</instrVoiceGrp>
+			<instrVoiceGrp>
+				<instrVoice>Ag (S)</instrVoice>
+				<instrVoice>Ae (S)</instrVoice>
+				<instrVoice>B (S)</instrVoice>
+				<instrVoice>M (T)</instrVoice>
+				<instrVoice>O (Bar)</instrVoice>
+				<instrVoice>K (B)</instrVoice>
+				<instrVoice>Cu (B)</instrVoice>
+				<instrVoice>Ca (B)</instrVoice>
+				<instrVoice>E (B)</instrVoice>
+			</instrVoiceGrp>
+			<instrVoiceGrp>
+				<instrVoice>S</instrVoice>
+			</instrVoiceGrp>
+			<instrVoiceGrp>
+				<instrVoice>S</instrVoice>
+				<instrVoice>A</instrVoice>
+				<instrVoice count="2">2 T</instrVoice>
+				<instrVoice>B</instrVoice>
+			</instrVoiceGrp>
+			<instrVoiceGrp>
+				<instrVoice>Cl a. d. Th.</instrVoice>
+				<instrVoice count="2" code="ba">2 Cor a. d. Th.</instrVoice>
+				<instrVoice>Tr a. d. Th.</instrVoice>
+				<instrVoice count="2">2 Vl a. d. Th.</instrVoice>
+				<instrVoice>Vc a. d. Th.</instrVoice>
+				<instrVoice>Cb a. d. Th.</instrVoice>
+			</instrVoiceGrp>
+		</instrumentation>
+	</perfMedium>
+	<classification>
+		<classCode xml:id="LCSH" authURI="http://id.loc.gov/authorities/subjects.html">Library of Congress Subject Headings</classCode>
+		<termList>
+			<term label="topic" classcode="#LCSH" analog="marc:650">
+				<term>Operas</term>
+				<identifier type="LSCH">sh85094914</identifier>
+			</term>
+		</termList>
+	</classification>
+	<relationList>
+		<relation rel="hasRealization" target="#H020014_expr1"/>
+	</relationList>
+</work>
