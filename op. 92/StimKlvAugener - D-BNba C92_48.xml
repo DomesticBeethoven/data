@@ -134,9 +134,6 @@
                             auth.uri="https://www.wikidata.org/wiki/Special:EntityData/Q7190079"/>
                        <title type="desc">Op 92 / 2nd mov - Vocal (Augener)</title>
                         <arranger>
-<!--                            
-                            <persName auth.uri="http://d-nb.info/gnd/1124865284">Josiah Pittman</persName>
--->
                            <persName>Josiah Pittman</persName>                            
                         </arranger>
                         <perfMedium>
